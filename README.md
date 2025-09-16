@@ -378,3 +378,105 @@ Creemos que, si GigMap permite a los usuarios dejar reseñas y comentarios sobre
 
 Creemos que, si GigMap destaca a artistas emergentes y facilita su participación en conciertos junto a músicos ya consolidados, se incrementarán sus posibilidades de ser reconocidos por profesionales de la industria, contribuyendo a su desarrollo y proyección en la escena musical.
 
+### 1.2.2.4. Lean UX Canvas
+
+<table border="1">
+  <tr>
+    <th>Business Problem</th>
+    <th>Solutions</th>
+    <th>Business Outcomes</th>
+  </tr>
+  <tr>
+    <td>
+      Muchas personas que disfrutan de la música en vivo, así como artistas y cantantes, tanto independientes como formales, enfrentan dificultades para descubrir o difundir conciertos, especialmente los de pequeña o mediana escala. Esta desconexión limita el crecimiento de la escena musical local, reduce la visibilidad de los artistas y hace que los fans se pierdan experiencias auténticas.
+    </td>
+    <td>
+      GigMap es una aplicación móvil que conecta a los amantes de la música con conciertos en tiempo real, permitiendo descubrir eventos cercanos mediante geolocalización, recibir notificaciones personalizadas según gustos musicales y acceder a la agenda de presentaciones de artistas locales. Además, ofrece una plataforma para que los músicos puedan publicar sus eventos y llegar a su público ideal.
+    </td>
+    <td>
+      Esperamos que GigMap incremente la asistencia a conciertos, visibilice a más artistas independientes y fomente una comunidad musical más conectada. El éxito se medirá por el aumento de usuarios activos, la cantidad de eventos compartidos en la aplicación y el crecimiento en la interacción entre fans y artistas.
+    </td>
+  </tr>
+  <tr>
+    <th>Users</th>
+    <th colspan="2">User Benefits</th>
+  </tr>
+  <tr>
+    <td>
+      Nuestros usuarios son personas apasionadas por la música en vivo, así como artistas y cantantes, tanto independientes como formales, que buscan descubrir o difundir eventos musicales con mayor facilidad. Comparten el objetivo de vivir experiencias musicales únicas o de hacer crecer su audiencia.
+    </td>
+    <td colspan="2">
+      <ul>
+        <li>Descubrimiento de conciertos cercanos en tiempo real gracias a la geolocalización.</li>
+        <li>Notificaciones personalizadas según el estilo musical de interés.</li>
+        <li>Para artistas: herramienta efectiva y accesible para promocionar sus presentaciones.</li>
+        <li>Mayor conexión entre músicos y fans en escenarios culturales reales.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Hypotheses</th>
+    <th>What’s the most important thing we need to learn first?</th>
+    <th>What’s the least amount of work we need to do to learn the most important thing?</th>
+  </tr>
+  <tr>
+    <td>
+      Creemos que, al ofrecer una solución que conecta a personas y artistas mediante conciertos geolocalizados y notificaciones personalizadas, los usuarios asistirán a más eventos y los músicos lograrán una mayor difusión, fortaleciendo la comunidad musical local y mejorando la experiencia para ambas partes.
+    </td>
+    <td>
+      Es fundamental validar si los fans consideran útil la aplicación para descubrir conciertos relevantes y si los artistas encuentran valioso el canal para promover sus presentaciones.
+    </td>
+    <td>
+      Desarrollar un prototipo funcional que muestre conciertos cercanos según ubicación e intereses musicales, incluyendo una opción para que los artistas registren sus eventos. Luego, probarlo con un grupo de usuarios y músicos para obtener retroalimentación directa sobre la utilidad y la experiencia.
+    </td>
+  </tr>
+</table>
+
+# 1.3. Segmentos objetivo
+
+**Fans de la música (jóvenes y adultos jóvenes):**
+
+De acuerdo con Duche Pérez y Andía Gonzales (2019), el 54 % de los estudiantes universitarios asiste a conciertos “de vez en cuando” (1 o 2 veces al año). Este dato respalda el comportamiento cultural de este segmento universitario 
+
+- Edad estimada: 16 a 35 años
+
+- Ubicación: Principalmente en zonas urbanas con oferta cultural como Lima, Ciudad de México o Madrid
+
+- Características demográficas y de comportamiento:
+  
+	- Incorporan la música como parte del día a día.
+	- Consumen contenido en plataformas como Spotify, Apple Music.
+	- Siguen a artistas en redes sociales como Instagram, TikTok o X.
+	- Comparten sus preferencias musicales con amigos y buscan experiencias reales significativas.
+
+- Necesidades principales:
+
+	- Descubrir conciertos cercanos en tiempo real.
+	- Recibir notificaciones sobre giras o presentaciones.
+	- Compartir su asistencia en redes.
+	- Encontrar fácilmente eventos pequeños o independientes poco promocionados.
+
+
+**Artistas emergentes y bandas independientes:** 
+
+Según Chartmetric (2024), de los artistas añadidos en 2023, el 99.9 % terminó el año en las categorías “Undiscovered” o “Developing”, mientras que solo una minúscula proporción logró avanzar a niveles más altos como Mid-Level o Mainstream
+
+Crecimiento económico del sector independiente:
+El mercado global de artistas independientes alcanzó un valor estimado de USD 160.6 mil millones en 2025, y se espera que crezca a USD 219.93 mil millones para 2030, expandiéndose a una tasa anual compuesta del 6.49% 
+
+- Edad estimada: 18 a 40 años
+  
+- Ubicación: Zonas urbanas o semiurbanas con escena cultural dinámica, como Lima, Cusco, Medellín, Guadalajara o Valparaíso.
+
+- Características demográficas y de comportamiento:
+
+	- Generalmente son músicos autogestionados o integrantes de bandas independientes que no cuentan con el respaldo de grandes disqueras.
+	- Utilizan redes sociales y plataformas digitales como principales canales de promoción, interacción con su audiencia y difusión de eventos.
+	- Buscan herramientas tecnológicas que les ofrezcan mayor visibilidad, autonomía en la gestión de sus actividades y una comunicación directa con sus seguidores.
+
+- Necesidades principales:
+
+	- Promocionar conciertos y aumentar su visibilidad en el ámbito local.
+	- Construir y fidelizar su audiencia.
+	- Disponer de herramientas simples de geolocalización y organización de calendario.
+	- Medir y analizar la asistencia a sus presentaciones para mejorar su estrategia.
