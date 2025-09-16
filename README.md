@@ -1161,7 +1161,8 @@ Cuando un usuario publica un comentario en una publicación, se envía una notif
 <img src="assets/images/eventStorming/event-storming7.png" alt="event-storming7" style="width: 700px">
 </p>
 
-Vista completa:
+**Vista completa:**
+
 Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: IAM, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
 
 <p align="center">
