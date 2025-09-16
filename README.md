@@ -68,6 +68,29 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 
 # Project Report Collaboration Insights
 
+Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap-Report.git`
+
+TB1 (19/09/2025):
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="pulse" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="contributors" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="contributors2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="network" width="700">
+</p>
+
+Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
+
+
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
