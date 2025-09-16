@@ -222,6 +222,49 @@ tecnologías de ingeniería de software.</td>
 
 ## Objetivos SMART
 
+<table>
+  <thead>
+    <tr>
+      <th>Estudiante</th>
+      <th>Objetivos SMART</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cabanillas Meza, Jose Mateo</td>
+      <td>
+      lolololol
+      </td>
+    </tr>
+    <tr>
+      <td>Collantes Carrillo, Diego Mateo</td>
+      <td>
+        te amo sunoo
+      </td>
+    </tr>
+    <tr>
+      <td>Lizarbe Alvarez, Ariana Nickole</td>
+      <td>
+        - En los 12 meses posteriores a mi graduación, conseguiré un trabajo remunerado en una empresa reconocida del sector tecnológico, en el que pueda aplicar mis conocimientos de SQL y bases de datos en la gestión y optimización de información, logrando completar al menos 2 proyectos de mejora en procesos de almacenamiento y consulta de datos. <br><br>
+        - En un plazo máximo de 18 meses tras graduarme, desarrollaré y documentaré al menos 3 proyectos de software enfocadas en la resolución de problemas reales, publicándolas en un repositorio profesional en GitHub y compartiéndolas en LinkedIn, con el objetivo de fortalecer mi portafolio y aumentar mis oportunidades de inserción en empresas internacionales.
+      </td>
+    </tr>
+    <tr>
+      <td>Ortiz Cardenas, Johanna Antuanete</td>
+      <td>
+        papu
+      </td>
+    </tr>
+    <tr>
+      <td>Zegarra Lopez, Renato Sebastian Rubber</td>
+      <td>
+       lolines
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 # CAPÍTULO I: Presentación
 
 # 1.1. Startup Profile
