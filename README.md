@@ -3029,7 +3029,7 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 **Notificaciones**
 
-<img src="assets/images/event_storming/event_notificaciones.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/event_notificaciones.png" alt="paso1" style="width: 700px">
 
 
 ### 2.5.1.2. Domain Message Flows Modeling
