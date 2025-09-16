@@ -1078,6 +1078,9 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 </table>
 
 
+# 2.4. Requirements Specification
+
+## 2.4.1. User Stories
 
 
 ## 2.4.2. Impact Mapping
