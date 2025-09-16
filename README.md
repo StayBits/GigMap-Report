@@ -2923,9 +2923,114 @@ El siguiente Product Backlog reúne y prioriza todas las historias de usuario id
 
 # 2.5. Strategic-Level Domain-Driven Design
 
+En esta sección se describe el enfoque aplicado para guiar las decisiones estratégicas en el desarrollo de GigMap, tomando como base los principios del Domain-Driven Design (DDD). El propósito central fue identificar y definir los límites naturales del dominio, dividiendo la solución en distintos Bounded Contexts.
+
+Para esta descomposición, el equipo utilizó herramientas colaborativas como Event Storming, que facilitó la representación y análisis de los flujos de eventos, comandos y actores del dominio; y el Bounded Context Canvas, empleado para detallar los elementos clave de cada contexto, incluyendo su propósito, modelos, responsabilidades y relaciones.
+
+Este proceso permitió estructurar GigMap de manera coherente y alineada con los objetivos del negocio, asegurando además una comunicación clara y efectiva entre todos los actores involucrados en el proyecto.
+
+
 ## 2.5.1. EventStorming
 
+
+En esta sección se presenta el proceso de Event Storming realizado por el equipo, cuyo objetivo fue obtener una primera visión del modelado global del dominio en estudio. Esta metodología, enfocada en reconocer los eventos más significativos dentro del sistema, permitió recopilar el conocimiento compartido entre los participantes y generar discusiones valiosas acerca del comportamiento esperado en distintos escenarios.
+
+La sesión se planificó con una duración aproximada de una a dos horas. Para su desarrollo se utilizaron notas digitales que representaban eventos y comandos, lo que facilitó un análisis visual y progresivo del flujo de trabajo.
+
+<img src="assets/images/event_storming/paso1.png" alt="paso1" style="width: 700px">
+
+
+
+
 ### 2.5.1.1. Candidate Context Discovery
+
+Al concluir la sesión de Event Storming, se llevó a cabo un análisis detallado de los eventos registrados, con la finalidad de detectar los posibles contextos candidatos dentro del dominio del problema. Este trabajo incluyó la identificación de relaciones y patrones entre los eventos, así como la valoración de su impacto en el sistema. Como resultado, se organizaron listados de eventos agrupados según los procesos de acción a los que pertenecían dentro de la aplicación.
+
+<img src="assets/images/event_storming/paso2.png" alt="paso2" style="width: 700px">
+
+
+
+A continuación se muestra con detalle las líneas de acción creadas:
+
+**Creación de concierto**
+
+<img src="assets/images/event_storming/Creacion_concierto.png" alt="paso1" style="width: 700px">
+
+**Registro de usuario**
+
+<img src="assets/images/event_storming/Registro_usuario.png" alt="paso1" style="width: 700px">
+
+**Ingresar comunidad**
+
+<img src="assets/images/event_storming/Ingresar_comunidad.png" alt="paso1" style="width: 700px">
+
+**Visualizacion de conciertos**
+
+<img src="assets/images/event_storming/Ver_conciertos.png" alt="paso1" style="width: 700px">
+
+**Selección de evento relacionado**
+
+<img src="assets/images/event_storming/Seleccion_evento_relacionado.png" alt="paso1" style="width: 700px">
+
+**Creación de comunidad**
+
+<img src="assets/images/event_storming/Crear_comunidad.png" alt="paso1" style="width: 700px">
+
+**Envió de notificaciones**
+
+<img src="assets/images/event_storming/Enviar_notificaciones.png" alt="paso1" style="width: 700px">
+
+Una vez definidas las líneas de acción, se procedió a identificar los pain points, es decir, las dificultades o fricciones que afectan la experiencia de los usuarios. Entre los más relevantes se encontraron:
+
+- Falta de explicación clara sobre el uso de la ubicación.
+
+- No se reconocen cuáles son los campos obligatorios en algunos formularios.
+
+- Se pierden funcionalidades si no se activa la ubicación.
+
+- No existe redirección automática hacia la plataforma externa de compra de entradas.
+
+- Dificultades en la moderación de contenidos dentro de las comunidades.
+
+- Ausencia de confirmación visual al registrar la asistencia a un evento o concierto.
+
+Posteriormente, se identificaron los pivotal points, entendidos como aquellos eventos clave capaces de alterar el flujo de la aplicación. Los detectados fueron:
+
+- El registro de un usuario.
+
+- La creación de un concierto.
+
+- La creación de una comunidad.
+
+- El inicio de sesión de un usuario.
+
+- La creación de un comentario o publicación.
+
+- La creación de un evento relacionado.
+
+Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: IAM, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
+
+
+**Conciertos**
+
+<img src="assets/images/event_storming/event_conciertos.png" alt="paso1" style="width: 700px">
+
+**Comunidades**
+
+<img src="assets/images/event_storming/event_comunidades.png" alt="paso1" style="width: 700px">
+
+**Eventos relacionados**
+
+<img src="assets/images/event_storming/event_relacionados.png" alt="paso1" style="width: 700px">
+
+**IAM**
+
+<img src="assets/images/event_storming/event_IAM.png" alt="paso1" style="width: 700px">
+
+**Notificaciones**
+
+<img src="assets/images/event_storming/event_notificaciones.png" alt="paso1" style="width: 700px">
+
 
 ### 2.5.1.2. Domain Message Flows Modeling
 
