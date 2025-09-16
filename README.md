@@ -2914,7 +2914,7 @@ En esta sección se presenta el proceso de Event Storming realizado por el equip
 
 La sesión se planificó con una duración aproximada de una a dos horas. Para su desarrollo se utilizaron notas digitales que representaban eventos y comandos, lo que facilitó un análisis visual y progresivo del flujo de trabajo.
 
-<img src="assets/images/event_storming/paso1.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/paso1.png" alt="paso1" style="width: 700px">
 
 
 
@@ -2923,7 +2923,7 @@ La sesión se planificó con una duración aproximada de una a dos horas. Para s
 
 Al concluir la sesión de Event Storming, se llevó a cabo un análisis detallado de los eventos registrados, con la finalidad de detectar los posibles contextos candidatos dentro del dominio del problema. Este trabajo incluyó la identificación de relaciones y patrones entre los eventos, así como la valoración de su impacto en el sistema. Como resultado, se organizaron listados de eventos agrupados según los procesos de acción a los que pertenecían dentro de la aplicación.
 
-<img src="assets/images/event_storming/paso2.png" alt="paso2" style="width: 700px">
+<img src="assets/images/eventStorming/paso2.png" alt="paso2" style="width: 700px">
 
 
 
@@ -2931,31 +2931,31 @@ A continuación se muestra con detalle las líneas de acción creadas:
 
 **Creación de concierto**
 
-<img src="assets/images/event_storming/Creacion_concierto.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Creacion_concierto.png" alt="paso1" style="width: 700px">
 
 **Registro de usuario**
 
-<img src="assets/images/event_storming/Registro_usuario.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Registro_usuario.png" alt="paso1" style="width: 700px">
 
 **Ingresar comunidad**
 
-<img src="assets/images/event_storming/Ingresar_comunidad.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Ingresar_comunidad.png" alt="paso1" style="width: 700px">
 
 **Visualizacion de conciertos**
 
-<img src="assets/images/event_storming/Ver_conciertos.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Ver_conciertos.png" alt="paso1" style="width: 700px">
 
 **Selección de evento relacionado**
 
-<img src="assets/images/event_storming/Seleccion_evento_relacionado.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Seleccion_evento_relacionado.png" alt="paso1" style="width: 700px">
 
 **Creación de comunidad**
 
-<img src="assets/images/event_storming/Crear_comunidad.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Crear_comunidad.png" alt="paso1" style="width: 700px">
 
 **Envió de notificaciones**
 
-<img src="assets/images/event_storming/Enviar_notificaciones.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/Enviar_notificaciones.png" alt="paso1" style="width: 700px">
 
 Una vez definidas las líneas de acción, se procedió a identificar los pain points, es decir, las dificultades o fricciones que afectan la experiencia de los usuarios. Entre los más relevantes se encontraron:
 
@@ -2990,19 +2990,19 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 **Conciertos**
 
-<img src="assets/images/event_storming/event_conciertos.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/event_conciertos.png" alt="paso1" style="width: 700px">
 
 **Comunidades**
 
-<img src="assets/images/event_storming/event_comunidades.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/event_comunidades.png" alt="paso1" style="width: 700px">
 
 **Eventos relacionados**
 
-<img src="assets/images/event_storming/event_relacionados.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
 **IAM**
 
-<img src="assets/images/event_storming/event_IAM.png" alt="paso1" style="width: 700px">
+<img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
 
 **Notificaciones**
 
