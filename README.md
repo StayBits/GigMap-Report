@@ -862,7 +862,6 @@ A continuación, se presenta el análisis cualitativo y cuantitativo de las entr
 
 ### Segmento objetivo #1: Fans de la música
 
-#### Descripción del segmento
 Este grupo está conformado por estudiantes universitarios entre los 19 y 20 años, residentes en distintos distritos de Lima Metropolitana. Son consumidores activos de música, aunque con distinta frecuencia de asistencia a conciertos. Representan el público objetivo final de la aplicación propuesta (GigMap).
 
 #### Entrevistas incluidas
@@ -871,6 +870,16 @@ Este grupo está conformado por estudiantes universitarios entre los 19 y 20 añ
 - Entrevista #3: Bianca Huertas (20 años, Ventanilla)
 
 #### Características Objetivas
+
+| Variable                               | Valor común identificado                            | Frecuencia | Porcentaje (%) |
+|----------------------------------------|------------------------------------------------------|------------|----------------|
+| **Edad**                               | 19-20 años                                           | 3/3        | 100%           |
+| **Ocupación**                          | Estudiantes universitarios                           | 3/3        | 100%           |
+| **Distritos de residencia**            | Lima Metropolitana (zona norte y centro)            | 3/3        | 100%           |
+| **Frecuencia de asistencia a conciertos** | Esporádica (1–2 veces al mes o menos)             | 2/3        | 66.7%          |
+| **Uso de redes para enterarse de eventos** | Sí (Instagram, TikTok, YouTube, Spotify)          | 3/3        | 100%           |
+| **Dificultades para enterarse de eventos** | Sí                                                | 3/3        | 100%           |
+| **Disposición a usar una app como GigMap** | Sí                                               | 3/3        | 100%           |
 
 #### Características Subjetivas
 
@@ -896,7 +905,6 @@ Este grupo representa un público digitalmente activo, con expectativas altas re
 
 ### Segmento objetivo #2: Artistas emergentes y bandas independientes
 
-#### Descripción del segmento
 Está compuesto por jóvenes músicos independientes que gestionan su carrera de forma autónoma. Son creadores de contenido musical con experiencia en presentaciones en vivo, difusión en redes sociales y distribución digital. Constituyen el segundo público clave para GigMap, como usuarios generadores de eventos.
 
 #### Entrevistas incluidas
@@ -905,6 +913,16 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 - Entrevista #3: Camilo Llora Burga (20 años, Magdalena)
 
 #### Características Objetivas
+
+| Variable                                         | Valor común identificado                          | Frecuencia | Porcentaje (%) |
+|--------------------------------------------------|--------------------------------------------------|------------|----------------|
+| **Edad**                                         | 19-20 años                                       | 3/3        | 100%           |
+| **Género musical principal**                     | Indie rock, pop alternativo, indie pop           | 3/3        | 100%           |
+| **Gestión independiente de eventos**             | Sí                                               | 3/3        | 100%           |
+| **Uso de redes para difusión**                   | Instagram, TikTok, Spotify                       | 3/3        | 100%           |
+| **Ha enfrentado dificultades de visibilidad**    | Sí                                               | 3/3        | 100%           |
+| **Ha usado plataformas como Eventbrite o Facebook Events** | Sí                                       | 2/3        | 66.7%          |
+| **Interés en usar una app como GigMap**          | Sí                                               | 3/3        | 100%           |
 
 #### Características Subjetivas
 
