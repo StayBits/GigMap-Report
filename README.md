@@ -480,3 +480,181 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 	- Construir y fidelizar su audiencia.
 	- Disponer de herramientas simples de geolocalización y organización de calendario.
 	- Medir y analizar la asistencia a sus presentaciones para mejorar su estrategia.
+
+
+ # CAPÍTULO II: Requirements Elicitation & Analysis
+
+# 2.1. Competidores
+
+## 2.1.1. Análisis competitivo
+
+<table border="2" style="text-align: center;">
+	<tbody>
+		<tr >
+			<td colspan="6">Competitive Analysis Landscape</td>
+		</tr>
+		<tr>
+			<td colspan="2">¿Por que llevar a cabo este análisis?</td>
+			<td colspan="4">Es fundamental para comprender cómo otras plataformas gestionan el descubrimiento de eventos musicales, qué aspectos valoran los usuarios y en qué áreas aún hay oportunidades sin atender, especialmente en lo referente a la promoción de conciertos de pequeña y mediana escala. Al analizar a la competencia con mayor detalle, podremos tomar decisiones más acertadas sobre las funcionalidades, el modelo de negocio, los diferenciadores clave y las estrategias de crecimiento.
+            </td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td>GigMap</td>
+			<td>Songkick</td>
+			<td>Bandsintown</td>
+			<td>Fever</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil</td>
+			<td>Overview</td>
+			<td>Conecta a los fans con conciertos en vivo a través de un mapa interactivo con geolocalización. Se enfoca en promover la escena musical y fortalecer el vínculo entre artistas y su público local.</td>
+			<td>Permite descubrir conciertos de artistas favoritos y recibir alertas personalizadas según ubicación. Se enfoca principalmente en giras de artistas reconocidos.</td>
+			<td>Conecta a fans con conciertos mediante recomendaciones basadas en gustos musicales. Incluye herramientas para que artistas promuevan sus eventos.</td>
+			<td>Ayuda a descubrir eventos culturales locales, incluyendo conciertos, teatro y experiencias únicas. Su enfoque va más allá de la música en vivo.</td>
+		</tr>
+		<tr>
+			<td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
+			<td>Facilita el descubrimiento espontáneo de conciertos mediante un mapa interactivo y geolocalizado, acercando a los fans a la música local en tiempo real.</td>
+			<td>Ofrece a los usuarios alertas personalizadas sobre conciertos de sus artistas favoritos, permitiendo planificar asistencias con anticipación de forma sencilla.</td>
+			<td>Combina recomendaciones personalizadas con herramientas de promoción para artistas, creando un ecosistema donde fans y músicos pueden interactuar directamente.</td>
+			<td>Proporciona una experiencia cultural completa con recomendaciones curadas de eventos locales, destacando experiencias exclusivas y originales para cada usuario.</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil de Marketing</td>
+			<td>Mercado objetivo</td>
+			<td>Personas jóvenes y amantes de la música que buscan descubrir conciertos y conectar con la escena local</td>
+			<td>Fans de la música que siguen a artistas reconocidos y desean recibir alertas sobre giras y conciertos en su ciudad o alrededores</td>
+			<td>Amantes de la música en general, desde fans de artistas emergentes hasta grandes estrellas, así como músicos que buscan promocionar sus eventos</td>
+			<td>Personas urbanas interesadas en actividades culturales y de ocio variadas, que buscan planes originales y experiencias únicas en su ciudad</td>
+		</tr>
+		<tr>
+			<td>Estrategias de marketing</td>
+			<td>Se enfoca en el marketing comunitario y uso de redes sociales para promover conciertos en tiempo real y crear comunidad entre fans y artistas.</td>
+			<td>Se apoya en integraciones con plataformas de streaming (como Spotify) y recomendaciones personalizadas para captar usuarios. También colabora con artistas reconocidos para promocionar giras y vender entradas.</td>
+			<td>Utiliza notificaciones personalizadas, campañas por email y presencia activa en redes sociales. Además, ofrece una plataforma para que los propios artistas promocionen sus shows directamente.</td>
+			<td>Realiza campañas digitales segmentadas, usa influencers locales y curaduría de eventos exclusivos para atraer a usuarios. También colabora con marcas para promocionar experiencias temáticas.</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Perfil de Producto</td>
+			<td>Productos & Servicios</td>
+			<td><ul>
+				<li>Productos: Mapa interactivo de conciertos, geolocalización en tiempo real, notificaciones de eventos</li>
+				<li>Servicios: Promoción de conciertos, visibilidad para artistas emergentes, creación de comunidad entre fans y artistas</li>
+			</ul></td>
+			<td><ul>
+				<li>Productos: Alertas personalizadas sobre conciertos y recomendaciones basadas en preferencias musicales</li>
+				<li>Servicios: Seguimiento de artistas, integración con Spotify y Apple Music, planificación de asistencia a conciertos</li>
+			</ul></td>
+			<td><ul>
+				<li>Productos: Calendario de conciertos, alertas personalizadas, herramientas de promoción para artistas</li>
+				<li>Servicios: Promoción de eventos para artistas emergentes, recomendaciones personalizadas, venta de entradas</li>
+			</ul></td>
+			<td><ul>
+				<li>Productos: Descubrimiento de eventos locales, compra de entradas, experiencias exclusivas</li>
+				<li>Servicios: Curaduría de eventos, recomendaciones basadas en ubicación, experiencias personalizadas</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td>Precios &amp; Costos</td>
+			<td><ul>
+				<li>Precios: Gratuito para los usuarios. Las entradas para conciertos se venden a través de otras páginas</li>
+				<li>Costos: No tiene costos de suscripción para los usuarios.</li>
+			</ul></td>	
+			<td><ul>
+				<li>Precios: Gratuito para los usuarios. Las entradas para conciertos se venden a través de la aplicación, con un costo asociado por evento.</li>
+				<li>Costos: No tiene costos de suscripción para los usuarios. Las ganancias provienen de la venta de entradas y comisiones de los conciertos.</li>
+			</ul></td>
+			<td><ul>
+				<li>Precios: Gratuito para los usuarios. Los conciertos se promocionan a través de la plataforma, con la posibilidad de comprar entradas directamente.</li>
+				<li>Costos: Gratuito para los usuarios, pero Bandsintown cobra una tarifa por la venta de entradas y ofrece servicios premium a artistas para mejorar la visibilidad de sus conciertos.</li>
+			</ul></td>	
+			<td><ul>
+				<li>Precios: Gratuito para los usuarios, con una tarifa adicional al comprar entradas para ciertos eventos exclusivos o experiencias premium.</li>
+				<li>Costos: Los costos de Fever están principalmente asociados a las entradas y experiencias exclusivas. La plataforma también obtiene ingresos mediante asociaciones con marcas y experiencias temáticas.</li>
+			</ul></td>	
+		</tr>
+		<tr>
+			<td>Canales de distribución (Web y/o Móvil)</td>
+			<td><ul>
+				<li>Web: Landing page donde los usuarios tienen información sobre GigMap</li>
+				<li>Móvil: Aplicación móvil para iOS y Android con geolocalización, alertas de eventos y la opción de seguir a artistas locales</li>
+			</ul></td>
+			<td><ul>
+				<li>Web: Disponible a través de su página web para descubrimiento de conciertos y compra de entradas</li>
+				<li>Móvil: Aplicación disponible para iOS y Android, donde los usuarios pueden recibir alertas personalizadas y comprar entradas</li>
+			</ul></td>
+			<td><ul>
+				<li>Web: Plataforma web que permite descubrir conciertos y gestionar las preferencias de artistas</li>
+				<li>Móvil: Aplicación para iOS y Android, con notificaciones personalizadas y la posibilidad de seguir a artistas y comprar entradas</li>
+			</ul></td>
+			<td><ul>
+				<li>Web: Plataforma web donde los usuarios pueden explorar eventos y comprar entradas</li>
+				<li>Móvil: Aplicación para iOS y Android que permite descubrir eventos locales y comprar entradas, con recomendaciones personalizadas</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td rowspan="4">Análisis SWOT</td>
+			<td>Fortalezas</td>
+			<td>Su enfoque en conciertos emergentes y locales le permite conectar con un público único y auténtico. La geolocalización en tiempo real facilita el descubrimiento de eventos cercanos.</td>
+			<td>Tiene una gran base de usuarios gracias a su integración con plataformas como Spotify y Apple Music. Su enfoque en conciertos grandes le permite ofrecer una experiencia robusta en la compra de entradas.</td>
+			<td>Ofrece alertas personalizadas para conciertos y promueve tanto artistas emergentes como establecidos. Su enfoque en la personalización le otorga una experiencia única a sus usuarios.</td>
+			<td>Ofrece una amplia variedad de eventos, no solo conciertos, lo que atrae a un público diverso. Su enfoque en experiencias exclusivas le da un valor añadido.</td>
+		</tr>
+		<tr>
+			<td>Debilidades</td>
+			<td>Al ser una plataforma en crecimiento, su base de usuarios y oferta de conciertos son limitados. Depende de alianzas con locales y artistas para ampliar su alcance.</td>
+			<td>Tiene una gran base de usuarios gracias a su integración con plataformas como Spotify y Apple Music. Su enfoque en conciertos grandes le permite ofrecer una experiencia robusta en la compra de entradas.</td>
+			<td>Su interfaz puede ser confusa para nuevos usuarios debido a la gran cantidad de notificaciones y conciertos. Las recomendaciones no siempre son precisas ni relevantes para todos los usuarios.</td>
+			<td>Su enfoque generalista puede no satisfacer a usuarios que buscan solo conciertos en vivo. El contenido musical no es tan profundo o especializado como en otras plataformas.</td>
+		</tr>
+		<tr>
+			<td>Oportunidades</td>
+			<td>Expandir su enfoque en mercados locales y nichos de conciertos emergentes podría fortalecer su propuesta. Ofrecer servicios premium para artistas podría atraer más usuarios y aumentar sus ingresos.</td>
+			<td>Puede expandir su alcance hacia mercados más locales, promoviendo artistas emergentes. Colaborar con festivales locales y locales sería una buena forma de ampliar su base de usuarios.</td>
+			<td>Puede ampliar sus funciones para vender entradas directamente y ofrecer experiencias exclusivas. Colaboraciones con festivales y marcas musicales podrían atraer a más usuarios.</td>
+			<td>Expandir su oferta de conciertos locales podría atraer a un público más específico de fans de música en vivo. Crear contenido exclusivo y eventos personalizados podría aumentar la lealtad de los usuarios.</td>
+		</tr>
+		<tr>
+			<td>Amenazas</td>
+			<td>Competir con plataformas consolidadas como Songkick y Bandsintown puede ser desafiante. La saturación del mercado de aplicaciones de conciertos podría dificultar la atracción de usuarios.</td>
+			<td>La competencia creciente de aplicaciones como Bandsintown y Fever puede restarle usuarios. La dependencia de plataformas de streaming lo hace vulnerable a cambios en ese ecosistema.</td>
+			<td>La competencia de plataformas especializadas en conciertos como Songkick y Fever podría reducir su cuota de mercado. Cambios en los hábitos de consumo de entretenimiento digital podrían afectar su relevancia.</td>
+			<td>La competencia de aplicaciones como Songkick y Bandsintown podría restarle relevancia en el ámbito musical. La saturación del mercado de eventos y actividades culturales podría hacerle perder protagonismo.</td>
+		</tr>
+	</tbody>
+</table>
+
+## 2.1.2. Estrategias y tácticas frente a competidores
+
+**- Enfoque en el descubrimiento de música en vivo diversa**
+
+Estrategia: Diferenciarse de otras plataformas generalistas facilitando el acceso a una variedad de eventos musicales sin importar su escala
+
+Táctica: Mostrar de forma equitativa tanto conciertos masivos como presentaciones más íntimas o alternativas y resaltar aquellos eventos que se alineen con los intereses del usuario mediante algoritmos de recomendación y geolocalización
+
+**- Uso de geolocalización en tiempo real**
+
+Estrategia: Facilitar el descubrimiento espontáneo de conciertos cercanos al usuario
+
+Táctica: Implementar un mapa interactivo que muestre eventos activos cerca del usuario con filtros por género, horario y tipo de artista
+
+
+**- Alianzas con agentes locales**
+
+Estrategia: Fortalecer la oferta de eventos mediante colaboraciones directas con organizadores independientes
+
+Táctica: Crear programas de colaboración con venues, colectivos culturales y artistas emergentes que les permitan promocionar sus eventos fácilmente dentro de la plataforma
+
+**- Comunidad y participación de los fans**
+
+Estrategia: Construir una comunidad sólida y activa alrededor de la música en vivo
+
+Táctica: Permitir a los usuarios hacer check-in en eventos, compartir fotos y reseñas, seguir a otros fans y artistas, y recibir recompensas por su participación activa
+
+**- Funcionalidades exclusivas para fidelización**
+
+Estrategia: Aumentar la retención y lealtad de los usuarios frente a otras plataformas
+
+Táctica: Ofrecer funciones como seguimiento de giras, alertas personalizadas, y programas de recompensas por asistir a eventos frecuentes o apoyar a artistas locales
+
