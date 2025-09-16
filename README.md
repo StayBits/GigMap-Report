@@ -1114,7 +1114,7 @@ El siguiente modelo describe cómo fluyen los mensajes y acciones entre los dist
 Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos disponibles para buscar presentaciones existentes y también visualizarlas en el mapa. Si el usuario tiene el rol de artista, puede crear nuevos conciertos que luego estarán visibles para otros usuarios en el mapa.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming1.png" alt="event-storming1" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming1.png" alt="event-storming1" style="width: 700px">
 </p>
 
 **IAM y Comunidades:**
@@ -1122,7 +1122,7 @@ Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos 
 Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de comunidades para explorar las que ya existen o crear una nueva. Puede completar la información necesaria para formar o crear su propia comunidad, la cual quedará visible para otros usuarios que también hayan iniciado sesión.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming2.png" alt="event-storming2" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming2.png" alt="event-storming2" style="width: 700px">
 </p>
 
 **Conciertos y Eventos relacionados:**
@@ -1130,7 +1130,7 @@ Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de 
 Cuando un usuario selecciona un concierto, puede ver la lista de eventos relacionados que han sido asociados a ese concierto. Además, tanto los fans como los artistas pueden crear nuevos eventos relacionados que quedarán vinculados al concierto seleccionado, permitiendo ampliar la información y las actividades en torno a ese concierto.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming3.png" alt="event-storming3" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming3.png" alt="event-storming3" style="width: 700px">
 </p>
 
 **Notificaciones y eventos relacionados:**
@@ -1138,11 +1138,11 @@ Cuando un usuario selecciona un concierto, puede ver la lista de eventos relacio
 Cuando se añade un evento relacionado a un concierto seleccionado, se envía una notificación a los usuarios cercanos para informarles sobre la nueva actividad vinculada a ese concierto.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming4.png" alt="event-storming4" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming4.png" alt="event-storming4" style="width: 700px">
 </p>
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming5.png" alt="event-storming5" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming5.png" alt="event-storming5" style="width: 700px">
 </p>
 
 **Conciertos y notificaciones:**
@@ -1150,7 +1150,7 @@ Cuando se añade un evento relacionado a un concierto seleccionado, se envía un
 Cuando se crea un concierto y se añade al mapa, se envía una notificación a los usuarios cercanos para informarles sobre el nuevo concierto disponible en su zona.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming6.png" alt="event-storming6" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming6.png" alt="event-storming6" style="width: 700px">
 </p>
 
 **Comunidades y notificaciones:**
@@ -1158,12 +1158,12 @@ Cuando se crea un concierto y se añade al mapa, se envía una notificación a l
 Cuando un usuario publica un comentario en una publicación, se envía una notificación al autor de la publicación. Si un usuario da like a una publicación, se envía una notificación a su creador. Además, cuando un usuario comienza a seguir a otro, se envía una notificación al usuario seguido para informarle.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming7.png" alt="event-storming7" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming7.png" alt="event-storming7" style="width: 700px">
 </p>
 
 Vista completa:
 Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: IAM, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
 
 <p align="center">
-<img src="assets/images/impact_mapping/event-storming.png" alt="event-storming" style="width: 700px">
+<img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
 </p>
