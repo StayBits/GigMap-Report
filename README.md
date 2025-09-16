@@ -1007,12 +1007,16 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 
 **Diego Rivas**
 
-<img src="assets/images/empathy_map/empathy_map_artistas.png" alt="user_persona" style="width: 700px"><</td>
+<img src="assets/images/empathy_map/empathy_map_artistas.png" alt="user_persona" style="width: 700px">
+</td>
+
 
 
 **Valeria Torres**
 
-<img src="assets/images/empathy_map/empathy_map_fan.png" alt="user_persona" style="width: 700px"><</td>
+<img src="assets/images/empathy_map/empathy_map_fan.png" alt="user_persona" style="width: 700px">
+</td>
+
 
 
 ## 2.3.5. Ubiquitous Language
@@ -1072,4 +1076,22 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     </tr>
   </tbody>
 </table>
+
+
+
+
+## 2.4.2. Impact Mapping
+
+**Fans de la Música:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Fan.png" alt="impact mapping fan" style="width: 700px">
+</p>
+
+**Artistas emergentes y bandas independientes:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Artista.png" alt="impact mapping Artista" style="width: 700px">
+</p>
+
 
