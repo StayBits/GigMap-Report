@@ -3098,6 +3098,45 @@ Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado
 
 ### 2.5.1.3. Bounded Context Canvases
 
+En esta sección, definimos los Bounded Contexts que estructuran el dominio principal de GitMap. El diseño de estos contextos se realiza siguiendo un enfoque iterativo que busca asegurar claridad conceptual, separación de responsabilidades y alineamiento con las necesidades del negocio. Para cada contexto se desarrolla un Bounded Context Canvas, el cual nos permite capturar su propósito, reglas de negocio, capacidades, dependencias y lenguaje ubicuo.
+
+El proceso seguido incluye los siguientes pasos clave:
+
+- **Context Overview Definition:** Se define el alcance y propósito del contexto, detallando qué problema resuelve y cómo se conecta con la visión general del sistema.
+
+- **Business Rules Distillation & Ubiquitous Language Capture:** Se identifican las reglas de negocio propias del contexto y se establece un lenguaje común (ubiquitous language) compartido por desarrolladores y expertos del dominio, evitando ambigüedades.
+
+- **Capability Analysis:** Se descomponen las funcionalidades principales del contexto en capacidades concretas que este debe proveer para cumplir con su propósito.
+
+- **Capability Layering:** Se organiza cada capacidad en capas (por ejemplo: núcleo de dominio, soporte o interfaz), identificando qué es esencial y qué es complementario.
+
+- **Dependencies Capture:** Se identifican las relaciones y dependencias con otros Bounded Contexts, señalando flujos de datos o integraciones necesarias.
+
+- **Design Critique:** Se realiza una evaluación crítica del diseño, verificando si el contexto está bien delimitado, si su lenguaje es claro y si no existen solapamientos con otros contextos.
+
+A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestros bounded context.
+
+**Conciertos**: Aquí se centraliza la gestión de los eventos musicales principales. Incluye la creación, registro, detalles, fechas, localización y datos clave de conciertos, funcionando como el eje central de descubrimiento de eventos musicales.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-conciertos.png" alt="bounded-context-canvas-conciertos" style="width: 700px">
+
+**Comunidades**: Este contexto gestiona los espacios de interacción entre los usuarios, permitiendo la creación, administración y participación en comunidades relacionadas con intereses musicales. Representa el núcleo social de la plataforma, donde se agrupan fans y artistas.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-comunidades.png" alt="bounded-context-canvas-comunidades" style="width: 700px">
+
+**Eventos relacionados**: Este contexto permite la creación y coordinación de eventos secundarios vinculados a un concierto (ejemplo: reuniones de fans antes de un show). Extiende la experiencia principal, reforzando la interacción y la vivencia en torno a un concierto.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
+
+**IAM**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
+
+**Notificaciones**: Este contexto cubre la comunicación proactiva hacia los usuarios, enviando recordatorios, alertas y actualizaciones relevantes sobre conciertos, comunidades o eventos relacionados.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-notificaciones.png" alt="bounded-context-canvas-notificaciones" style="width: 700px">
+
+
 ## 2.5.2. Context Mapping
 
 El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
