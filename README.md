@@ -658,3 +658,275 @@ Estrategia: Aumentar la retención y lealtad de los usuarios frente a otras plat
 
 Táctica: Ofrecer funciones como seguimiento de giras, alertas personalizadas, y programas de recompensas por asistir a eventos frecuentes o apoyar a artistas locales
 
+# 2.2. Entrevistas
+
+## 2.2.1. Diseño de entrevistas
+
+**Segmento objetivo #1: Fans de la música (16 a 35 años)**
+
+Perfil demográfico y musical:
+
+- ¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+- ¿Dónde vives actualmente? ¿Sueles asistir a conciertos en tu ciudad?
+- ¿Qué géneros musicales disfrutas más?
+- ¿Con qué frecuencia vas a conciertos o festivales?
+
+Comportamiento digital y uso de apps:
+
+- ¿Qué plataformas usas para descubrir nuevos eventos o artistas?
+- ¿Sueles seguir a tus artistas favoritos por redes sociales?
+- ¿Usas apps como Spotify, Instagram u otras para encontrar conciertos?
+
+ Expectativas y opinión sobre GitMap:
+
+- ¿Has tenido problemas para enterarte de conciertos cercanos a ti?
+- Si tuvieras una app que te muestre conciertos en vivo cerca, ¿la usarías? ¿por qué?
+- ¿Qué funciones te parecerían útiles en una app como GigMap? (por ejemplo: mapa de eventos, notificaciones, filtros por género)
+- ¿Qué mejorarías de las apps que ya usas para buscar eventos musicales?
+- ¿Te interesaría compartir los eventos a los que vas con tus amigos desde la app?
+
+**Segmento objetivo #2: Artistas emergentes y bandas independientes (18 a 40 años)**
+
+Perfil artístico y canales de promoción:
+
+- ¿Cuál es tu nombre artístico o el de tu banda?
+- ¿Qué estilo musical haces y cuántos años llevas en la música?
+- ¿Cómo sueles promocionar tus eventos o lanzamientos?
+- ¿Qué redes sociales o plataformas usas para difundir tus conciertos? (Instagram, TikTok, Spotify, etc.)
+- ¿Tienes algún equipo que te apoya en la promoción (manager, community manager) o lo gestionas de manera independiente?
+
+Herramientas digitales y desafíos:
+
+- ¿Te resulta fácil o difícil difundir tus eventos entre el público local?
+- ¿Has utilizado apps o plataformas para anunciar tus conciertos? ¿Cuál fue tu experiencia?
+- ¿Qué barreras encuentras al intentar llenar tus shows o llegar a nuevos oyentes?
+- ¿Consideras que las plataformas actuales son suficientes para que un artista emergente se dé a conocer?
+
+Opinión y expectativas sobre GigMap:
+
+- ¿Qué te parecería contar con una app donde los usuarios vean tu evento en un mapa musical local?
+- ¿Te interesaría que GigMap te permita crear un perfil artístico y gestionar tus fechas de conciertos?
+- ¿Qué funcionalidades te parecerían más útiles como artista? (por ejemplo: análisis de asistentes, publicación de eventos, integración con redes)
+- ¿Qué te gustaría poder personalizar en la app?
+- ¿Cómo crees que GigMap podría ayudarte a crecer como artista?
+- ¿Recomendarías una app como GigMap a otros artistas emergentes? ¿Por qué sí o por qué no?
+- ¿Te gustaría poder crear una comunidad dentro de la app para interactuar con tus seguidores (ejemplo: compartir contenido exclusivo, enviar notificaciones)?
+
+## 2.2.2. Registro de entrevistas
+
+### Segmento objetivo #1: Fans de la música
+
+#### Entrevista #1
+
+- **Nombre completo:** Reina Ruiz
+- **Edad:** 20 años
+- **Distrito:** Cercado de Lima
+- **Inicio de entrevista:** 00:01:00
+
+<p align="center">
+  <img src="assets/images/interviews/fan1.png" alt="fan1" width="700">
+</p>
+
+**Resumen:**
+
+Reina Ruiz, de 20 años, es estudiante de la carrera de Hotelería y Turismo y reside actualmente en Cercado de Lima. Aunque no asiste frecuentemente a conciertos, se considera amante de la música y escucha principalmente pop en inglés y salsa.
+
+Para enterarse de eventos musicales o lanzamientos, depende principalmente de las redes sociales de los artistas, aunque reconoce que en muchas ocasiones no ve la publicidad a tiempo o se entera demasiado tarde. Usa Instagram con mayor frecuencia para seguir a sus artistas, aunque también ha interactuado con Spotify.
+
+En relación con la app GigMap, comentó que sí ha tenido dificultades para enterarse de conciertos cercanos, y que definitivamente usaría una aplicación como GigMap, ya que le permitiría descubrir eventos de sus artistas favoritos y organizar salidas con amigos.
+
+Las funcionalidades que más le interesarían incluyen filtros por género musical, recibir información más personalizada y notificaciones automáticas sobre conciertos o eventos de interés. También, considera importante mejorar las apps existentes en cuanto a la efectividad de las notificaciones, ya que estas no siempre le llegan o no están bien configuradas. No utiliza muchas aplicaciones actualmente para buscar eventos, por lo que una solución como GigMap le parece muy útil y novedosa.
+
+Finalmente, le gustaría poder compartir eventos con amigos desde la aplicación, algo que considera clave para socializar alrededor de la música. Esta función permitiría coordinar salidas y crear comunidad en torno a intereses musicales compartidos.
+
+#### Entrevista #2
+
+- **Nombre completo:** Rodrigo Chávez
+- **Edad:** 19 años
+- **Distrito:** San Martín de Porres
+- **Inicio de entrevista:** 00:00:25
+
+<p align="center">
+  <img src="assets/images/interviews/fan2.png" alt="fan2" width="700">
+</p>
+
+**Resumen:**
+
+Rodrigo Chávez, de 19 años, es estudiante de Ingeniería de Sistemas y vive en San Martín de Porres. Tiene una vida activa como consumidor de música en vivo: asiste a conciertos todos los fines de semana o cada vez que se presenta un artista de su preferencia.
+
+Su gusto musical es muy variado, abarcando desde rock, pop e indie hasta géneros tropicales como cumbia y salsa. Descubre nuevos artistas y eventos principalmente a través de Instagram y YouTube, y sigue activamente a sus artistas favoritos por redes sociales, sobre todo para enterarse de giras o lanzamientos.
+
+Rodrigo ha tenido problemas anteriormente para enterarse de conciertos, como en el caso de Arctic Monkeys, a quienes no pudo ver porque no se enteró a tiempo del evento. Considera que una aplicación como GigMap sería muy útil, especialmente si puede mostrar conciertos cercanos en tiempo real y ayudarle a descubrir nuevos artistas según sus gustos personales.
+
+Entre las funcionalidades que más le interesarían, se encuentran mapa de conciertos por ubicación, filtros por género musical, notificaciones sobre artistas de interés y recomendaciones personalizadas de artistas según gustos. También, sugiere mejorar el descubrimiento de artistas y la compra de entradas en las apps actuales, que le resultan limitadas o poco eficientes. Le gustaría que GigMap incluya una opción para compartir eventos con amigos y visualiza la app como una posible red social musical, en la que también pueda generar interacción con otros asistentes o fans.
+
+#### Entrevista #3
+
+- **Nombre completo:** Bianca Huertas
+- **Edad:** 20 años
+- **Distrito:** Ventanilla
+- **Inicio de entrevista:** 00:00:12
+
+<p align="center">
+  <img src="assets/images/interviews/fan3.png" alt="fan3" width="700">
+</p>
+
+**Resumen:**
+
+Bianca Huertas, de 20 años, es estudiante de Diseño de Interiores y vive en el distrito de Ventanilla, Callao. Es una usuaria muy activa en redes sociales, particularmente en TikTok e Instagram, donde sigue a sus artistas favoritos y se entera de nuevos eventos. Aunque no asiste a conciertos todas las semanas, menciona que va en promedio dos veces al mes, dependiendo de la cercanía y del tipo de evento.
+
+Sus géneros musicales favoritos incluyen salsa, reguetón y K-pop, y muestra mucho entusiasmo por la experiencia de asistir a eventos musicales. Bianca admite que a veces no logra encontrar información clara o a tiempo sobre los conciertos que le interesan, lo cual considera una limitación importante en su experiencia.
+
+Afirma que una aplicación como GigMap le parecería sumamente útil, ya que facilitaría el descubrimiento de eventos sin tener que buscarlos manualmente en diversas redes. Está especialmente interesada en funcionalidades como mapa de eventos cercanos, notificaciones de próximos conciertos, filtros por género musical y alertas sobre fechas próximas según ubicación. Además, valoraría mucho una función que le permita compartir eventos con sus amigos dentro de la misma app para poder asistir acompañada.
+
+### Segmento objetivo #2: Artistas emergentes y bandas independientes
+
+#### Entrevista #1
+
+- **Nombre completo:** Zaleth Feijóo
+- **Edad:** 19 años
+- **Distrito:** Pueblo Libre
+- **Inicio de entrevista:** 00:01:06
+
+<p align="center">
+  <img src="assets/images/interviews/artist1.png" alt="artist1" width="700">
+</p>
+
+**Resumen:**
+
+La entrevistada, Zaleth Feijóo, es una joven artista de 19 años, residente en Pueblo Libre. Su nombre artístico es Ithli, y se dedica principalmente al género indie rock, siendo una artista independiente con tres años de trayectoria.
+
+Durante la conversación, Zaleth manifestó que utiliza redes sociales como Instagram y TikTok como sus principales canales de promoción para eventos y lanzamientos. No cuenta con un equipo de apoyo fijo. Sin embargo, en ocasiones, colabora con colegas del mismo ámbito. La difusión de su música ha representado un reto constante, debido a la dificultad de alcanzar al público objetivo y a la crítica negativa que recibe en redes.
+
+Afirma que no ha utilizado plataformas especializadas para promocionar conciertos, y considera que las redes sociales no son suficientes para que un artista emergente se dé a conocer de forma adecuada. A su parecer, esto se debe tanto a la ausencia de una aplicación especializada como a la falta de valorización del arte y la música emergente.
+
+En cuanto a la propuesta de GigMap, la artista considera que una aplicación de este tipo podría ser muy útil, ya que permitiría a los usuarios encontrar eventos cercanos según sus intereses musicales. Además, mostró interés en poder crear un perfil artístico, gestionar fechas, y contar con funcionalidades como estadísticas de asistencia a eventos, integración de redes sociales, y espacios de comunicación directa con fans.
+
+Zaleth cree que GigMap puede ser una herramienta poderosa para aumentar la visibilidad de los artistas emergentes si incluye funciones de filtro por género musical. También estaría interesada en construir una comunidad dentro de la aplicación, en donde los artistas puedan interactuar directamente con sus seguidores y compartir contenido exclusivo.
+
+#### Entrevista #2
+
+- **Nombre completo:** Diego Zúñiga
+- **Edad:** 20
+- **Distrito:** Comas
+- **Inicio de entrevista:** 00:00:10
+
+<p align="center">
+  <img src="assets/images/interviews/artist2.png" alt="artist2" width="700">
+</p>
+
+**Resumen:**
+
+El entrevistado, Diego Zúñiga, es un artista emergente de 20 años que vive en el distrito de Comas. Su nombre artístico es Dekay, y su propuesta musical combina elementos de indie pop y rock alternativo. Tiene aproximadamente 5 años de experiencia, en los que ha compuesto música y se ha presentado en vivo.
+
+Promociona sus lanzamientos y conciertos principalmente mediante redes sociales como Instagram y TikTok, donde dice que se encuentra la mayor parte de su público. Además, sube su música a Spotify y YouTube. Si bien realiza toda la gestión de forma independiente, ocasionalmente cuenta con el apoyo de amigos para diseño y difusión. Aún no cuenta con un mánager.
+
+Comenta que la difusión local es difícil, ya que la información suele quedarse en su círculo más cercano. Ha utilizado herramientas como Facebook Events y Eventbrite, pero opina que no son efectivas para conectar con personas interesadas en descubrir música nueva. Considera que las plataformas actuales están saturadas y que es muy difícil destacar entre tanto contenido, especialmente para artistas emergentes.
+
+La propuesta de GigMap le pareció muy interesante, particularmente la idea de que los usuarios puedan encontrar eventos musicales en un mapa interactivo local. Considera que esto facilitaría mucho la visibilidad de los conciertos sin tener que depender de múltiples plataformas.
+
+Le interesaría poder crear un perfil artístico dentro de la app, así como gestionar fechas de conciertos y publicar eventos. Además, valoraría mucho tener estadísticas sobre asistentes, una posible integración con Spotify, e incluso información sobre la cantidad de oyentes interesados en su estilo musical. Como aspectos de personalización, mencionó que le gustaría poder editar su perfil con fotos, logo, biografía, enlaces a redes y playlists propias.
+
+Diego cree que GigMap le permitiría ampliar y consolidar su audiencia, especialmente fuera de su red actual. También considera que sería un excelente canal para crear comunidad, compartir contenido exclusivo y mantener el vínculo con sus seguidores a través de notificaciones y recordatorios de conciertos.
+
+Finalmente, recomendaría una aplicación como GigMap a otros artistas emergentes, ya que considera necesario tener un espacio centrado en la música independiente y en vivo, y no perder visibilidad en redes sociales donde el contenido musical suele pasar desapercibido.
+
+#### Entrevista #3
+
+- **Nombre completo:** Camilo Llora Burga
+- **Edad:** 20 años
+- **Distrito:** Magdalena
+- **Inicio de entrevista:** 00:00:55
+
+<p align="center">
+  <img src="assets/images/interviews/artist3.png" alt="artist3" width="700">
+</p>
+
+**Resumen:**
+
+Camilo Llora Burga, de 20 años, vive en Magdalena y forma parte de la banda "Accidentes y Casualidades", la cual combina géneros como indie rock y pop alternativo. La banda tiene alrededor de tres años de actividad constante.
+
+Para la promoción de eventos y lanzamientos, utilizan sobre todo Instagram y TikTok, donde comparten clips creativos, ensayos y contenido visual que conecta con su público. También suben su música a Spotify y hacen uso del boca a boca y conciertos íntimos como parte de su estrategia de difusión. Toda la gestión es llevada a cabo de forma independiente, con cada integrante de la banda contribuyendo en diseño, contacto y redes.
+
+Camilo menciona que es difícil llegar al público local, ya que la visibilidad tiende a concentrarse en artistas más conocidos. Aunque han utilizado herramientas como apps locales de eventos e Instagram Ads, no siempre generan una conexión real con el público. Además, identifica como barreras el alcance limitado por algoritmos, la falta de espacios accesibles y la saturación de contenido en las plataformas tradicionales.
+
+Sobre GigMap, la idea de una aplicación que muestre conciertos en un mapa local le pareció muy útil y atractiva, ya que facilitaría el descubrimiento de nuevos eventos musicales sin necesidad de buscar en varias plataformas.
+
+Está muy interesado en crear un perfil artístico dentro de la app, gestionar fechas de conciertos y tener un espacio centralizado para su banda. Mencionó funcionalidades clave como análisis de asistentes, integración con redes sociales, publicación de eventos y promoción y preventa de entradas. También, desea poder personalizar su perfil, incluyendo fotos, descripciones, música y próximos eventos. Para él, GigMap podría ayudar a visibilizar más sus conciertos, atraer público fuera de sus redes sociales y fomentar una comunidad de oyentes locales.
+
+Recomendaría esta aplicación a otros artistas emergentes, ya que ve en ella un espacio dedicado para ellos, algo que las plataformas tradicionales no ofrecen. Finalmente, le encantaría crear una comunidad dentro de GigMap, para interactuar con sus seguidores, compartir contenido exclusivo y enviar notificaciones sobre novedades musicales.
+
+## 2.2.3. Análisis de entrevistas
+
+A continuación, se presenta el análisis cualitativo y cuantitativo de las entrevistas realizadas, agrupadas por segmento objetivo. Este análisis identifica las características más representativas de cada grupo, con el fin de sustentar la construcción de arquetipos de usuario. Las observaciones aquí descritas se fundamentan directamente en los resúmenes de las entrevistas aplicadas a un total de seis personas, distribuidas en dos segmentos clave.
+
+### Segmento objetivo #1: Fans de la música
+
+#### Descripción del segmento
+Este grupo está conformado por estudiantes universitarios entre los 19 y 20 años, residentes en distintos distritos de Lima Metropolitana. Son consumidores activos de música, aunque con distinta frecuencia de asistencia a conciertos. Representan el público objetivo final de la aplicación propuesta (GigMap).
+
+#### Entrevistas incluidas
+- Entrevista #1: Reina Ruiz (20 años, Cercado de Lima)
+- Entrevista #2: Rodrigo Chávez (19 años, San Martín de Porres)
+- Entrevista #3: Bianca Huertas (20 años, Ventanilla)
+
+#### Características Objetivas
+
+#### Características Subjetivas
+
+**Motivaciones comunes:**
+- Desean mejorar la experiencia de búsqueda de eventos
+- Buscan socializar a través de la música (coordinación con amigos)
+- Muestran interés por descubrir artistas nuevos
+
+**Frustraciones frecuentes:**
+- No reciben notificaciones a tiempo o de manera relevante
+- La información está dispersa entre varias plataformas
+- Poca personalización en las apps actuales de eventos
+
+**Preferencias destacadas:**
+- Mapa interactivo de conciertos por ubicación
+- Filtros por género musical
+- Notificaciones automáticas personalizadas
+- Compartir eventos con amigos desde la app
+- Integración con redes sociales y plataformas de música
+
+#### Implicancias para el diseño
+Este grupo representa un público digitalmente activo, con expectativas altas respecto a la experiencia de usuario. El hallazgo más relevante es la necesidad de centralizar y personalizar la información sobre conciertos, así como fomentar la interacción social entre asistentes. Las funcionalidades sugeridas están alineadas con una interfaz amigable, dinámica y conectada a las redes sociales que ya utilizan.
+
+### Segmento objetivo #2: Artistas emergentes y bandas independientes
+
+#### Descripción del segmento
+Está compuesto por jóvenes músicos independientes que gestionan su carrera de forma autónoma. Son creadores de contenido musical con experiencia en presentaciones en vivo, difusión en redes sociales y distribución digital. Constituyen el segundo público clave para GigMap, como usuarios generadores de eventos.
+
+#### Entrevistas incluidas
+- Entrevista #1: Zaleth Feijóo (19 años, Pueblo Libre)
+- Entrevista #2: Diego Zúñiga (20 años, Comas)
+- Entrevista #3: Camilo Llora Burga (20 años, Magdalena)
+
+#### Características Objetivas
+
+#### Características Subjetivas
+
+**Motivaciones comunes:**
+- Aumentar visibilidad fuera de su red cercana
+- Alcanzar públicos locales con mayor precisión
+- Profesionalizar la gestión de sus eventos
+
+**Frustraciones frecuentes:**
+- Saturación de contenido en redes sociales
+- Limitado alcance por algoritmos o falta de presupuesto
+- Ausencia de plataformas dedicadas a artistas emergentes
+
+**Preferencias destacadas:**
+- Perfil artístico personalizado (logo, biografía, links)
+- Publicación de eventos y fechas de conciertos
+- Estadísticas de visualización y asistencia
+- Integración con Spotify y redes sociales
+- Espacios de comunidad y contenido exclusivo
+
+#### Implicancias para el diseño
+Este segmento valora profundamente las herramientas de gestión profesional que, a la vez, faciliten la construcción de una comunidad auténtica. GigMap debe ofrecer funcionalidades pensadas desde el artista independiente, como la personalización del perfil, gestión de eventos, conexión directa con fans, y analítica simple y útil. La posibilidad de reducir la dependencia de algoritmos y redes sociales tradicionales es clave para ellos.
+
+### Conclusión General del Análisis
+Los hallazgos de ambas agrupaciones muestran una alineación clara entre los problemas identificados y la propuesta de valor de GigMap. Los usuarios finales demandan una aplicación que centralice, personalice y notifique sobre eventos musicales de forma proactiva. Por su parte, los artistas emergentes buscan una plataforma que les ofrezca visibilidad, herramientas de gestión y conexión directa con su audiencia, sin la saturación ni limitaciones de las redes sociales tradicionales.
