@@ -2967,3 +2967,80 @@ Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
 </p>
+
+### 2.5.1.3. Bounded Context Canvases
+
+## 2.5.2. Context Mapping
+
+El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
+
+En la aplicación GigMap se identificaron cinco bounded contexts principales: IAM, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
+El contexto de IAM actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de IAM directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+
+<p align="center">
+<img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Destino (Downstream)</th>
+      <th>Origen (Upstream)</th>
+      <th>Tipo de Relación</th>
+      <th>¿OHS?</th>
+      <th>Comentario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Conciertos</td>
+      <td>IAM</td>
+      <td>Customer/Supplier</td>
+      <td>Sí</td>
+      <td>Consume información de usuarios y roles para permitir creación de conciertos.</td>
+    </tr>
+    <tr>
+      <td>Comunidades</td>
+      <td>IAM</td>
+      <td>Customer/Supplier</td>
+      <td>Sí</td>
+      <td>Requiere información de perfil para creación y administración de comunidades.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>IAM</td>
+      <td>Customer/Supplier</td>
+      <td>Sí</td>
+      <td>Utiliza datos del usuario (nombre, token, ubicación) para enviar notificaciones.</td>
+    </tr>
+    <tr>
+      <td>Eventos relacionados</td>
+      <td>Conciertos</td>
+      <td>Customer/Supplier</td>
+      <td>No</td>
+      <td>Necesita datos del concierto seleccionado para asociar eventos.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Conciertos</td>
+      <td>Partnership</td>
+      <td>No</td>
+      <td>Recibe eventos de creación/modificación de conciertos para notificar usuarios.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Eventos relacionados</td>
+      <td>Partnership</td>
+      <td>No</td>
+      <td>Recibe eventos de nuevos eventos relacionados para notificar usuarios.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Comunidades</td>
+      <td>Partnership</td>
+      <td>No</td>
+      <td>Notifica likes, comentarios y nuevos seguidores en comunidades.</td>
+    </tr>
+  </tbody>
+</table>
+
