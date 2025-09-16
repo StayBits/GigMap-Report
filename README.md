@@ -1096,6 +1096,1673 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 **User Stories:**
 
 
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Filtrar eventos por género musical</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero filtrar eventos por género para ver solo los que me interesan.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Uso del filtro de género</strong><br>
+        Dado que el usuario abre los filtros<br>
+        Cuando selecciona un género<br>
+        Entonces solo se muestran eventos relacionados.<br><br>
+        <strong>Escenario: Interacción fluida con el filtrado</strong><br>
+        Dado que hay múltiples géneros disponibles<br>
+        Cuando se elige uno<br>
+        Entonces la vista se actualiza dinámicamente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US02</td>
+      <td>Artista</td>
+      <td></td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Publicar nuevo concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como artista, quiero crear un evento para promocionar mi presentación.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso al formulario de creación de evento</strong><br>
+        Dado que el artista inicia sesión<br>
+        Cuando accede a "Crear evento"<br>
+        Entonces puede ingresar datos y publicarlo en el mapa.<br><br>
+        <strong>Escenario: Publicación inmediata y visible</strong><br>
+        Dado que los datos son válidos<br>
+        Cuando se confirma la creación<br>
+        Entonces el evento aparece visible en la plataforma.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US03</td>
+      <td>Artista</td>
+      <td></td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Medir asistencia estimada</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como artista, quiero ver cuántas personas marcaron asistencia para medir el interés.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización de estadísticas de evento</strong><br>
+        Dado que el evento está publicado<br>
+        Cuando abre las estadísticas<br>
+        Entonces visualiza el número de asistentes confirmados.<br><br>
+        <strong>Escenario: Reacción ante datos en tiempo real</strong><br>
+        Dado que los usuarios marcan "Asistiré"<br>
+        Cuando se actualizan los datos<br>
+        Entonces el artista ve reflejado el interés real.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US04</td>
+      <td>Artista</td>
+      <td></td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Personalizar perfil de artista</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Edición del perfil</strong><br>
+        Dado que el artista abre su perfil<br>
+        Cuando edita sus datos<br>
+        Entonces puede foto y mis datos como nombre.<br><br>
+        <strong>Escenario: Atractivo visual para fans</strong><br>
+        Dado que el perfil ha sido personalizado<br>
+        Cuando un fan lo visita<br>
+        Entonces puede conocer mejor al artista.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US05</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Crear comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso a la opción de crear comunidad</strong><br>
+		Dado que el usuario ha iniciado sesión<br>
+		Cuando accede a la sección de comunidades<br>
+		Entonces puede ver y seleccionar la opción para crear una nueva comunidad.<br><br>
+        <strong>Escenario: Creación de comunidad correcta</strong><br>
+		Dado que el usuario ha accedido al formulario de creación<br>
+		Cuando completa los campos requeridos y confirma la acción<br>
+		Entonces se crea la comunidad y queda visible para otros usuarios.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US06</td>
+      <td>Artista</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Verificar comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como artista, quiero que al crear mi comunidad esta se verifique automáticamente para que mis seguidores tengan la certeza de que es una comunidad oficial.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Creación de comunidad oficial</strong><br>
+		Dado que el artista inicia sesión en su cuenta verificada<br>
+		Cuando crea una nueva comunidad en GigMap<br>
+		Entonces la comunidad se genera automáticamente con el distintivo de tener el icono de verificado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US07</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver mapa con geolocalización</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización del mapa con eventos</strong><br>
+        Dado que el usuario está logueado y ha permitido el acceso a su ubicación<br>
+        Cuando entra a la sección de mapa<br>
+        Entonces visualiza su ubicación y los conciertos cercanos.<br><br>
+        <strong>Escenario: Información de eventos en el mapa</strong><br>
+        Dado que el usuario interactúa con un marcador de evento<br>
+        Cuando hace clic en un ícono del mapa<br>
+        Entonces puede ver detalles del evento como nombre, hora y lugar.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US08</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Buscar conciertos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Búsqueda por palabra clave</strong><br>
+        Dado que el usuario accede al buscador de conciertos<br>
+        Cuando escribe un nombre o artista<br>
+        Entonces se muestran los conciertos coincidentes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US09</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Buscar comunidades</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero buscar comunidades por nombre o temática para unirme a las que me interesen.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Búsqueda de comunidades</strong><br>
+        Dado que el usuario accede al buscador de comunidades<br>
+        Cuando ingresa una palabra clave<br>
+        Entonces ve las comunidades coincidentes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US10</td>
+      <td>Usuario registrado</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Iniciar sesión en la app mobile</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Ingreso exitoso desde app mobile</strong><br>
+        Dado que el usuario tiene una cuenta<br>
+        Cuando accede al formulario de login y envía sus credenciales<br>
+        Entonces accede correctamente a su perfil.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US11</td>
+      <td>Artista</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registrarse como artista</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro como artista</strong><br>
+        Dado que el visitante accede al formulario de registro<br>
+        Cuando selecciona la opción 'Artista' y completa sus datos<br>
+        Entonces su cuenta es creada con perfil de artista.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US12</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registrarse como fan</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro como fan</strong><br>
+        Dado que el visitante accede al formulario de registro<br>
+        Cuando selecciona la opción 'Fan' y completa sus datos<br>
+        Entonces su cuenta es creada con perfil de fan.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US13</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Zoom a concierto en el mapa</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Zoom en mapa a concierto seleccionado</strong><br>
+        Dado que el usuario está en el mapa<br>
+        Cuando hace touch en un concierto<br>
+        Entonces el mapa se centra y hace zoom sobre su ubicación.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US14</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver estado del concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero saber si un concierto está disponible o agotado para decidir si puedo asistir.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización de estado del concierto</strong><br>
+        Dado que el usuario revisa la lista de conciertos<br>
+        Cuando observa el estado de disponibilidad<br>
+        Entonces puede ver si el evento está 'Disponible' o 'Agotado'.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US15</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver información detallada del concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero ver la información completa de un concierto para decidir si asistir.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso a detalles del concierto</strong><br>
+        Dado que el usuario selecciona un concierto<br>
+        Cuando accede a su ficha de detalle<br>
+        Entonces visualiza el artista, ubicación, fecha, hora, imagen, y descripción.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US16</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Unirse a una comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Unirse a comunidad</strong><br>
+        Dado que el fan accede a una comunidad disponible<br>
+        Cuando presiona el botón 'Unirse'<br>
+        Entonces queda registrado como miembro.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US17</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Publicar en la comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero crear publicaciones en la comunidad a la que me he unido, para compartir opiniones, fotos o recomendaciones con otros miembros.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Crear publicación exitosa</strong><br>
+        Dado que el usuario está unido a una comunidad,<br>
+        Cuando accede a la comunidad y le da al botón agregar una nueva publicación y escribe un mensaje,<br>
+        Entonces la publicación se guarda y se muestra en el feed de la comunidad.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US18</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Editar perfil personal</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero poder editar mi información de perfil (foto, nombre y nombre de usuario), para que los demás usuarios puedan reconocerme fácilmente y mantener mi perfil actualizado.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Actualizar información del perfil</strong><br>
+        Dado que el usuario accede a la sección "Mi Perfil",<br>
+        Cuando le da al botón editar perfil,<br>
+        Entonces puede editar su nombre, nombre de usuario y cambiar su foto de perfil.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US19</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Confirmar o marcar asistencia a un concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Confirmar asistencia a un evento</strong><br>
+        Dado que el usuario visualiza los detalles de un evento,<br>
+        Cuando presiona el botón "Confirmar asistencia",<br>
+        Entonces el evento se agrega a su lista de “Por asistir” y el botón cambia a "Cancelar asistencia".<br><br>
+        <strong>Escenario: Cancelar asistencia</strong><br>
+        Dado que el evento ya está marcado como “Por asistir”,<br>
+        Cuando presiona el botón "Cancelar asistencia",<br>
+        Entonces el evento se elimina de su lista de eventos futuros y vuelve a estar disponible para confirmar.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US20</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver comunidades accedidas</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero visualizar en el apartado "Tus grupos" las comunidades a las que me he unido.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización de comunidades unidas</strong><br>
+        Dado que el usuario ha ingresado a comunidades<br>
+        Cuando accede a la sección "Tus grupos"<br>
+        Entonces puede ver la lista de comunidades a las que pertenece.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US21</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Reaccionar a publicaciones en comunidades</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Reacción a publicación</strong><br>
+        Dado que el usuario navega por una comunidad<br>
+        Cuando encuentra una publicación<br>
+        Entonces puede reaccionar con un emoji o símbolo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US22</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Calificar concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero calificar un concierto de 1 a 5 estrellas para compartir mi experiencia.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Valoración del concierto</strong><br>
+        Dado que el usuario asistió a un concierto<br>
+        Cuando accede a su detalle<br>
+        Entonces puede seleccionar una puntuación del 1 al 5.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US23</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver usuarios que asistirán a concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero ver qué otros usuarios asistirán al mismo concierto que yo.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualizar asistentes</strong><br>
+        Dado que el usuario confirmó su asistencia<br>
+        Cuando entra al evento<br>
+        Entonces puede ver una lista de otros usuarios que también asistirán.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US24</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Acceder a perfil de otros usuarios</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Navegar al perfil de otro usuario</strong><br>
+        Dado que el usuario ve un nombre o avatar<br>
+        Cuando hace clic sobre él<br>
+        Entonces se redirige al perfil público de ese usuario.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US25</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver publicaciones con like</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Historial de publicaciones favoritas</strong><br>
+        Dado que el usuario ha interactuado en comunidades<br>
+        Cuando accede a su sección de favoritos<br>
+        Entonces puede visualizar todas las publicaciones que le han gustado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US26</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver plataformas de venta del concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero ver en qué plataformas puedo comprar entradas para un concierto.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización de enlaces de venta</strong><br>
+        Dado que el usuario revisa un concierto<br>
+        Cuando accede a su ficha de detalles<br>
+        Entonces visualiza las plataformas donde están disponibles las entradas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US27</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Permitir acceso a ubicación</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero que GigMap acceda a mi ubicación para recibir información personalizada.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Permiso de ubicación</strong><br>
+        Dado que el usuario entra a la app por primera vez<br>
+        Cuando se le solicita permiso de ubicación<br>
+        Entonces puede aceptar o denegar el acceso.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US28</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Mostrar conciertos cercanos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero que GigMap me muestre conciertos cercanos a mi ubicación actual.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Conciertos basados en geolocalización</strong><br>
+        Dado que el usuario ha otorgado permisos de ubicación<br>
+        Cuando accede al mapa<br>
+        Entonces se muestran conciertos próximos geográficamente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US29</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver miembros de comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero ver la lista de miembros que pertenecen a una comunidad.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Listado de miembros</strong><br>
+        Dado que el usuario ha ingresado a una comunidad<br>
+        Cuando accede a la sección de miembros<br>
+        Entonces puede visualizar los usuarios que la integran.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US30</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Subir imágenes en comunidades</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Publicación con imagen</strong><br>
+        Dado que el usuario quiere compartir contenido<br>
+        Cuando crea una publicación<br>
+        Entonces puede adjuntar una o más imágenes que se muestren en el feed.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US31</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Seguir usuarios</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero poder seguir a otros usuarios para poder ver sus actualizaciones, publicaciones o actividades y mantenerme al tanto de su contenido.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Seguir a un usuario exitosamente</strong><br>
+        Dado que estoy autenticado en la aplicación<br>
+        Y estoy en el perfil de otro usuario<br>
+        Cuando hago touch en el botón "Seguir"<br>
+        Entonces el sistema muestra que ahora sigo a ese usuario<br>
+        Y el botón cambia a "Siguiendo".
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US32</td>
+      <td>Usuario de GigMap</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver eventos asociados</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Ver eventos relacionados exitosamente</strong><br>
+        Dado que estoy autenticado<br>
+        Y estoy en el perfil de un concierto<br>
+        Cuando desplazo la vista hasta el apartado “Eventos relacionados”<br>
+        Entonces veo una lista de eventos con título, fecha/hora y distancia<br>
+        Y puedo abrir el detalle de cualquier evento desde su tarjeta.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US33</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Confirmar o marcar asistencia a eventos asociados</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero poder marcar mi asistencia a un evento asociado, para que pueda llevar un seguimiento de los eventos asociados que planeo asistir.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Confirmar asistencia</strong><br>
+        Dado que el usuario visualiza los detalles de un evento asociado,<br>
+        Cuando presiona el botón "Confirmar asistencia",<br>
+        Entonces el evento asociado se agrega a su lista de “Por asistir” y el botón cambia a "Cancelar asistencia".<br><br>
+        <strong>Escenario: Cancelar asistencia</strong><br>
+        Dado que el evento asociado ya está marcado como “Confirmar asistencia”,<br>
+        Cuando presiona el botón "Cancelar asistencia",<br>
+        Entonces el evento asociado se elimina de su lista de eventos futuros y vuelve a estar disponible para confirmar.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US34</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Visualizar el contenido de las comunidades pertenecientes</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo en la pantalla de “Mis comunidades”.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualizar el contenido de las comunidades exitosamente</strong><br>
+        Dado que un usuario sigue una o más comunidades<br>
+        Cuando accede a la pantalla "Mis comunidades"<br>
+        Entonces el sistema muestra las publicaciones y anuncios más recientes de esas comunidades.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US35</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Recibir recordatorio de concierto por asistir</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero recibir la notificación de recordatorio del concierto al que confirme mi asistencia cuando la fecha de presentación esté cercana.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Recordatorio antes del evento</strong><br>
+        Dado que el usuario confirmó asistencia a un concierto en GigMap<br>
+        Cuando falten 24 horas para la fecha del evento<br>
+        Entonces recibe una notificación con el nombre, lugar y hora del concierto.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US36</td>
+      <td>Usuario registrado</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Recibir notificaciones de conciertos cercanos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario registrado, quiero recibir notificaciones sobre conciertos cerca de mi ubicación para no perderme eventos de mi interés.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Notificación de un concierto cercano disponible</strong><br>
+        Dado que el usuario tiene activadas las notificaciones<br>
+        Cuando se registre un nuevo concierto en un radio de 5 km de su ubicación<br>
+        Entonces recibe una notificación en su dispositivo con el nombre, fecha y lugar del evento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US37</td>
+      <td>Usuario</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Recibir notificaciones por interacciones sociales</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero recibir notificaciones cuando alguien interactúe con mis publicaciones (comentarios, likes, etc.) para mantenerme al tanto de la actividad en mi perfil.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Notificación por comentario recibido</strong><br>
+        Dado que el usuario ha publicado un contenido en una comunidad<br>
+        Cuando otro usuario comente en su publicación<br>
+        Entonces recibe una notificación indicando quién comentó y un acceso directo para ver el comentario.<br><br>
+        <strong>Escenario: Notificación por like recibido</strong><br>
+        Dado que el usuario ha compartido una publicación o confirmado asistencia a un evento<br>
+        Cuando otro usuario dé "like" a esa publicación<br>
+        Entonces recibe una notificación con el nombre del usuario que reaccionó.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US38</td>
+      <td>Fan</td>
+      <td></td>
+      <td>EP?</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver información detallada del evento asociado</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero ver la información completa de un concierto para decidir si asistir.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso a detalles del evento asociado</strong><br>
+        Dado que el usuario selecciona un evento asociado<br>
+        Cuando accede a su ficha de detalle<br>
+        Entonces visualiza la temática, ubicación, fecha, hora, imagen, y descripción.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US39</td>
+      <td>Visitante (Fan)</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver beneficios para fans</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como visitante del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso a sección para fans</strong><br>
+        Dado que el visitante accede a la landing page<br>
+        Cuando visualiza la sección "Para fans de la música"<br>
+        Entonces puede leer los beneficios de unirse a la app.<br><br>
+        <strong>Escenario: Decisión de registro influenciada por beneficios</strong><br>
+        Dado que el visitante revisa los beneficios presentados<br>
+        Cuando encuentra opciones que se alinean con sus intereses<br>
+        Entonces aumenta su intención de registrarse en la plataforma.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US40</td>
+      <td>Visitante (Artista)</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Ver beneficios para artista</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como visitante del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Acceso a sección para artistas</strong><br>
+        Dado que el visitante está en la landing page<br>
+        Cuando revisa la sección "Para artistas"<br>
+        Entonces puede visualizar herramientas y ventajas destacadas.<br><br>
+        <strong>Escenario: Evaluación del valor de la app</strong><br>
+        Dado que el visitante es un artista emergente<br>
+        Cuando analiza las herramientas promocionales disponibles<br>
+        Entonces comprende cómo GigMap puede ayudarle a crecer.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US41</td>
+      <td>Visitante</td>
+      <td></td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Acceder a testimonios</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como visitante, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Visualización de comentarios de usuarios</strong><br>
+        Dado que el visitante navega por la landing<br>
+        Cuando encuentra la sección de testimonios<br>
+        Entonces puede leer comentarios y valoraciones de otros usuarios.<br><br>
+        <strong>Escenario: Confianza reforzada por experiencias ajenas</strong><br>
+        Dado que el visitante tiene dudas sobre la app<br>
+        Cuando lee testimonios positivos<br>
+        Entonces se siente más confiado para unirse.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
 
 ## 2.4.2. Impact Mapping
 
