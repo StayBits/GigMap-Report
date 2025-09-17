@@ -60,7 +60,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 	- Ortiz Cardenas, Johanna Antuanete <br>
 	- Zegarra Lopez, Renato Sebastian Rubber <br> 
       </td>
-      <td> </td>
+      <td> hola </td>
     </tr>
   </tbody>
 </table>
@@ -70,7 +70,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 
 Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap-Report.git`
 
-TB1 (19/09/2025):
+**TB1 (19/09/2025):**
 
 <p align="center">
   <img src="assets/images/project-insights/dd.png" alt="pulse" width="700">
@@ -146,6 +146,15 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [2.6.X.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
       - [2.6.X.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
       - [2.6.X.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Comunidades](#26x-bounded-context-bounded-context-comunidades)
+      - [2.6.2.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.2.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.2.3. Application Layer](#26x3-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+      - [2.6.2.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
       
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -173,21 +182,21 @@ su proyecto en soluciones de ingeniería
 de software</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: <br>
+        TB1: Colaboró en el Needfinding, actualizando conceptos relacionados con el análisis de requerimientos y necesidades del usuario. Además, participó en el diseño de la arquitectura de software, aplicando principios de diseño estructurado y buenas prácticas en el desarrollo de sistemas. Su participación en el Event Storming y Tactical-Level DDD reforzó su comprensión sobre el modelado estratégico y táctico en proyectos de software  <br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: <br>
+        TB1: Se encargó del análisis de entrevistas, lo que demandó aplicar y reforzar sus conocimientos en técnicas de análisis cualitativo y síntesis de información. También participó en el diseño de la arquitectura de software, donde profundizó en principios de diseño modular y escalable. Además, colaboró en sesiones de Event Storming y Tactical-Level DDD, actualizando y aplicando conceptos de modelado de dominio. <br>
 	      <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-        TB1:  <br>
+        TB1: Diseñó las entrevistas y desarrolló el proceso de Needfinding, lo que implicó actualizarse en técnicas modernas de investigación con usuarios para obtener información relevante sobre el dominio. Asimismo, trabajó junto con Renato en la elaboración del Bounded Context Canvas, ejercicio que le permitió profundizar en el modelado estratégico con Domain-Driven Design. Además, colaboró en el Event Storming y el Tactical-Level DDD, consolidando conocimientos de ingeniería de software aplicada a escenarios reales.<br>
 	      	      <br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1:  <br>
+        TB1: Se encargó de la introducción del trabajo y de la identificación de los segmentos objetivos, aplicando conocimientos sobre análisis de usuarios y metodologías de investigación en el dominio. Además, participó en la elaboración de la arquitectura de software, lo que le permitió actualizar sus conceptos sobre diseño estructurado y buenas prácticas en la construcción de soluciones de software. También participó en actividades colaborativas como el Event Storming y el Tactical-Level Domain-Driven Design, reforzando su entendimiento de la modelación de sistemas. <br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: <br>
+        TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br>
       </td>
       <td>
-        conclusiones
+        El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.
       </td>
     </tr>
     <tr>
@@ -198,29 +207,72 @@ de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: <br>
+        TB1: Al trabajar en el Needfinding y la arquitectura de software, reconoció la importancia de seguir aprendiendo sobre metodologías ágiles y técnicas de diseño de sistemas. Su experiencia en las actividades grupales reafirmó la necesidad de una formación continua para garantizar la calidad en los proyectos de software. <br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: <br>
+        TB1: En el análisis de entrevistas y la arquitectura de software, descubrió la necesidad de perfeccionar constantemente sus habilidades de interpretación y diseño. Participar en metodologías como Event Storming le permitió entender que el aprendizaje permanente es clave para abordar proyectos complejos y mantenerse actualizado en nuevas tendencias y técnicas de modelado <br>
         <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-	       TB1: 
+	       TB1: Lideró el diseño de entrevistas y el Needfinding, lo que le exigió aprender continuamente sobre técnicas de investigación de usuarios y metodologías centradas en el dominio. Su trabajo en el Bounded Context Canvas reforzó la necesidad de actualizarse en Domain-Driven Design. Ariana reconoció que en el ámbito profesional siempre se deben incorporar nuevas herramientas y enfoques para mejorar el desempeño en proyectos de software.
 <br><br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1: <br>
+        TB1: Al elaborar la introducción y la identificación de segmentos objetivos, demostró apertura al aprendizaje en áreas de investigación de mercado y análisis de usuarios, habilidades que no dominaba previamente. Su participación en la arquitectura de software le permitió reconocer la importancia de mantenerse en constante aprendizaje para adaptarse a nuevas metodologías de diseño y desarrollo. <br>
 	      <br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: <br>
+        TB1: Al involucrarse en el Needfinding y el Bounded Context Canvas, comprendió que el aprendizaje permanente es necesario para aplicar correctamente metodologías modernas en la ingeniería de software. Reconoció que solo a través de la formación continua es posible adaptarse a entornos cambiantes y responder a las necesidades del usuario de manera efectiva. <br>
 	      <br>
         </td>
       <td>
-        conclusiones
+        El equipo reconoció colectivamente la importancia del aprendizaje permanente en el ámbito de la ingeniería de software. A lo largo del proyecto, cada estudiante se enfrentó a nuevos retos que demandaron la adquisición de conocimientos adicionales y la aplicación de metodologías modernas. Este proceso permitió entender que el aprendizaje constante no solo es necesario para cumplir con los requerimientos de un proyecto, sino también para garantizar un crecimiento profesional sostenido y la capacidad de adaptarse a la evolución tecnológica.
       </td>
     </tr>
   </tbody>
 </table>
 
 ## Objetivos SMART
+
+<table>
+  <thead>
+    <tr>
+      <th>Estudiante</th>
+      <th>Objetivos SMART</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cabanillas Meza, Jose Mateo</td>
+      <td>
+      lolololol
+      </td>
+    </tr>
+    <tr>
+      <td>Collantes Carrillo, Diego Mateo</td>
+      <td>
+        te amo sunoo
+      </td>
+    </tr>
+    <tr>
+      <td>Lizarbe Alvarez, Ariana Nickole</td>
+      <td>
+        - En los 12 meses posteriores a mi graduación, conseguiré un trabajo remunerado en una empresa reconocida del sector tecnológico, en el que pueda aplicar mis conocimientos de SQL y bases de datos en la gestión y optimización de información, logrando completar al menos 2 proyectos de mejora en procesos de almacenamiento y consulta de datos. <br><br>
+        - En un plazo máximo de 18 meses tras graduarme, desarrollaré y documentaré al menos 3 proyectos de software enfocadas en la resolución de problemas reales, publicándolas en un repositorio profesional en GitHub y compartiéndolas en LinkedIn, con el objetivo de fortalecer mi portafolio y aumentar mis oportunidades de inserción en empresas internacionales.
+      </td>
+    </tr>
+    <tr>
+      <td>Ortiz Cardenas, Johanna Antuanete</td>
+      <td>
+        papu
+      </td>
+    </tr>
+    <tr>
+      <td>Zegarra Lopez, Renato Sebastian Rubber</td>
+      <td>
+       lolines
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 # CAPÍTULO I: Presentación
 
