@@ -3087,6 +3087,7 @@ Posteriormente, se identificaron los pivotal points, entendidos como aquellos ev
 
 - La creación de un evento relacionado.
 
+
 Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Gestion de usuarios, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
 
 
@@ -3102,7 +3103,9 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 <img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
+
 **Gestion de usuarios**
+
 
 <img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
 
@@ -3207,7 +3210,9 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 <img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
 
+
 **Gestion de usuarios**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
 
 <img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
 
