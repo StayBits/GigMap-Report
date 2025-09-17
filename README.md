@@ -1111,7 +1111,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la plataforma, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
 | EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la plataforma.|
 | EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (IAM) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
+| EP04    | Gestión de Identidad y Acceso (Gestion de usuarios) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
 | EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
 | EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
 | EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la plataforma. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
@@ -2923,15 +2923,120 @@ El siguiente Product Backlog reúne y prioriza todas las historias de usuario id
 
 # 2.5. Strategic-Level Domain-Driven Design
 
+En esta sección se describe el enfoque aplicado para guiar las decisiones estratégicas en el desarrollo de GigMap, tomando como base los principios del Domain-Driven Design (DDD). El propósito central fue identificar y definir los límites naturales del dominio, dividiendo la solución en distintos Bounded Contexts.
+
+Para esta descomposición, el equipo utilizó herramientas colaborativas como Event Storming, que facilitó la representación y análisis de los flujos de eventos, comandos y actores del dominio; y el Bounded Context Canvas, empleado para detallar los elementos clave de cada contexto, incluyendo su propósito, modelos, responsabilidades y relaciones.
+
+Este proceso permitió estructurar GigMap de manera coherente y alineada con los objetivos del negocio, asegurando además una comunicación clara y efectiva entre todos los actores involucrados en el proyecto.
+
+
 ## 2.5.1. EventStorming
 
+
+En esta sección se presenta el proceso de Event Storming realizado por el equipo, cuyo objetivo fue obtener una primera visión del modelado global del dominio en estudio. Esta metodología, enfocada en reconocer los eventos más significativos dentro del sistema, permitió recopilar el conocimiento compartido entre los participantes y generar discusiones valiosas acerca del comportamiento esperado en distintos escenarios.
+
+La sesión se planificó con una duración aproximada de una a dos horas. Para su desarrollo se utilizaron notas digitales que representaban eventos y comandos, lo que facilitó un análisis visual y progresivo del flujo de trabajo.
+
+<img src="assets/images/eventStorming/paso1.png" alt="paso1" style="width: 700px">
+
+
+
+
 ### 2.5.1.1. Candidate Context Discovery
+
+Al concluir la sesión de Event Storming, se llevó a cabo un análisis detallado de los eventos registrados, con la finalidad de detectar los posibles contextos candidatos dentro del dominio del problema. Este trabajo incluyó la identificación de relaciones y patrones entre los eventos, así como la valoración de su impacto en el sistema. Como resultado, se organizaron listados de eventos agrupados según los procesos de acción a los que pertenecían dentro de la aplicación.
+
+<img src="assets/images/eventStorming/paso2.png" alt="paso2" style="width: 700px">
+
+
+
+A continuación se muestra con detalle las líneas de acción creadas:
+
+**Creación de concierto**
+
+<img src="assets/images/eventStorming/Creacion_concierto.png" alt="paso1" style="width: 700px">
+
+**Registro de usuario**
+
+<img src="assets/images/eventStorming/Registro_usuario.png" alt="paso1" style="width: 700px">
+
+**Ingresar comunidad**
+
+<img src="assets/images/eventStorming/Ingresar_comunidad.png" alt="paso1" style="width: 700px">
+
+**Visualizacion de conciertos**
+
+<img src="assets/images/eventStorming/Ver_conciertos.png" alt="paso1" style="width: 700px">
+
+**Selección de evento relacionado**
+
+<img src="assets/images/eventStorming/Seleccion_evento_relacionado.png" alt="paso1" style="width: 700px">
+
+**Creación de comunidad**
+
+<img src="assets/images/eventStorming/Crear_comunidad.png" alt="paso1" style="width: 700px">
+
+**Envió de notificaciones**
+
+<img src="assets/images/eventStorming/Enviar_notificaciones.png" alt="paso1" style="width: 700px">
+
+Una vez definidas las líneas de acción, se procedió a identificar los pain points, es decir, las dificultades o fricciones que afectan la experiencia de los usuarios. Entre los más relevantes se encontraron:
+
+- Falta de explicación clara sobre el uso de la ubicación.
+
+- No se reconocen cuáles son los campos obligatorios en algunos formularios.
+
+- Se pierden funcionalidades si no se activa la ubicación.
+
+- No existe redirección automática hacia la plataforma externa de compra de entradas.
+
+- Dificultades en la moderación de contenidos dentro de las comunidades.
+
+- Ausencia de confirmación visual al registrar la asistencia a un evento o concierto.
+
+Posteriormente, se identificaron los pivotal points, entendidos como aquellos eventos clave capaces de alterar el flujo de la aplicación. Los detectados fueron:
+
+- El registro de un usuario.
+
+- La creación de un concierto.
+
+- La creación de una comunidad.
+
+- El inicio de sesión de un usuario.
+
+- La creación de un comentario o publicación.
+
+- La creación de un evento relacionado.
+
+Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Gestion de usuarios, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
+
+
+**Conciertos**
+
+<img src="assets/images/eventStorming/event_conciertos.png" alt="paso1" style="width: 700px">
+
+**Comunidades**
+
+<img src="assets/images/eventStorming/event_comunidades.png" alt="paso1" style="width: 700px">
+
+**Eventos relacionados**
+
+<img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
+
+**Gestion de usuarios**
+
+<img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
+
+**Notificaciones**
+
+<img src="assets/images/eventStorming/event_notificaciones.png" alt="paso1" style="width: 700px">
+
 
 ### 2.5.1.2. Domain Message Flows Modeling
 
 El siguiente modelo describe cómo fluyen los mensajes y acciones entre los distintos bounded contexts de la aplicación móvil. Cada contexto encapsula una parte del dominio, y se comunican entre sí a través de eventos y comandos de dominio. Los usuarios interactúan desde la app móvil (ya sean artistas o fans), y esas interacciones desencadenan mensajes que conectan los contextos.
 
-**IAM y Conciertos:**
+**Gestion de usuarios y Conciertos:**
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos disponibles para buscar presentaciones existentes y también visualizarlas en el mapa. Si el usuario tiene el rol de artista, puede crear nuevos conciertos que luego estarán visibles para otros usuarios en el mapa.
 
@@ -2939,7 +3044,7 @@ Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos 
 <img src="assets/images/eventStorming/event-storming1.png" alt="event-storming1" style="width: 700px">
 </p>
 
-**IAM y Comunidades:**
+**Gestion de usuarios y Comunidades:**
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de comunidades para explorar las que ya existen o crear una nueva. Puede completar la información necesaria para formar o crear su propia comunidad, la cual quedará visible para otros usuarios que también hayan iniciado sesión.
 
@@ -2985,7 +3090,7 @@ Cuando un usuario publica un comentario en una publicación, se envía una notif
 
 **Vista completa:**
 
-Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: IAM, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
+Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Gestion de usuarios, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
 
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
@@ -2993,12 +3098,51 @@ Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado
 
 ### 2.5.1.3. Bounded Context Canvases
 
+En esta sección, definimos los Bounded Contexts que estructuran el dominio principal de GitMap. El diseño de estos contextos se realiza siguiendo un enfoque iterativo que busca asegurar claridad conceptual, separación de responsabilidades y alineamiento con las necesidades del negocio. Para cada contexto se desarrolla un Bounded Context Canvas, el cual nos permite capturar su propósito, reglas de negocio, capacidades, dependencias y lenguaje ubicuo.
+
+El proceso seguido incluye los siguientes pasos clave:
+
+- **Context Overview Definition:** Se define el alcance y propósito del contexto, detallando qué problema resuelve y cómo se conecta con la visión general del sistema.
+
+- **Business Rules Distillation & Ubiquitous Language Capture:** Se identifican las reglas de negocio propias del contexto y se establece un lenguaje común (ubiquitous language) compartido por desarrolladores y expertos del dominio, evitando ambigüedades.
+
+- **Capability Analysis:** Se descomponen las funcionalidades principales del contexto en capacidades concretas que este debe proveer para cumplir con su propósito.
+
+- **Capability Layering:** Se organiza cada capacidad en capas (por ejemplo: núcleo de dominio, soporte o interfaz), identificando qué es esencial y qué es complementario.
+
+- **Dependencies Capture:** Se identifican las relaciones y dependencias con otros Bounded Contexts, señalando flujos de datos o integraciones necesarias.
+
+- **Design Critique:** Se realiza una evaluación crítica del diseño, verificando si el contexto está bien delimitado, si su lenguaje es claro y si no existen solapamientos con otros contextos.
+
+A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestros bounded context.
+
+**Conciertos**: Aquí se centraliza la gestión de los eventos musicales principales. Incluye la creación, registro, detalles, fechas, localización y datos clave de conciertos, funcionando como el eje central de descubrimiento de eventos musicales.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-conciertos.png" alt="bounded-context-canvas-conciertos" style="width: 700px">
+
+**Comunidades**: Este contexto gestiona los espacios de interacción entre los usuarios, permitiendo la creación, administración y participación en comunidades relacionadas con intereses musicales. Representa el núcleo social de la plataforma, donde se agrupan fans y artistas.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-comunidades.png" alt="bounded-context-canvas-comunidades" style="width: 700px">
+
+**Eventos relacionados**: Este contexto permite la creación y coordinación de eventos secundarios vinculados a un concierto (ejemplo: reuniones de fans antes de un show). Extiende la experiencia principal, reforzando la interacción y la vivencia en torno a un concierto.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
+
+**Gestion de usuarios**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
+
+**Notificaciones**: Este contexto cubre la comunicación proactiva hacia los usuarios, enviando recordatorios, alertas y actualizaciones relevantes sobre conciertos, comunidades o eventos relacionados.
+
+<img src="assets/images/eventStorming/bounded-context-canvas-notificaciones.png" alt="bounded-context-canvas-notificaciones" style="width: 700px">
+
+
 ## 2.5.2. Context Mapping
 
 El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
 
-En la aplicación GigMap se identificaron cinco bounded contexts principales: IAM, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
-El contexto de IAM actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de IAM directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+En la aplicación GigMap se identificaron cinco bounded contexts principales: Gestion de usuarios, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
+El contexto de Gestion de usuarios actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Gestion de usuarios directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
 
 <p align="center">
 <img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
@@ -3017,21 +3161,21 @@ El contexto de IAM actúa como un Open Host Service (OHS) al ser el proveedor ce
   <tbody>
     <tr>
       <td>Conciertos</td>
-      <td>IAM</td>
+      <td>Gestion de usuarios</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Consume información de usuarios y roles para permitir creación de conciertos.</td>
     </tr>
     <tr>
       <td>Comunidades</td>
-      <td>IAM</td>
+      <td>Gestion de usuarios</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Requiere información de perfil para creación y administración de comunidades.</td>
     </tr>
     <tr>
       <td>Notificaciones</td>
-      <td>IAM</td>
+      <td>Gestion de usuarios</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Utiliza datos del usuario (nombre, token, ubicación) para enviar notificaciones.</td>
@@ -3067,3 +3211,449 @@ El contexto de IAM actúa como un Open Host Service (OHS) al ser el proveedor ce
   </tbody>
 </table>
 
+# 2.6. Tactical-Level Domain-Driven Design
+## 2.6.1. Bounded Context: <Bounded Context Name>
+### 2.6.1.1. Domain Layer
+### 2.6.1.2. Interface Layer
+### 2.6.1.3. Application Layer
+### 2.6.1.4 Infrastructure Layer
+### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+## 2.6.2. Bounded Context: Comunidades
+### 2.6.2.1. Domain Layer
+El Domain Layer en el bounded context Comunidades modela el núcleo del negocio centrado en la creación de comunidades y la interacción social entre sus miembros y los artistas. Este contexto permite que los usuarios creen comunidades, se unan a ellas, y publiquen contenido que puede recibir likes de otros miembros, fomentando así la participación e intercambio dentro de cada comunidad.
+
+Se implementan dos Aggregates principales: Community y Post.
+	- Community: agrupa la información y el comportamiento relacionado a las comunidades, incluyendo su nombre, descripción, imagen y lista de miembros y publicaciones.
+	- Post: representa las publicaciones realizadas dentro de una comunidad, asociadas a un autor y que pueden recibir likes de otros miembros.
+ 
+Las reglas de negocio y la orquestación de acciones se manejan a través de `Command Services`, que procesan comandos como `CreateCommunityCommand`, `JoinCommunityCommand`, `CreatePostCommand` o `LikePostCommand`para cambiar el estado del dominio, y Query Services, que permiten acceder a la información existente mediante consultas como `GetAllCommunitiesQuery`, `GetCommunityByIdQuery` o `GetAllPostsByCommunityQuery`.
+
+<h3>Aggregate: CommunityAggregate</h3>
+<p><strong>Descripción:</strong> Agregado raíz que gestiona la creación de comunidades, la administración de sus miembros y la publicación de contenido, garantizando las reglas de negocio de participación e interacción entre miembros y artistas.</p>
+
+<h4>Entity: Community</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>UUID</td>
+      <td>Identificador único de la comunidad</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>String</td>
+      <td>Nombre de la comunidad</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>String</td>
+      <td>Descripción de la comunidad</td>
+    </tr>
+    <tr>
+      <td>imageUrl</td>
+      <td>String</td>
+      <td>Imagen representativa de la comunidad</td>
+    </tr>
+    <tr>
+      <td>members</td>
+      <td>Set&lt;User&gt;</td>
+      <td>Miembros actuales de la comunidad</td>
+    </tr>
+    <tr>
+      <td>posts</td>
+      <td>List&lt;Post&gt;</td>
+      <td>Publicaciones creadas dentro de la comunidad</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Aggregate: PostAggregate</h3>
+<p><strong>Descripción:</strong> Agregado raíz que gestiona las publicaciones realizadas dentro de una comunidad, permitiendo interacciones sociales como likes de otros miembros.</p>
+
+<h4>Entity: Post</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>UUID</td>
+      <td>Identificador único de la publicación</td>
+    </tr>
+    <tr>
+      <td>content</td>
+      <td>String</td>
+      <td>Contenido textual del post</td>
+    </tr>
+    <tr>
+      <td>imageUrl</td>
+      <td>String</td>
+      <td>Imagen asociada a la publicación</td>
+    </tr>
+    <tr>
+      <td>community</td>
+      <td>Community</td>
+      <td>Comunidad a la que pertenece el post</td>
+    </tr>
+    <tr>
+      <td>user</td>
+      <td>User</td>
+      <td>Usuario o artista que creó la publicación</td>
+    </tr>
+    <tr>
+      <td>likedBy</td>
+      <td>List&lt;User&gt;</td>
+      <td>Usuarios que han dado like a la publicación</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Domain Services</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Responsabilidad</th>
+      <th>Reglas Aplicadas y Métodos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CommunityCommandService</td>
+      <td>Gestionar la creación de comunidades y la unión o salida de miembros.</td>
+      <td>
+        - Solo usuarios registrados pueden crear o unirse.<br>
+        - Un usuario no puede unirse dos veces.
+      </td>
+    </tr>
+    <tr>
+      <td>PostCommandService</td>
+      <td>Gestionar la creación de publicaciones y la interacción con likes.</td>
+      <td>
+        - Solo miembros pueden publicar o dar like.<br>
+        - No se permiten likes duplicados.
+      </td>
+    </tr>
+    <tr>
+      <td>CommunityQueryService</td>
+      <td>Obtener comunidades existentes o una comunidad específica.</td>
+      <td>- Consultas de solo lectura sin modificar estado del dominio.</td>
+    </tr>
+    <tr>
+      <td>PostQueryService</td>
+      <td>Obtener publicaciones por comunidad o por ID.</td>
+      <td>- Consultas de solo lectura sin modificar estado del dominio.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.6.2.2. Interface Layer
+
+La Interface Layer del bounded context Comunidades actúa como el punto de entrada entre los usuarios de la aplicación y la lógica de dominio.
+Su función es recibir solicitudes HTTP, validar los datos básicos y transformarlos en comandos que la capa de dominio pueda procesar, delegando toda la lógica de negocio a los servicios de aplicación (Command y Query Services).
+
+También es responsable de retornar las respuestas en formato estandarizado (JSON) y gestionar códigos de estado HTTP adecuados (201, 200, 404, 400, etc.), protegiendo el dominio de los detalles técnicos del transporte (protocolo HTTP, formato de entrada, etc.).
+<h2>Controllers</h3>
+<h3>CommunitiesController</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createCommunity</td>
+      <td>POST</td>
+      <td>/api/v1/communities</td>
+      <td>Crea una nueva comunidad a partir de los datos enviados por el usuario.</td>
+    </tr>
+    <tr>
+      <td>getAllCommunities</td>
+      <td>GET</td>
+      <td>/api/v1/communities</td>
+      <td>Obtiene todas las comunidades registradas en el sistema.</td>
+    </tr>
+    <tr>
+      <td>getCommunityById</td>
+      <td>GET</td>
+      <td>/api/v1/communities/{communityId}</td>
+      <td>Obtiene los detalles de una comunidad específica por su ID.</td>
+    </tr>
+    <tr>
+      <td>joinCommunity</td>
+      <td>POST</td>
+      <td>/api/v1/communities/{communityId}/join?userId=</td>
+      <td>Permite que un usuario se una a una comunidad existente.</td>
+    </tr>
+    <tr>
+      <td>leaveCommunity</td>
+      <td>DELETE</td>
+      <td>/api/v1/communities/{communityId}/leave?userId=</td>
+      <td>Permite que un usuario abandone una comunidad existente.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>PostsController</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createPost</td>
+      <td>POST</td>
+      <td>/api/v1/posts</td>
+      <td>Crea una nueva publicación dentro de una comunidad.</td>
+    </tr>
+    <tr>
+      <td>getAllPosts</td>
+      <td>GET</td>
+      <td>/api/v1/posts?communityId=</td>
+      <td>Obtiene todas las publicaciones, opcionalmente filtradas por comunidad.</td>
+    </tr>
+    <tr>
+      <td>getPostById</td>
+      <td>GET</td>
+      <td>/api/v1/posts/{postId}</td>
+      <td>Obtiene los detalles de una publicación específica por su ID.</td>
+    </tr>
+    <tr>
+      <td>likePost</td>
+      <td>POST</td>
+      <td>/api/v1/posts/{postId}/like?userId=</td>
+      <td>Permite a un usuario dar like a una publicación.</td>
+    </tr>
+    <tr>
+      <td>unlikePost</td>
+      <td>DELETE</td>
+      <td>/api/v1/posts/{postId}/like?userId=</td>
+      <td>Permite a un usuario quitar su like de una publicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.6.2.3. Application Layer
+
+La Application Layer del bounded context Comunidades gestiona los flujos de negocio relacionados con la creación de comunidades, la membresía de usuarios y la publicación e interacción con contenido.
+Esta capa orquesta los procesos de negocio a través de Command Handlers, que transforman los comandos recibidos desde la capa de interfaz en acciones del dominio, garantizando que las reglas de negocio se apliquen correctamente.
+Esta capa es crucial porque centraliza la lógica de negocio de aplicación y separa las responsabilidades de orquestación de la interacción con el dominio, permitiendo mantener el código escalable y facilitar futuras extensiones (como el manejo de eventos o integración con otros bounded contexts).
+
+<h3>Community Command Handler</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Crear comunidad</td>
+      <td>CommunityCommandServiceImpl.handle(CreateCommunityCommand)</td>
+      <td>Maneja la creación de nuevas comunidades, validando que el nombre no esté duplicado y guardando la entidad.</td>
+    </tr>
+    <tr>
+      <td>Unirse a comunidad</td>
+      <td>CommunityCommandServiceImpl.handle(JoinCommunityCommand)</td>
+      <td>Maneja la unión de un usuario a una comunidad existente, validando su existencia y actualizando ambas entidades.</td>
+    </tr>
+    <tr>
+      <td>Salir de comunidad</td>
+      <td>CommunityCommandServiceImpl.handle(LeaveCommunityCommand)</td>
+      <td>Maneja la salida de un usuario de una comunidad, actualizando listas de miembros y persistiendo los cambios.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Post Command Handler</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Crear publicación</td>
+      <td>PostCommandServiceImpl.handle(CreatePostCommand)</td>
+      <td>Maneja la creación de un post dentro de una comunidad, validando comunidad y usuario antes de guardarlo.</td>
+    </tr>
+    <tr>
+      <td>Dar like a publicación</td>
+      <td>PostCommandServiceImpl.handle(LikePostCommand)</td>
+      <td>Maneja la adición de un like de un usuario a un post existente.</td>
+    </tr>
+    <tr>
+      <td>Quitar like de publicación</td>
+      <td>PostCommandServiceImpl.handle(UndoLikePostCommand)</td>
+      <td>Maneja la eliminación de un like previamente otorgado por un usuario a un post.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Community Event Handler</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunidad creada</td>
+      <td>CommunityCreatedEventHandler</td>
+      <td>Maneja el evento de creación de una nueva comunidad, enviando notificaciones a los usuarios interesados.</td>
+    </tr>
+    <tr>
+      <td>Usuario se une a comunidad</td>
+      <td>UserJoinedCommunityEventHandler</td>
+      <td>Maneja el evento de unión de un usuario a una comunidad, notificando a los demás miembros.</td>
+    </tr>
+    <tr>
+      <td>Usuario sale de comunidad</td>
+      <td>UserLeftCommunityEventHandler</td>
+      <td>Maneja el evento de salida de un usuario, actualizando el listado de miembros y enviando alertas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Post Event Handler</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Post creado</td>
+      <td>PostCreatedEventHandler</td>
+      <td>Maneja el evento de creación de un nuevo post, notificando a los miembros de la comunidad.</td>
+    </tr>
+    <tr>
+      <td>Like agregado a post</td>
+      <td>PostLikedEventHandler</td>
+      <td>Maneja el evento de que un usuario dio like a un post, notificando al autor de la publicación.</td>
+    </tr>
+    <tr>
+      <td>Like removido de post</td>
+      <td>PostUnlikedEventHandler</td>
+      <td>Maneja el evento de eliminación de un like, actualizando métricas de interacción.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.6.2.4 Infrastructure Layer
+
+La Infrastructure Layer del bounded context Comunidadesse encarga de implementar las dependencias externas necesarias para el funcionamiento del sistema, especialmente el acceso a la base de datos relacional mediante Spring Data JPA</strong>.  
+Aquí se desarrollan las clases concretas que cumplen con los contratos definidos en el Domain Layer, permitiendo que los Command Handlers y Query Handlers interactúen con el almacenamiento persistente.
+Esta capa permite mantener una arquitectura desacoplada, separando la lógica de dominio de los detalles técnicos de persistencia. Gracias a ello se facilita el mantenimiento, la escalabilidad y la posibilidad de reemplazar tecnologías sin afectar el núcleo del negocio.
+
+
+<h3>Repositories</h3>
+
+<h4>CommunityRepository</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda una nueva comunidad o actualiza una existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca una comunidad por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findAll</td>
+      <td>Recupera todas las comunidades almacenadas.</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina una comunidad de la base de datos utilizando su ID.</td>
+    </tr>
+    <tr>
+      <td>existsByName</td>
+      <td>Verifica si ya existe una comunidad registrada con el nombre especificado.</td>
+    </tr>
+    <tr>
+      <td>findMembersByCommunityId</td>
+      <td>Recupera todos los miembros asociados a una comunidad específica.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>PostRepository</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda una nueva publicación o actualiza una existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca una publicación por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findAll</td>
+      <td>Recupera todas las publicaciones almacenadas.</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina una publicación de la base de datos utilizando su ID.</td>
+    </tr>
+    <tr>
+      <td>findAllByCommunity</td>
+      <td>Recupera todas las publicaciones asociadas a una comunidad específica.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.2.6.2. Bounded Context Database Design Diagram
