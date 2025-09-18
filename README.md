@@ -3622,6 +3622,59 @@ Clases principales:
 </table>
 
 ### 2.6.1.4 Infrastructure Layer
+
+En esta capa se implementa el acceso a los servicios externos que necesita el sistema para funcionar. Su principal responsabilidad es garantizar la persistencia de los datos y la comunicación con recursos externos como bases de datos, sistemas de mensajería o servicios de terceros, siempre respetando los contratos definidos en el Domain Layer.
+
+Dentro del bounded context de Conciertos, la clase principal es:
+
+- ConcertRepositoryImpl: implementación concreta de la interfaz ConcertRepository. Esta clase se encarga de administrar el ciclo de vida de los conciertos en la base de datos, proporcionando operaciones como guardar, actualizar, buscar o eliminar conciertos. Asimismo, incluye validaciones para asegurar la consistencia de los datos, como evitar conciertos duplicados en la misma fecha y lugar, o verificar la existencia de un artista antes de asociarlo a un evento.
+
+
+<h3>Repositories</h3>
+<h4>ConcertRepository</h4>
+<table>
+  <tr>
+    <th>Método</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>save(Concert concert)</td>
+    <td>Persiste un nuevo concierto en la base de datos o actualiza uno existente.</td>
+  </tr>
+  <tr>
+    <td>findById(Long id)</td>
+    <td>Busca y retorna un concierto según su identificador único.</td>
+  </tr>
+  <tr>
+    <td>findByArtist(String artistName)</td>
+    <td>Retorna todos los conciertos asociados a un artista específico.</td>
+  </tr>
+  <tr>
+    <td>findByGenre(String genre)</td>
+    <td>Obtiene la lista de conciertos filtrados por género musical.</td>
+  </tr>
+  <tr>
+    <td>deleteById(Long id)</td>
+    <td>Elimina un concierto específico según su identificador.</td>
+  </tr>
+  <tr>
+    <td>existsByName(String name)</td>
+    <td>Verifica si existe un concierto con un nombre determinado.</td>
+  </tr>
+  <tr>
+    <td>existsByDateAndLocation(Date date, String location)</td>
+    <td>Comprueba si ya existe un concierto en la misma fecha y lugar (evita duplicados).</td>
+  </tr>
+  <tr>
+    <td>findUpcomingConcerts()</td>
+    <td>Lista todos los conciertos futuros ordenados por fecha.</td>
+  </tr>
+  <tr>
+    <td>findPastConcerts()</td>
+    <td>Lista todos los conciertos pasados para historial o analítica.</td>
+  </tr>
+</table>
+
 ### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
