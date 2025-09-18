@@ -4428,6 +4428,12 @@ Las relaciones entre las clases incluyen la asociación entre **RelatedEvent** y
 
 #### 2.6.3.6.2. Bounded Context Database Design Diagram
 
+El modelo entidad–relación del bounded context de Eventos Relacionados se compone de tres entidades: related_events, users y la tabla asociativa event_attendees. La entidad related_events concentra la información esencial de cada evento comunitario—id (PK), music_genres, status, date y description—y representa el núcleo del submodelo al catalogar las actividades (previas, afters, meetups) que orbitan a un concierto. La entidad users registra a los participantes del sistema mediante id (PK), email, full_name, password y rol, sirviendo como fuente de identidad para creadores y asistentes.
+
+Por su parte, event_attendees materializa la relación muchos a muchos entre users y related_events, almacenando las claves foráneas user_id y event_id. Esta tabla funciona como registro de asistencia, asegurando integridad referencial y evitando duplicidades mediante la combinación única de ambas claves. En conjunto, el submodelo permite gestionar la creación de eventos, su descubrimiento y la inscripción de usuarios, garantizando trazabilidad básica del vínculo usuario–evento dentro del sistema.
+
+<img src="assets/images/ERD/ERD-RelatedEvents.png" alt="ERD-RelatedEvents" style="width: 700px">
+
 ## 2.6.4. Bounded Context: Notificaciones
 ### 2.6.4.1. Domain Layer
 ### 2.6.4.2. Interface Layer
