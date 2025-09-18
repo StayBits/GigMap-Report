@@ -3402,10 +3402,34 @@ Las reglas de negocio y la orquestación de acciones se manejan a través de `Co
       <td>User</td>
       <td>Usuario o artista que creó la publicación</td>
     </tr>
+  </tbody>
+</table>
+
+<h3>ValueObject: Like</h3>
+<p><strong>Descripción:</strong> Objeto de valor que representa la acción de un usuario al dar like a una publicación. </p>
+<table>
+  <thead>
     <tr>
-      <td>likedBy</td>
-      <td>List&lt;User&gt;</td>
-      <td>Usuarios que han dado like a la publicación</td>
+      <th>Atributo</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+	   <tr>
+      <td>userId</td>
+      <td>UUID</td>
+      <td>Identificador único del usuario</td>
+    </tr>
+    <tr>
+      <td>postId</td>
+      <td>UUID</td>
+      <td>Identificador único de la publicación</td>
+    </tr>
+	<tr>
+      <td>createdAt</td>
+      <td>Instant</td>
+      <td>Fecha y hora en que el usuario realizó el like</td>
     </tr>
   </tbody>
 </table>
