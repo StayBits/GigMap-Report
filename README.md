@@ -4418,6 +4418,10 @@ Por su parte, event_attendees materializa la relación muchos a muchos entre use
 
 ## 2.6.4. Bounded Context: Notificaciones
 ### 2.6.4.1. Domain Layer
+
+En el Domain Layer del bounded context de Notificaciones, el agregador principal es Notification. Estos representan los elementos clave para gestionar la entrega de mensajes dentro de la aplicación e informan a los usuarios sobre eventos musicales cercanos, interacciones dentro de comunidades o actualizaciones relevantes de artistas seguidos.
+Las notificaciones (Notification) encapsulan toda la información necesaria para ser entregadas de forma efectiva como el tipo de evento (nuevo concierto, comentario), su estado de lectura y el contenido personalizado. La lógica de negocio relacionada con la creación y envío de notificaciones se concentra en los servicios de dominio NotificationCommandService y NotificationQueryService.
+
 ### 2.6.4.2. Interface Layer
 ### 2.6.4.3. Application Layer
 ### 2.6.4.4 Infrastructure Layer
