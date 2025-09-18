@@ -3696,15 +3696,11 @@ El siguiente diagrama de clases representa el bounded context Conciertos y muest
 
 El agregado Concert tiene atributos como id: UUID, name: String, capacity: Integer, dateHour: LocalDateTime, venue: Venue, status: ConcertStatus, artist: Artist, createdAt: LocalDateTime y updatedAt: LocalDateTime. Representa un evento musical programado en el sistema. Sus métodos incluyen scheduleConcert(), updateConcert(), publishConcert(), cancelConcert() y isDuplicateByDateAndVenue(), los cuales permiten gestionar el ciclo de vida de un concierto, desde su creación hasta su finalización o cancelación.
 
-El agregado Artist representa a un artista o agrupación participante en el concierto. Sus atributos son id: UUID, name: String, description: String y genre: Genre. Este agregado permite modelar la información de los artistas asociados y su relación con uno o varios conciertos.
-
 El value object Venue encapsula los datos de ubicación y capacidad de un evento. Posee atributos como latitude: double, longitude: double, address: String y capacity: Integer, que describen dónde se llevará a cabo el concierto y cuántos asistentes permite.
 
-La enumeración ConcertStatus modela el estado de un concierto (BORRADOR, PROGRAMADO, PUBLICADO, EN_CURSO, FINALIZADO, CANCELADO) y la enumeración Genre clasifica los géneros musicales (ROCK, POP, ELECTRÓNICA, URBANO, JAZZ, INDIE, CLÁSICO, METAL, FOLK, OTROS).
+La value object enum ConcertStatus modela el estado de un concierto (BORRADOR, PROGRAMADO, PUBLICADO, EN_CURSO, FINALIZADO, CANCELADO) y la enumeración Genre clasifica los géneros musicales (ROCK, POP, ELECTRÓNICA, URBANO, JAZZ, INDIE, CLÁSICO, METAL, FOLK, OTROS).
 
-La interfaz ConcertRepository define operaciones de acceso a datos para conciertos, como save(), findById(), findByArtist(), findByGenre(), findByDate(), existsByName(), existsByDateAndVenue(), findUpcomingConcerts() y findPastConcerts(). La interfaz ArtistRepository se encarga de la gestión de artistas, con métodos como save(), findById(), findByGenre() y findAll().
-
-Las relaciones entre las clases incluyen la asociación entre Concert y Artist (un concierto puede incluir múltiples artistas), así como la composición entre Concert y Venue (el venue no existe por sí solo fuera del concierto).
+La interfaz ConcertRepository define operaciones de acceso a datos para conciertos, como findById(), findByArtist(), findByGenre(), findByDate(), existsByName(), existsByDateAndVenue(), findUpcomingConcerts() y findPastConcerts(). La interfaz ArtistRepository se encarga de la gestión de artistas, con métodos como save(), findById(), findByGenre() y findAll().
 
 <img src="assets/images/C4/C4-Clase-Concerts.png" alt="Clases-concerts-C4" style="width: 700px">
 
