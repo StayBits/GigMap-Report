@@ -3187,7 +3187,9 @@ El contexto de Gestion de usuarios actúa como un Open Host Service (OHS) al ser
     </tr>
   </tbody>
 </table>
+
 ## 2.5.3. Software Architecture
+
 ### 2.5.3.1. Software Architecture Context Level Diagrams
 
 El diagrama de contexto de GigMap muestra cómo la aplicación se relaciona con sus principales actores: Fans y Artistas. Los fans descubren conciertos cercanos, reciben alertas y comparten asistencia, mientras que los artistas publican y editan shows para interactuar con su audiencia. GigMap actúa como sistema central que conecta a ambos, facilitando la gestión y difusión de eventos musicales.
