@@ -261,7 +261,8 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Ortiz Cardenas, Johanna Antuanete</td>
       <td>
-        papu
+        - En los 6 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
+		- En un plazo máximo de 12 meses tras graduarme, obtendré una certificación reconocida en ciberseguridad (como CompTIA Security+ o Ethical Hacking) y reforzaré mi CV con estas credenciales, con el objetivo de consolidar mi perfil como especialista en 					seguridad informática y ampliar mis oportunidades de inserción en empresas del sector tecnológico.
       </td>
     </tr>
     <tr>
