@@ -3390,6 +3390,69 @@ Las reglas de negocio y la orquestación de acciones en el contexto de Concierto
 </table>
 
 ### 2.6.1.2. Interface Layer
+
+La Interface/Presentation Layer constituye la puerta de entrada al sistema, permitiendo la interacción de clientes externos como aplicaciones móviles, aplicaciones web y consumidores de servicios externos con el dominio de Conciertos dentro de GigMap.
+En esta capa se exponen los endpoints REST, implementados a través de controladores, que encapsulan las operaciones de consulta y modificación del agregado Concierto y sus entidades asociadas.
+
+<h2>Controllers</h3>
+<h3>ConcertsController</h3>
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Método</th>
+    <th>Ruta</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>createConcert</td>
+    <td>POST</td>
+    <td>/api/v1/concerts</td>
+    <td>Crea un nuevo concierto a partir de los datos recibidos (nombre, fecha, ubicación, capacidad, artista).</td>
+  </tr>
+  <tr>
+    <td>getAllConcerts</td>
+    <td>GET</td>
+    <td>/api/v1/concerts</td>
+    <td>Recupera la lista completa de conciertos disponibles en la plataforma.</td>
+  </tr>
+  <tr>
+    <td>getConcertById</td>
+    <td>GET</td>
+    <td>/api/v1/concerts/{id}</td>
+    <td>Obtiene los detalles de un concierto específico mediante su identificador único.</td>
+  </tr>
+  <tr>
+    <td>getConcertsByArtist</td>
+    <td>GET</td>
+    <td>/api/v1/concerts/artist/{artistId}</td>
+    <td>Devuelve todos los conciertos asociados a un artista en particular.</td>
+  </tr>
+  <tr>
+    <td>getConcertsByGenre</td>
+    <td>GET</td>
+    <td>/api/v1/concerts/genre/{genre}</td>
+    <td>Filtra y devuelve conciertos según el género musical especificado.</td>
+  </tr>
+  <tr>
+    <td>getConcertsByDate</td>
+    <td>GET</td>
+    <td>/api/v1/concerts/date/{yyyy-MM-dd}</td>
+    <td>Lista conciertos programados para una fecha determinada.</td>
+  </tr>
+  <tr>
+    <td>updateConcert</td>
+    <td>PUT</td>
+    <td>/api/v1/concerts/{id}</td>
+    <td>Actualiza los datos de un concierto en estado BORRADOR o PROGRAMADO (nombre, capacidad, artistas).</td>
+  </tr>
+  <tr>
+    <td>deleteConcert</td>
+    <td>DELETE</td>
+    <td>/api/v1/concerts/{id}</td>
+    <td>Elimina un concierto si aún no ha sido publicado ni ejecutado.</td>
+  </tr>
+</table>
+
 ### 2.6.1.3. Application Layer
 ### 2.6.1.4 Infrastructure Layer
 ### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
