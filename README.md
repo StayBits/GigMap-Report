@@ -4200,12 +4200,232 @@ En conjunto, este submodelo permite gestionar la creación de comunidades, la pu
  
 ## 2.6.3. Bounded Context: Eventos relacionados
 ### 2.6.3.1. Domain Layer
+
+
+El Domain Layer en el bounded context **Eventos Relacionados** modela el núcleo del negocio centrado en la gestión de actividades comunitarias que giran alrededor de un concierto oficial.  
+Este contexto permite que los usuarios creen eventos gratuitos, que otros los descubran mediante búsquedas o filtros, y que se garantice la consistencia de la información.
+
+Se implementó el Aggregate principal:
+
+Las reglas de negocio y la orquestación de acciones en el contexto de Eventos Relacionados se manejan a través de **Domain Services**, divididos en servicios de comandos y de consultas.  
+Los **Command Services** gestionan operaciones que modifican el estado del dominio como la creación, actualización, publicación, cancelación, apertura/cierre de inscripciones mediante el `RelatedEventCommandService`.  
+Por su parte, los **Query Services** se enfocan en solo lectura, como el `RelatedEventQueryService`, que recupera eventos filtrados por concierto, tipo, fecha, ciudad/proximidad, estado, etc., y permite listar participantes de un evento.
+
+
+
+<h3>Aggregate: RelatedEvent</h3>
+<p><strong>Atributos principales</strong></p>
+
+<table>
+  <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  <tr><td>id</td><td>UUID</td><td>Identificador único del evento relacionado.</td></tr>
+  <tr><td>concertId</td><td>Concert</td><td>Concierto oficial asociado.</td></tr>
+  <tr><td>titulo</td><td>String</td><td>Título del evento relacionado.</td></tr>
+  <tr><td>descripcion</td><td>String</td><td>Descripción breve.</td></tr>
+  <tr><td>tipo</td><td>Enum</td><td>PREVIA, AFTERPARTY.</td></tr>
+  <tr><td>location</td><td>Location</td><td>Ubicación geográfica.</td></tr>
+  <tr><td>estado</td><td>Enum</td><td>BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO.</td></tr>
+  <tr><td>organizadorId</td><td>UserId</td><td>Usuario creador/organizador.</td></tr>
+  <tr><td>participantes</td><td>List&lt;UserId&gt;</td><td>Lista de usuarios inscritos.</td></tr>
+  <tr><td>createdAt</td><td>Date</td><td>Marca de tiempo de creación.</td></tr>
+</table>
+
+
+
+<h4>Entity: Participante</h4>
+<table>
+  <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  <tr><td>usuarioId</td><td>UserId</td><td>Identificador del participante.</td></tr>
+  <tr><td>inscritoEn</td><td>DateTime</td><td>Fecha de inscripción.</td></tr>
+  <tr><td>estado</td><td>Enum</td><td>ACTIVO, RETIRADO, BLOQUEADO.</td></tr>
+</table>
+
+<p><strong>Métodos:</strong> retirarse(), bloquearPorModeracion().</p>
+
+
+
+<h3>Value Objects</h3>
+
+<table>
+  <tr>
+    <th>Value Object</th>
+    <th>Atributos / Restricciones</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Ubicacion</td>
+    <td>Location</td>
+    <td>Representa la ubicación geográfica de un evento relacionado.</td>
+  </tr>
+  <tr>
+    <td>Capacidad (opcional)</td>
+    <td>value &gt; 0</td>
+    <td>Indica un aforo máximo si se define.</td>
+  </tr>
+</table>
+
+
+
+
+<h3>Enums</h3>
+<table>
+  <tr><th>Enumeración</th><th>Valores</th></tr>
+  <tr><td>EstadoEventoRelacionado</td><td>BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO</td></tr>
+  <tr><td>TipoEventoRelacionado</td><td>PREVIA, AFTERPARTY</td></tr>
+</table>
+
+
+
+<h3>Domain Services</h3>
+<table>
+  <tr><th>Nombre</th><th>Responsabilidad</th><th>Reglas / Métodos</th></tr>
+  <tr>
+    <td>RelatedEventCommandService</td>
+    <td>Gestionar creación, actualización, publicación y cancelación de eventos; inscripciones (RSVP); apertura/cierre de inscripciones.</td>
+    <td>
+      - Solo usuarios registrados pueden crear eventos.<br>
+      - Debe existir conciertoId válido.<br>
+      - Ventana temporal cercana al concierto.<br>
+      - Siempre gratis.<br>
+      - Ubicación válida.<br>
+      - Aforo válido si aplica.<br>
+      - Estados válidos: BORRADOR → PUBLICADO → (ENCURSO → FINALIZADO).
+    </td>
+  </tr>
+  <tr>
+    <td>RelatedEventQueryService</td>
+    <td>Obtener eventos relacionados y participantes por criterios de búsqueda (solo lectura).</td>
+    <td>
+      Métodos: getRelatedEventById(), getRelatedEventsByConcert(), searchRelatedEvents(filters), getRelatedEventsByDate(), getRelatedEventsByCity(), getRelatedEventsByProximity(), getParticipants(), getAllRelatedEvents().
+    </td>
+  </tr>
+</table>
+
+
 ### 2.6.3.2. Interface Layer
+
+
+La Interface/Presentation Layer permite interacción de apps móviles, web y consumidores internos con el dominio de Eventos Relacionados.  
+Los endpoints REST se implementan mediante controladores.
+
+<h3>RelatedEventController</h3>
+<table>
+  <tr><th>Método</th><th>Ruta</th><th>Descripción</th></tr>
+  <tr><td>POST</td><td>/api/v1/related-events</td><td>Crear evento relacionado.</td></tr>
+  <tr><td>GET</td><td>/api/v1/related-events/{id}</td><td>Detalle de un evento.</td></tr>
+  <tr><td>GET</td><td>/api/v1/concerts/{conciertoId}/related-events</td><td>Eventos por concierto.</td></tr>
+  <tr><td>GET</td><td>/api/v1/related-events/search</td><td>Filtros: tipo, proximidad, fecha/ciudad, texto.</td></tr>
+  <tr><td>PUT</td><td>/api/v1/related-events/{id}</td><td>Actualizar evento relacionado.</td></tr>
+  <tr><td>DELETE</td><td>/api/v1/related-events/{id}</td><td>Borrar evento (si BORRADOR).</td></tr>
+  <tr><td>POST</td><td>/api/v1/related-events/{id}/cancel</td><td>Cancelar evento.</td></tr>
+  <tr><td>POST</td><td>/api/v1/related-events/{id}/join</td><td>Unirse (RSVP).</td></tr>
+  <tr><td>POST</td><td>/api/v1/related-events/{id}/leave</td><td>Retirarse (cancelar RSVP).</td></tr>
+  <tr><td>GET</td><td>/api/v1/related-events/{id}/participants</td><td>Listar participantes.</td></tr>
+  <tr><td>POST</td><td>/api/v1/related-events/{id}/report</td><td>Reportes de moderación.</td></tr>
+</table>
+
+
+
 ### 2.6.3.3. Application Layer
+
+
+En esta capa se gestionan los flujos de negocio del Bounded Context de Eventos Relacionados.  
+Se utilizan **Command Handlers** y **Event Handlers**.
+
+<h3>RelatedEvent Command Handler</h3>
+<table>
+  <tr><th>Capability</th><th>Command Handler</th><th>Descripción</th></tr>
+  <tr><td>Crear evento</td><td>handle(CreateRelatedEventCommand)</td><td>Crea evento gratuito vinculado a concierto; valida ventana y ubicación.</td></tr>
+  <tr><td>Actualizar evento</td><td>handle(UpdateRelatedEventCommand)</td><td>Modifica campos respetando invariantes.</td></tr>
+  <tr><td>Publicar evento</td><td>handle(PublishRelatedEventCommand)</td><td>PUBLICADO si cumple requisitos mínimos.</td></tr>
+  <tr><td>Cancelar evento</td><td>handle(CancelRelatedEventCommand)</td><td>Cancela evento y emite dominio.</td></tr>
+  <tr><td>Abrir inscripciones</td><td>handle(OpenRegistrationsCommand)</td><td>Habilita RSVP.</td></tr>
+  <tr><td>Cerrar inscripciones</td><td>handle(CloseRegistrationsCommand)</td><td>Deshabilita RSVP.</td></tr>
+  <tr><td>Unirse</td><td>handle(JoinRelatedEventCommand)</td><td>Registra participación; valida estado/aforo.</td></tr>
+  <tr><td>Retirarse</td><td>handle(LeaveRelatedEventCommand)</td><td>Retira participación y libera cupo.</td></tr>
+</table>
+
+<h3>RelatedEvent Event Handler</h3>
+<table>
+  <tr><th>Evento</th><th>Event Handler</th><th>Descripción</th></tr>
+  <tr><td>Evento creado</td><td>handle(RelatedEventCreatedEvent)</td><td>Actualiza proyecciones y notifica interesados.</td></tr>
+  <tr><td>Evento publicado</td><td>handle(RelatedEventPublishedEvent)</td><td>Notifica y lo incorpora al feed.</td></tr>
+  <tr><td>Evento actualizado</td><td>handle(RelatedEventUpdatedEvent)</td><td>Refleja cambios en vistas.</td></tr>
+  <tr><td>Participante inscrito</td><td>handle(ParticipantJoinedEvent)</td><td>Notifica organizador, ajusta métricas.</td></tr>
+  <tr><td>Participante retirado</td><td>handle(ParticipantLeftEvent)</td><td>Actualiza contadores.</td></tr>
+  <tr><td>Evento cancelado</td><td>handle(RelatedEventCanceledEvent)</td><td>Notifica participantes, desactiva listados.</td></tr>
+  <tr><td>Evento finalizado</td><td>handle(RelatedEventFinishedEvent)</td><td>Cierra inscripciones, dispara post-evento.</td></tr>
+</table>
+
+
 ### 2.6.3.4 Infrastructure Layer
+
+
+Esta capa implementa el acceso a servicios externos y persistencia de datos, siempre respetando los contratos definidos en el Domain Layer.
+
+- **RelatedEventRepositoryImpl**: maneja ciclo de vida de eventos relacionados; evita duplicados alrededor del mismo concierto/ventana.  
+- **ParticipationRepositoryImpl** (opcional): maneja persistencia de inscripciones (RSVP).
+
+<h3>Repositories</h3>
+<h4>RelatedEventRepository</h4>
+<table>
+  <tr><th>Método</th><th>Descripción</th></tr>
+  <tr><td>save(RelatedEvent event)</td><td>Persiste o actualiza evento.</td></tr>
+  <tr><td>findById(UUID id)</td><td>Busca evento por id.</td></tr>
+  <tr><td>findByConcert(UUID concertId)</td><td>Eventos de un concierto.</td></tr>
+  <tr><td>findByType(String type)</td><td>Filtra por tipo (PREVIA, AFTERPARTY).</td></tr>
+  <tr><td>findByStatus(RelatedEventStatus status)</td><td>Lista por estado.</td></tr>
+  <tr><td>findByDate(LocalDate date)</td><td>Eventos en fecha.</td></tr>
+  <tr><td>findByDateRange(LocalDateTime start, LocalDateTime end)</td><td>Eventos en rango temporal.</td></tr>
+  <tr><td>findByCity(String city)</td><td>Eventos en ciudad.</td></tr>
+  <tr><td>findByProximity(double lat, double lon, double radiusKm)</td><td>Eventos por proximidad.</td></tr>
+  <tr><td>deleteById(UUID id)</td><td>Eliminar evento (si BORRADOR).</td></tr>
+  <tr><td>existsByConcertAndWindow(UUID concertId, LocalDateTime start, LocalDateTime end)</td><td>Verifica duplicados alrededor de concierto.</td></tr>
+  <tr><td>findUpcomingRelatedEvents()</td><td>Lista próximos eventos.</td></tr>
+  <tr><td>findPastRelatedEvents()</td><td>Historial de eventos pasados.</td></tr>
+</table>
+
+
+
 ### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del bounded context de **Eventos Relacionados** muestra cómo se organiza el sistema en controladores, servicios y repositorios.  
+Los **Controllers** exponen endpoints HTTP para crear, actualizar, consultar o eliminar eventos relacionados, así como gestionar inscripciones (RSVP) de participantes.  
+Los **Services** manejan la lógica de negocio, separando los comandos (acciones que cambian el estado del sistema, como publicar, cancelar o unirse a un evento) de las consultas (lecturas sin modificar datos, como buscar eventos por concierto, ciudad o proximidad).  
+Los **Repositories**, como RelatedEventRepositoryImpl y ParticipationRepositoryImpl, se encargan de la persistencia y recuperación de eventos relacionados y sus inscripciones en la base de datos.  
+Finalmente, el contenedor **Database** representa la infraestructura donde se almacena la información.  
+Esta vista permite entender de manera clara cómo se conectan las partes internas sin depender directamente unas de otras.
+
+<img src="assets/images/C4/C4-RelatedEvents.png" alt="bounded-related-events-C4" style="width: 700px">
+
+
 ### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama de clases representa el bounded context **Eventos Relacionados** y muestra como agregado principal a RelatedEvent, acompañado de la entidad Participante y los value objects Ubicacion, VentanaTemporal y Capacidad.  
+Además, se incluyen las interfaces de repositorio RelatedEventRepository y ParticipationRepository.
+
+El agregado **RelatedEvent** tiene atributos como id: UUID, concertId: UUID, titulo: String, descripcion: String, tipo: TipoEventoRelacionado, location: Ubicacion, estado: RelatedEventStatus, organizadorId: UserId, participantes: List<UserId] y createdAt: Date.  
+Representa un evento gratuito vinculado a un concierto, ya sea antes (PREVIA) o después (AFTERPARTY).  
+Sus métodos incluyen publicar(), actualizarDatos(), cancelar(), abrirInscripciones(), cerrarInscripciones(), unirse() y retirarse(), los cuales permiten gestionar el ciclo de vida de un evento desde su creación hasta su finalización o cancelación.
+
+La entidad **Participante** representa a cada usuario inscrito en el evento. Sus atributos son usuarioId: UserId, inscritoEn: DateTime y estado: Enum {ACTIVO, RETIRADO, BLOQUEADO}.  
+Este agregado permite modelar la relación entre usuarios y eventos, así como sus cambios de estado en el tiempo.
+
+Los value objects **Ubicacion**, **VentanaTemporal** y **Capacidad** encapsulan restricciones propias del dominio:  
+- **Ubicacion**: latitud y longitud válidas más dirección del evento.  
+- **VentanaTemporal**: inicio < fin, duración ≤ 12h, y debe estar dentro del rango permitido alrededor del concierto.  
+- **Capacidad**: valor mayor a cero que define el aforo si se especifica.  
+
+La enumeración **RelatedEventStatus** modela el estado de un evento relacionado (BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO), mientras que la enumeración **TipoEventoRelacionado** clasifica los tipos de eventos (PREVIA, AFTERPARTY).
+
+La interfaz **RelatedEventRepository** define operaciones de acceso a datos para los eventos, como save(), findById(), findByConcert(), findByType(), findByStatus(), findByCity(), findByProximity(), existsByConcertAndWindow(), findUpcomingRelatedEvents() y findPastRelatedEvents().  
+La interfaz **ParticipationRepository** se encarga de la gestión de inscripciones de usuarios, con métodos como save(), findByEvent(), findByUser() y delete().
+
+Las relaciones entre las clases incluyen la asociación entre **RelatedEvent** y **Participante** (un evento puede tener múltiples participantes), así como la composición entre **RelatedEvent** y **Ubicacion/VentanaTemporal/Capacidad** (estos objetos no existen por sí solos fuera del evento).
+
+<img src="assets/images/C4/C4-Clase-RelatedEvents.png" alt="Clases-related-events-C4" style="width: 700px">
+
 #### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 ## 2.6.4. Bounded Context: Notificaciones
