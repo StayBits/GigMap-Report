@@ -3664,4 +3664,19 @@ El diagrama de componentes muestra cómo el bounded context de Comunidades se or
 
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama de clases representa el bounded context Comunidades y muestra dos agregados principales: Comunidad y Post. Además, se incluye el value object Like y las interfaces de repositorio CommunityRepository y PostRepository.
+
+El agregado Comunidad tiene atributos como id: UUID, name: String, description: String, imageUrl: String, posts: List<Post> y members: Set<User>. Representa una comunidad en la que los usuarios pueden participar creando publicaciones y uniéndose como miembros. Sus métodos incluyen addPost(), removePost(), addMember(), removeMember() y hasMember(), los cuales permiten administrar tanto las publicaciones como la membresía de usuarios.
+
+El agregado Post representa una publicación dentro de una comunidad. Sus atributos son id: UUID, content: String, imageUrl: String, community: Community, user: User y likedBy: List<Like>. Permite gestionar interacciones sociales mediante métodos como addLike(), removeLike(), countLikes() y hasLikeFrom().
+
+El value object Like encapsula la acción de un usuario sobre una publicación. Posee los atributos userId: UUID, postId: UUID y createdAt: Instant, que permiten identificar al usuario que realizó la interacción, la publicación afectada y la fecha de la acción.
+
+La interfaz CommunityRepository define operaciones de acceso a datos para las comunidades, como findById(), findAll(), existsByName() y findMembersByCommunityId(). La interfaz PostRepository especifica métodos para gestionar publicaciones, tales como save(), findById(), findAllByCommunity() y findAll().
+
+Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (una comunidad puede contener múltiples publicaciones) y la composición entre Post y Like (un like no existe sin la publicación asociada).
+
+<img src="assets/images/C4/C4-Clase-Comunidades.png" alt="Clases-comunidades-C4" style="width: 700px">
+
 #### 2.6.2.6.2. Bounded Context Database Design Diagram
