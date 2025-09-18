@@ -4444,6 +4444,24 @@ Las notificaciones (Notification) encapsulan toda la información necesaria para
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.5.6.2. Bounded Context Database Design Diagram
 
+
+
+
+# Conclusiones
+
+-	El proyecto GigMap se consolida como una propuesta innovadora frente a los desafíos que presenta la escena musical en vivo, posicionándose como un puente tecnológico entre artistas emergentes y un público en constante búsqueda de experiencias auténticas. Su enfoque en geolocalización, personalización y participación comunitaria redefine la manera en que los usuarios descubren conciertos, aportando una solución efectiva a la falta de difusión de eventos independientes y al mismo tiempo ampliando las oportunidades de visibilización de artistas locales. El sistema demuestra cómo la tecnología, aplicada con una visión social y cultural, puede transformar dinámicas de consumo y enriquecer el ecosistema musical urbano.
+
+-	Los resultados obtenidos a partir de las entrevistas y validaciones confirman los assumptions e hipótesis planteados en el proceso de Lean UX: los fans valoran la inmediatez y accesibilidad de información en tiempo real, mientras que los artistas emergentes demandan canales efectivos de promoción que les permitan conectar directamente con sus audiencias. En este sentido, GigMap contribuye a equilibrar una brecha crítica en la industria, donde el 99,9% de los nuevos artistas permanece invisible en un mercado saturado. La aplicación ofrece un escenario donde los conciertos locales, muchas veces inadvertidos, logran alcanzar a quienes más los disfrutan, fomentando así la cultura de descubrimiento musical.
+
+-	La arquitectura planteada a lo largo del trabajo, sustentada en principios de Domain-Driven Design y en la descomposición por bounded contexts, permitió organizar de manera estratégica los subdominios (descubrimiento, notificaciones, interacción social, gestión de usuarios y eventos relacionados). Este diseño estructurado facilita la escalabilidad de la plataforma, asegura mantenibilidad en el tiempo y garantiza que cada módulo pueda evolucionar sin comprometer la visión global del sistema. Complementariamente, los modelos construidos a través de event stormings, diagramas de C4 y representaciones del dominio ofrecieron claridad sobre las interacciones clave y aseguraron coherencia en el desarrollo.
+
+-	En un nivel cultural y social, GigMap trasciende su rol como aplicación móvil para convertirse en un catalizador del capital cultural. Al visibilizar la oferta musical dispersa, la plataforma fortalece la economía creativa local (bares, salas de concierto, colectivos culturales), estimula el turismo musical y fomenta la diversidad de propuestas artísticas. La posibilidad de crear y asistir a eventos relacionados expande la experiencia de los conciertos más allá del show principal, reforzando la identidad comunitaria de los fans y potenciando el sentido de pertenencia.
+
+-	El éxito sostenible de GigMap dependerá de mantener un equilibrio entre las expectativas de sus stakeholders: ofrecer a los usuarios experiencias fluidas y personalizadas, brindar a los artistas herramientas sencillas pero potentes para la promoción, y generar valor tangible para promotores y aliados estratégicos. Retos como la calidad de los datos en tiempo real, la monetización sin comprometer la experiencia de usuario y la consolidación de una comunidad activa requerirán procesos iterativos constantes. Sin embargo, los hallazgos obtenidos y la validación de hipótesis posicionan a GigMap de manera favorable para su adopción, especialmente en un contexto donde la convergencia entre tecnología móvil, cultura local y consumo experiencial abre terreno fértil para su expansión.
+
+-	En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la plataforma se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
+
+
 # Bibliografía
 
 - Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
