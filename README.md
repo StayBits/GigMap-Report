@@ -4604,6 +4604,8 @@ Este enfoque permite desacoplar la lógica de notificaciones del resto del siste
 
 **Descripción:** Encapsula las operaciones de escritura relacionadas con notificaciones, como crear, actualizar estado o eliminar. Define la lógica de negocio necesaria para modificar el estado de las notificaciones de acuerdo a las reglas del dominio.
 
+**Métodos**
+
 <table>
   <thead>
     <tr>
@@ -4634,6 +4636,8 @@ Este enfoque permite desacoplar la lógica de notificaciones del resto del siste
 **Domain Service: NotificationQueryService**
 
 **Descripción:** Recupera notificaciones desde la perspectiva del usuario. Proporciona acceso filtrado, paginado o contextual a las notificaciones almacenadas, sin modificar su estado.
+
+**Métodos**
 
 <table>
   <thead>
@@ -4668,11 +4672,17 @@ Este enfoque permite desacoplar la lógica de notificaciones del resto del siste
 </table>
 
 ### 2.6.4.2. Interface Layer
+
 Dentro del bounded context de Notificaciones, la clase principal en esta capa es NotificationsController, la cual ofrece endpoints destinados a listar notificaciones, marcarlas como leídas y crear nuevas. Estos puntos de acceso son consumidos tanto por la aplicación móvil como por otros servicios de la misma.
+
 **Justificación:**
+
 Esta capa de presentación actúa como intermediaria entre el dominio y los consumidores externos. A través de un servicio web RESTful bien definido y seguro, facilita la incorporación de funcionalidades como notificaciones en tiempo real y recordatorios programados.
+
 **Controller: NotificationsController**
+
 **Atributos**
+
 <table>
   <thead>
     <tr>
@@ -4809,8 +4819,10 @@ La separación entre servicios de comandos y consultas contribuye a una mejor or
 
 **Atributos**
 
-Descripción: Implementación del servicio para el envío y actualización de notificaciones
-Atributos
+**Descripción:** Implementación del servicio para el envío y actualización de notificaciones
+
+**Atributos**
+
 <table>
   <thead>
     <tr>
@@ -4860,6 +4872,39 @@ Atributos
 </table>
 
 ### 2.6.4.4 Infrastructure Layer
+
+La Infrastructure Layer del bounded context de Notificaciones contiene los componentes encargados de persistir datos y de integrarse con servicios externos. En esta capa, se implementan las interfaces de acceso a datos definidas en el dominio.
+En particular, el repositorio NotificationRepository se encarga de acceder a las notificaciones almacenadas. Esta interfaz es implementada por un componente concreto que puede estar respaldado por tecnologías como JPA, Hibernate o consultas nativas a la base de datos.
+
+**Justificación:**
+
+Centralizar las dependencias tecnológicas en esta capa permite que el dominio permanezca desacoplado de las decisiones de infraestructura. Así, los cambios en proveedores de persistencia o mensajería no afectan la lógica de negocio, lo que hace al sistema más mantenible y adaptable.
+
+**Repository: NotificationRepository**
+
+**Descripción:** Interfaz de acceso a notificaciones, utilizada para recuperar datos persistidos desde la base de datos
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findAllByUserIdAndType(UUID userId, NotificationType type)</td>
+      <td>List</td>
+      <td>Public</td>
+      <td>Recupera todas las notificaciones asociadas a un usuario y de un tipo dado.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
