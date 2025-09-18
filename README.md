@@ -4422,6 +4422,253 @@ Por su parte, event_attendees materializa la relación muchos a muchos entre use
 En el Domain Layer del bounded context de Notificaciones, el agregador principal es Notification. Estos representan los elementos clave para gestionar la entrega de mensajes dentro de la aplicación e informan a los usuarios sobre eventos musicales cercanos, interacciones dentro de comunidades o actualizaciones relevantes de artistas seguidos.
 Las notificaciones (Notification) encapsulan toda la información necesaria para ser entregadas de forma efectiva como el tipo de evento (nuevo concierto, comentario), su estado de lectura y el contenido personalizado. La lógica de negocio relacionada con la creación y envío de notificaciones se concentra en los servicios de dominio NotificationCommandService y NotificationQueryService.
 
+**Justificación:**
+
+Este enfoque permite desacoplar la lógica de notificaciones del resto del sistema, facilitando su reutilización tanto para alertas de conciertos como para interacciones sociales. Al centralizar las reglas de envío en un servicio de dominio, se asegura que las notificaciones sean relevantes y entregadas adecuadamente. Asimismo, mantiene una experiencia consistente en distintos flujos de la aplicación.
+
+**Aggregate: Notification**
+
+**Descripción:** Representa un mensaje generado por el sistema destinado a un usuario específico con el fin de informar sobre eventos musicales, actividades en comunidades o interacciones relevantes dentro de la aplicación.
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo de dato</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>UUID</td>
+      <td>Private</td>
+      <td>Identificador único de la notificación</td>
+    </tr>
+    <tr>
+      <td>userId</td>
+      <td>UUID</td>
+      <td>Private</td>
+      <td>Identificador único del usuario destinatario de la notificación</td>
+    </tr>
+    <tr>
+      <td>communityId</td>
+      <td>UUID</td>
+      <td>Private</td>
+      <td>Identificador único de la comunidad relacionada, si aplica</td>
+    </tr>
+    <tr>
+      <td>concertId</td>
+      <td>UUID</td>
+      <td>Private</td>
+      <td>Identificador único del concierto relacionado, si aplica</td>
+    </tr>
+    <tr>
+      <td>relatedUserId</td>
+      <td>UUID</td>
+      <td>Private</td>
+      <td>Identificador del usuario que generó la acción que origina la notificación</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>String</td>
+      <td>Private</td>
+      <td>Encabezado breve que resume el contenido del mensaje</td>
+    </tr>
+    <tr>
+      <td>content</td>
+      <td>String</td>
+      <td>Private</td>
+      <td>Cuerpo principal del mensaje que será mostrado al usuario</td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td>NotificationType</td>
+      <td>Private</td>
+      <td>Tipo de notificación</td>
+    </tr>
+    <tr>
+      <td>status</td>
+      <td>NotificationStatus</td>
+      <td>Private</td>
+      <td>Estado actual de la notificación (por ejemplo: nueva, leída, archivada)</td>
+    </tr>
+    <tr>
+      <td>createdAt</td>
+      <td>LocalDateTime</td>
+      <td>Private</td>
+      <td>Fecha y hora de generación de la notificación</td>
+    </tr>
+    <tr>
+      <td>updatedAt</td>
+      <td>LocalDateTime</td>
+      <td>Private</td>
+      <td>Fecha y hora de actualización de la notificación</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>markAsRead()</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Cambia el estado de la notificación a "leída".</td>
+    </tr>
+    <tr>
+      <td>isRead()</td>
+      <td>boolean</td>
+      <td>Public</td>
+      <td>Devuelve true si la notificación ya fue leída.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Value Object: NotificationType**
+
+**Descripción:** Representa la categoría o naturaleza del contenido de la notificación enviada, determinando su propósito dentro de la aplicación.
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>INFO</td>
+      <td>Notificación informativa general, sin requerir acción inmediata.</td>
+    </tr>
+    <tr>
+      <td>REMINDER</td>
+      <td>Recordatorio relacionado con un concierto próximo o actividad planificada.</td>
+    </tr>
+    <tr>
+      <td>SOCIAL</td>
+      <td>Notificación originada por una interacción entre usuarios (ej. nuevo seguidor).</td>
+    </tr>
+    <tr>
+      <td>COMMUNITY</td>
+      <td>Notificación relacionada con publicaciones o menciones dentro de una comunidad.</td>
+    </tr>
+    <tr>
+      <td>ARTIST_UPDATE</td>
+      <td>Novedades o contenidos compartidos por artistas seguidos por el usuario.</td>
+    </tr>
+    <tr>
+      <td>ALERT</td>
+      <td>Mensaje importante que requiere atención (ej. cancelación de evento, cambio de horario).</td>
+    </tr>
+  </tbody>
+</table>
+
+**Value Object: NotificationStatus**
+
+**Descripción:** Representa el estado actual de una notificación en relación con su ciclo de vida y visibilidad para el usuario.
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UNREAD</td>
+      <td>La notificación ha sido creada y aún no ha sido leída por el usuario.</td>
+    </tr>
+    <tr>
+      <td>READ</td>
+      <td>El usuario ya ha visualizado la notificación.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Domain Service: NotificationCommandService**
+
+**Descripción: Encapsula las operaciones de escritura relacionadas con notificaciones, como crear, actualizar estado o eliminar. Define la lógica de negocio necesaria para modificar el estado de las notificaciones de acuerdo a las reglas del dominio.**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createNotification()</td>
+      <td>Notification</td>
+      <td>Envía una notificación de acuerdo al tipo y contexto</td>
+    </tr>
+    <tr>
+      <td>markNotificationAsRead(UUID notificationId)</td>
+      <td>void</td>
+      <td>Marca una notificación como leída por el usuario.</td>
+    </tr>
+    <tr>
+      <td>deleteNotification(UUID notificationId)</td>
+      <td>void</td>
+      <td>Elimina una notificación del buzón del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Domain Service: NotificationQueryService**
+
+**Descripción:** Recupera notificaciones desde la perspectiva del usuario. Proporciona acceso filtrado, paginado o contextual a las notificaciones almacenadas, sin modificar su estado.
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getNotificationsByUserId(UUID userId)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Retorna todas las notificaciones visibles para el usuario.</td>
+    </tr>
+    <tr>
+      <td>getUnreadNotificationsByUserId(UUID userId)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Retorna solo las notificaciones que no han sido leídas por el usuario.</td>
+    </tr>
+    <tr>
+      <td>getNotificationById(UUID notificationId)</td>
+      <td>Optional&lt;Notification&gt;</td>
+      <td>Busca una notificación por su identificador.</td>
+    </tr>
+    <tr>
+      <td>countUnreadNotificationsByUserId(UUID userId)</td>
+      <td>int</td>
+      <td>Devuelve la cantidad de notificaciones sin leer del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Atributos:**
+
 ### 2.6.4.2. Interface Layer
 ### 2.6.4.3. Application Layer
 ### 2.6.4.4 Infrastructure Layer
