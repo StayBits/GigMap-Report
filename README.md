@@ -4602,7 +4602,7 @@ Este enfoque permite desacoplar la lógica de notificaciones del resto del siste
 
 **Domain Service: NotificationCommandService**
 
-**Descripción: Encapsula las operaciones de escritura relacionadas con notificaciones, como crear, actualizar estado o eliminar. Define la lógica de negocio necesaria para modificar el estado de las notificaciones de acuerdo a las reglas del dominio.**
+**Descripción:** Encapsula las operaciones de escritura relacionadas con notificaciones, como crear, actualizar estado o eliminar. Define la lógica de negocio necesaria para modificar el estado de las notificaciones de acuerdo a las reglas del dominio.
 
 <table>
   <thead>
@@ -4667,9 +4667,76 @@ Este enfoque permite desacoplar la lógica de notificaciones del resto del siste
   </tbody>
 </table>
 
-**Atributos:**
-
 ### 2.6.4.2. Interface Layer
+Dentro del bounded context de Notificaciones, la clase principal en esta capa es NotificationsController, la cual ofrece endpoints destinados a listar notificaciones, marcarlas como leídas y crear nuevas. Estos puntos de acceso son consumidos tanto por la aplicación móvil como por otros servicios de la misma.
+**Justificación:**
+Esta capa de presentación actúa como intermediaria entre el dominio y los consumidores externos. A través de un servicio web RESTful bien definido y seguro, facilita la incorporación de funcionalidades como notificaciones en tiempo real y recordatorios programados.
+**Controller: NotificationsController**
+**Atributos**
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de dato</th>
+      <th>Nombre</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationQueryService</td>
+      <td>notificationQueryService</td>
+      <td>Private</td>
+      <td>Servicio encargado de la recuperación de notificaciones</td>
+    </tr>
+    <tr>
+      <td>NotificationCommandService</td>
+      <td>notificationCommandService</td>
+      <td>Private</td>
+      <td>Servicio responsable de la emisión y modificación de notificaciones</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getUnreadNotificationsByUserId(UUID userId)</td>
+      <td>List</td>
+      <td>Public</td>
+      <td>Obtiene el listado de notificaciones sin leer por el usuario.</td>
+    </tr>
+    <tr>
+      <td>getNotificationsByUserId(userId)</td>
+      <td>List</td>
+      <td>Public</td>
+      <td>Obtiene el listado de notificaciones correspondientes al usuario.</td>
+    </tr>
+    <tr>
+      <td>markNotificationAsRead(notificationId)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Cambia el estado de una notificación a "leída".</td>
+    </tr>
+    <tr>
+      <td>deleteNotification(UUID userId)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Elimina la notificación deseada.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.6.4.3. Application Layer
 ### 2.6.4.4 Infrastructure Layer
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
