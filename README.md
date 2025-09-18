@@ -4257,11 +4257,6 @@ Por su parte, los **Query Services** se enfocan en solo lectura, como el `Relate
     <td>Location</td>
     <td>Representa la ubicación geográfica de un evento relacionado.</td>
   </tr>
-  <tr>
-    <td>Capacidad (opcional)</td>
-    <td>value &gt; 0</td>
-    <td>Indica un aforo máximo si se define.</td>
-  </tr>
 </table>
 
 
@@ -4270,8 +4265,8 @@ Por su parte, los **Query Services** se enfocan en solo lectura, como el `Relate
 <h3>Enums</h3>
 <table>
   <tr><th>Enumeración</th><th>Valores</th></tr>
-  <tr><td>EstadoEventoRelacionado</td><td>BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO</td></tr>
-  <tr><td>TipoEventoRelacionado</td><td>PREVIA, AFTERPARTY</td></tr>
+  <tr><td>Estado</td><td>BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO</td></tr>
+  <tr><td>Tipo</td><td>PREVIA, AFTERPARTY</td></tr>
 </table>
 
 
@@ -4376,13 +4371,9 @@ Esta capa implementa el acceso a servicios externos y persistencia de datos, sie
   <tr><td>findByType(String type)</td><td>Filtra por tipo (PREVIA, AFTERPARTY).</td></tr>
   <tr><td>findByStatus(RelatedEventStatus status)</td><td>Lista por estado.</td></tr>
   <tr><td>findByDate(LocalDate date)</td><td>Eventos en fecha.</td></tr>
-  <tr><td>findByDateRange(LocalDateTime start, LocalDateTime end)</td><td>Eventos en rango temporal.</td></tr>
   <tr><td>findByCity(String city)</td><td>Eventos en ciudad.</td></tr>
   <tr><td>findByProximity(double lat, double lon, double radiusKm)</td><td>Eventos por proximidad.</td></tr>
   <tr><td>deleteById(UUID id)</td><td>Eliminar evento (si BORRADOR).</td></tr>
-  <tr><td>existsByConcertAndWindow(UUID concertId, LocalDateTime start, LocalDateTime end)</td><td>Verifica duplicados alrededor de concierto.</td></tr>
-  <tr><td>findUpcomingRelatedEvents()</td><td>Lista próximos eventos.</td></tr>
-  <tr><td>findPastRelatedEvents()</td><td>Historial de eventos pasados.</td></tr>
 </table>
 
 
@@ -4390,9 +4381,9 @@ Esta capa implementa el acceso a servicios externos y persistencia de datos, sie
 ### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes del bounded context de **Eventos Relacionados** muestra cómo se organiza el sistema en controladores, servicios y repositorios.  
-Los **Controllers** exponen endpoints HTTP para crear, actualizar, consultar o eliminar eventos relacionados, así como gestionar inscripciones (RSVP) de participantes.  
+Los **Controllers** exponen endpoints HTTP para crear, actualizar, consultar o eliminar eventos relacionados, así como gestionar inscripciones de participantes.  
 Los **Services** manejan la lógica de negocio, separando los comandos (acciones que cambian el estado del sistema, como publicar, cancelar o unirse a un evento) de las consultas (lecturas sin modificar datos, como buscar eventos por concierto, ciudad o proximidad).  
-Los **Repositories**, como RelatedEventRepositoryImpl y ParticipationRepositoryImpl, se encargan de la persistencia y recuperación de eventos relacionados y sus inscripciones en la base de datos.  
+Los **Repositories**, como RelatedEventRepositoryImpl se encargan de la persistencia y recuperación de eventos relacionados y sus inscripciones en la base de datos.  
 Finalmente, el contenedor **Database** representa la infraestructura donde se almacena la información.  
 Esta vista permite entender de manera clara cómo se conectan las partes internas sin depender directamente unas de otras.
 
@@ -4402,27 +4393,22 @@ Esta vista permite entender de manera clara cómo se conectan las partes interna
 ### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-El siguiente diagrama de clases representa el bounded context **Eventos Relacionados** y muestra como agregado principal a RelatedEvent, acompañado de la entidad Participante y los value objects Ubicacion, VentanaTemporal y Capacidad.  
-Además, se incluyen las interfaces de repositorio RelatedEventRepository y ParticipationRepository.
+El siguiente diagrama de clases representa el bounded context **Eventos Relacionados** y muestra como agregado principal a RelatedEvent, acompañado de la entidad Participante y los value objects Ubicacion, Type y Status.  
 
-El agregado **RelatedEvent** tiene atributos como id: UUID, concertId: UUID, titulo: String, descripcion: String, tipo: TipoEventoRelacionado, location: Ubicacion, estado: RelatedEventStatus, organizadorId: UserId, participantes: List<UserId] y createdAt: Date.  
+El agregado **RelatedEvent** tiene atributos como id: UUID, concertId: UUID, titulo: String, descripcion: String, tipo:Type, ubicacion: Ubicacion, estado: Status, organizadorId: UserId, participantes: List<UserId] y createdAt: Date.  
 Representa un evento gratuito vinculado a un concierto, ya sea antes (PREVIA) o después (AFTERPARTY).  
-Sus métodos incluyen publicar(), actualizarDatos(), cancelar(), abrirInscripciones(), cerrarInscripciones(), unirse() y retirarse(), los cuales permiten gestionar el ciclo de vida de un evento desde su creación hasta su finalización o cancelación.
 
-La entidad **Participante** representa a cada usuario inscrito en el evento. Sus atributos son usuarioId: UserId, inscritoEn: DateTime y estado: Enum {ACTIVO, RETIRADO, BLOQUEADO}.  
+
 Este agregado permite modelar la relación entre usuarios y eventos, así como sus cambios de estado en el tiempo.
 
-Los value objects **Ubicacion**, **VentanaTemporal** y **Capacidad** encapsulan restricciones propias del dominio:  
+Los value objects **Ubicacion**, **Type** y **Status** encapsulan restricciones propias del dominio:  
 - **Ubicacion**: latitud y longitud válidas más dirección del evento.  
-- **VentanaTemporal**: inicio < fin, duración ≤ 12h, y debe estar dentro del rango permitido alrededor del concierto.  
-- **Capacidad**: valor mayor a cero que define el aforo si se especifica.  
+- **Type**: Referido al tipo de envento como puede ser PREVIA o AFTER PARTY.
+- **Status**: Siendo el estado en el que se encuentra el evento como BORRADOR, PROGRAMADO, PUBLICADO, ENCURSO, FINALIZADO O ANCELADO
 
-La enumeración **RelatedEventStatus** modela el estado de un evento relacionado (BORRADOR, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO), mientras que la enumeración **TipoEventoRelacionado** clasifica los tipos de eventos (PREVIA, AFTERPARTY).
 
-La interfaz **RelatedEventRepository** define operaciones de acceso a datos para los eventos, como save(), findById(), findByConcert(), findByType(), findByStatus(), findByCity(), findByProximity(), existsByConcertAndWindow(), findUpcomingRelatedEvents() y findPastRelatedEvents().  
-La interfaz **ParticipationRepository** se encarga de la gestión de inscripciones de usuarios, con métodos como save(), findByEvent(), findByUser() y delete().
+La interfaz RelatedEventRepository define operaciones de acceso a datos para los eventos como save(RelatedEvent event), findById(UUID id), findByConcert(UUID concertId), findByType(String type), findByStatus(RelatedEventStatus status), findByDate(LocalDate date), findByDateRange(LocalDateTime start, LocalDateTime end), findByCity(String city), findByProximity(double lat, double lon, double radiusKm), deleteById(UUID id), existsByConcertAndWindow(UUID concertId, LocalDateTime start, LocalDateTime end), findUpcomingRelatedEvents() y findPastRelatedEvents().
 
-Las relaciones entre las clases incluyen la asociación entre **RelatedEvent** y **Participante** (un evento puede tener múltiples participantes), así como la composición entre **RelatedEvent** y **Ubicacion/VentanaTemporal/Capacidad** (estos objetos no existen por sí solos fuera del evento).
 
 <img src="assets/images/C4/C4-Clase-RelatedEvents.png" alt="Clases-related-events-C4" style="width: 700px">
 
