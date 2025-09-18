@@ -3838,3 +3838,17 @@ Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.5.6.2. Bounded Context Database Design Diagram
 
+# Bibliografía
+
+- Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
+
+- Ramos-Pla, A., Ramírez-Montoya, M. S., & García-Peñalvo, F. J. (2022). Consumo musical y su relación con la asistencia a conciertos entre universitarios. Revista de Comunicación, 21(2). `https://www.redalyc.org/journal/280/28065583023/html/`
+
+- Chartmetric. (2023). Year in music 2023: Part 1. Chartmetric. `https://reports.chartmetric.com/2023/year-in-music/part-1`
+
+- Industriamusical.com. (2024). Solo el 0.01% de los artistas emergentes alcanza niveles moderados de éxito.` https://industriamusical.com/solo-el-0-01-de-los-artistas-emergentes-alcanza-niveles-moderados-de-exito/`
+  
+- Mordor Intelligence. (2024). Análisis del mercado de artistas independientes - crecimiento, tendencias y pronósticos (2024-2029). `https://www.mordorintelligence.com/es/industry-reports/independent-artists`
+
+- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
+`
