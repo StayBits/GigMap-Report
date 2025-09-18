@@ -4188,6 +4188,16 @@ Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+
+El modelo entidad-relación correspondiente al bounded context de Comunidades está compuesto por tres entidades principales: Communities, Posts y Likes. La entidad Communities constituye el núcleo del modelo, ya que almacena la información esencial de cada comunidad, incluyendo su identificador único, nombre, imagen representativa, descripción y las fechas de creación y actualización. A partir de esta entidad se establece la relación con Posts, que representa las publicaciones generadas dentro de una comunidad. Cada Post se encuentra vinculado tanto a una comunidad como a un usuario, y contiene atributos como el contenido, la imagen asociada, la fecha de publicación y la última actualización, garantizando así la trazabilidad de la interacción social.
+
+Por otro lado, la entidad Likes se define como un objeto relacional destinado a registrar las interacciones de los usuarios con las publicaciones. Sus atributos principales son el identificador del usuario, el identificador del post y la marca temporal (createdAt) que permite conocer el momento en el que se realizó la acción. De esta manera, se establece una relación de muchos a muchos entre usuarios y publicaciones, controlada mediante la tabla Likes.
+
+En conjunto, este submodelo permite gestionar la creación de comunidades, la publicación de contenido y la interacción social mediante likes, lo que fortalece la dinámica de participación activa dentro del sistema y fomenta el sentido de pertenencia entre los usuarios.
+
+<img src="assets/images/ERD/ERD-Comunidades.png" alt="ERD-comunidades" style="width: 700px">
+
+ 
 ## 2.6.3. Bounded Context: Eventos relacionados
 ### 2.6.3.1. Domain Layer
 ### 2.6.3.2. Interface Layer
@@ -4232,3 +4242,4 @@ Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (
 
 - GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
 `
+
