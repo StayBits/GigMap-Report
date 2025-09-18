@@ -4742,6 +4742,127 @@ Esta capa de presentación actúa como intermediaria entre el dominio y los cons
 </table>
 
 ### 2.6.4.3. Application Layer
+
+Se implementan los servicios encargados de orquestar la lógica relacionada con el envío, consulta y actualización del estado de las notificaciones, así como la reacción ante eventos relevantes del sistema.
+El servicio NotificationQueryServiceImpl permite recuperar todas las notificaciones asociadas a un usuario y aplicar filtros por estado o tipo, mientras que NotificationCommandServiceImpl se encarga de crear nuevas notificaciones y modificar su estado.
+
+**Justificación:**
+
+La separación entre servicios de comandos y consultas contribuye a una mejor organización del código, facilita su mantenimiento y favorece la escalabilidad del sistema ante nuevas reglas de negocio.
+
+**Service: NotificationQueryServiceImpl**
+
+**Descripción:** Implementación del servicio de consulta de notificaciones asociadas a un usuario
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de dato</th>
+      <th>Nombre</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Componente encargado del acceso a los datos de notificaciones.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getNotificationsByUserId(UUID userId)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Retorna todas las notificaciones visibles para el usuario.</td>
+    </tr>
+    <tr>
+      <td>getUnreadNotificationsByUserId(UUID userId)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Retorna solo las notificaciones que no han sido leídas por el usuario.</td>
+    </tr>
+    <tr>
+      <td>getNotificationById(UUID notificationId)</td>
+      <td>Optional&lt;Notification&gt;</td>
+      <td>Busca una notificación por su identificador.</td>
+    </tr>
+    <tr>
+      <td>countUnreadNotificationsByUserId(UUID userId)</td>
+      <td>int</td>
+      <td>Devuelve la cantidad de notificaciones sin leer del usuario</td>
+    </tr>
+  </tbody>
+</table>
+
+**Service: NotificationCommandServiceImpl**
+
+**Atributos**
+
+Descripción: Implementación del servicio para el envío y actualización de notificaciones
+Atributos
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de dato</th>
+      <th>Nombre</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Repositorio para almacenar y recuperar entidades de notificación.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Tipo de retorno</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createNotification()</td>
+      <td>Notification</td>
+      <td>Envía una notificación de acuerdo al tipo y contexto</td>
+    </tr>
+    <tr>
+      <td>markNotificationAsRead(UUID notificationId)</td>
+      <td>void</td>
+      <td>Marca una notificación como leída por el usuario.</td>
+    </tr>
+    <tr>
+      <td>deleteNotification(UUID notificationId)</td>
+      <td>void</td>
+      <td>Elimina una notificación del buzón del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.6.4.4 Infrastructure Layer
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
