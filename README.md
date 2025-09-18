@@ -3738,6 +3738,11 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 </table>
 
 ### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes muestra cómo el bounded context de Comunidades se organiza en torno a controladores, servicios de comando/consulta y repositorios. Los Controllers exponen endpoints HTTP para que el usuario interactúe con comunidades y publicaciones; los Services encapsulan la lógica de aplicación, diferenciando entre comandos y consultas; y los Repositories implementan el acceso a la base de datos relacional mediante Spring Data JPA. Finalmente, el contenedor Database representa la infraestructura persistente. Esta vista C4 ilustra las responsabilidades y relaciones entre los elementos internos, facilitando la comprensión de cómo la lógica de negocio se conecta con la infraestructura sin acoplarse directamente a ella.
+
+<img src="assets/images/C4/C4-Comunidades.png" alt="bounded-comunidades-C4" style="width: 700px">
+
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.2.6.2. Bounded Context Database Design Diagram
