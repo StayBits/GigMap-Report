@@ -3454,6 +3454,66 @@ En esta capa se exponen los endpoints REST, implementados a través de controlad
 </table>
 
 ### 2.6.1.3. Application Layer
+
+En esta capa se gestionan los flujos de procesos de negocio relacionados al bounded context de Conciertos.
+
+Se utilizan Command Handlers para procesar comandos que representan acciones explícitas solicitadas por los usuarios o sistemas externos, y Event Handlers para reaccionar a eventos generados dentro del dominio.
+
+Los Command Handlers son responsables de orquestar las operaciones necesarias, interactuar con el Domain Layer y asegurar la ejecución correcta de las reglas de negocio.
+
+Clases principales:
+
+- ConcertCommandHandler: encargado de manejar los comandos relacionados con la creación, actualización y eliminación de conciertos.
+- ConcertEventHandler: maneja los eventos que se generan tras una acción en el dominio (ejemplo: un concierto creado o actualizado).
+
+<h3>Concert Command Handler</h3>
+<table>
+  <tr>
+    <th>Capability</th>
+    <th>Command Handler</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Crear concierto</td>
+    <td>ConcertCommandServiceImpl.handle(CreateConcertCommand)</td>
+    <td>Gestiona la creación de un nuevo concierto con sus datos principales.</td>
+  </tr>
+  <tr>
+    <td>Actualizar concierto</td>
+    <td>ConcertCommandServiceImpl.handle(UpdateConcertCommand)</td>
+    <td>Permite modificar la información de un concierto existente.</td>
+  </tr>
+  <tr>
+    <td>Eliminar concierto</td>
+    <td>ConcertCommandServiceImpl.handle(DeleteConcertCommand)</td>
+    <td>Gestiona la eliminación lógica o física de un concierto.</td>
+  </tr>
+</table>
+
+<h3>Concert Event Handler</h3>
+<table>
+  <tr>
+    <th>Evento</th>
+    <th>Event Handler</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Concierto creado</td>
+    <td>ConcertEventHandler.handle(ConcertCreatedEvent)</td>
+    <td>Reacciona a la creación de un nuevo concierto y puede notificar a otros sistemas o actualizar proyecciones.</td>
+  </tr>
+  <tr>
+    <td>Concierto actualizado</td>
+    <td>ConcertEventHandler.handle(ConcertUpdatedEvent)</td>
+    <td>Maneja el evento de actualización de un concierto, asegurando que los cambios se reflejen en el sistema.</td>
+  </tr>
+  <tr>
+    <td>Concierto eliminado</td>
+    <td>ConcertEventHandler.handle(ConcertDeletedEvent)</td>
+    <td>Responde a la eliminación de un concierto y gestiona las consecuencias (ej. remover proyecciones o notificar).</td>
+  </tr>
+</table>
+
 ### 2.6.1.4 Infrastructure Layer
 ### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
