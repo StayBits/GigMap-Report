@@ -3209,8 +3209,186 @@ El diagrama de despliegue describe la infraestructura de GigMap en producción. 
 <img src="assets/images/C4/C4-Deployment.png" alt="Clases-comunidades-C4" style="width: 700px">
 
 # 2.6. Tactical-Level Domain-Driven Design
-## 2.6.1. Bounded Context: <Bounded Context Name>
+## 2.6.1. Bounded Context: Conciertos
 ### 2.6.1.1. Domain Layer
+
+El Domain Layer en el bounded context Conciertos modela el núcleo del negocio centrado en la gestión de conciertos y sus características principales.
+Este contexto permite que los artistas creen conciertos, que los usuarios los descubran mediante búsquedas o filtros, y que se garantice la consistencia de la información (fecha, lugar, género, etc.).
+
+Se implementó el Aggregate principal:
+
+- Concert: agrupa la información y comportamiento relacionado con los conciertos, incluyendo título, descripción, artista, género musical, ubicación, fecha, capacidad y precio de entrada. También valida reglas de negocio como la existencia de otro concierto en la misma fecha y lugar.
+
+Las reglas de negocio y la orquestación de acciones en el contexto de Conciertos se manejan a través de Domain Services, divididos en servicios de comandos y de consultas. Los Command Services gestionan operaciones que modifican el estado del dominio, como la creación, actualización, eliminación y publicación de conciertos mediante el `ConcertCommandService`. Por su parte, los Query Services se enfocan en el acceso a información de solo lectura, como el `ConcertQueryService`, que recupera conciertos filtrados por criterios como artista, género, fecha o ubicación
+
+<h3>Aggregate: ConcertAggregate</h3>
+<p><strong>Descripción:</strong>  Representa un concierto programado en la plataforma, incluyendo su capacidad, fecha, recinto, ubicación y artistas participantes. Emite eventos de dominio a lo largo de su ciclo de vida.</p>
+
+<h4>Entity: Concert</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Atributos</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>UUID</td>
+      <td>Identificador único del concierto.</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>String</td>
+      <td>Título o nombre público del concierto.</td>
+    </tr>
+    <tr>
+      <td>datehour</td>
+      <td>LocalDateTime</td>
+      <td>Fecha y hora de inicio del concierto.</td>
+    </tr>
+    <tr>
+      <td>venue</td>
+      <td>Venue</td>
+      <td>Latitud/longitud y dirección del evento.</td>
+    </tr>
+    <tr>
+      <td>estado</td>
+      <td>ConcertStatus</td>
+      <td>Estado del concierto (BORRADOR, PROGRAMADO, PUBLICADO, …).</td>
+    </tr>
+    <tr>
+      <td>artist</td>
+      <td>Artist</td>
+      <td>Artistas/performances asociados al concierto.</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>Genre</td>
+      <td>Género musical (K-pop, Pop, Rock, etc)</td>
+    </tr>
+    <tr>
+      <td>created_at</td>
+      <td>LocalDateTime</td>
+      <td>Marca de tiempo de creación.</td>
+    </tr>
+    <tr>
+      <td>updated_at</td>
+      <td>LocalDateTime</td>
+      <td>Última modificación.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Entity: Artist</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Atributos</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>UUID</td>
+      <td>Identificador del artista dentro del concierto.</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>String</td>
+      <td>Nombre artístico.</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>String</td>
+      <td>Reseña breve.</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>Genre</td>
+      <td>Géneros musicales asociados.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3>ValueObject: Venue</h3>
+<p><strong>Descripción:</strong> Representa el lugar físico donde se llevará a cabo un concierto. Contiene información relevante como el nombre del recinto, la dirección, la capacidad y las coordenadas geográficas (latitud y longitud). </p>
+
+<table>
+  <tr>
+    <th>Atributos</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>latitud</td>
+    <td>double</td>
+    <td>Latitud geográfica.</td>
+  </tr>
+  <tr>
+    <td>longitud</td>
+    <td>double</td>
+    <td>Longitud geográfica.</td>
+  </tr>
+  <tr>
+    <td>direccion</td>
+    <td>String</td>
+    <td>Dirección del recinto.</td>
+  </tr>
+  <tr>
+    <td>capacidad</td>
+    <td>String</td>
+    <td>Capacidad del concierto.</td>
+  </tr>
+</table>
+
+<h3>Enumeration</h3>
+<table>
+  <tr>
+    <th>Enumeración</th>
+    <th>Valores</th>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td>BORRADOR, PROGRAMADO, PUBLICADO, ENCURSO, FINALIZADO, CANCELADO</td>
+  </tr>
+  <tr>
+    <td>Genre</td>
+    <td>ROCK, POP, ELECTRONICA, URBANO, JAZZ, INDIE, CLASICO, METAL, FOLK, OTROS (extensible)</td>
+  </tr>
+</table>
+
+<h3>Domain Services</h3>
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Responsabilidad</th>
+    <th>Reglas Aplicadas y Métodos</th>
+  </tr>
+  <tr>
+    <td>ConcertCommandService</td>
+    <td>Gestionar la creación, actualización y eliminación de conciertos.</td>
+    <td>
+      - Solo artistas registrados pueden crear conciertos.<br>
+      - Validar que no haya conciertos en el mismo recinto, día y hora.<br>
+      - Métodos: createConcert(), updateConcert(), deleteConcert().
+    </td>
+  </tr>
+  <tr>
+    <td>ConcertQueryService</td>
+    <td>Obtener conciertos por diferentes criterios de búsqueda.</td>
+    <td>
+      - Consultas de solo lectura sin modificar el estado.<br>
+      - Métodos: getConcertById(), getConcertsByArtist(), getConcertsByGenre(), getConcertsByDate(), getAllConcerts().
+    </td>
+  </tr>
+</table>
+
 ### 2.6.1.2. Interface Layer
 ### 2.6.1.3. Application Layer
 ### 2.6.1.4 Infrastructure Layer
