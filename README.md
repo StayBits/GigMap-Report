@@ -3569,6 +3569,11 @@ Dentro del bounded context de Conciertos, la clase principal es:
 </table>
 
 ### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del bounded context de Conciertos muestra cómo se organiza el sistema en controladores, servicios y repositorios. Los Controllers exponen endpoints HTTP para crear, actualizar, consultar o eliminar conciertos. Los Services manejan la lógica de negocio, separando los comandos (acciones que cambian el estado del sistema) de las consultas (lecturas sin modificar datos). Los Repositories, como ConcertRepositoryImpl, se encargan de la persistencia y recuperación de conciertos en la base de datos. Finalmente, el contenedor Database representa la infraestructura donde se almacena la información. Esta vista permite entender de manera clara cómo se conectan las partes internas sin depender directamente unas de otras.
+
+<img src="assets/images/C4/C4-Concerts.png" alt="bounded-concerts-C4" style="width: 700px">
+
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.1.6.2. Bounded Context Database Design Diagram
