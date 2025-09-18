@@ -242,7 +242,8 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Cabanillas Meza, Jose Mateo</td>
       <td>
-      lolololol
+      - En los 12 meses posteriores a mi graduación, conseguiré un trabajo bien remunerado en una empresa del sector tecnológico, aplicando mis conocimientos en IA y bases de datos, y participando en al menos 2 proyectos de implementación en estas áreas.
+	  - En un plazo máximo de 18 meses tras graduarme, llevaré un curso de especialización en IA o ciencia de datos en el extranjero con duración aproximada de 1 año, fortaleciendo mis competencias y ampliando mis oportunidades profesionales internacionales.
       </td>
     </tr>
     <tr>
