@@ -269,14 +269,15 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Cabanillas Meza, Jose Mateo</td>
       <td>
-      - En los 12 meses posteriores a mi graduación, conseguiré un trabajo bien remunerado en una empresa del sector tecnológico, aplicando mis conocimientos en IA y bases de datos, y participando en al menos 2 proyectos de implementación en estas áreas.
+      - En los 12 meses posteriores a mi graduación, conseguiré un trabajo bien remunerado en una empresa del sector tecnológico, aplicando mis conocimientos en IA y bases de datos, y participando en al menos 2 proyectos de implementación en estas áreas.<br><br>
 	  - En un plazo máximo de 18 meses tras graduarme, llevaré un curso de especialización en IA o ciencia de datos en el extranjero con duración aproximada de 1 año, fortaleciendo mis competencias y ampliando mis oportunidades profesionales internacionales.
       </td>
     </tr>
     <tr>
       <td>Collantes Carrillo, Diego Mateo</td>
       <td>
-        te amo sunoo
+        - Conseguir un empleo remunerado en una empresa reconocida del sector tecnológico en un plazo de 12 meses después de mi graduación, en un rol que me permita aplicar conocimientos de SQL y bases de datos. Durante el primer año en ese puesto, lideraré o participaré activamente en al menos 2 proyectos de mejora de procesos de almacenamiento y consulta de datos, demostrando impacto medible en eficiencia o precisión.<br><br>
+		- Diseñar, desarrollar y documentar al menos 3 proyectos de software que resuelvan problemas reales, en un plazo máximo de 18 meses tras mi graduación, y publicarlos en un repositorio profesional en GitHub, acompañados de publicaciones explicativas en LinkedIn para fortalecer mi presencia profesional y aumentar mis oportunidades de trabajo, especialmente en empresas internacionales.
       </td>
     </tr>
     <tr>
