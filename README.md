@@ -295,7 +295,8 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Zegarra Lopez, Renato Sebastian Rubber</td>
       <td>
-       lolines
+        - En los 12 meses posteriores a mi graduación, obtendré un puesto de desarrollador full stack junior en una empresa del sector tecnológico reconocida, donde pueda aplicar mis conocimientos en C++, bases de datos SQL/MongoDB y desarrollo web, participando activamente en al menos 2 proyectos reales que integren tanto el frontend como el backend, con impacto directo en la mejora de sistemas de información.<br><br>
+		- En un plazo máximo de 18 meses tras mi graduación, diseñaré, implementaré y publicaré al menos 3 proyectos de software originales, orientados a resolver problemas del ámbito educativo, agrícola o de optimización de procesos, documentándolos en un repositorio profesional en GitHub y difundiéndolos en LinkedIn como parte de mi portafolio, con el fin de posicionar mi perfil como desarrollador innovador y aumentar mis oportunidades en el mercado internacional. 
       </td>
     </tr>
   </tbody>
