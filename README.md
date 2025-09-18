@@ -4403,7 +4403,7 @@ Los value objects **Ubicacion**, **Type** y **Status** encapsulan restricciones 
 - **Status**: Siendo el estado en el que se encuentra el evento como BORRADOR, PROGRAMADO, PUBLICADO, ENCURSO, FINALIZADO O ANCELADO
 
 
-La interfaz RelatedEventRepository define operaciones de acceso a datos para los eventos como save(RelatedEvent event), findById(UUID id), findByConcert(UUID concertId), findByType(String type), findByStatus(RelatedEventStatus status), findByDate(LocalDate date), findByDateRange(LocalDateTime start, LocalDateTime end), findByCity(String city), findByProximity(double lat, double lon, double radiusKm), deleteById(UUID id), existsByConcertAndWindow(UUID concertId, LocalDateTime start, LocalDateTime end), findUpcomingRelatedEvents() y findPastRelatedEvents().
+La interfaz RelatedEventRepository define operaciones de acceso a datos para los eventos como save(RelatedEvent event), findById(UUID id), findByConcert(UUID concertId), findByType(String type), findByStatus(RelatedEventStatus status), findByDate(LocalDate date), findByCity(String city), findByProximity(double lat, double lon, double radiusKm) y deleteById(UUID id).
 
 
 <img src="assets/images/C4/C4-Clase-RelatedEvents.png" alt="Clases-related-events-C4" style="width: 700px">
