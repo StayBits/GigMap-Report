@@ -3187,6 +3187,24 @@ El contexto de Gestion de usuarios actúa como un Open Host Service (OHS) al ser
     </tr>
   </tbody>
 </table>
+## 2.5.3. Software Architecture
+### 2.5.3.1. Software Architecture Context Level Diagrams
+
+El diagrama de contexto de GigMap muestra cómo la aplicación se relaciona con sus principales actores: Fans y Artistas. Los fans descubren conciertos cercanos, reciben alertas y comparten asistencia, mientras que los artistas publican y editan shows para interactuar con su audiencia. GigMap actúa como sistema central que conecta a ambos, facilitando la gestión y difusión de eventos musicales.
+
+<img src="assets/images/C4/C4-context.png" alt="Clases-comunidades-C4" style="width: 700px">
+
+### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El diagrama de contenedores detalla los elementos internos de GigMap. La aplicación móvil (Flutter/React Native) permite a los usuarios descubrir y gestionar conciertos, consumiendo los servicios expuestos por una API REST (Node.js/Spring Boot). Esta API coordina la lógica del sistema y persiste datos en una base MySQL. Además, se incluye una Landing Page (Next.js/React) que facilita el acceso rápido a información y registro de usuarios.
+
+<img src="assets/images/C4/C4-container.png" alt="Clases-comunidades-C4" style="width: 700px">
+
+### 2.5.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue describe la infraestructura de GigMap en producción. La aplicación móvil se comunica vía HTTPS con la API REST desplegada en contenedores Docker sobre instancias AWS EC2. La API interactúa con una base de datos MySQL gestionada en AWS RDS, que almacena de manera confiable la información de conciertos, usuarios y comunidades.
+
+<img src="assets/images/C4/C4-Deployment.png" alt="Clases-comunidades-C4" style="width: 700px">
 
 # 2.6. Tactical-Level Domain-Driven Design
 ## 2.6.1. Bounded Context: <Bounded Context Name>
