@@ -60,13 +60,36 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 	- Ortiz Cardenas, Johanna Antuanete <br>
 	- Zegarra Lopez, Renato Sebastian Rubber <br> 
       </td>
-      <td> </td>
+      <td> hola </td>
     </tr>
   </tbody>
 </table>
 </div>
 
 # Project Report Collaboration Insights
+
+Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap-Report.git`
+
+**TB1 (19/09/2025):**
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="pulse" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="contributors" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="contributors2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/dd.png" alt="network" width="700">
+</p>
+
+Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
+
 
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
@@ -114,15 +137,51 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    - [2.6.X. Bounded Context: <Bounded Context Name>](#26x-bounded-context-bounded-context-name)
-      - [2.6.X.1. Domain Layer](#26x1-domain-layer)
-      - [2.6.X.2. Interface Layer](#26x2-interface-layer)
-      - [2.6.X.3. Application Layer](#26x3-application-layer)
-      - [2.6.X.4. Infrastructure Layer](#26x4-infrastructure-layer)
-      - [2.6.X.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [2.6.X.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-      - [2.6.X.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-      - [2.6.X.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.1. Bounded Context: Conciertos](#261-bounded-context-conciertos)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+      - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Comunidades](#262-bounded-context-comunidades)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+      - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: Eventos relacionados](#263-bounded-context-eventos-relacionados)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+      - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+    - [2.6.4. Bounded Context: Notificaciones](#264-bounded-context-notificaciones)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+      - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
+    - [2.6.5. Bounded Context: Gestion de usuarios](#265-bounded-context-gestion-de-usuarios)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer)
+      - [2.6.5.3. Application Layer](#2653-application-layer)
+      - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+      - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+      - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
       
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -150,21 +209,21 @@ su proyecto en soluciones de ingeniería
 de software</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: <br>
+        TB1: Colaboró en el Needfinding, actualizando conceptos relacionados con el análisis de requerimientos y necesidades del usuario. Además, participó en el diseño de la arquitectura de software, aplicando principios de diseño estructurado y buenas prácticas en el desarrollo de sistemas. Su participación en el Event Storming y Tactical-Level DDD reforzó su comprensión sobre el modelado estratégico y táctico en proyectos de software  <br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: <br>
+        TB1: Se encargó del análisis de entrevistas, lo que demandó aplicar y reforzar sus conocimientos en técnicas de análisis cualitativo y síntesis de información. También participó en el diseño de la arquitectura de software, donde profundizó en principios de diseño modular y escalable. Además, colaboró en sesiones de Event Storming y Tactical-Level DDD, actualizando y aplicando conceptos de modelado de dominio. <br>
 	      <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-        TB1:  <br>
+        TB1: Diseñó las entrevistas y desarrolló el proceso de Needfinding, lo que implicó actualizarse en técnicas modernas de investigación con usuarios para obtener información relevante sobre el dominio. Asimismo, trabajó junto con Renato en la elaboración del Bounded Context Canvas, ejercicio que le permitió profundizar en el modelado estratégico con Domain-Driven Design. Además, colaboró en el Event Storming y el Tactical-Level DDD, consolidando conocimientos de ingeniería de software aplicada a escenarios reales.<br>
 	      	      <br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1:  <br>
+        TB1: Se encargó de la introducción del trabajo y de la identificación de los segmentos objetivos, aplicando conocimientos sobre análisis de usuarios y metodologías de investigación en el dominio. Además, participó en la elaboración de la arquitectura de software, lo que le permitió actualizar sus conceptos sobre diseño estructurado y buenas prácticas en la construcción de soluciones de software. También participó en actividades colaborativas como el Event Storming y el Tactical-Level Domain-Driven Design, reforzando su entendimiento de la modelación de sistemas. <br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: <br>
+        TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br>
       </td>
       <td>
-        conclusiones
+        El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.
       </td>
     </tr>
     <tr>
@@ -175,29 +234,76 @@ de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: <br>
+        TB1: Al trabajar en el Needfinding y la arquitectura de software, reconoció la importancia de seguir aprendiendo sobre metodologías ágiles y técnicas de diseño de sistemas. Su experiencia en las actividades grupales reafirmó la necesidad de una formación continua para garantizar la calidad en los proyectos de software. <br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: <br>
+        TB1: En el análisis de entrevistas y la arquitectura de software, descubrió la necesidad de perfeccionar constantemente sus habilidades de interpretación y diseño. Participar en metodologías como Event Storming le permitió entender que el aprendizaje permanente es clave para abordar proyectos complejos y mantenerse actualizado en nuevas tendencias y técnicas de modelado <br>
         <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-	       TB1: 
+	       TB1: Lideró el diseño de entrevistas y el Needfinding, lo que le exigió aprender continuamente sobre técnicas de investigación de usuarios y metodologías centradas en el dominio. Su trabajo en el Bounded Context Canvas reforzó la necesidad de actualizarse en Domain-Driven Design. Ariana reconoció que en el ámbito profesional siempre se deben incorporar nuevas herramientas y enfoques para mejorar el desempeño en proyectos de software.
 <br><br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1: <br>
+        TB1: Al elaborar la introducción y la identificación de segmentos objetivos, demostró apertura al aprendizaje en áreas de investigación de mercado y análisis de usuarios, habilidades que no dominaba previamente. Su participación en la arquitectura de software le permitió reconocer la importancia de mantenerse en constante aprendizaje para adaptarse a nuevas metodologías de diseño y desarrollo. <br>
 	      <br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: <br>
+        TB1: Al involucrarse en el Needfinding y el Bounded Context Canvas, comprendió que el aprendizaje permanente es necesario para aplicar correctamente metodologías modernas en la ingeniería de software. Reconoció que solo a través de la formación continua es posible adaptarse a entornos cambiantes y responder a las necesidades del usuario de manera efectiva. <br>
 	      <br>
         </td>
       <td>
-        conclusiones
+        El equipo reconoció colectivamente la importancia del aprendizaje permanente en el ámbito de la ingeniería de software. A lo largo del proyecto, cada estudiante se enfrentó a nuevos retos que demandaron la adquisición de conocimientos adicionales y la aplicación de metodologías modernas. Este proceso permitió entender que el aprendizaje constante no solo es necesario para cumplir con los requerimientos de un proyecto, sino también para garantizar un crecimiento profesional sostenido y la capacidad de adaptarse a la evolución tecnológica.
       </td>
     </tr>
   </tbody>
 </table>
 
 ## Objetivos SMART
+
+<table>
+  <thead>
+    <tr>
+      <th>Estudiante</th>
+      <th>Objetivos SMART</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cabanillas Meza, Jose Mateo</td>
+      <td>
+      - En los 12 meses posteriores a mi graduación, conseguiré un trabajo bien remunerado en una empresa del sector tecnológico, aplicando mis conocimientos en IA y bases de datos, y participando en al menos 2 proyectos de implementación en estas áreas.<br><br>
+	  - En un plazo máximo de 18 meses tras graduarme, llevaré un curso de especialización en IA o ciencia de datos en el extranjero con duración aproximada de 1 año, fortaleciendo mis competencias y ampliando mis oportunidades profesionales internacionales.
+      </td>
+    </tr>
+    <tr>
+      <td>Collantes Carrillo, Diego Mateo</td>
+      <td>
+        - Conseguir un empleo remunerado en una empresa reconocida del sector tecnológico en un plazo de 12 meses después de mi graduación, en un rol que me permita aplicar conocimientos de SQL y bases de datos. Durante el primer año en ese puesto, lideraré o participaré activamente en al menos 2 proyectos de mejora de procesos de almacenamiento y consulta de datos, demostrando impacto medible en eficiencia o precisión.<br><br>
+		- Diseñar, desarrollar y documentar al menos 3 proyectos de software que resuelvan problemas reales, en un plazo máximo de 18 meses tras mi graduación, y publicarlos en un repositorio profesional en GitHub, acompañados de publicaciones explicativas en LinkedIn para fortalecer mi presencia profesional y aumentar mis oportunidades de trabajo, especialmente en empresas internacionales.
+      </td>
+    </tr>
+    <tr>
+      <td>Lizarbe Alvarez, Ariana Nickole</td>
+      <td>
+        - En los 12 meses posteriores a mi graduación, conseguiré un trabajo remunerado en una empresa reconocida del sector tecnológico, en el que pueda aplicar mis conocimientos de SQL y bases de datos en la gestión y optimización de información, logrando completar al menos 2 proyectos de mejora en procesos de almacenamiento y consulta de datos. <br><br>
+        - En un plazo máximo de 18 meses tras graduarme, desarrollaré y documentaré al menos 3 proyectos de software enfocadas en la resolución de problemas reales, publicándolas en un repositorio profesional en GitHub y compartiéndolas en LinkedIn, con el objetivo de fortalecer mi portafolio y aumentar mis oportunidades de inserción en empresas internacionales.
+      </td>
+    </tr>
+    <tr>
+      <td>Ortiz Cardenas, Johanna Antuanete</td>
+      <td>
+        - En los 6 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
+		- En un plazo máximo de 12 meses tras graduarme, obtendré una certificación reconocida en ciberseguridad (como CompTIA Security+ o Ethical Hacking) y reforzaré mi CV con estas credenciales, con el objetivo de consolidar mi perfil como especialista en 					seguridad informática y ampliar mis oportunidades de inserción en empresas del sector tecnológico.
+      </td>
+    </tr>
+    <tr>
+      <td>Zegarra Lopez, Renato Sebastian Rubber</td>
+      <td>
+        - En los 12 meses posteriores a mi graduación, obtendré un puesto de desarrollador full stack junior en una empresa del sector tecnológico reconocida, donde pueda aplicar mis conocimientos en C++, bases de datos SQL/MongoDB y desarrollo web, participando activamente en al menos 2 proyectos reales que integren tanto el frontend como el backend, con impacto directo en la mejora de sistemas de información.<br><br>
+		- En un plazo máximo de 18 meses tras mi graduación, diseñaré, implementaré y publicaré al menos 3 proyectos de software originales, orientados a resolver problemas del ámbito educativo, agrícola o de optimización de procesos, documentándolos en un repositorio profesional en GitHub y difundiéndolos en LinkedIn como parte de mi portafolio, con el fin de posicionar mi perfil como desarrollador innovador y aumentar mis oportunidades en el mercado internacional. 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 # CAPÍTULO I: Presentación
 
@@ -2985,6 +3091,7 @@ Posteriormente, se identificaron los pivotal points, entendidos como aquellos ev
 
 - La creación de un evento relacionado.
 
+
 Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Gestion de usuarios, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
 
 
@@ -3000,7 +3107,9 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 <img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
+
 **Gestion de usuarios**
+
 
 <img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
 
@@ -3105,7 +3214,9 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 <img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
 
+
 **Gestion de usuarios**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
 
 <img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
 
@@ -4077,6 +4188,7 @@ Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+
 El modelo entidad-relación correspondiente al bounded context de Comunidades está compuesto por tres entidades principales: Communities, Posts y Likes. La entidad Communities constituye el núcleo del modelo, ya que almacena la información esencial de cada comunidad, incluyendo su identificador único, nombre, imagen representativa, descripción y las fechas de creación y actualización. A partir de esta entidad se establece la relación con Posts, que representa las publicaciones generadas dentro de una comunidad. Cada Post se encuentra vinculado tanto a una comunidad como a un usuario, y contiene atributos como el contenido, la imagen asociada, la fecha de publicación y la última actualización, garantizando así la trazabilidad de la interacción social.
 
 Por otro lado, la entidad Likes se define como un objeto relacional destinado a registrar las interacciones de los usuarios con las publicaciones. Sus atributos principales son el identificador del usuario, el identificador del post y la marca temporal (createdAt) que permite conocer el momento en el que se realizó la acción. De esta manera, se establece una relación de muchos a muchos entre usuarios y publicaciones, controlada mediante la tabla Likes.
@@ -4084,3 +4196,50 @@ Por otro lado, la entidad Likes se define como un objeto relacional destinado a 
 En conjunto, este submodelo permite gestionar la creación de comunidades, la publicación de contenido y la interacción social mediante likes, lo que fortalece la dinámica de participación activa dentro del sistema y fomenta el sentido de pertenencia entre los usuarios.
 
 <img src="assets/images/ERD/ERD-Comunidades.png" alt="ERD-comunidades" style="width: 700px">
+
+ 
+## 2.6.3. Bounded Context: Eventos relacionados
+### 2.6.3.1. Domain Layer
+### 2.6.3.2. Interface Layer
+### 2.6.3.3. Application Layer
+### 2.6.3.4 Infrastructure Layer
+### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+## 2.6.4. Bounded Context: Notificaciones
+### 2.6.4.1. Domain Layer
+### 2.6.4.2. Interface Layer
+### 2.6.4.3. Application Layer
+### 2.6.4.4 Infrastructure Layer
+### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+## 2.6.5. Bounded Context: Gestion de usuarios
+### 2.6.5.1. Domain Layer
+### 2.6.5.2. Interface Layer
+### 2.6.5.3. Application Layer
+### 2.6.5.4 Infrastructure Layer
+### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+# Bibliografía
+
+- Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
+
+- Ramos-Pla, A., Ramírez-Montoya, M. S., & García-Peñalvo, F. J. (2022). Consumo musical y su relación con la asistencia a conciertos entre universitarios. Revista de Comunicación, 21(2). `https://www.redalyc.org/journal/280/28065583023/html/`
+
+- Chartmetric. (2023). Year in music 2023: Part 1. Chartmetric. `https://reports.chartmetric.com/2023/year-in-music/part-1`
+
+- Industriamusical.com. (2024). Solo el 0.01% de los artistas emergentes alcanza niveles moderados de éxito.` https://industriamusical.com/solo-el-0-01-de-los-artistas-emergentes-alcanza-niveles-moderados-de-exito/`
+  
+- Mordor Intelligence. (2024). Análisis del mercado de artistas independientes - crecimiento, tendencias y pronósticos (2024-2029). `https://www.mordorintelligence.com/es/industry-reports/independent-artists`
+
+- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
+`
+
