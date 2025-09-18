@@ -3706,6 +3706,15 @@ La interfaz ConcertRepository define operaciones de acceso a datos para conciert
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram
 
+El modelo entidad–relación del bounded context de Conciertos está conformado por las entidades Artist, Venues, Concerts y la tabla relacional ConcertAttendees. La entidad Artist almacena los géneros musicales y la descripción de los intérpretes, mientras que Venues representa los espacios físicos con datos como dirección, capacidad y coordenadas geográficas.
+
+El núcleo lo constituye Concerts, encargado de gestionar la información esencial de cada evento (nombre, género, fecha, estado, descripción, imagen, plataforma, creación y actualización), además de establecer la relación con un venue y con los artistas participantes. Por su parte, ConcertAttendees registra la asistencia de usuarios mediante una relación de muchos a muchos con los conciertos, permitiendo medir participación y habilitar funciones de interacción social.
+
+En conjunto, este diseño posibilita administrar conciertos, vincularlos con artistas y venues, y dar seguimiento a la asistencia, asegurando consistencia de datos y soporte para los principales casos de uso de la plataforma.
+
+<img src="assets/images/ERD/ERD-Conciertos.png" alt="ERD-conciertos" style="width: 700px">
+
+
 ## 2.6.2. Bounded Context: Comunidades
 ### 2.6.2.1. Domain Layer
 El Domain Layer en el bounded context Comunidades modela el núcleo del negocio centrado en la creación de comunidades y la interacción social entre sus miembros y los artistas. Este contexto permite que los usuarios creen comunidades, se unan a ellas, y publiquen contenido que puede recibir likes de otros miembros, fomentando así la participación e intercambio dentro de cada comunidad.
