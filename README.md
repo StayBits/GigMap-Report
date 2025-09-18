@@ -3206,6 +3206,8 @@ El Domain Layer en el bounded context Comunidades modela el núcleo del negocio 
 Se implementan dos Aggregates principales: Community y Post.
 	- Community: agrupa la información y el comportamiento relacionado a las comunidades, incluyendo su nombre, descripción, imagen y lista de miembros y publicaciones.
 	- Post: representa las publicaciones realizadas dentro de una comunidad, asociadas a un autor y que pueden recibir likes de otros miembros.
+
+Para modelar la interacción social, se añade además el Value Object Like, que encapsula la acción de un usuario al reaccionar a una publicación.
  
 Las reglas de negocio y la orquestación de acciones se manejan a través de `Command Services`, que procesan comandos como `CreateCommunityCommand`, `JoinCommunityCommand`, `CreatePostCommand` o `LikePostCommand`para cambiar el estado del dominio, y Query Services, que permiten acceder a la información existente mediante consultas como `GetAllCommunitiesQuery`, `GetCommunityByIdQuery` o `GetAllPostsByCommunityQuery`.
 
