@@ -3263,7 +3263,6 @@ El contexto de Registro y Autenticación actúa como un Open Host Service (OHS) 
 <p align="center">
 <img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
 </p>
-
 <table>
   <thead>
     <tr>
@@ -3284,7 +3283,6 @@ El contexto de Registro y Autenticación actúa como un Open Host Service (OHS) 
     </tr>
     <tr>
       <td>Comunidades</td>
-
       <td>Registro y Autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
