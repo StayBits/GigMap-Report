@@ -72,7 +72,7 @@ Desarrollo del Capítulo II:
 
 # Project Report Collaboration Insights
 
-Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap-Report.git`
+URL de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap-Report.git`
 
 **TB1 (19/09/2025):**
 
@@ -832,7 +832,7 @@ Opinión y expectativas sobre GigMap:
 
 ## 2.2.2. Registro de entrevistas
 
-Link del vídeo de las Entrevistas publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+URL del vídeo de las Entrevistas publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
 ### Segmento objetivo #1: Fans de la música
 
@@ -1057,7 +1057,7 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 - Ausencia de plataformas dedicadas a artistas emergentes
 
 **Preferencias destacadas:**
-- Perfil artístico personalizado (logo, biografía, links)
+- Perfil artístico personalizado (logo, biografía, URL)
 - Publicación de eventos y fechas de conciertos
 - Estadísticas de visualización y asistencia
 - Integración con Spotify y redes sociales
@@ -3204,7 +3204,7 @@ Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado
 </p>
 
 
-Enlace del Miro board: `https://miro.com/app/board/uXjVJJVTxdE=/?share_link_id=263549564316`
+URL del Miro board: `https://miro.com/app/board/uXjVJJVTxdE=/?share_link_id=263549564316`
 
 ### 2.5.1.3. Bounded Context Canvases
 
