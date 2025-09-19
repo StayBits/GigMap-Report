@@ -5301,8 +5301,19 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
   
 - Mordor Intelligence. (2024). Análisis del mercado de artistas independientes - crecimiento, tendencias y pronósticos (2024-2029). `https://www.mordorintelligence.com/es/industry-reports/independent-artists`
 
-- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
-`
+- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html`
+- Think with Google. (s. f.). Mobile “near me” searches. `www.thinkwithgoogle.com/marketing-strategies/search/mobile-near-me-searches/`
+  
+- UNESCO. (2022). Re Shaping Policies for Creativity (Global Report). `https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2023/01/380474eng.pdf`
+
+- Hesmondhalgh, D. (2019). The Cultural Industries (4.ª ed.). SAGE. `https://uk.sagepub.com/en-gb/eur/the-cultural-industries/book250830`
+
+- Redalyc. (2023). Segmento objetivo en el consumo cultural. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal. `https://www.redalyc.org/journal/280/28065583023/html/`
+
+- Mauch, M., MacCallum, R. M., Levy, M., & Leroi, A. M. (2021). Cultural divergence in popular music: The increasing diversity of music consumption on Spotify across countries. ResearchGate. `https://www.researchgate.net/publication/353483127_Cultural_Divergence_in_popular_music_the_increasing_diversity_of_music_consumption_on_Spotify_across_countries`
+
+- Mordor Intelligence. (2023). Independent Artists Market – Growth, Trends, and Forecasts (2023–2028). Mordor Intelligence. `https://www.mordorintelligence.com/industry-reports/independent-artists`
+  
 # Anexos
 
 **Registro de Entrevistas:**
