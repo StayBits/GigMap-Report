@@ -1229,7 +1229,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US01</td>
       <td>Fan</td>
-      <td></td>
+      <td>3</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1273,8 +1273,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US02</td>
       <td>Artista</td>
-      <td></td>
-      <td>EP03</td>
+      <td>5</td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1317,8 +1317,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US03</td>
       <td>Artista</td>
-      <td></td>
-      <td>EP03</td>
+      <td>3</td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1361,7 +1361,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US04</td>
       <td>Artista</td>
-      <td></td>
+      <td>2</td>
       <td>EP03</td>
     </tr>
     <tr>
@@ -1405,8 +1405,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US05</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>5</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1449,8 +1449,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US06</td>
       <td>Artista</td>
-      <td></td>
-      <td>EP04</td>
+      <td>3</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1489,7 +1489,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US07</td>
       <td>Fan</td>
-      <td></td>
+      <td>5</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1533,7 +1533,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US08</td>
       <td>Usuario</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1573,8 +1573,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US09</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1613,8 +1613,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US10</td>
       <td>Usuario registrado</td>
-      <td></td>
-      <td>EP05</td>
+      <td>3</td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1653,8 +1653,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US11</td>
       <td>Artista</td>
-      <td></td>
-      <td>EP05</td>
+      <td>3</td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1692,8 +1692,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US12</td>
       <td>Fan</td>
-      <td></td>
-      <td>EP05</td>
+      <td>3</td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1732,7 +1732,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US13</td>
       <td>Fan</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1771,7 +1771,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US14</td>
       <td>Usuario</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1810,7 +1810,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US15</td>
       <td>Fan</td>
-      <td></td>
+      <td>3</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -1849,8 +1849,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US16</td>
       <td>Fan</td>
-      <td></td>
-      <td>EP04</td>
+      <td>3</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1888,8 +1888,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US17</td>
       <td>Fan</td>
-      <td></td>
-      <td>EP04</td>
+      <td>3</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1927,8 +1927,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US18</td>
       <td>Fan</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -1966,7 +1966,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US19</td>
       <td>Fan</td>
-      <td></td>
+      <td>3</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -2009,8 +2009,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US20</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2048,8 +2048,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US21</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2087,7 +2087,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US22</td>
       <td>Usuario</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -2126,8 +2126,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US23</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>3</td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2165,8 +2165,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US24</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2204,8 +2204,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US25</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2243,7 +2243,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US26</td>
       <td>Usuario</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -2282,7 +2282,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US27</td>
       <td>Usuario</td>
-      <td></td>
+      <td>2</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -2321,7 +2321,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US28</td>
       <td>Usuario</td>
-      <td></td>
+      <td>3</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -2360,8 +2360,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US29</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2399,8 +2399,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US30</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>3</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2438,8 +2438,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US31</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP?</td>
+      <td>3</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2479,8 +2479,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US32</td>
       <td>Usuario de GigMap</td>
-      <td></td>
-      <td>EP?</td>
+      <td>3</td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2520,8 +2520,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US33</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP?</td>
+      <td>2</td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2563,8 +2563,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US34</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP04</td>
+      <td>2</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2602,8 +2602,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US35</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP?</td>
+      <td>5</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2641,8 +2641,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US36</td>
       <td>Usuario registrado</td>
-      <td></td>
-      <td>EP?</td>
+      <td>5</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2680,8 +2680,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US37</td>
       <td>Usuario</td>
-      <td></td>
-      <td>EP?</td>
+      <td>5</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2723,8 +2723,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US38</td>
       <td>Fan</td>
-      <td></td>
-      <td>EP?</td>
+      <td>2</td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2762,8 +2762,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US39</td>
       <td>Visitante (Fan)</td>
-      <td></td>
-      <td>EP05</td>
+      <td>1</td>
+      <td>EP07</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2805,8 +2805,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US40</td>
       <td>Visitante (Artista)</td>
-      <td></td>
-      <td>EP05</td>
+      <td>1</td>
+      <td>EP07</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -2848,8 +2848,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     <tr>
       <td>US41</td>
       <td>Visitante</td>
-      <td></td>
-      <td>EP05</td>
+      <td>1</td>
+      <td>EP07</td>
     </tr>
     <tr>
       <td><strong>Title</strong></td>
@@ -3202,6 +3202,9 @@ Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
 </p>
+
+
+Enlace del Miro board: `https://miro.com/app/board/uXjVJJVTxdE=/?share_link_id=263549564316`
 
 ### 2.5.1.3. Bounded Context Canvases
 
@@ -5307,6 +5310,9 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 
 **Bounded Context Canvases:**
 - `https://miro.com/app/board/uXjVJISYDZs=/`
+
+**Event Storming:**
+- `https://miro.com/app/board/uXjVJJVTxdE=/?share_link_id=263549564316`
   
 **Bounded Context Domain Layer Class Diagrams:**
 - `https://lucid.app/lucidchart/c4fcc116-38bb-4452-a822-563346f85914/edit?invitationId=inv_e37a0d87-1595-4c30-9945-6a3ad64347cd&page=0_0`
