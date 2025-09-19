@@ -4959,6 +4959,10 @@ Ambos servicios acceden a los datos persistidos a través del Notification Repos
 
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="assets/images/C4/C4-Clase-Notificaciones.png" alt="C4-Clase-Notificaciones" style="width: 700">
+</p>
+
 El siguiente diagrama de clases representa el bounded context de Notificaciones e ilustra cómo se organiza el dominio alrededor del agregado principal Notification, acompañado por dos servicios de aplicación: NotificationCommandService y NotificationQueryService. También, se incluyen dos value objects: NotificationStatus y NotificationType, que encapsulan comportamientos relacionados al estado y tipo de notificación.
 
 El agregado Notification contiene atributos relevantes como id, user, community, concert, relatedUser, title, content, type, status, createdAt y updatedAt, reflejando el contexto rico de una notificación dentro de la plataforma. Provee métodos como markAsRead() para modificar su estado y isRead() para consultar si ha sido leída. La asociación con entidades como User, Community y Concert permite vincular las notificaciones a eventos o interacciones concretas en el sistema.
@@ -4968,6 +4972,10 @@ El servicio NotificationCommandService encapsula la lógica para crear nuevas no
 El value object NotificationStatus define dos posibles estados: UNREAD y READ, utilizados para representar si una notificación ha sido vista por el usuario. Por otro lado, NotificationType clasifica las notificaciones en categorías como INFO, REMINDER, SOCIAL, COMMUNITY, ARTIST_UPDATE y ALERT.
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="assets/images/ERD/ERD-Notificaciones.png" alt="ERD-Notificaciones" style="width: 700">
+</p>
 
 El Database Diagram para el Bounded Context de Notificaciones modela la persistencia del agregado raíz notifications, encargado de gestionar los mensajes enviados a los usuarios sobre conciertos cercanos. Cada notificación está asociada a un usuario mediante user-id y contiene información como title, content, type, status, además de fechas de creación y actualización para su trazabilidad. La tabla notificationdetails representa una relación muchos-a-muchos entre notificaciones y eventos musicales, lo cual enlaza ambos mediante claves foráneas (notification-id y event-id).
 
