@@ -5122,6 +5122,84 @@ Esta capa actúa como punto de entrada al sistema de autenticación, permitiendo
 </table>
 
 ### 2.6.5.3. Application Layer
+
+Se implementan los servicios responsables de coordinar el flujo de autenticación, registro y administración de cuentas y perfiles artísticos. Estos servicios aplican la lógica necesaria antes de delegar al dominio, validando entradas, verificando condiciones previas y transformando datos si es necesario.
+
+Los servicios **UserCommandServiceImpl** y **UserQueryServiceImpl** se encargan de gestionar las operaciones relacionadas con cuentas de usuario: desde el registro y cambio de credenciales hasta la recuperación de información de cuentas activas. Por otro lado, los servicios **ArtistCommandServiceImpl** y **ArtistQueryServiceImpl** permiten la creación, modificación y consulta del perfil artístico de un usuario previamente registrado como artista.
+
+**Justificación:**
+
+Separar responsabilidades entre comandos y consultas, así como distinguir claramente entre lógica de usuario y lógica de artista, permite escalar funcionalmente cada área, mantener una alta cohesión en los servicios y facilitar el mantenimiento seguro del sistema. Esta separación también habilita una evolución independiente de las reglas asociadas al perfil artístico sin afectar la lógica de identidad general.
+
+**Service: UserQueryServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserRepository</td><td>userRepository</td><td>Private</td><td>Acceso a datos de cuentas persistidas.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserById(String email)</td><td>Optional&lt;User&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+    <tr><td>getUserByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Devuelve el usuario con el artistId deseado.</td></tr>
+    <tr><td>isUsernameTaken(String username)</td><td>boolean</td><td>Verifica si el nombre de usuario ya está en uso.</td></tr>
+    <tr><td>isEmailTaken(String email)</td><td>boolean</td><td>Verifica si el correo del usuario ya está en uso.</td></tr>
+  </tbody>
+</table>
+
+**Service: UserCommandServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserRepository</td><td>userRepository</td><td>Private</td><td>Permite almacenar y modificar cuentas en la base de datos.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Registra una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Actualiza los datos de un usuario existente.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Service: ArtistCommandServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Registra un nuevo artista.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Actualiza los datos de un artista existente.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Elimina el artista deseado.</td></tr>
+  </tbody>
+</table>
+
+**Service: ArtistQueryServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getArtistByUserId(String email)</td><td>Optional&lt;Artist&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.4 Infrastructure Layer
 ### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
