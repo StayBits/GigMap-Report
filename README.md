@@ -5297,12 +5297,38 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 </table>
 
 ### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="assets/images/C4/C4-RegistroAuth.png" alt="C4-RegistroAuth" style="width: 700">
+</p>
+
+Este diagrama de componentes representa una arquitectura monolítica orientada al manejo de artistas, usuarios y autenticación dentro de GigMap. La Mobile Application, desarrollada como cliente principal en Android Studio con Kotlin y Jetpack Compose, interactúa con una API construida en Spring Boot a través de solicitudes HTTPS. Cada solicitud es procesada por uno de los tres controladores principales: Artists Controller, Users Controller o Authentication Controller.
+
+Cada controlador delega la lógica de negocio a servicios especializados. En el caso de artistas, las operaciones de escritura se manejan mediante el Artist Command Service, mientras que las consultas las gestiona el Artist Query Service. De forma análoga, el User Command Service y el User Query Service encapsulan la lógica de lectura y escritura para la gestión de usuarios y sus notificaciones. El Authentication Controller, por su parte, valida las credenciales de acceso y se apoya en servicios internos para dicha lógica.
+
+Todos los servicios acceden a la base de datos a través de los respectivos repositories (como ArtistRepository y UserRepository), los cuales utilizan Spring Data JPA para realizar operaciones de lectura y escritura. Finalmente, toda la información relacionada con usuarios, artistas, credenciales y accesos es almacenada en una base de datos MySQL, sirviendo como única fuente de verdad para la aplicación.
+
 ### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="assets/images/C4/C4-Clase-RegistroAuth.png" alt="C4-Clase-RegistroAuth" style="width: 700">
+</p>
+
+El siguiente diagrama de clases representa el Bounded Context de Registro y Autenticación. Este modela las responsabilidades del dominio en torno al agregado principal User, que encapsula atributos clave como id, email, username, passwordHash, así como su relación con la entidad Artist. Este agregado representa a un usuario registrado en la plataforma, y gestiona tanto su identidad como su posible rol artístico, reflejado a través del atributo artist.
+
+El dominio está soportado por dos servicios de aplicación: UserCommandService, responsable de operaciones de escritura como la creación, actualización y eliminación de usuarios, y UserQueryService, que ofrece consultas como la búsqueda de usuarios por ID, email o por artista asociado, además de validar la disponibilidad de un nombre de usuario o correo electrónico. Ambas capas interactúan con la interfaz UserRepository, que expone métodos para verificar la existencia de usuarios o recuperar instancias por su relación con un artista.
+
+En paralelo, se modela la entidad Artist, que agrupa información relacionada a un perfil artístico como artistName, bio y genres, gestionada por los servicios ArtistCommandService y ArtistQueryService, encargados de la creación, actualización, eliminación y recuperación de artistas respectivamente. La relación uno a uno entre User y Artist permite establecer un vínculo directo entre la cuenta de usuario y su rol como creador en la plataforma, sin romper la separación de responsabilidades entre contextos.
+
 #### 2.6.5.6.2. Bounded Context Database Design Diagram
 
+<p align="center">
+  <img src="assets/images/ERD/ERD-RegistroAuth.png" alt="ERD-RegistroAuth" style="width: 700">
+</p>
 
-
+El Database Diagram para el Bounded Context de Registro y Autenticación modela la persistencia del agregado raíz User, responsable de gestionar el acceso y la identidad de los usuarios dentro de GigMap. La tabla users almacena información esencial como el email, full_name, password y rol, siendo id su clave primaria. Esta tabla representa el núcleo del proceso de autenticación y autorización. Por otro lado, la entidad artist extiende al usuario cuando este cumple el rol de artista, mediante una relación uno a uno definida por la clave foránea user-id. Esta entidad contiene atributos propios del dominio artístico como music_genres y description. Los servicios UserCommandService y UserQueryService manejan la creación y consulta de usuarios, respectivamente, mientras que ArtistCommandService y ArtistQueryService gestionan operaciones específicas relacionadas con los artistas registrados.
 
 # Conclusiones
 
