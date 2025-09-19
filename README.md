@@ -77,7 +77,7 @@ Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/Gig
 **TB1 (19/09/2025):**
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="pulse" width="700">
+  <img src="assets/images/project-insights/pulse.png" alt="pulse" width="700">
 </p>
 
 <p align="center">
@@ -5347,29 +5347,32 @@ El Database Diagram para el Bounded Context de Registro y Autenticación modela 
 
 # Bibliografía
 
-- Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
-
-- Ramos-Pla, A., Ramírez-Montoya, M. S., & García-Peñalvo, F. J. (2022). Consumo musical y su relación con la asistencia a conciertos entre universitarios. Revista de Comunicación, 21(2). `https://www.redalyc.org/journal/280/28065583023/html/`
-
 - Chartmetric. (2023). Year in music 2023: Part 1. Chartmetric. `https://reports.chartmetric.com/2023/year-in-music/part-1`
 
+- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html`
+
+- Hesmondhalgh, D. (2019). The Cultural Industries (4.ª ed.). SAGE. `https://uk.sagepub.com/en-gb/eur/the-cultural-industries/book250830`
+  
 - Industriamusical.com. (2024). Solo el 0.01% de los artistas emergentes alcanza niveles moderados de éxito.` https://industriamusical.com/solo-el-0-01-de-los-artistas-emergentes-alcanza-niveles-moderados-de-exito/`
+
+- Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
+
+- Mauch, M., MacCallum, R. M., Levy, M., & Leroi, A. M. (2021). Cultural divergence in popular music: The increasing diversity of music consumption on Spotify across countries. ResearchGate. `https://www.researchgate.net/publication/353483127_Cultural_Divergence_in_popular_music_the_increasing_diversity_of_music_consumption_on_Spotify_across_countries`
+  
+- Mordor Intelligence. (2023). Independent Artists Market – Growth, Trends, and Forecasts (2023–2028). Mordor Intelligence. `https://www.mordorintelligence.com/industry-reports/independent-artists`
   
 - Mordor Intelligence. (2024). Análisis del mercado de artistas independientes - crecimiento, tendencias y pronósticos (2024-2029). `https://www.mordorintelligence.com/es/industry-reports/independent-artists`
 
-- GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html`
+- Ramos-Pla, A., Ramírez-Montoya, M. S., & García-Peñalvo, F. J. (2022). Consumo musical y su relación con la asistencia a conciertos entre universitarios. Revista de Comunicación, 21(2). `https://www.redalyc.org/journal/280/28065583023/html/`
+
+
+- Redalyc. (2023). Segmento objetivo en el consumo cultural. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal. `https://www.redalyc.org/journal/280/28065583023/html/`
+  
 - Think with Google. (s. f.). Mobile “near me” searches. `www.thinkwithgoogle.com/marketing-strategies/search/mobile-near-me-searches/`
   
 - UNESCO. (2022). Re Shaping Policies for Creativity (Global Report). `https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2023/01/380474eng.pdf`
 
-- Hesmondhalgh, D. (2019). The Cultural Industries (4.ª ed.). SAGE. `https://uk.sagepub.com/en-gb/eur/the-cultural-industries/book250830`
 
-- Redalyc. (2023). Segmento objetivo en el consumo cultural. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal. `https://www.redalyc.org/journal/280/28065583023/html/`
-
-- Mauch, M., MacCallum, R. M., Levy, M., & Leroi, A. M. (2021). Cultural divergence in popular music: The increasing diversity of music consumption on Spotify across countries. ResearchGate. `https://www.researchgate.net/publication/353483127_Cultural_Divergence_in_popular_music_the_increasing_diversity_of_music_consumption_on_Spotify_across_countries`
-
-- Mordor Intelligence. (2023). Independent Artists Market – Growth, Trends, and Forecasts (2023–2028). Mordor Intelligence. `https://www.mordorintelligence.com/industry-reports/independent-artists`
-  
 # Anexos
 
 **Registro de Entrevistas:**
