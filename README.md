@@ -3028,6 +3028,12 @@ El siguiente Product Backlog reúne y prioriza todas las historias de usuario id
 | 75      | TS-34          | Endpoint para ver publicaciones por comunidad | Como developer, quiero permitir ver todas las publicaciones asociadas a una comunidad.             | 2                        |
 | 76      | TS-35          | Endpoint para registro de usuario       | Como developer, quiero permitir que un nuevo usuario se registre con seguridad.                          | 3                        |
 | 77      | TS-36          | Endpoint para login de usuario          | Como developer, quiero permitir que un usuario inicie sesión con validación segura.                      | 3                        |
+| 78      | SP-01          | Integración de mapa para conciertos          | Como miembro del equipo, quiero investigar las distintas APIs de mapas disponibles en el mercado                       | 5                        |
+| 79      | SP-02          | Viabilidad de notificaciones personalizadas          | Como miembro del equipo, quiero investigar las opciones existentes.                     | 3                        |
+| 80      | SP-03          | Seguimiento de artistas y usuarios   | Como miembro del equipo, quiero investigar cómo construir un sistema eficiente y escalable que permita a los usuarios seguir a sus artistas favoritos o a otros usuarios dentro de la app.  | 3   |
+| 81      | SP-04          | Interacción en comunidades          | Como miembro del equipo, quiero investigar cómo implementar una funcionalidad de comunidades dentro de la aplicación.                      | 3                        |
+| 82      | SP-05          | Modo offline para exploración de eventos          | Como miembro del equipo, quiero investigar la posibilidad de ofrecer un modo offline dentro de la aplicación que permita a los usuarios acceder a la información básica de conciertos y mapas, incluso sin conexión a internet.                      | 3                        |
+| 83      | SP-06          | Revisión legal sobre datos de ubicación          | Como miembro del equipo, quiero investigar la normativa vigente sobre el uso de datos de geolocalización y almacenamiento de información personal en aplicaciones móviles                      | 3                   |
 
 # 2.5. Strategic-Level Domain-Driven Design
 
