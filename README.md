@@ -5293,6 +5293,9 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 **Registro de Entrevistas:**
 - `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
+**Bounded Context Canvases:**
+- `https://miro.com/app/board/uXjVJISYDZs=/`
+  
 **Bounded Context Domain Layer Class Diagrams:**
 - `https://lucid.app/lucidchart/c4fcc116-38bb-4452-a822-563346f85914/edit?invitationId=inv_e37a0d87-1595-4c30-9945-6a3ad64347cd&page=0_0`
 
