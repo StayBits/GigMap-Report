@@ -4923,11 +4923,323 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-## 2.6.5. Bounded Context: Gestion de usuarios
+## 2.6.5. Bounded Context: Registro y Autenticación
 ### 2.6.5.1. Domain Layer
+
+En el Domain Layer del bounded context de Registro y Autenticación, el agregador principal es **User**. Este representa los elementos esenciales para la identificación de usuarios dentro del sistema, así como para la gestión de credenciales seguras y el control de acceso.
+
+El usuario (User) encapsula toda la información necesaria para autenticar al usuario y validar su identidad. Adicionalmente, si el usuario ha sido registrado como artista, se asocia a una entidad **Artist**, que contiene información complementaria sobre su perfil artístico.
+
+La lógica de negocio relacionada con estos procesos se centraliza en los servicios de dominio **UserCommandService** y **UserQueryService** para operaciones de autenticación y registro de usuarios, y en los servicios **ArtistCommandService** y **ArtistQueryService** para la gestión del perfil artístico asociado al usuario.
+
+**Justificación:**  
+Este enfoque permite desacoplar la lógica de autenticación y registro del resto del sistema, garantizando coherencia en la validación de credenciales y manejo de accesos. Al centralizar la lógica de creación, verificación e invalidación de sesiones en un servicio de dominio, se mejora la seguridad y la trazabilidad del sistema.
+
+**Aggregate: User**  
+Representa a un usuario registrado en la aplicación, que permite la autenticación y posterior acceso a funcionalidades protegidas del sistema.
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo de dato</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único del usuario</td></tr>
+    <tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico registrado</td></tr>
+    <tr><td>username</td><td>String</td><td>Private</td><td>Nombre de usuario visible</td></tr>
+    <tr><td>passwordHash</td><td>String</td><td>Private</td><td>Hash de la contraseña del usuario</td></tr>
+    <tr><td>artist</td><td>Artist</td><td>Private</td><td>Información artística asociada, si el usuario es artista</td></tr>
+    <tr><td>createdAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de creación de la cuenta</td></tr>
+    <tr><td>updatedAt</td><td>LocalDateTime</td><td>Private</td><td>Última fecha y hora de actualización de la cuenta</td></tr>
+  </tbody>
+</table>
+
+**Entity: Artist**  
+
+Representa el perfil artístico de un usuario que se ha registrado como artista dentro de la plataforma.
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo de dato</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>artistId</td><td>UUID</td><td>Private</td><td>Identificador único del artista (igual al del usuario)</td></tr>
+    <tr><td>artistName</td><td>String</td><td>Private</td><td>Nombre artístico</td></tr>
+    <tr><td>bio</td><td>String</td><td>Private</td><td>Biografía o descripción del artista</td></tr>
+    <tr><td>genres</td><td>String[]</td><td>Private</td><td>Género musical principal del artista</td></tr>
+    <tr><td>createdAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha de creación del perfil artístico</td></tr>
+    <tr><td>updatedAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha de actualización del perfil artístico</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: UserCommandService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Registra una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Actualiza los datos de un usuario existente.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: UserQueryService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserById(String email)</td><td>Optional&lt;User&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+    <tr><td>getUserByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Devuelve el usuario con el artistId deseado.</td></tr>
+    <tr><td>isUsernameTaken(String username)</td><td>boolean</td><td>Verifica si el nombre de usuario ya está en uso.</td></tr>
+    <tr><td>isEmailTaken(String email)</td><td>boolean</td><td>Verifica si el correo del usuario ya está en uso.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: ArtistQueryService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getArtistByUserId(String email)</td><td>Optional&lt;Artist&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: ArtistCommandService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Registra un nuevo artista.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Actualiza los datos de un artista existente.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Elimina el artista deseado.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.2. Interface Layer
+
+
+Dentro del bounded context de Registro y Autenticación, las clases principales en esta capa son **AuthenticationController**, **UsersController** y **ArtistsController**.
+**AuthenticationController** gestiona los procesos de inicio de sesión y recuperación de credenciales.  
+**UsersController** se encarga del registro de nuevos usuarios y de la administración de sus cuentas.  
+**ArtistsController** permite gestionar el perfil artístico de aquellos usuarios que han sido registrados como artistas, incluyendo la creación, modificación o consulta de su información.
+
+**Justificación:**
+
+Esta capa actúa como punto de entrada al sistema de autenticación, permitiendo gestionar accesos mediante una API RESTful segura. Su diseño permite una fácil integración con mecanismos de autenticación por tokens, recuperación de contraseña o gestión de sesiones activas. La separación entre controladores mejora la organización del código, permite un control más granular sobre permisos y responsabilidades, y facilita la evolución de las funcionalidades de usuario y artista de forma independiente.
+
+**Controller: AuthenticationController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserCommandService</td><td>userCommandService</td><td>Private</td><td>Servicio encargado del registro y modificación de cuentas</td></tr>
+    <tr><td>UserQueryService</td><td>userQueryService</td><td>Private</td><td>Servicio que recupera información de cuentas existentes</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>signIn()</td><td>User</td><td>Public</td><td>Registra un nuevo usuario y devuelve los datos de su cuenta.</td></tr>
+    <tr><td>logIn()</td><td>TokenResponse</td><td>Public</td><td>Verifica las credenciales del usuario y retorna un token JWT.</td></tr>
+  </tbody>
+</table>
+
+**Controller: UsersController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserCommandService</td><td>userCommandService</td><td>Private</td><td>Servicio encargado del registro y modificación de cuentas</td></tr>
+    <tr><td>UserQueryService</td><td>userQueryService</td><td>Private</td><td>Servicio que recupera información de cuentas existentes</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Public</td><td>Crea una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Public</td><td>Actualiza los datos del usuario.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Public</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Controller: ArtistsController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArtistCommandService</td><td>artistCommandService</td><td>Private</td><td>Servicio responsable de crear o actualizar el perfil artístico</td></tr>
+    <tr><td>ArtistQueryService</td><td>artistQueryService</td><td>Private</td><td>Servicio encargado de consultar la información del artista</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Public</td><td>Crea el perfil de artista asociado a un usuario.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Public</td><td>Actualiza la información del perfil artístico.</td></tr>
+    <tr><td>getArtistByUserId(UUID userId)</td><td>Optional&lt;Artist&gt;</td><td>Public</td><td>Recupera el perfil de artista a partir del identificador de usuario.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Public</td><td>Elimina el perfil del artista deseado.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.3. Application Layer
+
+Se implementan los servicios responsables de coordinar el flujo de autenticación, registro y administración de cuentas y perfiles artísticos. Estos servicios aplican la lógica necesaria antes de delegar al dominio, validando entradas, verificando condiciones previas y transformando datos si es necesario.
+
+Los servicios **UserCommandServiceImpl** y **UserQueryServiceImpl** se encargan de gestionar las operaciones relacionadas con cuentas de usuario: desde el registro y cambio de credenciales hasta la recuperación de información de cuentas activas. Por otro lado, los servicios **ArtistCommandServiceImpl** y **ArtistQueryServiceImpl** permiten la creación, modificación y consulta del perfil artístico de un usuario previamente registrado como artista.
+
+**Justificación:**
+
+Separar responsabilidades entre comandos y consultas, así como distinguir claramente entre lógica de usuario y lógica de artista, permite escalar funcionalmente cada área, mantener una alta cohesión en los servicios y facilitar el mantenimiento seguro del sistema. Esta separación también habilita una evolución independiente de las reglas asociadas al perfil artístico sin afectar la lógica de identidad general.
+
+**Service: UserQueryServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserRepository</td><td>userRepository</td><td>Private</td><td>Acceso a datos de cuentas persistidas.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserById(String email)</td><td>Optional&lt;User&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+    <tr><td>getUserByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Devuelve el usuario con el artistId deseado.</td></tr>
+    <tr><td>isUsernameTaken(String username)</td><td>boolean</td><td>Verifica si el nombre de usuario ya está en uso.</td></tr>
+    <tr><td>isEmailTaken(String email)</td><td>boolean</td><td>Verifica si el correo del usuario ya está en uso.</td></tr>
+  </tbody>
+</table>
+
+**Service: UserCommandServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserRepository</td><td>userRepository</td><td>Private</td><td>Permite almacenar y modificar cuentas en la base de datos.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Registra una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Actualiza los datos de un usuario existente.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Service: ArtistCommandServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Registra un nuevo artista.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Actualiza los datos de un artista existente.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Elimina el artista deseado.</td></tr>
+  </tbody>
+</table>
+
+**Service: ArtistQueryServiceImpl**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getArtistByUserId(String email)</td><td>Optional&lt;Artist&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.4 Infrastructure Layer
+
+La **Infrastructure Layer** del bounded context de Registro y Autenticación contiene los componentes encargados de persistir los datos de cuentas de usuario, credenciales y perfiles de artista. Esta capa implementa las interfaces **UserRepository** y **ArtistRepository**, que abstraen el acceso a las fuentes de datos utilizadas por el sistema.
+
+**Justificación:**
+
+Centralizar la lógica de acceso a datos en esta capa permite mantener el dominio aislado de detalles tecnológicos como el uso de JPA, Hibernate o servicios externos. De esta manera, se facilita la adaptabilidad del sistema ante cambios en la infraestructura sin comprometer la integridad del dominio.
+
+**Repository: UserRepository**
+
+Interfaz de persistencia que permite recuperar y guardar cuentas de usuario.
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>existsByEmail(String email)</td><td>Optional&lt;User&gt;</td><td>Public</td><td>Verifica si un usuario ya usa el correo electrónico.</td></tr>
+    <tr><td>existsByUsername(String username)</td><td>boolean</td><td>Public</td><td>Verifica si el nombre de usuario ya está registrado.</td></tr>
+    <tr><td>findByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Public</td><td>Recupera una cuenta a partir de su identificador.</td></tr>
+  </tbody>
+</table>
+
+**Repository: ArtistRepository**
+
+Interfaz que permite acceder y manipular los perfiles artísticos asociados a usuarios del sistema.
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>findByUserId(UUID userId)</td><td>Optional&lt;Artist&gt;</td><td>Public</td><td>Obtiene el perfil artístico asociado a un usuario.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
