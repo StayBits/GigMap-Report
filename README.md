@@ -5328,7 +5328,7 @@ En paralelo, se modela la entidad Artist, que agrupa información relacionada a 
   <img src="assets/images/ERD/ERD-RegistroAuth.png" alt="ERD-RegistroAuth" style="width: 700">
 </p>
 
-El Database Diagram para el Bounded Context de Registro y Autenticación modela la persistencia del agregado raíz User, responsable de gestionar el acceso y la identidad de los usuarios dentro de GigMap. La tabla users almacena información esencial como el email, full_name, password y rol, siendo id su clave primaria. Esta tabla representa el núcleo del proceso de autenticación y autorización. Por otro lado, la entidad artist extiende al usuario cuando este cumple el rol de artista, mediante una relación uno a uno definida por la clave foránea user-id. Esta entidad contiene atributos propios del dominio artístico como music_genres y description. Los servicios UserCommandService y UserQueryService manejan la creación y consulta de usuarios, respectivamente, mientras que ArtistCommandService y ArtistQueryService gestionan operaciones específicas relacionadas con los artistas registrados.
+El Database Diagram para el Bounded Context de Registro y Autenticación modela la persistencia del agregado raíz User, responsable de gestionar el acceso y la identidad de los usuarios dentro de GigMap. La tabla users almacena información esencial como el email, full_name, password y rol, siendo id su clave primaria. Esta tabla representa el núcleo del proceso de autenticación y autorización. Por otro lado, la entidad artist extiende al usuario cuando este cumple el rol de artista, mediante una relación uno a uno definida por la clave foránea user-id. Esta entidad contiene atributos propios del dominio artístico como music_genres y description.
 
 # Conclusiones
 
