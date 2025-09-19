@@ -5278,3 +5278,15 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 
 - GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
 `
+# Anexos
+
+**Registro de Entrevistas:**
+- `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+
+**Bounded Context Domain Layer Class Diagrams:**
+- `https://lucid.app/lucidchart/c4fcc116-38bb-4452-a822-563346f85914/edit?invitationId=inv_e37a0d87-1595-4c30-9945-6a3ad64347cd&page=0_0`
+
+**Diagrama de Base de Datos:**
+- `https://lucid.app/lucidchart/05424e23-5e84-4387-9dce-03e18885fc89/edit?invitationId=inv_3b68e893-018f-41c7-a6f9-254bbdcaa6ab`
+
+
