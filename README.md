@@ -63,7 +63,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
       <td> Desarrollo del Capítulo I:
 1.1. Startup Profile 1.1.1. Descripción de la Startup 1.1.2. Perfiles de integrantes del equipo 1.2. Solution Profile 1.2.1. Antecedentes y problemática 1.2.2. Lean UX Process 1.2.2.1. Lean UX Problem Statements 1.2.2.2. Lean UX Assumptions 1.2.2.3. Lean UX Hypothesis Statements 1.2.2.4. Lean UX Canvas 1.3. Segmentos objetivo 
 Desarrollo del Capítulo II:
-2.1. Competidores 2.1.1. Análisis competitivo 2.1.2. Estrategias y tácticas frente a competidores 2.2. Entrevistas 2.2.1. Diseño de entrevistas 2.2.2. Registro de entrevistas 2.2.3. Análisis de entrevistas 2.3. Needfinding 2.3.1. User Personas 2.3.2. User Task Matrix 2.3.3. User Journey Mapping 2.3.4. Empathy Mapping 2.3.5. Ubiquitous Language 2.4. Requirements specification 2.4.1. User Stories 2.4.2. Impact Mapping 2.4.3. Product Backlog 2.5. Strategic-Level Domain-Driven Design 2.5.1. EventStorming 2.5.1.1. Candidate Context Discovery 2.5.1.2. Domain Message Flows Modeling 2.5.1.3. Bounded Context Canvases 2.5.2. Context Mapping 2.5.3. Software Architecture 2.5.3.1. Software Architecture Context Level Diagrams 2.5.3.2. Software Architecture Container Level Diagrams 2.5.3.3. Software Architecture Deployment Diagrams 2.6. Tactical-Level Domain-Driven Design 2.6.1. Bounded Context: Conciertos 2.6.1.1. Domain Layer 2.6.1.2. Interface Layer 2.6.1.3. Application Layer 2.6.1.4. Infrastructure Layer 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 2.6.1.6.2. Bounded Context Database Design Diagram 2.6.2. Bounded Context: Comunidades 2.6.2.1. Domain Layer 2.6.2.2. Interface Layer 2.6.2.3. Application Layer 2.6.2.4. Infrastructure Layer 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 2.6.2.6.2. Bounded Context Database Design Diagram 2.6.3. Bounded Context: Eventos relacionados 2.6.3.1. Domain Layer 2.6.3.2. Interface Layer 2.6.3.3. Application Layer 2.6.3.4. Infrastructure Layer 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 2.6.3.6.2. Bounded Context Database Design Diagram 2.6.4. Bounded Context: Notificaciones 2.6.4.1. Domain Layer 2.6.4.2. Interface Layer 2.6.4.3. Application Layer 2.6.4.4. Infrastructure Layer 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 2.6.4.6.2. Bounded Context Database Design Diagram 2.6.5. Bounded Context: Gestion de usuarios 2.6.5.1. Domain Layer 2.6.5.2. Interface Layer 2.6.5.3. Application Layer 2.6.5.4. Infrastructure Layer 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 2.6.5.6.2. Bounded Context Database Design Diagram
+2.1. Competidores 2.1.1. Análisis competitivo 2.1.2. Estrategias y tácticas frente a competidores 2.2. Entrevistas 2.2.1. Diseño de entrevistas 2.2.2. Registro de entrevistas 2.2.3. Análisis de entrevistas 2.3. Needfinding 2.3.1. User Personas 2.3.2. User Task Matrix 2.3.3. User Journey Mapping 2.3.4. Empathy Mapping 2.3.5. Ubiquitous Language 2.4. Requirements specification 2.4.1. User Stories 2.4.2. Impact Mapping 2.4.3. Product Backlog 2.5. Strategic-Level Domain-Driven Design 2.5.1. EventStorming 2.5.1.1. Candidate Context Discovery 2.5.1.2. Domain Message Flows Modeling 2.5.1.3. Bounded Context Canvases 2.5.2. Context Mapping 2.5.3. Software Architecture 2.5.3.1. Software Architecture Context Level Diagrams 2.5.3.2. Software Architecture Container Level Diagrams 2.5.3.3. Software Architecture Deployment Diagrams 2.6. Tactical-Level Domain-Driven Design 2.6.1. Bounded Context: Conciertos 2.6.1.1. Domain Layer 2.6.1.2. Interface Layer 2.6.1.3. Application Layer 2.6.1.4. Infrastructure Layer 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 2.6.1.6.2. Bounded Context Database Design Diagram 2.6.2. Bounded Context: Comunidades 2.6.2.1. Domain Layer 2.6.2.2. Interface Layer 2.6.2.3. Application Layer 2.6.2.4. Infrastructure Layer 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 2.6.2.6.2. Bounded Context Database Design Diagram 2.6.3. Bounded Context: Eventos relacionados 2.6.3.1. Domain Layer 2.6.3.2. Interface Layer 2.6.3.3. Application Layer 2.6.3.4. Infrastructure Layer 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 2.6.3.6.2. Bounded Context Database Design Diagram 2.6.4. Bounded Context: Notificaciones 2.6.4.1. Domain Layer 2.6.4.2. Interface Layer 2.6.4.3. Application Layer 2.6.4.4. Infrastructure Layer 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 2.6.4.6.2. Bounded Context Database Design Diagram 2.6.5. Bounded Context: Registro y autenticación 2.6.5.1. Domain Layer 2.6.5.2. Interface Layer 2.6.5.3. Application Layer 2.6.5.4. Infrastructure Layer 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 2.6.5.6.2. Bounded Context Database Design Diagram
  </td>
     </tr>
   </tbody>
@@ -89,8 +89,17 @@ Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/Gig
 </p>
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="network" width="700">
+  <img src="assets/images/project-insights/network1.png" alt="network1" width="700">
 </p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network3.png" alt="network3" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network2.png" alt="network2" width="700">
+</p>
+
 
 Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
 
@@ -177,7 +186,7 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
       - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
       - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
-    - [2.6.5. Bounded Context: Gestion de usuarios](#265-bounded-context-gestion-de-usuarios)
+    - [2.6.5. Bounded Context: Registro y autenticación](#265-bounded-context-registro-y-autenticación)
       - [2.6.5.1. Domain Layer](#2651-domain-layer)
       - [2.6.5.2. Interface Layer](#2652-interface-layer)
       - [2.6.5.3. Application Layer](#2653-application-layer)
@@ -293,7 +302,7 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Ortiz Cardenas, Johanna Antuanete</td>
       <td>
-        - En los 6 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
+        - En los 9 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
 		- En un plazo máximo de 12 meses tras graduarme, obtendré una certificación reconocida en ciberseguridad (como CompTIA Security+ o Ethical Hacking) y reforzaré mi CV con estas credenciales, con el objetivo de consolidar mi perfil como especialista en 					seguridad informática y ampliar mis oportunidades de inserción en empresas del sector tecnológico.
       </td>
     </tr>
@@ -1199,7 +1208,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la plataforma, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
 | EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la plataforma.|
 | EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (Gestion de usuarios) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
+| EP04    | Gestión de Identidad y Acceso (Registro y autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
 | EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
 | EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
 | EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la plataforma. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
@@ -3097,7 +3106,7 @@ Posteriormente, se identificaron los pivotal points, entendidos como aquellos ev
 - La creación de un evento relacionado.
 
 
-Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Gestion de usuarios, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
+Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Registro y autenticación, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
 
 
 **Conciertos**
@@ -3113,7 +3122,7 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 <img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
 
-**Gestion de usuarios**
+**Registro y autenticación**
 
 
 <img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
@@ -3127,7 +3136,7 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 El siguiente modelo describe cómo fluyen los mensajes y acciones entre los distintos bounded contexts de la aplicación móvil. Cada contexto encapsula una parte del dominio, y se comunican entre sí a través de eventos y comandos de dominio. Los usuarios interactúan desde la app móvil (ya sean artistas o fans), y esas interacciones desencadenan mensajes que conectan los contextos.
 
-**Gestion de usuarios y Conciertos:**
+**Registro y autenticación, y Conciertos:**
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos disponibles para buscar presentaciones existentes y también visualizarlas en el mapa. Si el usuario tiene el rol de artista, puede crear nuevos conciertos que luego estarán visibles para otros usuarios en el mapa.
 
@@ -3135,7 +3144,7 @@ Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos 
 <img src="assets/images/eventStorming/event-storming1.png" alt="event-storming1" style="width: 700px">
 </p>
 
-**Gestion de usuarios y Comunidades:**
+**Registro y autenticación, y Comunidades:**
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de comunidades para explorar las que ya existen o crear una nueva. Puede completar la información necesaria para formar o crear su propia comunidad, la cual quedará visible para otros usuarios que también hayan iniciado sesión.
 
@@ -3181,7 +3190,7 @@ Cuando un usuario publica un comentario en una publicación, se envía una notif
 
 **Vista completa:**
 
-Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Gestion de usuarios, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
+Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Registro y autenticación, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
 
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
@@ -3220,7 +3229,7 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 <img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
 
 
-**Gestion de usuarios**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+**Registro y autenticación**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
 
 
 <img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
@@ -3234,8 +3243,8 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
 
-En la aplicación GigMap se identificaron cinco bounded contexts principales: Gestion de usuarios, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
-El contexto de Gestion de usuarios actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Gestion de usuarios directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+En la aplicación GigMap se identificaron cinco bounded contexts principales: Registro y autenticación, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
+El contexto de Registro y autenticación actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Registro y autenticación directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
 
 <p align="center">
 <img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
@@ -3254,21 +3263,21 @@ El contexto de Gestion de usuarios actúa como un Open Host Service (OHS) al ser
   <tbody>
     <tr>
       <td>Conciertos</td>
-      <td>Gestion de usuarios</td>
+      <td>Registro y autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Consume información de usuarios y roles para permitir creación de conciertos.</td>
     </tr>
     <tr>
       <td>Comunidades</td>
-      <td>Gestion de usuarios</td>
+      <td>Registro y autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Requiere información de perfil para creación y administración de comunidades.</td>
     </tr>
     <tr>
       <td>Notificaciones</td>
-      <td>Gestion de usuarios</td>
+      <td>Registro y autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Utiliza datos del usuario (nombre, token, ubicación) para enviar notificaciones.</td>
@@ -4924,7 +4933,8 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-## 2.6.5. Bounded Context: Registro y Autenticación
+## 2.6.5. Bounded Context: Registro y autenticación
+
 ### 2.6.5.1. Domain Layer
 
 En el Domain Layer del bounded context de Registro y Autenticación, el agregador principal es **User**. Este representa los elementos esenciales para la identificación de usuarios dentro del sistema, así como para la gestión de credenciales seguras y el control de acceso.
