@@ -77,15 +77,16 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap
 **TB1 (19/09/2025):**
 
 <p align="center">
+  <img src="assets/images/project-insights/contributors.png" alt="contributors" width="700">
+</p>
+
+<p align="center">
   <img src="assets/images/project-insights/pulse.png" alt="pulse" width="700">
 </p>
 
-<p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="contributors" width="700">
-</p>
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="contributors2" width="700">
+  <img src="assets/images/project-insights/contributors2.png" alt="contributors2" width="700">
 </p>
 
 <p align="center">
@@ -4204,7 +4205,7 @@ El diagrama de componentes muestra cómo el bounded context de Comunidades se or
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-El siguiente diagrama de clases representa el bounded context Comunidades y muestra dos agregados principales: Comunidad y Post. Además, se incluye el value object Like y las interfaces de repositorio CommunityRepository y PostRepository.
+El siguiente diagrama de clases representa el bounded context Comunidades y muestra dos agregados principales: Community y Post. Además, se incluye el value object Like y las interfaces de repositorio CommunityRepository y PostRepository.
 
 El agregado Comunidad tiene atributos como id: UUID, name: String, description: String, imageUrl: String, posts: List<Post> y members: Set<User>. Representa una comunidad en la que los usuarios pueden participar creando publicaciones y uniéndose como miembros. Sus métodos incluyen addPost(), removePost(), addMember(), removeMember() y hasMember(), los cuales permiten administrar tanto las publicaciones como la membresía de usuarios.
 
@@ -4219,7 +4220,6 @@ Las relaciones entre las clases incluyen la asociación entre Comunidad y Post (
 <img src="assets/images/C4/C4-Clase-Comunidades.png" alt="Clases-comunidades-C4" style="width: 700px">
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagram
-
 
 El modelo entidad-relación correspondiente al bounded context de Comunidades está compuesto por tres entidades principales: Communities, Posts y Likes. La entidad Communities constituye el núcleo del modelo, ya que almacena la información esencial de cada comunidad, incluyendo su identificador único, nombre, imagen representativa, descripción y las fechas de creación y actualización. A partir de esta entidad se establece la relación con Posts, que representa las publicaciones generadas dentro de una comunidad. Cada Post se encuentra vinculado tanto a una comunidad como a un usuario, y contiene atributos como el contenido, la imagen asociada, la fecha de publicación y la última actualización, garantizando así la trazabilidad de la interacción social.
 
