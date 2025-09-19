@@ -89,7 +89,15 @@ Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/Gig
 </p>
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="network" width="700">
+  <img src="assets/images/project-insights/network1.png" alt="network1" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network2.png" alt="network2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network3.png" alt="network3" width="700">
 </p>
 
 Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
