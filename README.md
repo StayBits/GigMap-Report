@@ -1208,7 +1208,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la plataforma, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
 | EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la plataforma.|
 | EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (Registro y autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
+| EP04    | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
 | EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
 | EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
 | EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la plataforma. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
@@ -3106,7 +3106,7 @@ Posteriormente, se identificaron los pivotal points, entendidos como aquellos ev
 - La creación de un evento relacionado.
 
 
-Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Registro y autenticación, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
+Gracias a este análisis, se pudo determinar cómo estos puntos críticos y problemáticos se distribuyen entre distintos contextos del sistema, tales como: Registro y Autenticación, Conciertos, Comunidades, Eventos relacionados y Notificaciones.
 
 
 **Conciertos**
@@ -3122,7 +3122,9 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 <img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
 
+
 **Registro y autenticación**
+
 
 
 <img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
@@ -3136,7 +3138,8 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 
 El siguiente modelo describe cómo fluyen los mensajes y acciones entre los distintos bounded contexts de la aplicación móvil. Cada contexto encapsula una parte del dominio, y se comunican entre sí a través de eventos y comandos de dominio. Los usuarios interactúan desde la app móvil (ya sean artistas o fans), y esas interacciones desencadenan mensajes que conectan los contextos.
 
-**Registro y autenticación, y Conciertos:**
+**Registro y Autenticación y Conciertos:**
+
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos disponibles para buscar presentaciones existentes y también visualizarlas en el mapa. Si el usuario tiene el rol de artista, puede crear nuevos conciertos que luego estarán visibles para otros usuarios en el mapa.
 
@@ -3144,7 +3147,9 @@ Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos 
 <img src="assets/images/eventStorming/event-storming1.png" alt="event-storming1" style="width: 700px">
 </p>
 
-**Registro y autenticación, y Comunidades:**
+
+**Registro y Autenticación y Comunidades:**
+
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de comunidades para explorar las que ya existen o crear una nueva. Puede completar la información necesaria para formar o crear su propia comunidad, la cual quedará visible para otros usuarios que también hayan iniciado sesión.
 
@@ -3190,7 +3195,9 @@ Cuando un usuario publica un comentario en una publicación, se envía una notif
 
 **Vista completa:**
 
-Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Registro y autenticación, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
+
+Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Registro y Autenticación, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
+
 
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
@@ -3229,10 +3236,12 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 <img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
 
 
-**Registro y autenticación**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
+**Registro y Autenticación**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
 
 
-<img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-iam.png" style="width: 700px">
+
+<img src="assets/images/eventStorming/bounded-context-canvas-autenticacion.png" alt="bounded-context-canvas-autenticacion.png" style="width: 700px">
 
 **Notificaciones**: Este contexto cubre la comunicación proactiva hacia los usuarios, enviando recordatorios, alertas y actualizaciones relevantes sobre conciertos, comunidades o eventos relacionados.
 
@@ -3243,8 +3252,10 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
 
-En la aplicación GigMap se identificaron cinco bounded contexts principales: Registro y autenticación, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
-El contexto de Registro y autenticación actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Registro y autenticación directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+
+En la aplicación GigMap se identificaron cinco bounded contexts principales: Registro y Autenticación, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
+El contexto de Registro y Autenticación actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Registro y Autenticación directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+
 
 <p align="center">
 <img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
@@ -3263,21 +3274,22 @@ El contexto de Registro y autenticación actúa como un Open Host Service (OHS) 
   <tbody>
     <tr>
       <td>Conciertos</td>
-      <td>Registro y autenticación</td>
+      <td>Registro y Autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Consume información de usuarios y roles para permitir creación de conciertos.</td>
     </tr>
     <tr>
       <td>Comunidades</td>
-      <td>Registro y autenticación</td>
+
+      <td>Registro y Autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Requiere información de perfil para creación y administración de comunidades.</td>
     </tr>
     <tr>
       <td>Notificaciones</td>
-      <td>Registro y autenticación</td>
+      <td>Registro y Autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
       <td>Utiliza datos del usuario (nombre, token, ubicación) para enviar notificaciones.</td>
