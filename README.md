@@ -4974,7 +4974,7 @@ El value object NotificationStatus define dos posibles estados: UNREAD y READ, u
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 <p align="center">
-  <img src="assets/images/ERD/ERD-Notificaciones.png" alt="ERD-Notificaciones" style="width: 700">
+  <img src="assets/images/ERD/ERD-Notificaciones.png" alt="ERD-Notificaciones" style="width: 700"> 
 </p>
 
 El Database Diagram para el Bounded Context de Notificaciones modela la persistencia del agregado raíz notifications, encargado de gestionar los mensajes enviados a los usuarios sobre conciertos cercanos. Cada notificación está asociada a un usuario mediante user-id y contiene información como title, content, type, status, además de fechas de creación y actualización para su trazabilidad. La tabla notificationdetails representa una relación muchos-a-muchos entre notificaciones y eventos musicales, lo cual enlaza ambos mediante claves foráneas (notification-id y event-id).
