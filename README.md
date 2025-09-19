@@ -77,7 +77,7 @@ Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/Gig
 **TB1 (19/09/2025):**
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="pulse" width="700">
+  <img src="assets/images/project-insights/pulse.png" alt="pulse" width="700">
 </p>
 
 <p align="center">
