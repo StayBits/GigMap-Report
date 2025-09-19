@@ -5201,6 +5201,41 @@ Separar responsabilidades entre comandos y consultas, así como distinguir clara
 </table>
 
 ### 2.6.5.4 Infrastructure Layer
+
+La **Infrastructure Layer** del bounded context de Registro y Autenticación contiene los componentes encargados de persistir los datos de cuentas de usuario, credenciales y perfiles de artista. Esta capa implementa las interfaces **UserRepository** y **ArtistRepository**, que abstraen el acceso a las fuentes de datos utilizadas por el sistema.
+
+**Justificación:**
+
+Centralizar la lógica de acceso a datos en esta capa permite mantener el dominio aislado de detalles tecnológicos como el uso de JPA, Hibernate o servicios externos. De esta manera, se facilita la adaptabilidad del sistema ante cambios en la infraestructura sin comprometer la integridad del dominio.
+
+**Repository: UserRepository**
+
+Interfaz de persistencia que permite recuperar y guardar cuentas de usuario.
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>existsByEmail(String email)</td><td>Optional&lt;User&gt;</td><td>Public</td><td>Verifica si un usuario ya usa el correo electrónico.</td></tr>
+    <tr><td>existsByUsername(String username)</td><td>boolean</td><td>Public</td><td>Verifica si el nombre de usuario ya está registrado.</td></tr>
+    <tr><td>findByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Public</td><td>Recupera una cuenta a partir de su identificador.</td></tr>
+  </tbody>
+</table>
+
+**Repository: ArtistRepository**
+
+Interfaz que permite acceder y manipular los perfiles artísticos asociados a usuarios del sistema.
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>findByUserId(UUID userId)</td><td>Optional&lt;Artist&gt;</td><td>Public</td><td>Obtiene el perfil artístico asociado a un usuario.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 ### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
