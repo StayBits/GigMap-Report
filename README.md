@@ -60,7 +60,11 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 	- Ortiz Cardenas, Johanna Antuanete <br>
 	- Zegarra Lopez, Renato Sebastian Rubber <br> 
       </td>
-      <td> hola </td>
+      <td> Desarrollo del Capítulo I:
+1.1. Startup Profile 1.1.1. Descripción de la Startup 1.1.2. Perfiles de integrantes del equipo 1.2. Solution Profile 1.2.1. Antecedentes y problemática 1.2.2. Lean UX Process 1.2.2.1. Lean UX Problem Statements 1.2.2.2. Lean UX Assumptions 1.2.2.3. Lean UX Hypothesis Statements 1.2.2.4. Lean UX Canvas 1.3. Segmentos objetivo 
+Desarrollo del Capítulo II:
+2.1. Competidores 2.1.1. Análisis competitivo 2.1.2. Estrategias y tácticas frente a competidores 2.2. Entrevistas 2.2.1. Diseño de entrevistas 2.2.2. Registro de entrevistas 2.2.3. Análisis de entrevistas 2.3. Needfinding 2.3.1. User Personas 2.3.2. User Task Matrix 2.3.3. User Journey Mapping 2.3.4. Empathy Mapping 2.3.5. Ubiquitous Language 2.4. Requirements specification 2.4.1. User Stories 2.4.2. Impact Mapping 2.4.3. Product Backlog 2.5. Strategic-Level Domain-Driven Design 2.5.1. EventStorming 2.5.1.1. Candidate Context Discovery 2.5.1.2. Domain Message Flows Modeling 2.5.1.3. Bounded Context Canvases 2.5.2. Context Mapping 2.5.3. Software Architecture 2.5.3.1. Software Architecture Context Level Diagrams 2.5.3.2. Software Architecture Container Level Diagrams 2.5.3.3. Software Architecture Deployment Diagrams 2.6. Tactical-Level Domain-Driven Design 2.6.1. Bounded Context: Conciertos 2.6.1.1. Domain Layer 2.6.1.2. Interface Layer 2.6.1.3. Application Layer 2.6.1.4. Infrastructure Layer 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 2.6.1.6.2. Bounded Context Database Design Diagram 2.6.2. Bounded Context: Comunidades 2.6.2.1. Domain Layer 2.6.2.2. Interface Layer 2.6.2.3. Application Layer 2.6.2.4. Infrastructure Layer 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 2.6.2.6.2. Bounded Context Database Design Diagram 2.6.3. Bounded Context: Eventos relacionados 2.6.3.1. Domain Layer 2.6.3.2. Interface Layer 2.6.3.3. Application Layer 2.6.3.4. Infrastructure Layer 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 2.6.3.6.2. Bounded Context Database Design Diagram 2.6.4. Bounded Context: Notificaciones 2.6.4.1. Domain Layer 2.6.4.2. Interface Layer 2.6.4.3. Application Layer 2.6.4.4. Infrastructure Layer 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 2.6.4.6.2. Bounded Context Database Design Diagram 2.6.5. Bounded Context: Registro y autenticación 2.6.5.1. Domain Layer 2.6.5.2. Interface Layer 2.6.5.3. Application Layer 2.6.5.4. Infrastructure Layer 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 2.6.5.6.2. Bounded Context Database Design Diagram
+ </td>
     </tr>
   </tbody>
 </table>
@@ -85,8 +89,17 @@ Enlace de repositorio del reporte del proyecto: `https://github.com/StayBits/Gig
 </p>
 
 <p align="center">
-  <img src="assets/images/project-insights/dd.png" alt="network" width="700">
+  <img src="assets/images/project-insights/network1.png" alt="network1" width="700">
 </p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network3.png" alt="network3" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/project-insights/network2.png" alt="network2" width="700">
+</p>
+
 
 Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
 
@@ -173,7 +186,7 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
       - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
       - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
-    - [2.6.5. Bounded Context: Registro y Autenticación](#265-bounded-context-autenticación)
+    - [2.6.5. Bounded Context: Registro y autenticación](#265-bounded-context-registro-y-autenticación)
       - [2.6.5.1. Domain Layer](#2651-domain-layer)
       - [2.6.5.2. Interface Layer](#2652-interface-layer)
       - [2.6.5.3. Application Layer](#2653-application-layer)
@@ -289,7 +302,7 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Ortiz Cardenas, Johanna Antuanete</td>
       <td>
-        - En los 6 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
+        - En los 9 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
 		- En un plazo máximo de 12 meses tras graduarme, obtendré una certificación reconocida en ciberseguridad (como CompTIA Security+ o Ethical Hacking) y reforzaré mi CV con estas credenciales, con el objetivo de consolidar mi perfil como especialista en 					seguridad informática y ampliar mis oportunidades de inserción en empresas del sector tecnológico.
       </td>
     </tr>
@@ -3109,7 +3122,9 @@ Gracias a este análisis, se pudo determinar cómo estos puntos críticos y prob
 <img src="assets/images/eventStorming/event_relacionados.png" alt="paso1" style="width: 700px">
 
 
-**Registro y Autenticación**
+
+**Registro y autenticación**
+
 
 
 <img src="assets/images/eventStorming/event_IAM.png" alt="paso1" style="width: 700px">
@@ -3125,13 +3140,16 @@ El siguiente modelo describe cómo fluyen los mensajes y acciones entre los dist
 
 **Registro y Autenticación y Conciertos:**
 
+
 Al iniciar sesión en la aplicación, el usuario puede acceder a los conciertos disponibles para buscar presentaciones existentes y también visualizarlas en el mapa. Si el usuario tiene el rol de artista, puede crear nuevos conciertos que luego estarán visibles para otros usuarios en el mapa.
 
 <p align="center">
 <img src="assets/images/eventStorming/event-storming1.png" alt="event-storming1" style="width: 700px">
 </p>
 
+
 **Registro y Autenticación y Comunidades:**
+
 
 Al iniciar sesión en la aplicación, el usuario puede acceder a la sección de comunidades para explorar las que ya existen o crear una nueva. Puede completar la información necesaria para formar o crear su propia comunidad, la cual quedará visible para otros usuarios que también hayan iniciado sesión.
 
@@ -3177,7 +3195,9 @@ Cuando un usuario publica un comentario en una publicación, se envía una notif
 
 **Vista completa:**
 
+
 Este modelo corresponde al Event Storming de la aplicación de GigMap, utilizado para identificar los flujos principales del dominio y agruparlos en bounded contexts que delimitan responsabilidades y reducen la complejidad. La aplicación se organiza en distintos bounded contexts: Registro y Autenticación, que gestiona el registro, inicio de sesión y perfiles de usuario; Conciertos, donde los artistas crean, modifican y eliminan conciertos y los usuarios pueden buscarlos o visualizarlos en el mapa; Eventos relacionados, que permite añadir actividades complementarias a los conciertos; Comunidades, que permite crear y gestionar comunidades temáticas para que los usuarios interactúen; y Notificaciones, que informa a los usuarios sobre nuevas actividades relevantes como conciertos, eventos cercanos, seguidores, likes o comentarios en publicaciones.
+
 
 <p align="center">
 <img src="assets/images/eventStorming/event-storming.png" alt="event-storming" style="width: 700px">
@@ -3216,7 +3236,9 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 <img src="assets/images/eventStorming/bounded-context-canvas-eventos.png" alt="bounded-context-canvas-eventos.png" style="width: 700px">
 
 
+
 **Registro y Autenticación**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
+
 
 
 <img src="assets/images/eventStorming/bounded-context-canvas-autenticacion.png" alt="bounded-context-canvas-autenticacion.png" style="width: 700px">
@@ -3230,8 +3252,10 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 El Context Mapping es una técnica estratégica dentro del enfoque de Domain-Driven Design (DDD) que permite visualizar cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. Mediante este mapeo se identifican las relaciones, dependencias y flujos de información, así como los patrones de colaboración utilizados entre contextos (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer). Esta herramienta permite mantener una arquitectura modular, favoreciendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios.
 
+
 En la aplicación GigMap se identificaron cinco bounded contexts principales: Registro y Autenticación, Conciertos, Eventos relacionados, Comunidades y Notificaciones.
 El contexto de Registro y Autenticación actúa como un Open Host Service (OHS) al ser el proveedor central de información de usuarios y roles, mientras que los demás contextos consumen estos datos. Conciertos permite a los artistas crear presentaciones y actúa como upstream para Eventos relacionados (que se asocian a un concierto) y para Notificaciones (que avisa sobre nuevos conciertos). Comunidades permite la interacción social entre usuarios y también envía eventos a Notificaciones cuando ocurren likes, comentarios o seguimientos. Eventos relacionados no depende de Registro y Autenticación directamente, sino que obtiene su contexto desde Conciertos y envía sus propios eventos a Notificaciones.
+
 
 <p align="center">
 <img src="assets/images/context-mapping/context-mapping.png" alt="context-mapping" style="width: 700px">
@@ -3257,6 +3281,7 @@ El contexto de Registro y Autenticación actúa como un Open Host Service (OHS) 
     </tr>
     <tr>
       <td>Comunidades</td>
+
       <td>Registro y Autenticación</td>
       <td>Customer/Supplier</td>
       <td>Sí</td>
@@ -4920,7 +4945,8 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-## 2.6.5. Bounded Context: Registro y Autenticación
+## 2.6.5. Bounded Context: Registro y autenticación
+
 ### 2.6.5.1. Domain Layer
 
 En el Domain Layer del bounded context de Registro y Autenticación, el agregador principal es **User**. Este representa los elementos esenciales para la identificación de usuarios dentro del sistema, así como para la gestión de credenciales seguras y el control de acceso.
@@ -5242,6 +5268,24 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.5.6.2. Bounded Context Database Design Diagram
 
+
+
+
+# Conclusiones
+
+-	El proyecto GigMap se consolida como una propuesta innovadora frente a los desafíos que presenta la escena musical en vivo, posicionándose como un puente tecnológico entre artistas emergentes y un público en constante búsqueda de experiencias auténticas. Su enfoque en geolocalización, personalización y participación comunitaria redefine la manera en que los usuarios descubren conciertos, aportando una solución efectiva a la falta de difusión de eventos independientes y al mismo tiempo ampliando las oportunidades de visibilización de artistas locales. El sistema demuestra cómo la tecnología, aplicada con una visión social y cultural, puede transformar dinámicas de consumo y enriquecer el ecosistema musical urbano.
+
+-	Los resultados obtenidos a partir de las entrevistas y validaciones confirman los assumptions e hipótesis planteados en el proceso de Lean UX: los fans valoran la inmediatez y accesibilidad de información en tiempo real, mientras que los artistas emergentes demandan canales efectivos de promoción que les permitan conectar directamente con sus audiencias. En este sentido, GigMap contribuye a equilibrar una brecha crítica en la industria, donde el 99,9% de los nuevos artistas permanece invisible en un mercado saturado. La aplicación ofrece un escenario donde los conciertos locales, muchas veces inadvertidos, logran alcanzar a quienes más los disfrutan, fomentando así la cultura de descubrimiento musical.
+
+-	La arquitectura planteada a lo largo del trabajo, sustentada en principios de Domain-Driven Design y en la descomposición por bounded contexts, permitió organizar de manera estratégica los subdominios (descubrimiento, notificaciones, interacción social, gestión de usuarios y eventos relacionados). Este diseño estructurado facilita la escalabilidad de la plataforma, asegura mantenibilidad en el tiempo y garantiza que cada módulo pueda evolucionar sin comprometer la visión global del sistema. Complementariamente, los modelos construidos a través de event stormings, diagramas de C4 y representaciones del dominio ofrecieron claridad sobre las interacciones clave y aseguraron coherencia en el desarrollo.
+
+-	En un nivel cultural y social, GigMap trasciende su rol como aplicación móvil para convertirse en un catalizador del capital cultural. Al visibilizar la oferta musical dispersa, la plataforma fortalece la economía creativa local (bares, salas de concierto, colectivos culturales), estimula el turismo musical y fomenta la diversidad de propuestas artísticas. La posibilidad de crear y asistir a eventos relacionados expande la experiencia de los conciertos más allá del show principal, reforzando la identidad comunitaria de los fans y potenciando el sentido de pertenencia.
+
+-	El éxito sostenible de GigMap dependerá de mantener un equilibrio entre las expectativas de sus stakeholders: ofrecer a los usuarios experiencias fluidas y personalizadas, brindar a los artistas herramientas sencillas pero potentes para la promoción, y generar valor tangible para promotores y aliados estratégicos. Retos como la calidad de los datos en tiempo real, la monetización sin comprometer la experiencia de usuario y la consolidación de una comunidad activa requerirán procesos iterativos constantes. Sin embargo, los hallazgos obtenidos y la validación de hipótesis posicionan a GigMap de manera favorable para su adopción, especialmente en un contexto donde la convergencia entre tecnología móvil, cultura local y consumo experiencial abre terreno fértil para su expansión.
+
+-	En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la plataforma se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
+
+
 # Bibliografía
 
 - Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. `https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf`
@@ -5256,3 +5300,18 @@ Interfaz que permite acceder y manipular los perfiles artísticos asociados a us
 
 - GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. `https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
 `
+# Anexos
+
+**Registro de Entrevistas:**
+- `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+
+**Bounded Context Canvases:**
+- `https://miro.com/app/board/uXjVJISYDZs=/`
+  
+**Bounded Context Domain Layer Class Diagrams:**
+- `https://lucid.app/lucidchart/c4fcc116-38bb-4452-a822-563346f85914/edit?invitationId=inv_e37a0d87-1595-4c30-9945-6a3ad64347cd&page=0_0`
+
+**Diagrama de Base de Datos:**
+- `https://lucid.app/lucidchart/05424e23-5e84-4387-9dce-03e18885fc89/edit?invitationId=inv_3b68e893-018f-41c7-a6f9-254bbdcaa6ab`
+
+
