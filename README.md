@@ -4919,8 +4919,127 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-## 2.6.5. Bounded Context: Gestion de usuarios
+## 2.6.5. Bounded Context: Registro y Autenticación
 ### 2.6.5.1. Domain Layer
+
+En el Domain Layer del bounded context de Registro y Autenticación, el agregador principal es **User**. Este representa los elementos esenciales para la identificación de usuarios dentro del sistema, así como para la gestión de credenciales seguras y el control de acceso.
+
+El usuario (User) encapsula toda la información necesaria para autenticar al usuario y validar su identidad. Adicionalmente, si el usuario ha sido registrado como artista, se asocia a una entidad **Artist**, que contiene información complementaria sobre su perfil artístico.
+
+La lógica de negocio relacionada con estos procesos se centraliza en los servicios de dominio **UserCommandService** y **UserQueryService** para operaciones de autenticación y registro de usuarios, y en los servicios **ArtistCommandService** y **ArtistQueryService** para la gestión del perfil artístico asociado al usuario.
+
+**Justificación:**  
+Este enfoque permite desacoplar la lógica de autenticación y registro del resto del sistema, garantizando coherencia en la validación de credenciales y manejo de accesos. Al centralizar la lógica de creación, verificación e invalidación de sesiones en un servicio de dominio, se mejora la seguridad y la trazabilidad del sistema.
+
+**Aggregate: User**  
+Representa a un usuario registrado en la aplicación, que permite la autenticación y posterior acceso a funcionalidades protegidas del sistema.
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo de dato</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único del usuario</td></tr>
+    <tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico registrado</td></tr>
+    <tr><td>username</td><td>String</td><td>Private</td><td>Nombre de usuario visible</td></tr>
+    <tr><td>passwordHash</td><td>String</td><td>Private</td><td>Hash de la contraseña del usuario</td></tr>
+    <tr><td>artist</td><td>Artist</td><td>Private</td><td>Información artística asociada, si el usuario es artista</td></tr>
+    <tr><td>createdAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de creación de la cuenta</td></tr>
+    <tr><td>updatedAt</td><td>LocalDateTime</td><td>Private</td><td>Última fecha y hora de actualización de la cuenta</td></tr>
+  </tbody>
+</table>
+
+**Entity: Artist**  
+
+Representa el perfil artístico de un usuario que se ha registrado como artista dentro de la plataforma.
+
+**Atributos**
+
+<table>
+  <thead>
+    <tr>
+      <th>Atributo</th>
+      <th>Tipo de dato</th>
+      <th>Visibilidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>artistId</td><td>UUID</td><td>Private</td><td>Identificador único del artista (igual al del usuario)</td></tr>
+    <tr><td>artistName</td><td>String</td><td>Private</td><td>Nombre artístico</td></tr>
+    <tr><td>bio</td><td>String</td><td>Private</td><td>Biografía o descripción del artista</td></tr>
+    <tr><td>genres</td><td>String[]</td><td>Private</td><td>Género musical principal del artista</td></tr>
+    <tr><td>createdAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha de creación del perfil artístico</td></tr>
+    <tr><td>updatedAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha de actualización del perfil artístico</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: UserCommandService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Registra una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Actualiza los datos de un usuario existente.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: UserQueryService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserById(String email)</td><td>Optional&lt;User&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+    <tr><td>getUserByArtistId(UUID artistId)</td><td>Optional&lt;User&gt;</td><td>Devuelve el usuario con el artistId deseado.</td></tr>
+    <tr><td>isUsernameTaken(String username)</td><td>boolean</td><td>Verifica si el nombre de usuario ya está en uso.</td></tr>
+    <tr><td>isEmailTaken(String email)</td><td>boolean</td><td>Verifica si el correo del usuario ya está en uso.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: ArtistQueryService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getArtistByUserId(String email)</td><td>Optional&lt;Artist&gt;</td><td>Retorna una cuenta de usuario a partir del correo electrónico.</td></tr>
+  </tbody>
+</table>
+
+**Domain Service: ArtistCommandService**
+
+**Métodos**
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Registra un nuevo artista.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Actualiza los datos de un artista existente.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Elimina el artista deseado.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.2. Interface Layer
 ### 2.6.5.3. Application Layer
 ### 2.6.5.4 Infrastructure Layer
