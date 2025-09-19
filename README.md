@@ -173,7 +173,7 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
       - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
       - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
-    - [2.6.5. Bounded Context: Registro y Autenticación](#265-bounded-context-gestion-de-usuarios)
+    - [2.6.5. Bounded Context: Registro y Autenticación](#265-bounded-context-autenticación)
       - [2.6.5.1. Domain Layer](#2651-domain-layer)
       - [2.6.5.2. Interface Layer](#2652-interface-layer)
       - [2.6.5.3. Application Layer](#2653-application-layer)
