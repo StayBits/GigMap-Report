@@ -4944,9 +4944,32 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
 </table>
 
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="assets/images/C4/C4-Notificaciones.png" alt="C4-Notificaciones" style="width: 700">
+</p>
+
+Este diagrama de componentes representa una arquitectura monolítica centrada en el manejo de notificaciones dentro de la plataforma GigMap. Una aplicación móvil, desarrollada con Android Studio utilizando Kotlin y Jetpack Compose, se comunica con una API desarrollada en Spring Boot mediante solicitudes HTTPS.
+
+La Mobile Application realiza peticiones al componente Notification Controller, responsable de exponer los endpoints necesarios para gestionar las notificaciones. Este controlador delega la lógica de negocio a dos servicios especializados: Notification Query Service, encargado de recuperar notificaciones y Notification Command Service, responsable de enviarlas o modificar su estado.
+
+Ambos servicios acceden a los datos persistidos a través del Notification Repository, el cual implementa operaciones de lectura y escritura sobre la base de datos utilizando JPA. La información se almacena en una base de datos MySQL que gestiona tanto las notificaciones como otros registros relevantes para el sistema.
+
 ### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama de clases representa el bounded context de Notificaciones e ilustra cómo se organiza el dominio alrededor del agregado principal Notification, acompañado por dos servicios de aplicación: NotificationCommandService y NotificationQueryService. También, se incluyen dos value objects: NotificationStatus y NotificationType, que encapsulan comportamientos relacionados al estado y tipo de notificación.
+
+El agregado Notification contiene atributos relevantes como id, user, community, concert, relatedUser, title, content, type, status, createdAt y updatedAt, reflejando el contexto rico de una notificación dentro de la plataforma. Provee métodos como markAsRead() para modificar su estado y isRead() para consultar si ha sido leída. La asociación con entidades como User, Community y Concert permite vincular las notificaciones a eventos o interacciones concretas en el sistema.
+
+El servicio NotificationCommandService encapsula la lógica para crear nuevas notificaciones, marcarlas como leídas o eliminarlas. Por su parte, NotificationQueryService se encarga de recuperar notificaciones desde la perspectiva del usuario, ya sea por ID, por estado de lectura o por cantidad de notificaciones no leídas.
+
+El value object NotificationStatus define dos posibles estados: UNREAD y READ, utilizados para representar si una notificación ha sido vista por el usuario. Por otro lado, NotificationType clasifica las notificaciones en categorías como INFO, REMINDER, SOCIAL, COMMUNITY, ARTIST_UPDATE y ALERT.
+
 #### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+El Database Diagram para el Bounded Context de Notificaciones modela la persistencia del agregado raíz notifications, encargado de gestionar los mensajes enviados a los usuarios sobre conciertos cercanos. Cada notificación está asociada a un usuario mediante user-id y contiene información como title, content, type, status, además de fechas de creación y actualización para su trazabilidad. La tabla notificationdetails representa una relación muchos-a-muchos entre notificaciones y eventos musicales, lo cual enlaza ambos mediante claves foráneas (notification-id y event-id).
 
 ## 2.6.5. Bounded Context: Registro y autenticación
 
@@ -5071,7 +5094,6 @@ Representa el perfil artístico de un usuario que se ha registrado como artista 
 </table>
 
 ### 2.6.5.2. Interface Layer
-
 
 Dentro del bounded context de Registro y Autenticación, las clases principales en esta capa son **AuthenticationController**, **UsersController** y **ArtistsController**.
 **AuthenticationController** gestiona los procesos de inicio de sesión y recuperación de credenciales.  
