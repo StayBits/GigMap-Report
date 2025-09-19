@@ -5041,6 +5041,86 @@ Representa el perfil artístico de un usuario que se ha registrado como artista 
 </table>
 
 ### 2.6.5.2. Interface Layer
+
+
+Dentro del bounded context de Registro y Autenticación, las clases principales en esta capa son **AuthenticationController**, **UsersController** y **ArtistsController**.
+**AuthenticationController** gestiona los procesos de inicio de sesión y recuperación de credenciales.  
+**UsersController** se encarga del registro de nuevos usuarios y de la administración de sus cuentas.  
+**ArtistsController** permite gestionar el perfil artístico de aquellos usuarios que han sido registrados como artistas, incluyendo la creación, modificación o consulta de su información.
+
+**Justificación:**
+
+Esta capa actúa como punto de entrada al sistema de autenticación, permitiendo gestionar accesos mediante una API RESTful segura. Su diseño permite una fácil integración con mecanismos de autenticación por tokens, recuperación de contraseña o gestión de sesiones activas. La separación entre controladores mejora la organización del código, permite un control más granular sobre permisos y responsabilidades, y facilita la evolución de las funcionalidades de usuario y artista de forma independiente.
+
+**Controller: AuthenticationController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserCommandService</td><td>userCommandService</td><td>Private</td><td>Servicio encargado del registro y modificación de cuentas</td></tr>
+    <tr><td>UserQueryService</td><td>userQueryService</td><td>Private</td><td>Servicio que recupera información de cuentas existentes</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>signIn()</td><td>User</td><td>Public</td><td>Registra un nuevo usuario y devuelve los datos de su cuenta.</td></tr>
+    <tr><td>logIn()</td><td>TokenResponse</td><td>Public</td><td>Verifica las credenciales del usuario y retorna un token JWT.</td></tr>
+  </tbody>
+</table>
+
+**Controller: UsersController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>UserCommandService</td><td>userCommandService</td><td>Private</td><td>Servicio encargado del registro y modificación de cuentas</td></tr>
+    <tr><td>UserQueryService</td><td>userQueryService</td><td>Private</td><td>Servicio que recupera información de cuentas existentes</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createUser()</td><td>User</td><td>Public</td><td>Crea una nueva cuenta de usuario.</td></tr>
+    <tr><td>updateUser(UUID userId)</td><td>User</td><td>Public</td><td>Actualiza los datos del usuario.</td></tr>
+    <tr><td>deleteUser(UUID userId)</td><td>void</td><td>Public</td><td>Elimina el usuario deseado.</td></tr>
+  </tbody>
+</table>
+
+**Controller: ArtistsController**
+
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArtistCommandService</td><td>artistCommandService</td><td>Private</td><td>Servicio responsable de crear o actualizar el perfil artístico</td></tr>
+    <tr><td>ArtistQueryService</td><td>artistQueryService</td><td>Private</td><td>Servicio encargado de consultar la información del artista</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createArtist()</td><td>Artist</td><td>Public</td><td>Crea el perfil de artista asociado a un usuario.</td></tr>
+    <tr><td>updateArtist(UUID artistId)</td><td>Artist</td><td>Public</td><td>Actualiza la información del perfil artístico.</td></tr>
+    <tr><td>getArtistByUserId(UUID userId)</td><td>Optional&lt;Artist&gt;</td><td>Public</td><td>Recupera el perfil de artista a partir del identificador de usuario.</td></tr>
+    <tr><td>deleteArtist(UUID artistId)</td><td>void</td><td>Public</td><td>Elimina el perfil del artista deseado.</td></tr>
+  </tbody>
+</table>
+
 ### 2.6.5.3. Application Layer
 ### 2.6.5.4 Infrastructure Layer
 ### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
