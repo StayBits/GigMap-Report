@@ -3219,7 +3219,7 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 **Registro y Autenticación**: Este contexto se encarga de la gestión de identidades y accesos. Define la autenticación de usuarios, los niveles de permisos y el control de seguridad que regula cómo los diferentes actores interactúan con el sistema.
 
 
-<img src="assets/images/eventStorming/bounded-context-canvas-iam.png" alt="bounded-context-canvas-autenticacion.png" style="width: 700px">
+<img src="assets/images/eventStorming/bounded-context-canvas-autenticacion.png" alt="bounded-context-canvas-autenticacion.png" style="width: 700px">
 
 **Notificaciones**: Este contexto cubre la comunicación proactiva hacia los usuarios, enviando recordatorios, alertas y actualizaciones relevantes sobre conciertos, comunidades o eventos relacionados.
 
