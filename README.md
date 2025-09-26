@@ -267,10 +267,19 @@ tecnologías de ingeniería de software.</td>
     </tr>
     <tr>
       <td>Lizarbe Alvarez, Ariana Nickole</td>
-      <td>
-        - En los 12 meses posteriores a mi graduación, conseguiré un trabajo remunerado en una empresa reconocida del sector tecnológico, en el que pueda aplicar mis conocimientos de SQL y bases de datos en la gestión y optimización de información, logrando completar al menos 2 proyectos de mejora en procesos de almacenamiento y consulta de datos. <br><br>
-        - En un plazo máximo de 18 meses tras graduarme, desarrollaré y documentaré al menos 3 proyectos de software enfocadas en la resolución de problemas reales, publicándolas en un repositorio profesional en GitHub y compartiéndolas en LinkedIn, con el objetivo de fortalecer mi portafolio y aumentar mis oportunidades de inserción en empresas internacionales.
-      </td>
+     <td>
+  <strong>Específico:</strong> Aprender y aplicar conceptos avanzados de Java y Python desarrollando proyectos prácticos con interfaz de usuario y bases de datos.<br>
+  <strong>Medible:</strong> Completar 3 proyectos funcionales y documentarlos en GitHub con README detallado.<br>
+  <strong>Alcanzable:</strong> Dedicar 1 hora diaria a estudiar y programar, utilizando cursos online y ejercicios prácticos.<br>
+  <strong>Relevante:</strong> Mejorará tus competencias técnicas y te preparará para roles en empresas de tecnología o proyectos personales complejos.<br>
+  <strong>Tiempo definido:</strong> Alcanzar este objetivo en 6 meses, con revisión de avances cada mes.
+		<br><br> 
+<strong>Específico:</strong> Obtener un puesto de trabajo en una empresa reconocida del sector tecnológico que permita desarrollar habilidades en ingeniería de software y participar en proyectos desafiantes.<br>
+  <strong>Medible:</strong> Aplicar a al menos 30 vacantes relevantes, asistir a 5 entrevistas técnicas y obtener una oferta laboral concreta.<br>
+  <strong>Alcanzable:</strong> Prepararte mediante revisión de CV, práctica de entrevistas técnicas, desarrollo de proyectos propios y participación en cursos o certificaciones adicionales.<br>
+  <strong>Relevante:</strong> Este objetivo te permitirá iniciar tu carrera profesional en un entorno que potencie tu crecimiento y experiencia práctica en el sector que deseas.<br>
+  <strong>Tiempo definido:</strong> Lograrlo en los 12 meses siguientes a la culminación de la universidad, revisando tu progreso cada 2 meses.
+</td>
     </tr>
     <tr>
       <td>Ortiz Cardenas, Johanna Antuanete</td>
