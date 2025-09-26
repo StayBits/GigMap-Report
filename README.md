@@ -340,7 +340,7 @@ StayBits es una startup creativa y tecnológica dedicada a transformar la manera
 **What**:
 
 Las personas experimentan dificultad para descubrir y encontrar conciertos en vivo, en especial aquellos no tan conocidos. Esto reduce la visibilidad de artistas emergentes, limita el acceso a experiencias musicales auténticas y debilita el impacto de la música local en la rutina de los fans.
-Por ejemplo, Chartmetric (2023) reporta que el 99,9 % de los artistas añadidos a la plataforma ese año permanecieron en las categorías de "no descubiertos" o "en desarrollo", mientras solo el 0,1 % alcanzó niveles medios o de éxito, destacando la extrema saturación de talento y la falta de visibilidad
+Por ejemplo, Chartmetric (2023) reporta que el 99,9 % de los artistas añadidos a la aplicación ese año permanecieron en las categorías de "no descubiertos" o "en desarrollo", mientras solo el 0,1 % alcanzó niveles medios o de éxito, destacando la extrema saturación de talento y la falta de visibilidad
 
 **When**:
 
@@ -490,7 +490,7 @@ Creemos que, si GigMap ofrece recomendaciones de conciertos basadas en los inter
 
 Creemos que, si GigMap integra una comunidad activa en la que los usuarios puedan compartir experiencias y reportar incidencias, se fomentará la confianza colectiva y la participación constante, reforzando el valor colaborativo de la aplicación.
 
-Creemos que, si GigMap proporciona una plataforma para que los artistas emergentes publiquen sus conciertos y conecten con un público local, aumentarán sus oportunidades de visibilización, crecimiento y fidelización de seguidores, fortaleciendo así su carrera artística a largo plazo.
+Creemos que, si GigMap proporciona una aplicación móvil para que los artistas emergentes publiquen sus conciertos y conecten con un público local, aumentarán sus oportunidades de visibilización, crecimiento y fidelización de seguidores, fortaleciendo así su carrera artística a largo plazo.
 
 Creemos que, si GigMap permite a los usuarios dejar reseñas y comentarios sobre conciertos y presentaciones, los artistas obtendrán retroalimentación constructiva que les permitirá mejorar su desempeño y consolidar su éxito en futuros eventos.
 
@@ -509,7 +509,7 @@ Creemos que, si GigMap destaca a artistas emergentes y facilita su participació
       Muchas personas que disfrutan de la música en vivo, así como artistas y cantantes, tanto independientes como formales, enfrentan dificultades para descubrir o difundir conciertos, especialmente los de pequeña o mediana escala. Esta desconexión limita el crecimiento de la escena musical local, reduce la visibilidad de los artistas y hace que los fans se pierdan experiencias auténticas.
     </td>
     <td>
-      GigMap es una aplicación móvil que conecta a los amantes de la música con conciertos en tiempo real, permitiendo descubrir eventos cercanos mediante geolocalización, recibir notificaciones personalizadas según gustos musicales y acceder a la agenda de presentaciones de artistas locales. Además, ofrece una plataforma para que los músicos puedan publicar sus eventos y llegar a su público ideal.
+      GigMap es una aplicación móvil que conecta a los amantes de la música con conciertos en tiempo real, permitiendo descubrir eventos cercanos mediante geolocalización, recibir notificaciones personalizadas según gustos musicales y acceder a la agenda de presentaciones de artistas locales. Además, ofrece una aplicación para que los músicos puedan publicar sus eventos y llegar a su público ideal.
     </td>
     <td>
       Esperamos que GigMap incremente la asistencia a conciertos, visibilice a más artistas independientes y fomente una comunidad musical más conectada. El éxito se medirá por el aumento de usuarios activos, la cantidad de eventos compartidos en la aplicación y el crecimiento en la interacción entre fans y artistas.
@@ -563,7 +563,7 @@ De acuerdo con Duche Pérez y Andía Gonzales (2019), el 54 % de los estudiantes
 - Características demográficas y de comportamiento:
   
 	- Incorporan la música como parte del día a día.
-	- Consumen contenido en plataformas como Spotify, Apple Music.
+	- Consumen contenido en aplicaciones como Spotify, Apple Music.
 	- Siguen a artistas en redes sociales como Instagram, TikTok o X.
 	- Comparten sus preferencias musicales con amigos y buscan experiencias reales significativas.
 
@@ -589,7 +589,7 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 - Características demográficas y de comportamiento:
 
 	- Generalmente son músicos autogestionados o integrantes de bandas independientes que no cuentan con el respaldo de grandes disqueras.
-	- Utilizan redes sociales y plataformas digitales como principales canales de promoción, interacción con su audiencia y difusión de eventos.
+	- Utilizan redes sociales y aplicaciones como principales canales de promoción, interacción con su audiencia y difusión de eventos.
 	- Buscan herramientas tecnológicas que les ofrezcan mayor visibilidad, autonomía en la gestión de sus actividades y una comunicación directa con sus seguidores.
 
 - Necesidades principales:
@@ -613,7 +613,7 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 		</tr>
 		<tr>
 			<td colspan="2">¿Por que llevar a cabo este análisis?</td>
-			<td colspan="4">Es fundamental para comprender cómo otras plataformas gestionan el descubrimiento de eventos musicales, qué aspectos valoran los usuarios y en qué áreas aún hay oportunidades sin atender, especialmente en lo referente a la promoción de conciertos de pequeña y mediana escala. Al analizar a la competencia con mayor detalle, podremos tomar decisiones más acertadas sobre las funcionalidades, el modelo de negocio, los diferenciadores clave y las estrategias de crecimiento.
+			<td colspan="4">Es fundamental para comprender cómo otras plataformas y/o aplicaciones gestionan el descubrimiento de eventos musicales, qué aspectos valoran los usuarios y en qué áreas aún hay oportunidades sin atender, especialmente en lo referente a la promoción de conciertos de pequeña y mediana escala. Al analizar a la competencia con mayor detalle, podremos tomar decisiones más acertadas sobre las funcionalidades, el modelo de negocio, los diferenciadores clave y las estrategias de crecimiento.
             </td>
 		</tr>
 		<tr>
@@ -721,7 +721,7 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 		</tr>
 		<tr>
 			<td>Debilidades</td>
-			<td>Al ser una plataforma en crecimiento, su base de usuarios y oferta de conciertos son limitados. Depende de alianzas con locales y artistas para ampliar su alcance.</td>
+			<td>Al ser una aplicación en crecimiento, su base de usuarios y oferta de conciertos son limitados. Depende de alianzas con locales y artistas para ampliar su alcance.</td>
 			<td>Tiene una gran base de usuarios gracias a su integración con plataformas como Spotify y Apple Music. Su enfoque en conciertos grandes le permite ofrecer una experiencia robusta en la compra de entradas.</td>
 			<td>Su interfaz puede ser confusa para nuevos usuarios debido a la gran cantidad de notificaciones y conciertos. Las recomendaciones no siempre son precisas ni relevantes para todos los usuarios.</td>
 			<td>Su enfoque generalista puede no satisfacer a usuarios que buscan solo conciertos en vivo. El contenido musical no es tan profundo o especializado como en otras plataformas.</td>
@@ -747,7 +747,7 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 
 **- Enfoque en el descubrimiento de música en vivo diversa**
 
-Estrategia: Diferenciarse de otras plataformas generalistas facilitando el acceso a una variedad de eventos musicales sin importar su escala
+Estrategia: Diferenciarse de otras aplicaciones generalistas facilitando el acceso a una variedad de eventos musicales sin importar su escala
 
 Táctica: Mostrar de forma equitativa tanto conciertos masivos como presentaciones más íntimas o alternativas y resaltar aquellos eventos que se alineen con los intereses del usuario mediante algoritmos de recomendación y geolocalización
 
@@ -762,7 +762,7 @@ Táctica: Implementar un mapa interactivo que muestre eventos activos cerca del 
 
 Estrategia: Fortalecer la oferta de eventos mediante colaboraciones directas con organizadores independientes
 
-Táctica: Crear programas de colaboración con venues, colectivos culturales y artistas emergentes que les permitan promocionar sus eventos fácilmente dentro de la plataforma
+Táctica: Crear programas de colaboración con venues, colectivos culturales y artistas emergentes que les permitan promocionar sus eventos fácilmente dentro de la aplicación
 
 **- Comunidad y participación de los fans**
 
@@ -772,7 +772,7 @@ Táctica: Permitir a los usuarios hacer check-in en eventos, compartir fotos y r
 
 **- Funcionalidades exclusivas para fidelización**
 
-Estrategia: Aumentar la retención y lealtad de los usuarios frente a otras plataformas
+Estrategia: Aumentar la retención y lealtad de los usuarios frente a otras aplicaciones.
 
 Táctica: Ofrecer funciones como seguimiento de giras, alertas personalizadas, y programas de recompensas por asistir a eventos frecuentes o apoyar a artistas locales
 
@@ -791,11 +791,11 @@ Perfil demográfico y musical:
 
 Comportamiento digital y uso de apps:
 
-- ¿Qué plataformas usas para descubrir nuevos eventos o artistas?
+- ¿Qué aplicaciones usas para descubrir nuevos eventos o artistas?
 - ¿Sueles seguir a tus artistas favoritos por redes sociales?
 - ¿Usas apps como Spotify, Instagram u otras para encontrar conciertos?
 
- Expectativas y opinión sobre GitMap:
+ Expectativas y opinión sobre Gigmap:
 
 - ¿Has tenido problemas para enterarte de conciertos cercanos a ti?
 - Si tuvieras una app que te muestre conciertos en vivo cerca, ¿la usarías? ¿por qué?
@@ -810,15 +810,15 @@ Perfil artístico y canales de promoción:
 - ¿Cuál es tu nombre artístico o el de tu banda?
 - ¿Qué estilo musical haces y cuántos años llevas en la música?
 - ¿Cómo sueles promocionar tus eventos o lanzamientos?
-- ¿Qué redes sociales o plataformas usas para difundir tus conciertos? (Instagram, TikTok, Spotify, etc.)
+- ¿Qué redes sociales o aplicaciones usas para difundir tus conciertos? (Instagram, TikTok, Spotify, etc.)
 - ¿Tienes algún equipo que te apoya en la promoción (manager, community manager) o lo gestionas de manera independiente?
 
 Herramientas digitales y desafíos:
 
 - ¿Te resulta fácil o difícil difundir tus eventos entre el público local?
-- ¿Has utilizado apps o plataformas para anunciar tus conciertos? ¿Cuál fue tu experiencia?
+- ¿Has utilizado apps o aplicaciones para anunciar tus conciertos? ¿Cuál fue tu experiencia?
 - ¿Qué barreras encuentras al intentar llenar tus shows o llegar a nuevos oyentes?
-- ¿Consideras que las plataformas actuales son suficientes para que un artista emergente se dé a conocer?
+- ¿Consideras que las aplicaciones actuales son suficientes para que un artista emergente se dé a conocer?
 
 Opinión y expectativas sobre GigMap:
 
@@ -918,7 +918,7 @@ La entrevistada, Zaleth Feijóo, es una joven artista de 19 años, residente en 
 
 Durante la conversación, Zaleth manifestó que utiliza redes sociales como Instagram y TikTok como sus principales canales de promoción para eventos y lanzamientos. No cuenta con un equipo de apoyo fijo. Sin embargo, en ocasiones, colabora con colegas del mismo ámbito. La difusión de su música ha representado un reto constante, debido a la dificultad de alcanzar al público objetivo y a la crítica negativa que recibe en redes.
 
-Afirma que no ha utilizado plataformas especializadas para promocionar conciertos, y considera que las redes sociales no son suficientes para que un artista emergente se dé a conocer de forma adecuada. A su parecer, esto se debe tanto a la ausencia de una aplicación especializada como a la falta de valorización del arte y la música emergente.
+Afirma que no ha utilizado aplicaciones especializadas para promocionar conciertos, y considera que las redes sociales no son suficientes para que un artista emergente se dé a conocer de forma adecuada. A su parecer, esto se debe tanto a la ausencia de una aplicación especializada como a la falta de valorización del arte y la música emergente.
 
 En cuanto a la propuesta de GigMap, la artista considera que una aplicación de este tipo podría ser muy útil, ya que permitiría a los usuarios encontrar eventos cercanos según sus intereses musicales. Además, mostró interés en poder crear un perfil artístico, gestionar fechas, y contar con funcionalidades como estadísticas de asistencia a eventos, integración de redes sociales, y espacios de comunicación directa con fans.
 
@@ -941,9 +941,9 @@ El entrevistado, Diego Zúñiga, es un artista emergente de 20 años que vive en
 
 Promociona sus lanzamientos y conciertos principalmente mediante redes sociales como Instagram y TikTok, donde dice que se encuentra la mayor parte de su público. Además, sube su música a Spotify y YouTube. Si bien realiza toda la gestión de forma independiente, ocasionalmente cuenta con el apoyo de amigos para diseño y difusión. Aún no cuenta con un mánager.
 
-Comenta que la difusión local es difícil, ya que la información suele quedarse en su círculo más cercano. Ha utilizado herramientas como Facebook Events y Eventbrite, pero opina que no son efectivas para conectar con personas interesadas en descubrir música nueva. Considera que las plataformas actuales están saturadas y que es muy difícil destacar entre tanto contenido, especialmente para artistas emergentes.
+Comenta que la difusión local es difícil, ya que la información suele quedarse en su círculo más cercano. Ha utilizado herramientas como Facebook Events y Eventbrite, pero opina que no son efectivas para conectar con personas interesadas en descubrir música nueva. Considera que las aplicaciones actuales están saturadas y que es muy difícil destacar entre tanto contenido, especialmente para artistas emergentes.
 
-La propuesta de GigMap le pareció muy interesante, particularmente la idea de que los usuarios puedan encontrar eventos musicales en un mapa interactivo local. Considera que esto facilitaría mucho la visibilidad de los conciertos sin tener que depender de múltiples plataformas.
+La propuesta de GigMap le pareció muy interesante, particularmente la idea de que los usuarios puedan encontrar eventos musicales en un mapa interactivo local. Considera que esto facilitaría mucho la visibilidad de los conciertos sin tener que depender de múltiples aplicaciones.
 
 Le interesaría poder crear un perfil artístico dentro de la app, así como gestionar fechas de conciertos y publicar eventos. Además, valoraría mucho tener estadísticas sobre asistentes, una posible integración con Spotify, e incluso información sobre la cantidad de oyentes interesados en su estilo musical. Como aspectos de personalización, mencionó que le gustaría poder editar su perfil con fotos, logo, biografía, enlaces a redes y playlists propias.
 
@@ -968,13 +968,13 @@ Camilo Llora Burga, de 20 años, vive en Magdalena y forma parte de la banda "Ac
 
 Para la promoción de eventos y lanzamientos, utilizan sobre todo Instagram y TikTok, donde comparten clips creativos, ensayos y contenido visual que conecta con su público. También suben su música a Spotify y hacen uso del boca a boca y conciertos íntimos como parte de su estrategia de difusión. Toda la gestión es llevada a cabo de forma independiente, con cada integrante de la banda contribuyendo en diseño, contacto y redes.
 
-Camilo menciona que es difícil llegar al público local, ya que la visibilidad tiende a concentrarse en artistas más conocidos. Aunque han utilizado herramientas como apps locales de eventos e Instagram Ads, no siempre generan una conexión real con el público. Además, identifica como barreras el alcance limitado por algoritmos, la falta de espacios accesibles y la saturación de contenido en las plataformas tradicionales.
+Camilo menciona que es difícil llegar al público local, ya que la visibilidad tiende a concentrarse en artistas más conocidos. Aunque han utilizado herramientas como apps locales de eventos e Instagram Ads, no siempre generan una conexión real con el público. Además, identifica como barreras el alcance limitado por algoritmos, la falta de espacios accesibles y la saturación de contenido en las aplicaciones tradicionales.
 
-Sobre GigMap, la idea de una aplicación que muestre conciertos en un mapa local le pareció muy útil y atractiva, ya que facilitaría el descubrimiento de nuevos eventos musicales sin necesidad de buscar en varias plataformas.
+Sobre GigMap, la idea de una aplicación que muestre conciertos en un mapa local le pareció muy útil y atractiva, ya que facilitaría el descubrimiento de nuevos eventos musicales sin necesidad de buscar en varias aplicaciones.
 
 Está muy interesado en crear un perfil artístico dentro de la app, gestionar fechas de conciertos y tener un espacio centralizado para su banda. Mencionó funcionalidades clave como análisis de asistentes, integración con redes sociales, publicación de eventos y promoción y preventa de entradas. También, desea poder personalizar su perfil, incluyendo fotos, descripciones, música y próximos eventos. Para él, GigMap podría ayudar a visibilizar más sus conciertos, atraer público fuera de sus redes sociales y fomentar una comunidad de oyentes locales.
 
-Recomendaría esta aplicación a otros artistas emergentes, ya que ve en ella un espacio dedicado para ellos, algo que las plataformas tradicionales no ofrecen. Finalmente, le encantaría crear una comunidad dentro de GigMap, para interactuar con sus seguidores, compartir contenido exclusivo y enviar notificaciones sobre novedades musicales.
+Recomendaría esta aplicación a otros artistas emergentes, ya que ve en ella un espacio dedicado para ellos, algo que las aplicaciones tradicionales no ofrecen. Finalmente, le encantaría crear una comunidad dentro de GigMap, para interactuar con sus seguidores, compartir contenido exclusivo y enviar notificaciones sobre novedades musicales.
 
 ## 2.2.3. Análisis de entrevistas
 
@@ -1010,7 +1010,7 @@ Este grupo está conformado por estudiantes universitarios entre los 19 y 20 añ
 
 **Frustraciones frecuentes:**
 - No reciben notificaciones a tiempo o de manera relevante
-- La información está dispersa entre varias plataformas
+- La información está dispersa entre varias aplicaciones
 - Poca personalización en las apps actuales de eventos
 
 **Preferencias destacadas:**
@@ -1018,7 +1018,7 @@ Este grupo está conformado por estudiantes universitarios entre los 19 y 20 añ
 - Filtros por género musical
 - Notificaciones automáticas personalizadas
 - Compartir eventos con amigos desde la app
-- Integración con redes sociales y plataformas de música
+- Integración con redes sociales y aplicaciones de música
 
 #### Implicancias para el diseño
 Este grupo representa un público digitalmente activo, con expectativas altas respecto a la experiencia de usuario. El hallazgo más relevante es la necesidad de centralizar y personalizar la información sobre conciertos, así como fomentar la interacción social entre asistentes. Las funcionalidades sugeridas están alineadas con una interfaz amigable, dinámica y conectada a las redes sociales que ya utilizan.
@@ -1041,7 +1041,7 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 | **Gestión independiente de eventos**             | Sí                                               | 3/3        | 100%           |
 | **Uso de redes para difusión**                   | Instagram, TikTok, Spotify                       | 3/3        | 100%           |
 | **Ha enfrentado dificultades de visibilidad**    | Sí                                               | 3/3        | 100%           |
-| **Ha usado plataformas como Eventbrite o Facebook Events** | Sí                                       | 2/3        | 66.7%          |
+| **Ha usado aplicaciones como Eventbrite o Facebook Events** | Sí                                       | 2/3        | 66.7%          |
 | **Interés en usar una app como GigMap**          | Sí                                               | 3/3        | 100%           |
 
 #### Características Subjetivas
@@ -1054,7 +1054,7 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 **Frustraciones frecuentes:**
 - Saturación de contenido en redes sociales
 - Limitado alcance por algoritmos o falta de presupuesto
-- Ausencia de plataformas dedicadas a artistas emergentes
+- Ausencia de aplicaciones dedicadas a artistas emergentes
 
 **Preferencias destacadas:**
 - Perfil artístico personalizado (logo, biografía, links)
@@ -1067,13 +1067,13 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 Este segmento valora profundamente las herramientas de gestión profesional que, a la vez, faciliten la construcción de una comunidad auténtica. GigMap debe ofrecer funcionalidades pensadas desde el artista independiente, como la personalización del perfil, gestión de eventos, conexión directa con fans, y analítica simple y útil. La posibilidad de reducir la dependencia de algoritmos y redes sociales tradicionales es clave para ellos.
 
 ### Conclusión General del Análisis
-Los hallazgos de ambas agrupaciones muestran una alineación clara entre los problemas identificados y la propuesta de valor de GigMap. Los usuarios finales demandan una aplicación que centralice, personalice y notifique sobre eventos musicales de forma proactiva. Por su parte, los artistas emergentes buscan una plataforma que les ofrezca visibilidad, herramientas de gestión y conexión directa con su audiencia, sin la saturación ni limitaciones de las redes sociales tradicionales.
+Los hallazgos de ambas agrupaciones muestran una alineación clara entre los problemas identificados y la propuesta de valor de GigMap. Los usuarios finales demandan una aplicación que centralice, personalice y notifique sobre eventos musicales de forma proactiva. Por su parte, los artistas emergentes buscan una aplicaciones que les ofrezca visibilidad, herramientas de gestión y conexión directa con su audiencia, sin la saturación ni limitaciones de las redes sociales tradicionales.
 
 # 2.3 Needfinding
 ## 2.3.1. User Personas
 
 
-Los user personas son representaciones de los distintos tipos de usuarios que permiten entender con mayor claridad sus necesidades, motivaciones y formas de interactuar. En GigMap, estos perfiles sirven como referencia para orientar el diseño y la evolución de la plataforma, garantizando que se ajuste a lo que esperan nuestros principales públicos, como los aficionados a la música y los artistas en crecimiento.
+Los user personas son representaciones de los distintos tipos de usuarios que permiten entender con mayor claridad sus necesidades, motivaciones y formas de interactuar. En GigMap, estos perfiles sirven como referencia para orientar el diseño y la evolución de la aplicaciones, garantizando que se ajuste a lo que esperan nuestros principales públicos, como los aficionados a la música y los artistas en crecimiento.
 
 <p align="center">
   <img src="assets/images/user_persona/valeria_torres.png" alt="user_persona" width="700">
@@ -1099,7 +1099,7 @@ Los user personas son representaciones de los distintos tipos de usuarios que pe
 | Tareas                                        | Frecuencia | Importancia |
 |-----------------------------------------------|------------|-------------|
 | Promocionar sus conciertos                    | Frecuente  | Muy alta    |
-| Buscar plataformas gratuitas o de bajo costo para difusión | Frecuente  | Muy alta |
+| Buscar aplicaciones gratuitas o de bajo costo para difusión | Frecuente  | Muy alta |
 | Organizar y coordinar presentaciones en bares o festivales | Ocasional | Alta |
 | Interactuar con su comunidad de seguidores    | Frecuente  | Medio       |
 
@@ -1107,7 +1107,7 @@ Los user personas son representaciones de los distintos tipos de usuarios que pe
 
 En esta sección se muestran los User Journey Maps As-Is de los principales segmentos objetivo identificados. Estos mapas reflejan el recorrido actual que siguen los usuarios en su vida cotidiana, sin contar todavía con la solución que propone GigMap.
 
-A lo largo de las diferentes etapas de su experiencia, se examinan las acciones que realizan, las necesidades o frustraciones que enfrentan, los puntos de contacto que utilizan, así como las emociones que atraviesan en ese proceso. Además, se identifican oportunidades que permiten diseñar una solución capaz de atender dichos puntos de dolor. Esta representación facilita una comprensión profunda del contexto de los usuarios y constituye una base sólida para idear funcionalidades relevantes, empáticas y de alto impacto en futuras iteraciones de la plataforma.
+A lo largo de las diferentes etapas de su experiencia, se examinan las acciones que realizan, las necesidades o frustraciones que enfrentan, los puntos de contacto que utilizan, así como las emociones que atraviesan en ese proceso. Además, se identifican oportunidades que permiten diseñar una solución capaz de atender dichos puntos de dolor. Esta representación facilita una comprensión profunda del contexto de los usuarios y constituye una base sólida para idear funcionalidades relevantes, empáticas y de alto impacto en futuras iteraciones de la aplicación.
 
 
 **Fans de la música**
@@ -1152,11 +1152,11 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
   <tbody>
     <tr>
       <td>GigMap</td>
-      <td>Plataforma digital que conecta a fans con conciertos en vivo, especialmente de la escena musical local e independiente</td>
+      <td>Aplicación digital que conecta a fans con conciertos en vivo, especialmente de la escena musical local e independiente</td>
     </tr>
     <tr>
       <td>Evento</td>
-      <td>Cualquier concierto, tocada, jam session o presentación musical está listada en la plataforma. Incluye ubicación, fecha, hora y artistas</td>
+      <td>Cualquier concierto, tocada, jam session o presentación musical está listada en la aplicación Incluye ubicación, fecha, hora y artistas</td>
     </tr>
     <tr>
       <td>Mapa de conciertos</td>
@@ -1168,7 +1168,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     </tr>
     <tr>
       <td>Artista</td>
-      <td>Músico independiente o banda que utiliza la plataforma para publicar y promocionar sus conciertos</td>
+      <td>Músico independiente o banda que utiliza la aplicación para publicar y promocionar sus conciertos</td>
     </tr>
     <tr>
       <td>Comunidad local</td>
@@ -1205,13 +1205,13 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 **Epics:**
 | Epic ID | Título                                             | Descripción                                                                                                                                                                                       |
 |---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la plataforma, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
-| EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la plataforma.|
+| EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
+| EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
 | EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la plataforma para todos los usuarios. |
+| EP04    | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
 | EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
 | EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
-| EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la plataforma. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
+| EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
 
 **User Stories:**
 
@@ -1298,7 +1298,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
         <strong>Escenario: Publicación inmediata y visible</strong><br>
         Dado que los datos son válidos<br>
         Cuando se confirma la creación<br>
-        Entonces el evento aparece visible en la plataforma.
+        Entonces el evento aparece visible en la aplicación
       </td>
     </tr>
   </tbody>
@@ -2248,13 +2248,13 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
     </tr>
     <tr>
       <td><strong>Title</strong></td>
-      <td colspan="3">Ver plataformas de venta del concierto</td>
+      <td colspan="3">Ver aplicaciiones de venta del concierto</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero ver en qué plataformas puedo comprar entradas para un concierto.</td>
+      <td colspan="4">Como usuario, quiero ver en qué aplicaciones puedo comprar entradas para un concierto.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -2264,7 +2264,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
         <strong>Escenario: Visualización de enlaces de venta</strong><br>
         Dado que el usuario revisa un concierto<br>
         Cuando accede a su ficha de detalles<br>
-        Entonces visualiza las plataformas donde están disponibles las entradas.
+        Entonces visualiza las aplicaciones donde están disponibles las entradas.
       </td>
     </tr>
   </tbody>
@@ -2787,7 +2787,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
         <strong>Escenario: Decisión de registro influenciada por beneficios</strong><br>
         Dado que el visitante revisa los beneficios presentados<br>
         Cuando encuentra opciones que se alinean con sus intereses<br>
-        Entonces aumenta su intención de registrarse en la plataforma.
+        Entonces aumenta su intención de registrarse en la aplicación
       </td>
     </tr>
   </tbody>
@@ -2910,7 +2910,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | TS-25 | Buscar conciertos por plataforma | Como developer, quiero un endpoint GET en /api/v1/concerts/by-platform/{platform} que devuelva conciertos según su plataforma (Joinnus, Teleticket, etc.). | **Escenario: Filtro por plataforma**<br>Dado que se especifica una plataforma<br>Cuando se hace GET<br>Entonces se devuelven solo los conciertos que la usan | EP06 |
 | TS-26 | Obtener usuario por ID | Como developer, quiero un endpoint GET en /api/v1/users/{id} para ver el perfil público de un usuario. | **Escenario: Acceso a perfil**<br>Dado que el ID es válido<br>Cuando se consulta<br>Entonces devuelve nombre, imagen y comunidades visibles | EP06 |
 | TS-27 | Actualizar perfil de usuario | Como developer, quiero un endpoint PUT en /api/v1/users/{id} para permitir al usuario modificar su información personal. | **Escenario: Edición correcta**<br>Dado que el usuario envía un body válido<br>Cuando se hace PUT<br>Entonces se actualiza su perfil | EP06 |
-| TS-28 | Obtener todos los usuarios | Como developer, quiero un endpoint GET en /api/v1/users que liste todos los usuarios registrados en la plataforma. | **Escenario: Listado de usuarios**<br>Dado que se consulta el endpoint<br>Cuando se hace GET<br>Entonces se devuelve la lista completa de usuarios | EP06 |
+| TS-28 | Obtener todos los usuarios | Como developer, quiero un endpoint GET en /api/v1/users que liste todos los usuarios registrados en la aplicación. | **Escenario: Listado de usuarios**<br>Dado que se consulta el endpoint<br>Cuando se hace GET<br>Entonces se devuelve la lista completa de usuarios | EP06 |
 | TS-29 | Dar like a publicación | Como developer, quiero un endpoint POST en /api/v1/users/{userId}/like que registre un like del usuario a un post. | **Escenario: Like aplicado**<br>Dado que el usuario quiere reaccionar<br>Cuando hace POST<br>Entonces se incrementa el contador de likes |  EP06 |
 | TS-30 | Quitar like a publicación | Como developer, quiero un endpoint DELETE en /api/v1/users/{userId}/like para eliminar el like de un usuario a una publicación. | **Escenario: Like eliminado**<br>Dado que ya reaccionó<br>Cuando hace DELETE<br>Entonces se reduce el contador de likes | EP06 |
 | TS-31 | Crear publicación en comunidad | Como developer, quiero un endpoint POST en /api/v1/post/communities/{communityId}/posts que permita crear publicaciones nuevas. | **Escenario: Publicación creada**<br>Dado que el usuario está en una comunidad<br>Cuando envía texto o imagen<br>Entonces se guarda y aparece en el feed | EP04 / EP06 |
@@ -2927,7 +2927,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | SP-02    | Viabilidad de notificaciones personalizadas  | Como miembro del equipo, quiero investigar las opciones existentes para enviar notificaciones push personalizadas a los usuarios de la aplicación para alertar cuando haya conciertos nuevos de artistas que siguen, cambios de eventos o actividades relevantes en su área. | - Evaluar OneSignal para notificaciones push. <br> - Revisar si permite segmentación por intereses (artistas, ubicación, etc.). <br> - Probar envío y recepción en Android/iOS. <br> - Verificar límites gratuitos y escalabilidad.                                                                                                                           | EP02                      |
 | SP-03    | Seguimiento de artistas y usuarios           | Como miembro del equipo, quiero investigar cómo construir un sistema eficiente y escalable que permita a los usuarios seguir a sus artistas favoritos o a otros usuarios dentro de la app, para ofrecer experiencias personalizadas como recomendaciones, notificaciones y actividad en el feed. | - Diseñar modelos de relaciones en MySQL para representar acciones de seguimiento entre usuarios y artistas. <br> - Implementar prototipo básico en Spring con endpoints de follow/unfollow. <br> - Evaluar impacto en el feed personalizado del usuario. <br> - Explorar mecanismos para sincronización en tiempo real como WebSockets o servicios externos. | EP03                      |
 | SP-04    | Interacción en comunidades                   | Como miembro del equipo, quiero investigar cómo implementar una funcionalidad de comunidades dentro de la aplicación, donde los usuarios puedan comentar, compartir experiencias, reaccionar o iniciar conversaciones relacionadas con conciertos y artistas. | - Diseñar modelo relacional en MySQL para representar comunidades, posts, comentarios y reacciones. <br> - Desarrollar un prototipo básico de comunidad por concierto. <br> - Evaluar estrategias de moderación: reglas básicas, reportes de contenido y flags en base de datos.                                                                                | EP03                      |
-| SP-05    | Modo offline para exploración de eventos     | Como miembro del equipo, quiero investigar la posibilidad de ofrecer un modo offline dentro de la aplicación que permita a los usuarios acceder a la información básica de conciertos y mapas, incluso sin conexión a internet. | - Comparar opciones de almacenamiento local (IndexedDB, SQLite, etc.). <br> - Probar cacheo de eventos y mapas. <br> - Validar sincronización de datos al reconectarse. <br> - Identificar limitaciones por plataforma.                                                                                                   | EP06                      |
+| SP-05    | Modo offline para exploración de eventos     | Como miembro del equipo, quiero investigar la posibilidad de ofrecer un modo offline dentro de la aplicación que permita a los usuarios acceder a la información básica de conciertos y mapas, incluso sin conexión a internet. | - Comparar opciones de almacenamiento local (IndexedDB, SQLite, etc.). <br> - Probar cacheo de eventos y mapas. <br> - Validar sincronización de datos al reconectarse. <br> - Identificar limitaciones por aplicación.                                                                                                   | EP06                      |
 | SP-06    | Revisión legal sobre datos de ubicación      | Como miembro del equipo, quiero investigar la normativa vigente sobre el uso de datos de geolocalización y almacenamiento de información personal en aplicaciones móviles para asegurar el cumplimiento legal y proteger la privacidad de los usuarios. | - Revisar la Ley N.º 29733 y su reglamento vigente en Perú. <br> - Identificar requisitos para recolectar y almacenar datos de ubicación de usuarios. <br> - Determinar si se requiere consentimiento explícito y cómo solicitarlo. <br> - Analizar políticas de privacidad de apps locales. <br> - Documentar buenas prácticas legales. | EP06                      |
 
 
@@ -3011,7 +3011,7 @@ El siguiente Product Backlog reúne y prioriza todas las historias de usuario id
 | 58      | TS-17          | Endpoint para obtener comunidades       | Como developer, quiero permitir listar todas las comunidades disponibles.                                | 1                        |
 | 59      | TS-18          | Endpoint para unirse a comunidad        | Como developer, quiero permitir que un usuario se una a una comunidad.                                   | 2                        |
 | 60      | TS-19          | Endpoint para salir de comunidad        | Como developer, quiero permitir que un usuario abandone una comunidad.                                   | 2                        |
-| 61      | TS-20          | Endpoint para crear concierto           | Como developer, quiero permitir registrar un nuevo concierto en la plataforma.                           | 3                        |
+| 61      | TS-20          | Endpoint para crear concierto           | Como developer, quiero permitir registrar un nuevo concierto en la aplicación.                           | 3                        |
 | 62      | TS-21          | Endpoint para ver concierto por ID      | Como developer, quiero permitir consultar los detalles de un concierto específico.                       | 1                        |
 | 63      | TS-22          | Endpoint para eliminar concierto        | Como developer, quiero permitir eliminar un concierto registrado.                                        | 2                        |
 | 64      | TS-23          | Endpoint para alternar asistencia       | Como developer, quiero permitir alternar el estado de asistencia del usuario a un concierto.             | 3                        |
@@ -3102,7 +3102,7 @@ Una vez definidas las líneas de acción, se procedió a identificar los pain po
 
 - Se pierden funcionalidades si no se activa la ubicación.
 
-- No existe redirección automática hacia la plataforma externa de compra de entradas.
+- No existe redirección automática hacia la aplicación externa de compra de entradas.
 
 - Dificultades en la moderación de contenidos dentro de las comunidades.
 
@@ -3225,7 +3225,7 @@ Enlace del Miro board: `https://miro.com/app/board/uXjVJJVTxdE=/?share_link_id=2
 
 ### 2.5.1.3. Bounded Context Canvases
 
-En esta sección, definimos los Bounded Contexts que estructuran el dominio principal de GitMap. El diseño de estos contextos se realiza siguiendo un enfoque iterativo que busca asegurar claridad conceptual, separación de responsabilidades y alineamiento con las necesidades del negocio. Para cada contexto se desarrolla un Bounded Context Canvas, el cual nos permite capturar su propósito, reglas de negocio, capacidades, dependencias y lenguaje ubicuo.
+En esta sección, definimos los Bounded Contexts que estructuran el dominio principal de Gigmap. El diseño de estos contextos se realiza siguiendo un enfoque iterativo que busca asegurar claridad conceptual, separación de responsabilidades y alineamiento con las necesidades del negocio. Para cada contexto se desarrolla un Bounded Context Canvas, el cual nos permite capturar su propósito, reglas de negocio, capacidades, dependencias y lenguaje ubicuo.
 
 El proceso seguido incluye los siguientes pasos clave:
 
@@ -3247,7 +3247,7 @@ A continuación, se muestra cada Bounded Context Canvas para cada uno de nuestro
 
 <img src="assets/images/eventStorming/bounded-context-canvas-conciertos.png" alt="bounded-context-canvas-conciertos" style="width: 700px">
 
-**Comunidades**: Este contexto gestiona los espacios de interacción entre los usuarios, permitiendo la creación, administración y participación en comunidades relacionadas con intereses musicales. Representa el núcleo social de la plataforma, donde se agrupan fans y artistas.
+**Comunidades**: Este contexto gestiona los espacios de interacción entre los usuarios, permitiendo la creación, administración y participación en comunidades relacionadas con intereses musicales. Representa el núcleo social de la aplicación, donde se agrupan fans y artistas.
 
 <img src="assets/images/eventStorming/bounded-context-canvas-comunidades.png" alt="bounded-context-canvas-comunidades" style="width: 700px">
 
@@ -3379,7 +3379,7 @@ Se implementó el Aggregate principal:
 Las reglas de negocio y la orquestación de acciones en el contexto de Conciertos se manejan a través de Domain Services, divididos en servicios de comandos y de consultas. Los Command Services gestionan operaciones que modifican el estado del dominio, como la creación, actualización, eliminación y publicación de conciertos mediante el `ConcertCommandService`. Por su parte, los Query Services se enfocan en el acceso a información de solo lectura, como el `ConcertQueryService`, que recupera conciertos filtrados por criterios como artista, género, fecha o ubicación
 
 <h3>Aggregate: ConcertAggregate</h3>
-<p><strong>Descripción:</strong>  Representa un concierto programado en la plataforma, incluyendo su capacidad, fecha, recinto, ubicación y artistas participantes. Emite eventos de dominio a lo largo de su ciclo de vida.</p>
+<p><strong>Descripción:</strong>  Representa un concierto programado en la aplicación, incluyendo su capacidad, fecha, recinto, ubicación y artistas participantes. Emite eventos de dominio a lo largo de su ciclo de vida.</p>
 
 <h4>Entity: Concert</h4>
 <table>
@@ -3570,7 +3570,7 @@ En esta capa se exponen los endpoints REST, implementados a través de controlad
     <td>getAllConcerts</td>
     <td>GET</td>
     <td>/api/v1/concerts</td>
-    <td>Recupera la lista completa de conciertos disponibles en la plataforma.</td>
+    <td>Recupera la lista completa de conciertos disponibles en la aplicación</td>
   </tr>
   <tr>
     <td>getConcertById</td>
@@ -3752,7 +3752,7 @@ El modelo entidad–relación del bounded context de Conciertos está conformado
 
 El núcleo lo constituye Concerts, encargado de gestionar la información esencial de cada evento (nombre, género, fecha, estado, descripción, imagen, plataforma, creación y actualización), además de establecer la relación con un venue y con los artistas participantes. Por su parte, ConcertAttendees registra la asistencia de usuarios mediante una relación de muchos a muchos con los conciertos, permitiendo medir participación y habilitar funciones de interacción social.
 
-En conjunto, este diseño posibilita administrar conciertos, vincularlos con artistas y venues, y dar seguimiento a la asistencia, asegurando consistencia de datos y soporte para los principales casos de uso de la plataforma.
+En conjunto, este diseño posibilita administrar conciertos, vincularlos con artistas y venues, y dar seguimiento a la asistencia, asegurando consistencia de datos y soporte para los principales casos de uso de la aplicación.
 
 <img src="assets/images/ERD/ERD-Conciertos.png" alt="ERD-conciertos" style="width: 700px">
 
@@ -4966,7 +4966,7 @@ Centralizar las dependencias tecnológicas en esta capa permite que el dominio p
   <img src="assets/images/C4/C4-Notificaciones.png" alt="C4-Notificaciones" style="width: 700">
 </p>
 
-Este diagrama de componentes representa una arquitectura monolítica centrada en el manejo de notificaciones dentro de la plataforma GigMap. Una aplicación móvil, desarrollada con Android Studio utilizando Kotlin y Jetpack Compose, se comunica con una API desarrollada en Spring Boot mediante solicitudes HTTPS.
+Este diagrama de componentes representa una arquitectura monolítica centrada en el manejo de notificaciones dentro de la aplicación GigMap. Una aplicación móvil, desarrollada con Android Studio utilizando Kotlin y Jetpack Compose, se comunica con una API desarrollada en Spring Boot mediante solicitudes HTTPS.
 
 La Mobile Application realiza peticiones al componente Notification Controller, responsable de exponer los endpoints necesarios para gestionar las notificaciones. Este controlador delega la lógica de negocio a dos servicios especializados: Notification Query Service, encargado de recuperar notificaciones y Notification Command Service, responsable de enviarlas o modificar su estado.
 
@@ -4982,7 +4982,7 @@ Ambos servicios acceden a los datos persistidos a través del Notification Repos
 
 El siguiente diagrama de clases representa el bounded context de Notificaciones e ilustra cómo se organiza el dominio alrededor del agregado principal Notification, acompañado por dos servicios de aplicación: NotificationCommandService y NotificationQueryService. También, se incluyen dos value objects: NotificationStatus y NotificationType, que encapsulan comportamientos relacionados al estado y tipo de notificación.
 
-El agregado Notification contiene atributos relevantes como id, user, community, concert, relatedUser, title, content, type, status, createdAt y updatedAt, reflejando el contexto rico de una notificación dentro de la plataforma. Provee métodos como markAsRead() para modificar su estado y isRead() para consultar si ha sido leída. La asociación con entidades como User, Community y Concert permite vincular las notificaciones a eventos o interacciones concretas en el sistema.
+El agregado Notification contiene atributos relevantes como id, user, community, concert, relatedUser, title, content, type, status, createdAt y updatedAt, reflejando el contexto rico de una notificación dentro de la aplicación. Provee métodos como markAsRead() para modificar su estado y isRead() para consultar si ha sido leída. La asociación con entidades como User, Community y Concert permite vincular las notificaciones a eventos o interacciones concretas en el sistema.
 
 El servicio NotificationCommandService encapsula la lógica para crear nuevas notificaciones, marcarlas como leídas o eliminarlas. Por su parte, NotificationQueryService se encarga de recuperar notificaciones desde la perspectiva del usuario, ya sea por ID, por estado de lectura o por cantidad de notificaciones no leídas.
 
@@ -5036,7 +5036,7 @@ Representa a un usuario registrado en la aplicación, que permite la autenticaci
 
 **Entity: Artist**  
 
-Representa el perfil artístico de un usuario que se ha registrado como artista dentro de la plataforma.
+Representa el perfil artístico de un usuario que se ha registrado como artista dentro de la aplicación.
 
 **Atributos**
 
@@ -5333,11 +5333,11 @@ Todos los servicios acceden a la base de datos a través de los respectivos repo
   <img src="assets/images/C4/C4-Clase-RegistroAuth.png" alt="C4-Clase-RegistroAuth" style="width: 700">
 </p>
 
-El siguiente diagrama de clases representa el Bounded Context de Registro y Autenticación. Este modela las responsabilidades del dominio en torno al agregado principal User, que encapsula atributos clave como id, email, username, passwordHash, así como su relación con la entidad Artist. Este agregado representa a un usuario registrado en la plataforma, y gestiona tanto su identidad como su posible rol artístico, reflejado a través del atributo artist.
+El siguiente diagrama de clases representa el Bounded Context de Registro y Autenticación. Este modela las responsabilidades del dominio en torno al agregado principal User, que encapsula atributos clave como id, email, username, passwordHash, así como su relación con la entidad Artist. Este agregado representa a un usuario registrado en la aplicación, y gestiona tanto su identidad como su posible rol artístico, reflejado a través del atributo artist.
 
 El dominio está soportado por dos servicios de aplicación: UserCommandService, responsable de operaciones de escritura como la creación, actualización y eliminación de usuarios, y UserQueryService, que ofrece consultas como la búsqueda de usuarios por ID, email o por artista asociado, además de validar la disponibilidad de un nombre de usuario o correo electrónico. Ambas capas interactúan con la interfaz UserRepository, que expone métodos para verificar la existencia de usuarios o recuperar instancias por su relación con un artista.
 
-En paralelo, se modela la entidad Artist, que agrupa información relacionada a un perfil artístico como artistName, bio y genres, gestionada por los servicios ArtistCommandService y ArtistQueryService, encargados de la creación, actualización, eliminación y recuperación de artistas respectivamente. La relación uno a uno entre User y Artist permite establecer un vínculo directo entre la cuenta de usuario y su rol como creador en la plataforma, sin romper la separación de responsabilidades entre contextos.
+En paralelo, se modela la entidad Artist, que agrupa información relacionada a un perfil artístico como artistName, bio y genres, gestionada por los servicios ArtistCommandService y ArtistQueryService, encargados de la creación, actualización, eliminación y recuperación de artistas respectivamente. La relación uno a uno entre User y Artist permite establecer un vínculo directo entre la cuenta de usuario y su rol como creador en la aplicación, sin romper la separación de responsabilidades entre contextos.
 
 #### 2.6.5.6.2. Bounded Context Database Design Diagram
 
@@ -5353,13 +5353,13 @@ El Database Diagram para el Bounded Context de Registro y Autenticación modela 
 
 -	Los resultados obtenidos a partir de las entrevistas y validaciones confirman los assumptions e hipótesis planteados en el proceso de Lean UX: los fans valoran la inmediatez y accesibilidad de información en tiempo real, mientras que los artistas emergentes demandan canales efectivos de promoción que les permitan conectar directamente con sus audiencias. En este sentido, GigMap contribuye a equilibrar una brecha crítica en la industria, donde el 99,9% de los nuevos artistas permanece invisible en un mercado saturado. La aplicación ofrece un escenario donde los conciertos locales, muchas veces inadvertidos, logran alcanzar a quienes más los disfrutan, fomentando así la cultura de descubrimiento musical.
 
--	La arquitectura planteada a lo largo del trabajo, sustentada en principios de Domain-Driven Design y en la descomposición por bounded contexts, permitió organizar de manera estratégica los subdominios (descubrimiento, notificaciones, interacción social, gestión de usuarios y eventos relacionados). Este diseño estructurado facilita la escalabilidad de la plataforma, asegura mantenibilidad en el tiempo y garantiza que cada módulo pueda evolucionar sin comprometer la visión global del sistema. Complementariamente, los modelos construidos a través de event stormings, diagramas de C4 y representaciones del dominio ofrecieron claridad sobre las interacciones clave y aseguraron coherencia en el desarrollo.
+-	La arquitectura planteada a lo largo del trabajo, sustentada en principios de Domain-Driven Design y en la descomposición por bounded contexts, permitió organizar de manera estratégica los subdominios (descubrimiento, notificaciones, interacción social, gestión de usuarios y eventos relacionados). Este diseño estructurado facilita la escalabilidad de la aplicación, asegura mantenibilidad en el tiempo y garantiza que cada módulo pueda evolucionar sin comprometer la visión global del sistema. Complementariamente, los modelos construidos a través de event stormings, diagramas de C4 y representaciones del dominio ofrecieron claridad sobre las interacciones clave y aseguraron coherencia en el desarrollo.
 
--	En un nivel cultural y social, GigMap trasciende su rol como aplicación móvil para convertirse en un catalizador del capital cultural. Al visibilizar la oferta musical dispersa, la plataforma fortalece la economía creativa local (bares, salas de concierto, colectivos culturales), estimula el turismo musical y fomenta la diversidad de propuestas artísticas. La posibilidad de crear y asistir a eventos relacionados expande la experiencia de los conciertos más allá del show principal, reforzando la identidad comunitaria de los fans y potenciando el sentido de pertenencia.
+-	En un nivel cultural y social, GigMap trasciende su rol como aplicación móvil para convertirse en un catalizador del capital cultural. Al visibilizar la oferta musical dispersa, la aplicación fortalece la economía creativa local (bares, salas de concierto, colectivos culturales), estimula el turismo musical y fomenta la diversidad de propuestas artísticas. La posibilidad de crear y asistir a eventos relacionados expande la experiencia de los conciertos más allá del show principal, reforzando la identidad comunitaria de los fans y potenciando el sentido de pertenencia.
 
 -	El éxito sostenible de GigMap dependerá de mantener un equilibrio entre las expectativas de sus stakeholders: ofrecer a los usuarios experiencias fluidas y personalizadas, brindar a los artistas herramientas sencillas pero potentes para la promoción, y generar valor tangible para promotores y aliados estratégicos. Retos como la calidad de los datos en tiempo real, la monetización sin comprometer la experiencia de usuario y la consolidación de una comunidad activa requerirán procesos iterativos constantes. Sin embargo, los hallazgos obtenidos y la validación de hipótesis posicionan a GigMap de manera favorable para su adopción, especialmente en un contexto donde la convergencia entre tecnología móvil, cultura local y consumo experiencial abre terreno fértil para su expansión.
 
--	En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la plataforma se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
+-	En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la aplicación se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
 
 
 # Bibliografía
