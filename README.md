@@ -461,7 +461,6 @@ Conexión con comunidad y expertos
 **Business Outcomes**
 
 - Convertirse en la aplicación móvil de referencia para el descubrimiento de música en vivo.
-- Establecer alianzas con instituciones culturales, municipalidades y plataformas turísticas.
 - Generar datos anónimos útiles para políticas culturales y desarrollo urbano.
 - Posicionarse como pionera en una categoría de aplicaciones de exploración cultural móvil.
 - Crear un ecosistema en el que GigMap sea el punto de conexión entre usuarios, artistas y ciudades.
@@ -736,7 +735,7 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 		</tr>
 		<tr>
 			<td>Amenazas</td>
-			<td>Competir con plataformas consolidadas como Songkick y Bandsintown puede ser desafiante. La saturación del mercado de aplicaciones de conciertos podría dificultar la atracción de usuarios.</td>
+			<td>Competir con plataformas y/o aplicaciones consolidadas como Songkick y Bandsintown puede ser desafiante. La saturación del mercado de aplicaciones de conciertos podría dificultar la atracción de usuarios.</td>
 			<td>La competencia creciente de aplicaciones como Bandsintown y Fever puede restarle usuarios. La dependencia de plataformas de streaming lo hace vulnerable a cambios en ese ecosistema.</td>
 			<td>La competencia de plataformas especializadas en conciertos como Songkick y Fever podría reducir su cuota de mercado. Cambios en los hábitos de consumo de entretenimiento digital podrían afectar su relevancia.</td>
 			<td>La competencia de aplicaciones como Songkick y Bandsintown podría restarle relevancia en el ámbito musical. La saturación del mercado de eventos y actividades culturales podría hacerle perder protagonismo.</td>
@@ -1153,7 +1152,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
   <tbody>
     <tr>
       <td>GigMap</td>
-      <td>Aplicación digital que conecta a fans con conciertos en vivo, especialmente de la escena musical local e independiente</td>
+      <td>Aplicación móvil que conecta a fans con conciertos en vivo, especialmente de la escena musical local e independiente</td>
     </tr>
     <tr>
       <td>Evento</td>
