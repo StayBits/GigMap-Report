@@ -5531,6 +5531,29 @@ La navegación en la aplicación móvil de GigMap se centra en la simplicidad, a
 
 - **Perfil:** Sección destinada al perfil del usuario, donde puede visualizar su información personal, historial de actividad y editar sus datos o preferencias, manteniendo el control sobre su identidad dentro de GigMap.
 
+### 3.1.3. Landing Page UI Design
+#### 3.1.3.1. Landing Page Wireframe
+
+En esta sección se presentan los wireframes del Landing Page diseñados para su visualización en navegadores web de escritorio. La propuesta refleja la aplicación de los principios de diseño visual, los elementos de composición y los fundamentos de diseño inclusivo, garantizando una experiencia accesible y coherente para todo tipo de usuarios. Asimismo, la estructura de los wireframes evidencia la arquitectura de información planteada, priorizando la jerarquía visual, la claridad en la navegación y la fácil identificación de secciones clave como “Inicio", "Para Fans”y“Para Artistas"
+
+**Sección de Inicio:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-uno.png" alt="1" width="500">
+</p>
+
+**Sección de Para Fans:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-dos.png" alt="2" width="500">
+</p>
+
+**Sección de Para Artistas:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-tres.png" alt="3" width="500">
+</p>
+
 
 # Conclusiones
 
