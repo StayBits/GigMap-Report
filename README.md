@@ -5353,6 +5353,185 @@ En paralelo, se modela la entidad Artist, que agrupa información relacionada a 
 
 El Database Diagram para el Bounded Context de Registro y Autenticación modela la persistencia del agregado raíz User, responsable de gestionar el acceso y la identidad de los usuarios dentro de GigMap. La tabla users almacena información esencial como el email, full_name, password y rol, siendo id su clave primaria. Esta tabla representa el núcleo del proceso de autenticación y autorización. Por otro lado, la entidad artist extiende al usuario cuando este cumple el rol de artista, mediante una relación uno a uno definida por la clave foránea user-id. Esta entidad contiene atributos propios del dominio artístico como music_genres y description.
 
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product Design
+
+El product design es el proceso mediante el cual se define la apariencia, estructura y funcionamiento del producto. En esta etapa se busca crear una solución que combine una buena experiencia de usuario con una implementación técnica eficiente. Su propósito es asegurar que el diseño cumpla con los objetivos del proyecto, facilitando la interacción entre el usuario y la aplicación de manera clara, funcional y atractiva.
+
+### 3.1.1. Style Guidelines
+
+El product design es el proceso mediante el cual se define la apariencia, estructura y funcionamiento del producto. En esta etapa se busca crear una solución que combine una buena experiencia de usuario con una implementación técnica eficiente. Su propósito es asegurar que el diseño cumpla con los objetivos del proyecto, facilitando la interacción entre el usuario y la aplicación de manera clara, funcional y atractiva.
+
+En esta sección, StayBits sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fonts, entre otros elementos. Esto se realiza con el fin de mantener una presentación consistente y enfocada. Asimismo, se incluyen secciones para General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines, que establecen los lineamientos visuales y de diseño del producto.
+
+#### 3.1.1.1. General Style Guidelines
+
+El diseño general del producto se fundamenta en la coherencia visual, la legibilidad y la identidad de marca. Estas pautas buscan garantizar una experiencia uniforme a lo largo de toda la aplicación, reflejando los valores y la personalidad del proyecto. Cada elemento visual ha sido seleccionado cuidadosamente para comunicar profesionalismo y cercanía, manteniendo un equilibrio entre lo formal y lo casual.
+
+**Branding:**
+
+El branding del proyecto se representa mediante un símbolo de localización acompañado de una nota musical, una combinación que refleja la esencia y propósito de la aplicación: conectar a las personas con experiencias musicales cercanas a su entorno. Esta fusión visual transmite el vínculo entre la música y la exploración, dos pilares fundamentales del proyecto. El ícono, busca ser fácilmente reconocible y adaptable a diferentes formatos y tamaños, desde íconos móviles hasta elementos gráficos dentro de la interfaz.
+
+Los colores principales del logotipo, **#5C0F1A** y **#99182C**, se escogieron por su capacidad para evocar energía, pasión y creatividad, atributos estrechamente relacionados con el ámbito musical. El uso predominante del tono **#5C0F1A** comunica profundidad y elegancia, mientras que **#99182C** aporta contraste y vitalidad, reforzando la identidad visual del sistema y creando una sensación de dinamismo. En conjunto, estos elementos visuales consolidan una identidad sólida y coherente, que no solo distingue al proyecto a nivel estético, sino que también expresa su personalidad y propósito de conectar a las personas a través de la música y la experiencia compartida.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/logo.png" alt="logo" width="700">
+</p>
+
+**Colores:**
+
+La paleta de colores del proyecto busca equilibrio entre modernidad, contraste y armonía visual. Cada tono cumple un propósito específico dentro de la interfaz:
+
+- **F6F6F6**: se utiliza como color de fondo principal en toda la aplicación, ofreciendo una apariencia limpia, ligera y agradable a la vista.
+
+- **000000**: actúa como color de contraste para textos y elementos destacados sobre el fondo claro, garantizando legibilidad y jerarquía visual.
+
+- **5C0F1A**: se emplea como color acento, aportando fuerza, carácter y cohesión con el logotipo.
+
+- **736D6D** y **8E8787**: complementan la interfaz como tonos neutros secundarios, utilizados en iconografía, líneas divisorias o textos secundarios para mantener balance visual.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/colors.png" alt="colores" width="700">
+</p>
+
+**Tipografía**
+
+Se utiliza la familia tipográfica Inter, reconocida por su legibilidad y diseño contemporáneo. Dentro del sistema visual, se varían sus pesos —Bold, SemiBold, Medium, Regular y Black— dependiendo de la importancia y el nivel de énfasis que requiera cada elemento textual.
+
+- **Encabezados**: se emplean pesos más altos, Inter Bold o SemiBold, para destacar jerarquías y secciones clave.
+
+- **Cuerpo de texto:** se utiliza Inter Regular o Medium, priorizando la claridad en la lectura prolongada.
+
+Esta elección tipográfica contribuye a mantener una identidad visual coherente y una experiencia de usuario equilibrada, asegurando una comunicación clara y profesional en toda la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/typo.png" alt="typo" width="700">
+</p>
+
+**Tono de comunicación**
+
+El tono adoptado es formal pero cercano, buscando transmitir profesionalismo sin perder empatía. El lenguaje combina claridad y calidez, fomentando una conexión natural con el usuario. Este equilibrio refuerza la identidad del proyecto como una aplicación confiable, moderna y accesible.
+
+La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyectando energía y dinamismo a través tanto del texto como de los elementos visuales.
+
+### 3.1.2. Information Architecture
+
+La Information Architecture (IA) se centra en la organización, estructuración y presentación del contenido dentro del sistema, con el objetivo de facilitar la navegación y la comprensión por parte del usuario. A través de esta etapa, se establecen las bases para que la información sea accesible, coherente y fácil de encontrar. En esta sección, el equipo define las decisiones y fundamentos que orientan la distribución del contenido en las distintas experiencias digitales, incluyendo la Landing Page y la aplicación, asegurando que los usuarios puedan interactuar de manera intuitiva y sin esfuerzo. Asimismo, se detallan los lineamientos relacionados con los Organization Systems, Labeling Systems, Navigation Systems y Searching Systems, que en conjunto conforman la estructura lógica y funcional del producto.
+
+#### 3.1.2.1. Organization Systems
+
+En esta sección, el equipo detalla cómo se aplicarán los sistemas de organización de la información dentro de GigMap, con el objetivo de garantizar que los usuarios puedan acceder fácilmente a la información que necesitan y navegar de manera eficiente por la aplicación. La estructura de la información busca ofrecer una experiencia intuitiva y ordenada, facilitando la interacción con los diferentes módulos y funcionalidades del sistema.
+
+La organización visual del contenido se estructurará de la siguiente manera:
+
+- **Jerárquica (Visual Hierarchy):** este enfoque se aplicará para resaltar los elementos más relevantes de la interfaz, como los botones de acción, eventos o secciones prioritarias. Se utilizarán variaciones en tamaño, color y posición para guiar la atención del usuario y reforzar la comprensión de la estructura general de la aplicación.
+
+- **Organización Secuencial (Step-by-Step):** se empleará en procesos que requieren un flujo lógico y progresivo, como el registro de usuarios, la visualización de información de conciertos o la publicación de eventos. Cada paso se presentará de forma clara y sencilla, reduciendo la carga cognitiva y asegurando una experiencia fluida.
+
+- **Organización Matricial:** este sistema se implementará en secciones donde los usuarios necesiten comparar o explorar diferentes opciones, como listados de conciertos, artistas o comunidades. Este enfoque permitirá visualizar varias categorías o tipos de información en paralelo, fomentando una exploración más flexible y completa.
+
+Este enfoque en la organización de la información está alineado con los objetivos de diseño de GigMap, que buscan ofrecer una interfaz clara, minimalista y centrada en el usuario, donde los elementos esenciales sean fácilmente identificables, los flujos de navegación estén optimizados y la jerarquía visual contribuya a una experiencia coherente y atractiva.
+
+#### 3.1.2.2. Labelling Systems
+
+El sistema de etiquetado define la manera en que se representará la información dentro de la aplicación, priorizando la claridad, simplicidad y coherencia en el lenguaje. El propósito es que los usuarios puedan identificar rápidamente las funciones y secciones sin confusión, asociando cada etiqueta con su contenido o acción correspondiente. Las etiquetas se han diseñado para ser breves, intuitivas y consistentes
+
+| **Sección / Función**                          | **Etiqueta Propuesta**                         |
+|------------------------------------------------|------------------------------------------------|
+| Lista de conciertos asistidos y por asistir     | GigList                                   |
+| Creación de conciertos               | Crear concierto  |
+| Creación de eventos                |  Crear evento relacionado |
+| Creación de comunidades                |  Crear comunidad |
+| Publicaciones con “me gusta”                    | Likes                                |
+| Comunidades a las que pertenece el usuario      | Comunidades                               |
+| Perfil del usuario                              | Mi perfil / Editar perfil              |
+| Sección general de eventos                      | Eventos relacionados                    |
+| Página de inicio          | Inicio                 |
+| Mapa interactivo        | Mapa                 |
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+En esta sección se presentan las etiquetas SEO (Search Engine Optimization) y los Meta Tags que optimizan la visibilidad de GigMap en motores de búsqueda y tiendas de aplicaciones.
+
+Estas etiquetas contribuyen a mejorar el posicionamiento y facilitar que los usuarios encuentren GigMap fácilmente, tanto en la landing page como la aplicación mobile.
+
+Se han definido los valores para las principales páginas del sitio web (Landing Page) y los elementos de optimización en la aplicación móvil (ASO – App Store Optimization).
+
+**Landing Page:**
+
+| **Etiqueta**        | **Valor Asignado** |
+|----------------------|--------------------|
+| **Title**            | GigMap |
+| **Meta Description** | Descubre, organiza y comparte tus experiencias musicales. Con GigMap puedes explorar conciertos cercanos, crear eventos y conectar con comunidades de fans. |
+| **Keywords**         | conciertos, música en vivo, eventos, fans, artistas, comunidades musicales, gigmap |
+| **Author**           | StayBits |
+
+**Aplicación mobile:**
+
+| **Elemento**         | **Valor Asignado** |
+|----------------------|--------------------|
+| **App Title**        | GigMap |
+| **App Subtitle**     | Tu mapa musical: conciertos, comunidades y experiencias únicas |
+| **App Description**  | Con GigMap, encuentra conciertos cerca de ti, crea tus propios eventos, sigue a tus artistas favoritos y conecta con otros fans. Todo desde una interfaz intuitiva y moderna. |
+| **App Keywords**     | música, conciertos, eventos, fans, artistas, comunidad, gigmap, experiencias en vivo |
+| **App Developer**    | StayBits |
+
+#### 3.1.2.4. Searching Systems
+
+En esta sección se detallan los medios y herramientas de búsqueda implementados dentro de GigMap, diseñados para que los usuarios puedan localizar rápidamente la información o los contenidos que desean, sin sentirse abrumados por el volumen de datos disponibles. El objetivo es garantizar una experiencia de exploración fluida, intuitiva y eficiente, tanto en la aplicación móvil como en la Landing Page.
+
+A continuación, se describen los sistemas de búsqueda implementados:
+
+- **Búsqueda de conciertos:** En la sección principal de conciertos, se integra un icono de lupa que permite a los usuarios buscar eventos específicos por nombre, artista o ubicación. Tras realizar la búsqueda, los resultados se muestran en una lista filtrada y actualizada en tiempo real, facilitando la exploración.
+
+- **Filtro de géneros musicales:** Dentro de la vista de conciertos, se incluye un icono de filtro que despliega una barra lateral con diferentes géneros musicales. De esta manera, el usuario puede seleccionar uno o varios géneros para personalizar su experiencia y visualizar únicamente los conciertos que coincidan con sus preferencias musicales.
+
+- **Búsqueda de comunidades:** En la pestaña de Comunidades, los usuarios disponen de una barra de búsqueda que les permite encontrar grupos afines a sus intereses, ya sea por nombre, temática o popularidad. Esto fomenta la conexión entre fans con gustos similares.
+
+- **Navegación guiada en la Landing Page:** En la Landing Page, el menú de navegación (navbar) actúa como un sistema de búsqueda estructurado por secciones. Incluye accesos directos a:
+
+	- Inicio: Vista principal de presentación del proyecto.
+
+	- Para Fans: Sección que muestra los beneficios y funcionalidades pensadas para los usuarios fanáticos.
+
+	- Para Artistas: Espacio destinado a mostrar las ventajas y herramientas disponibles para músicos y creadores.
+
+	- Descargar: Botón que redirige directamente a la tienda de aplicaciones para obtener la versión móvil de GigMap.
+
+Cada uno de estos mecanismos busca optimizar la experiencia del usuario, reduciendo el tiempo de búsqueda y mejorando la accesibilidad de la información dentro del ecosistema GigMap.
+
+#### 3.1.2.5. Navigation Systems
+
+En esta sección, el equipo detalla las acciones y técnicas que guían a los usuarios a través del Landing Page y la aplicación móvil, asegurando una navegación fluida, coherente y centrada en el cumplimiento de sus objetivos. El propósito es que cada usuario pueda desplazarse intuitivamente por el contenido, comprendiendo de forma inmediata cómo interactuar con las diferentes secciones del producto.
+
+**Landing Page:**
+
+La navegación en la Landing Page está diseñada para ofrecer una experiencia clara, directa y atractiva desde el primer contacto con el usuario. Se emplea una estructura de navegación superior (navbar) con las siguientes secciones principales:
+
+- **Inicio:** Presenta una visión general del proyecto GigMap, introduciendo su propósito, características y propuesta de valor.
+
+- **Para Fans:** Expone los beneficios, funcionalidades y experiencias que la plataforma ofrece a los usuarios fanáticos, fomentando su participación dentro del ecosistema musical.
+
+- **Para Artistas:** Describe las herramientas, ventajas y oportunidades que GigMap pone a disposición de los músicos y creadores para conectar con sus audiencias.
+
+- **Descargar:**  Botón de acción que redirige al usuario hacia la tienda de aplicaciones para obtener la versión móvil de GigMap, promoviendo la transición del entorno web a la aplicación nativa.
+
+- **Footer con suscripción al newsletter:** En la parte inferior de la Landing Page se incluye un footer interactivo que permite a los usuarios suscribirse a un newsletter. Este espacio busca mantenerlos informados sobre novedades, lanzamientos y próximos eventos relacionados con GigMap, reforzando la conexión continua entre la plataforma y su comunidad.
+
+**Aplicación Mobile:**
+
+La navegación en la aplicación móvil de GigMap se centra en la simplicidad, accesibilidad y coherencia visual. Se utiliza una barra de navegación inferior compuesta por cuatro secciones principales, cada una diseñada para ofrecer un acceso rápido y claro a las funciones esenciales:
+
+- **Inicio:** Muestra el feed principal con secciones como“Descubre nuevos conciertos”, que redirige a la lista completa de eventos disponibles,“Nuevos artistas en GigMap”, y publicaciones recientes de los artistas que el usuario sigue. Esta vista prioriza la interacción y el descubrimiento de contenido relevante.
+
+- **Mapa:** Permite a los usuarios explorar un mapa interactivo que accede a su ubicación actual y muestra los conciertos disponibles cerca de ellos, fomentando la exploración geográfica de eventos musicales en tiempo real.
+
+- **Comunidades:** Espacio donde los usuarios pueden unirse a comunidades existentes, crear nuevas y visualizar aquellas de las que ya forman parte, promoviendo la interacción social y el sentido de pertenencia dentro de la aplicación.
+
+- **Perfil:** Sección destinada al perfil del usuario, donde puede visualizar su información personal, historial de actividad y editar sus datos o preferencias, manteniendo el control sobre su identidad dentro de GigMap.
+
+
 # Conclusiones
 
 -	El proyecto GigMap se consolida como una propuesta innovadora frente a los desafíos que presenta la escena musical en vivo, posicionándose como un puente tecnológico entre artistas emergentes y un público en constante búsqueda de experiencias auténticas. Su enfoque en geolocalización, personalización y participación comunitaria redefine la manera en que los usuarios descubren conciertos, aportando una solución efectiva a la falta de difusión de eventos independientes y al mismo tiempo ampliando las oportunidades de visibilización de artistas locales. El sistema demuestra cómo la tecnología, aplicada con una visión social y cultural, puede transformar dinámicas de consumo y enriquecer el ecosistema musical urbano.
