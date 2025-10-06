@@ -5542,18 +5542,39 @@ En esta sección se presentan los wireframes del Landing Page diseñados para su
   <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-uno.png" alt="1" width="500">
 </p>
 
-**Sección de Para Fans:**
+**Sección Para Fans:**
 
 <p align="center">
   <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-dos.png" alt="2" width="500">
 </p>
 
-**Sección de Para Artistas:**
+**Sección Para Artistas:**
 
 <p align="center">
   <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-wireframe-tres.png" alt="3" width="500">
 </p>
 
+#### 3.1.3.2. Landing Page Mock-up
+
+En esta sección se presentan los mockups finales del Landing Page, los cuales representan la materialización visual del diseño propuesto en los wireframes. Estos mockups muestran la aplicación coherente de la paleta de colores, los principios de diseño inclusivo y los lineamientos de estilo general definidos previamente. Además, reflejan la identidad visual de GigMap, transmitiendo una imagen moderna, profesional y alineada con su propósito: conectar a fans y artistas a través de una experiencia digital atractiva y funcional. La composición mantiene una jerarquía visual clara y una navegación intuitiva que facilita la exploración del sitio.
+
+**Sección de inicio:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-mockups-uno.png" alt="1" width="500">
+</p>
+
+**Sección Para Fans:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-mockups-dos.png" alt="2" width="500">
+</p>
+
+**Sección Para Artistas:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-mockups-tres.png" alt="2" width="500">
+</p>
 
 # Conclusiones
 
