@@ -5584,6 +5584,22 @@ En esta sección se presentan los mockups finales del Landing Page, los cuales r
 Enlace del Figma: `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
 
 #### 3.1.4.1. Mobile Applications Wireframes
+
+En esta sección se presentan los wireframes de la aplicación móvil, que representan de manera esquemática la estructura y disposición de los elementos en cada pantalla. Estos wireframes permiten visualizar la jerarquía de contenido, los flujos de navegación y las interacciones principales, sirviendo como guía para el diseño visual posterior. Además, facilitan la identificación de mejoras en la experiencia de usuario antes de avanzar a la etapa de prototipado.
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-uno.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-ocho.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-diez.png" alt="10" width="800">
+</p>
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
 
