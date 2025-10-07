@@ -5605,36 +5605,43 @@ En esta sección se presentan los wireframes de la aplicación móvil, que repre
 En esta sección se presentan los Wireflows de las aplicaciones móviles, diseñados para reflejar los distintos User Goals y considerando los User Persona correspondientes. Cada Wireflow muestra cómo los usuarios interactúan con la aplicación, incluyendo los cambios de estado en las pantallas a medida que avanzan por los flujos.
 
 **Wireflow 1: Registro e Inicio de Sesión**
+
 El usuario ingresa a la aplicación y decide si registrarse o iniciar sesión. Luego selecciona su tipo de cuenta, ya sea artista o fan, completa sus datos y finalmente accede satisfactoriamente a la aplicación.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow1.png" alt="Wireflow 1" width="800"> </p>
 
 **Wireflow 2: Filtrado de Conciertos por Género Musical**
+
 El usuario entra a la pestaña de conciertos y elige la opción de filtrar. Selecciona el género musical de su preferencia y visualiza únicamente los conciertos correspondientes a dicho género.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow2.png" alt="Wireflow 2" width="800"> </p>
 
 **Wireflow 3: Visualización y Marcado de Asistencia a un Concierto**
+
 Desde la lista de conciertos, el usuario selecciona el concierto de interés. Revisa la información detallada, marca su asistencia y consulta la ubicación del evento en el mapa.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow3.png" alt="Wireflow 3" width="800"> </p>
 
 **Wireflow 4: Unión a una Comunidad**
+
 El usuario accede a la pestaña de comunidades y explora las opciones disponibles. Selecciona una comunidad de interés, revisa su información y presiona el botón “Unirse”, completando la acción satisfactoriamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow4.png" alt="Wireflow 4" width="800"> </p>
 
 **Wireflow 5: Creación de una Comunidad**
+
 El usuario entra a la sección de comunidades y selecciona “Crear comunidad”. Completa el formulario con el nombre, descripción e imagen de la comunidad y envía los datos, registrando la comunidad exitosamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow5.png" alt="Wireflow 5" width="800"> </p>
 
 **Wireflow 6: Seguir a un Usuario desde un Concierto**
+
 El usuario revisa la lista de asistentes a un concierto y selecciona el perfil de otro usuario. Visualiza su información y presiona “Seguir”, completando la acción satisfactoriamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow6.png" alt="Wireflow 6" width="800"> </p>
 
 **Wireflow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
 El usuario selecciona un perfil desde la lista de asistentes. Visualiza conciertos asistidos y por asistir, likes y comunidades, explorando todo el contenido disponible del otro usuario.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow7.png" alt="Wireflow 7" width="800"> </p>
@@ -5645,21 +5652,25 @@ El usuario abre el mapa interactivo y selecciona un concierto. Accede a la infor
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow8.png" alt="Wireflow 8" width="800"> </p>
 
 **Wireflow 9: Crear Concierto**
+
 El usuario entra a la sección de conciertos y elige “Crear concierto”. Completa el formulario con todos los datos del evento y envía la información, registrando el concierto satisfactoriamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow9.png" alt="Wireflow 9" width="800"> </p>
 
 **Wireflow 10: Crear Evento Relacionado a un Concierto**
+
 El usuario visualiza un concierto existente y selecciona la opción “Crear evento relacionado”. Llena el formulario con los datos del nuevo evento y lo asocia al concierto principal.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow10.png" alt="Wireflow 10" width="800"> </p>
 
 **Wireflow 11: Editar Perfil de Usuario**
+
 El usuario accede a su perfil, selecciona “Editar perfil” y modifica los datos personales. Guarda los cambios y actualiza su perfil satisfactoriamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow11.png" alt="Wireflow 11" width="800"> </p>
 
 **Wireflow 12: Acceso a Notificaciones**
+
 El usuario se encuentra en cualquier sección de la aplicación y presiona el botón de notificaciones. Accede a su bandeja y revisa alertas, mensajes y eventos relevantes.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow12.png" alt="Wireflow 12" width="800"> </p>
