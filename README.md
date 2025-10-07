@@ -5532,6 +5532,9 @@ La navegación en la aplicación móvil de GigMap se centra en la simplicidad, a
 - **Perfil:** Sección destinada al perfil del usuario, donde puede visualizar su información personal, historial de actividad y editar sus datos o preferencias, manteniendo el control sobre su identidad dentro de GigMap.
 
 ### 3.1.3. Landing Page UI Design
+
+Enlace del Figma: `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
+
 #### 3.1.3.1. Landing Page Wireframe
 
 En esta sección se presentan los wireframes del Landing Page diseñados para su visualización en navegadores web de escritorio. La propuesta refleja la aplicación de los principios de diseño visual, los elementos de composición y los fundamentos de diseño inclusivo, garantizando una experiencia accesible y coherente para todo tipo de usuarios. Asimismo, la estructura de los wireframes evidencia la arquitectura de información planteada, priorizando la jerarquía visual, la claridad en la navegación y la fácil identificación de secciones clave como “Inicio", "Para Fans”y“Para Artistas"
@@ -5577,6 +5580,9 @@ En esta sección se presentan los mockups finales del Landing Page, los cuales r
 </p>
 
 ### 3.1.4. Mobile Applications UX/UI Design
+
+Enlace del Figma: `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
+
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
@@ -5739,7 +5745,7 @@ En este flujo, el usuario accede a su perfil y selecciona la opción “Editar p
   <img src="assets/images/product-desing/user-flows/userflow22.png" alt="User Flow 22" width="800">
 </p>
 
-User Flow 12: Acceso a Notificaciones
+**User Flow 12: Acceso a Notificaciones**
 
 En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
 
@@ -5751,8 +5757,18 @@ En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación q
   <img src="assets/images/product-desing/user-flows/userflow24.png" alt="User Flow 24" width="800">
 </p>
 
+#### 3.1.4.5. Mobile Applications Prototyping
+
+En esta sección se presentan los criterios fundamentales que guían las decisiones de interacción dentro de GigMap, asegurando que cada acción del usuario sea intuitiva y eficiente. Se evidencia la relación directa con la arquitectura de información, especialmente en lo referente a los sistemas de navegación y los tipos de interacciones seleccionadas. Para ilustrar estos flujos, se realizará el prototipado en Figma, mostrando de manera visual y práctica los principales flujos de interacción de los prototipos.
+
+Enlace del vídeo: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/EdMwRQRxjNpHgq-F-NzEaXgBSkQBbjy5avREhG2EykMVYQ?e=TTI1lT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-prototyping.png" alt="User Flow 24" width="800">
+</p>
 
 # Conclusiones
+
 
 -	El proyecto GigMap se consolida como una propuesta innovadora frente a los desafíos que presenta la escena musical en vivo, posicionándose como un puente tecnológico entre artistas emergentes y un público en constante búsqueda de experiencias auténticas. Su enfoque en geolocalización, personalización y participación comunitaria redefine la manera en que los usuarios descubren conciertos, aportando una solución efectiva a la falta de difusión de eventos independientes y al mismo tiempo ampliando las oportunidades de visibilización de artistas locales. El sistema demuestra cómo la tecnología, aplicada con una visión social y cultural, puede transformar dinámicas de consumo y enriquecer el ecosistema musical urbano.
 
@@ -5812,4 +5828,9 @@ En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación q
 **Diagrama de Base de Datos:**
 - `https://lucid.app/lucidchart/05424e23-5e84-4387-9dce-03e18885fc89/edit?invitationId=inv_3b68e893-018f-41c7-a6f9-254bbdcaa6ab`
 
+**Mobile Applications Prototyping**
+- `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/EdMwRQRxjNpHgq-F-NzEaXgBSkQBbjy5avREhG2EykMVYQ?e=TTI1lT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+
+**Figma**
+- `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
 
