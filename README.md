@@ -5576,6 +5576,30 @@ En esta sección se presentan los mockups finales del Landing Page, los cuales r
   <img src="assets/images/product-desing/landing-page-ui-desing/landing-page-mockups-tres.png" alt="2" width="500">
 </p>
 
+### 3.1.4. Mobile Applications UX/UI Design
+#### 3.1.4.1. Mobile Applications Wireframes
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+En esta sección se presentan los mockups de la aplicación mobile de GigMap, los cuales ilustran la versión interactiva de la plataforma diseñada para navegadores. Estos mockups reflejan la integración de los principios de diseño centrado en el usuario, manteniendo la coherencia visual con la identidad de marca establecida en el Landing Page. Se prioriza una interfaz limpia, moderna y funcional, donde la paleta cromática, la tipografía Inter y los elementos de navegación trabajan en conjunto para ofrecer una experiencia fluida.
+
+Cada pantalla busca transmitir claridad en las acciones, accesibilidad y una estructura visual que facilite la exploración de conciertos, comunidades y perfiles dentro del ecosistema GigMap.
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-uno.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-ocho.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/landing-page-ui-desing/mobile-applications/mobile-mockups-diez.png" alt="10" width="800">
+</p>
+
+
+
 # Conclusiones
 
 -	El proyecto GigMap se consolida como una propuesta innovadora frente a los desafíos que presenta la escena musical en vivo, posicionándose como un puente tecnológico entre artistas emergentes y un público en constante búsqueda de experiencias auténticas. Su enfoque en geolocalización, personalización y participación comunitaria redefine la manera en que los usuarios descubren conciertos, aportando una solución efectiva a la falta de difusión de eventos independientes y al mismo tiempo ampliando las oportunidades de visibilización de artistas locales. El sistema demuestra cómo la tecnología, aplicada con una visión social y cultural, puede transformar dinámicas de consumo y enriquecer el ecosistema musical urbano.
