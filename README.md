@@ -5991,11 +5991,9 @@ En esta etapa, se utilizaron herramientas colaborativas que permitieron planific
 
 Durante esta fase, se utilizaron diversas herramientas visuales para identificar, analizar y documentar los requerimientos del sistema, permitiendo una comprensión profunda de los usuarios y una definición clara de los objetivos del producto.
 
-- [**UXPressia:**](https://uxpressia.com/) Se empleó esta aplicación para elaborar User Personas, Empathy Maps, Journey Maps e Impact Maps. Estas herramientas fueron fundamentales para detectar y comprender las necesidades, expectativas y motivaciones de los usuarios objetivo de **GigMap**.
 
-- [**Miro:**](https://miro.com/es/) Miro fue utilizada para diseñar los escenarios As-Is y To-Be, lo que facilitó visualizar el estado actual del problema y proyectar una solución ideal centrada en el usuario.
+- [**Trello:**](https://trello.com) Para asignar y organizar las tareas y responsabilidades de cada integrante del grupo en caso de revisiones o modificaciones del proyecto.
 
-- [**Structurizr:**](https://structurizr.com/) Se implementó Structurizr para crear los diagramas C4, los cuales ayudaron a definir la arquitectura de la **aplicación** en distintos niveles (Contexto, Contenedor, Componente y Código), proporcionando una visión clara sobre la estructura de los elementos del software.
 
 **Product UX/UI Design**
 
@@ -6003,8 +6001,35 @@ En esta etapa se emplearon herramientas de diseño que hicieron posible crear in
 
 - [**Figma:**](https://www.figma.com/es-la/) Se utilizó Figma para diseñar wireframes, mockups y prototipos interactivos. Esta aplicación colaborativa permitió iterar de forma ágil sobre el diseño de la interfaz, evaluando tanto su usabilidad como su aspecto visual.
 
-- [**Lucidchart:**](https://www.lucidchart.com/pages/es) Con Lucidchart se diseñó el modelo de base de datos y se elaboraron diagramas UML, lo que facilitó una visualización estructurada de las entidades, relaciones y comportamientos dentro del sistema de GigMap.
-  
+**Software Development**
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Android | Lenguaje de programación utilizado para la creación de la *mobile application*. | [https://developer.android.com/](https://developer.android.com/) |
+| Jetpack Compose | Framework utilizado para la creación de la *mobile application*. | [https://developer.android.com/compose](https://developer.android.com/compose) |
+
+
+**Software Deployment**
+
+Se utilizaron las siguientes herramientas de software para el despliegue de los servicios del proyecto: Render para la base de datos, Render para la API, Github para la landing page, y Android Studio para la aplicación móvil.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Github | Para la landing page. | [https://github.com](https://github.com) |
+| Render | Data base y Landing Page utilizadas para el proyecto. | [https://render.com/](https://render.com/) |
+| Android Studio | Herramienta utilizada para la creación de la *mobile application*. | [https://developer.android.com/studio](https://developer.android.com/studio) |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos el lenguaje Markdown y para el trabajo colaborativo Github.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Markdown | Lenguaje de marcado utilizado | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+| GitHub | Plataforma utilizada para subir la documentación del proyecto. | [https://github.com/NRG-4/report](https://github.com/NRG-4/report) |
+
 
 ### 4.1.2. Source Code Management
 
