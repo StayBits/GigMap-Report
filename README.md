@@ -6017,13 +6017,6 @@ Para la documentación del software utilizamos el lenguaje Markdown y para el tr
 
 El código fuente del proyecto GigMap fue gestionado mediante la plataforma GitHub, en un repositorio público que refleja los principios del desarrollo de software de código abierto.
 
-Repositorio del proyecto:
-
-
-<div align="center">
-  <img src="assets/capturas/repositorio-appweb.png" alt="inicio" style="width: 80%">
-</div>
-
 Durante el desarrollo de GigMap, se trabajó únicamente sobre la rama `main`, lo que permitió mantener una gestión de cambios sencilla y una línea de desarrollo centralizada.
 Aunque no se aplicó una estrategia avanzada de ramificación como GitFlow, se dio prioridad a conservar un historial de versiones limpio y organizado, con confirmaciones frecuentes y mensajes descriptivos que facilitaron el seguimiento del progreso del proyecto.
 
@@ -6624,7 +6617,7 @@ Gráficos de colaboración:
 **Commits Landingpage:**
 
 <p align="center">
-  <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
 </p>
 
 
@@ -6639,7 +6632,7 @@ Gráficos de colaboración:
 **Commits Frontend:**
 
 <p align="center">
-  <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
 </p>
 
 ## 4.3. Validation Interviews
