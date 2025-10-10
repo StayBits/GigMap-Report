@@ -105,6 +105,20 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBits/GigMap
 Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
 
 
+**TP1 (10/10/2025):**
+
+<p align="center">
+  <img src="assets/images/project-insights/commits_resume.png" alt="contributors" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/project-insights/commits.png" alt="contributors" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/project-insights/commits_network.png" alt="contributors" width="700">
+</p>
+
+Para esta segunda entrega se desarrollaron los capítulos 3 y 4 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
+
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
@@ -6603,11 +6617,11 @@ URL del vídeo de las Entrevistas publicado en OneDrive:
 
 **Entrevista #1**
 
-- **Nombre**: [Nombre completo del artista]
-- **Edad**: [Edad]
-- **Distrito**: [Distrito]
-- **Duración**: 18 minutos
-- **Timing de inicio**: 00:00
+- **Nombre**: Zaleth Feijóo
+- **Edad**: 19
+- **Distrito**: Pueblo Libre
+- **Duración**: 5 minutos
+- **Timing de inicio**: 10:00
 
 Screenshot de video:
 <p align="center">
