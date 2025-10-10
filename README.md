@@ -336,11 +336,11 @@ de software</td>
 		TP1: Elaboro desarrollo del frontend y en el despliegue de la landing page, aplicando conocimientos actualizados sobre frameworks web y buenas prácticas de maquetación responsiva. Su participación fortaleció su comprensión sobre integración entre diseño y desarrollo, así como sobre los procesos de publicación y mantenimiento de aplicaciones web en entornos productivos.<br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
         TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br><br>
-		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, reforzando sus conocimientos sobre diseño de interfaces, usabilidad y conexión con el backend. Durante el proceso, actualizó conceptos relacionados con la integración de componentes, gestión de repositorios y despliegue en plataformas web, contribuyendo activamente a la presentación funcional del proyecto.
+		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, reforzando sus conocimientos sobre diseño de interfaces, usabilidad y conexión con el backend. Durante el proceso, actualizó conceptos relacionados con la integración de componentes, gestión de repositorios y despliegue de aplicación mobile, contribuyendo activamente a la presentación funcional del proyecto.
       </td>
       <td>
         TB1: El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.<br><br>
-		TP1: El grupo en su conjunto logró actualizar y aplicar conocimientos fundamentales en el desarrollo de soluciones de software, consolidando los avances técnicos y funcionales del proyecto GigMap. Las actividades realizadas como la elaboración de los diseños en Figma bajo el enfoque Lean UX, el desarrollo del frontend y backend, la implementación de la base de datos y el despliegue de la landing pag, permitieron fortalecer competencias en diseño de interfaces, arquitectura por capas, integración de servicios y despliegue en entornos productivos. Este proceso evidenció que cada integrante logró actualizar y aplicar conceptos clave de ingeniería de software, contribuyendo de manera coordinada a la construcción de una plataforma funcional y escalable.
+		TP1: El grupo en su conjunto logró actualizar y aplicar conocimientos fundamentales en el desarrollo de soluciones de software, consolidando los avances técnicos y funcionales del proyecto GigMap. Las actividades realizadas como la elaboración de los diseños en Figma bajo el enfoque Lean UX, el desarrollo del frontend y backend, la implementación de la base de datos y el despliegue de la landing pag, permitieron fortalecer competencias en diseño de interfaces, arquitectura por capas, integración de servicios y despliegue en entornos productivos. Este proceso evidenció que cada integrante logró actualizar y aplicar conceptos clave de ingeniería de software, contribuyendo de manera coordinada a la construcción de una aplicación funcional y escalable.
       </td>
     </tr>
     <tr>
@@ -893,8 +893,8 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 		<tr>
 			<td>Amenazas</td>
 			<td>Competir con plataformas y/o aplicaciones consolidadas como Songkick y Bandsintown puede ser desafiante. La saturación del mercado de aplicaciones de conciertos podría dificultar la atracción de usuarios.</td>
-			<td>La competencia creciente de aplicaciones como Bandsintown y Fever puede restarle usuarios. La dependencia de plataformas de streaming lo hace vulnerable a cambios en ese ecosistema.</td>
-			<td>La competencia de plataformas especializadas en conciertos como Songkick y Fever podría reducir su cuota de mercado. Cambios en los hábitos de consumo de entretenimiento digital podrían afectar su relevancia.</td>
+			<td>La competencia creciente de aplicaciones como Bandsintown y Fever puede restarle usuarios. La dependencia de aplicación de streaming lo hace vulnerable a cambios en ese ecosistema.</td>
+			<td>La competencia de aplicaciones especializadas en conciertos como Songkick y Fever podría reducir su cuota de mercado. Cambios en los hábitos de consumo de entretenimiento digital podrían afectar su relevancia.</td>
 			<td>La competencia de aplicaciones como Songkick y Bandsintown podría restarle relevancia en el ámbito musical. La saturación del mercado de eventos y actividades culturales podría hacerle perder protagonismo.</td>
 		</tr>
 	</tbody>
@@ -5604,13 +5604,13 @@ La navegación en la Landing Page está diseñada para ofrecer una experiencia c
 
 - **Inicio:** Presenta una visión general del proyecto GigMap, introduciendo su propósito, características y propuesta de valor.
 
-- **Para Fans:** Expone los beneficios, funcionalidades y experiencias que la plataforma ofrece a los usuarios fanáticos, fomentando su participación dentro del ecosistema musical.
+- **Para Fans:** Expone los beneficios, funcionalidades y experiencias que la aplicación ofrece a los usuarios fanáticos, fomentando su participación dentro del ecosistema musical.
 
 - **Para Artistas:** Describe las herramientas, ventajas y oportunidades que GigMap pone a disposición de los músicos y creadores para conectar con sus audiencias.
 
 - **Descargar:**  Botón de acción que redirige al usuario hacia la tienda de aplicaciones para obtener la versión móvil de GigMap, promoviendo la transición del entorno web a la aplicación nativa.
 
-- **Footer con suscripción al newsletter:** En la parte inferior de la Landing Page se incluye un footer interactivo que permite a los usuarios suscribirse a un newsletter. Este espacio busca mantenerlos informados sobre novedades, lanzamientos y próximos eventos relacionados con GigMap, reforzando la conexión continua entre la plataforma y su comunidad.
+- **Footer con suscripción al newsletter:** En la parte inferior de la Landing Page se incluye un footer interactivo que permite a los usuarios suscribirse a un newsletter. Este espacio busca mantenerlos informados sobre novedades, lanzamientos y próximos eventos relacionados con GigMap, reforzando la conexión continua entre la aplicación y su comunidad.
 
 **Aplicación Mobile:**
 
@@ -5771,7 +5771,7 @@ El usuario se encuentra en cualquier sección de la aplicación y presiona el bo
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-En esta sección se presentan los mockups de la aplicación mobile de GigMap, los cuales ilustran la versión interactiva de la plataforma diseñada para navegadores. Estos mockups reflejan la integración de los principios de diseño centrado en el usuario, manteniendo la coherencia visual con la identidad de marca establecida en el Landing Page. Se prioriza una interfaz limpia, moderna y funcional, donde la paleta cromática, la tipografía Inter y los elementos de navegación trabajan en conjunto para ofrecer una experiencia fluida.
+En esta sección se presentan los mockups de la aplicación mobile de GigMap, los cuales ilustran la versión interactiva de la aplicación diseñada para móviles. Estos mockups reflejan la integración de los principios de diseño centrado en el usuario, manteniendo la coherencia visual con la identidad de marca establecida en el Landing Page. Se prioriza una interfaz limpia, moderna y funcional, donde la paleta cromática, la tipografía Inter y los elementos de navegación trabajan en conjunto para ofrecer una experiencia fluida.
 
 Cada pantalla busca transmitir claridad en las acciones, accesibilidad y una estructura visual que facilite la exploración de conciertos, comunidades y perfiles dentro del ecosistema GigMap.
 
@@ -6362,7 +6362,7 @@ Pasos para desplegar el backend en Render
     <td>Sprint 1 Goal</td>
     <td>
  Nuestro enfoque está en fortalecer los elementos esenciales de GigMap mediante la mejora de los entregables previos, el diseño visual y funcional de la aplicación, y la implementación de los primeros prototipos operativos tanto del frontend (landing page y app móvil) como del backend.
-Creemos que esto ofrece una base técnica y de experiencia de usuario más sólida, permitiendo que los primeros usuarios interactúen con una versión inicial funcional del sistema y que el equipo obtenga retroalimentación temprana sobre la usabilidad y desempeño general de la plataforma.
+Creemos que esto ofrece una base técnica y de experiencia de usuario más sólida, permitiendo que los primeros usuarios interactúen con una versión inicial funcional del sistema y que el equipo obtenga retroalimentación temprana sobre la usabilidad y desempeño general de la aplicación.
 Esto se confirmará cuando la landing page esté activa, la app móvil muestre flujos iniciales de navegación, el backend cuente con endpoints funcionales y las correcciones de entregables anteriores se encuentren integradas, probadas y validadas por el equipo de desarrollo.
 </td>
   </tr>
@@ -6795,7 +6795,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 Durante la evaluación, tanto artistas como usuarios coincidieron en que la búsqueda de conciertos se siente limitada, ya que solo permite filtrar por género musical. Esto restringe la capacidad de los usuarios para encontrar eventos relevantes según su ubicación geográfica o disponibilidad temporal. La ausencia de filtros por ciudad o fecha afecta la eficiencia en la exploración del contenido y puede generar frustración en usuarios que buscan experiencias específicas o cercanas a su zona.
 
 **Recomendación**:
-Se sugiere incorporar un sistema de búsqueda avanzada que permita aplicar filtros combinados por ubicación, fecha, rango de precios y tipo de evento. Además, se recomienda incluir una barra de búsqueda predictiva con autocompletado que agilice la localización de conciertos. Estas mejoras aumentarían la capacidad de descubrimiento dentro de la plataforma y optimizarían la satisfacción del usuario al reducir el tiempo de búsqueda.
+Se sugiere incorporar un sistema de búsqueda avanzada que permita aplicar filtros combinados por ubicación, fecha, rango de precios y tipo de evento. Además, se recomienda incluir una barra de búsqueda predictiva con autocompletado que agilice la localización de conciertos. Estas mejoras aumentarían la capacidad de descubrimiento dentro de la aplicación y optimizarían la satisfacción del usuario al reducir el tiempo de búsqueda.
 
 **PROBLEMA #2: Notificaciones sin clasificación**
 
@@ -6814,10 +6814,10 @@ Organizar las notificaciones por categorías, tales como Eventos, Comunidades, S
 **Heurística violada:** Usabilidad – Reconocimiento mejor que recuerdo
 
 **Problema**:
-Los nuevos usuarios, especialmente los artistas, manifestaron dificultad para comprender el funcionamiento de la aplicación en su primer uso. La ausencia de una guía o introducción visual hace que deban explorar por ensayo y error funciones clave como marcar asistencia, crear comunidades o seguir a otros usuarios. Esto puede generar una primera impresión negativa, reduciendo la retención y la curva de aprendizaje de la plataforma.
+Los nuevos usuarios, especialmente los artistas, manifestaron dificultad para comprender el funcionamiento de la aplicación en su primer uso. La ausencia de una guía o introducción visual hace que deban explorar por ensayo y error funciones clave como marcar asistencia, crear comunidades o seguir a otros usuarios. Esto puede generar una primera impresión negativa, reduciendo la retención y la curva de aprendizaje de la aplicación.
 
 **Recomendación**:
-Implementar un breve recorrido guiado (onboarding) al iniciar sesión por primera vez, que destaque las funciones principales mediante pop-ups o animaciones interactivas. También se recomienda incluir una sección de ayuda o tutorial accesible desde el menú principal para usuarios que deseen repasar la funcionalidad más adelante. Este tipo de acompañamiento mejora la orientación, refuerza la confianza del usuario y facilita la adopción de la plataforma.
+Implementar un breve recorrido guiado (onboarding) al iniciar sesión por primera vez, que destaque las funciones principales mediante pop-ups o animaciones interactivas. También se recomienda incluir una sección de ayuda o tutorial accesible desde el menú principal para usuarios que deseen repasar la funcionalidad más adelante. Este tipo de acompañamiento mejora la orientación, refuerza la confianza del usuario y facilita la adopción de la aplicación.
 
 **PROBLEMA #4: Dificultad para encontrar la opción de“Editar Perfil”**
 
@@ -6836,7 +6836,7 @@ Reubicar el botón “Editar Perfil” en una zona más visible, preferiblemente
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema
 
 **Problema**:
-Al marcar asistencia a un concierto, la aplicación no muestra ninguna confirmación visual o auditiva de que la acción haya sido registrada correctamente. La ausencia de retroalimentación inmediata genera incertidumbre, llevando a los usuarios a repetir la acción o dudar de la respuesta del sistema. Este tipo de deficiencia afecta directamente la confianza del usuario y la percepción de fiabilidad de la plataforma.
+Al marcar asistencia a un concierto, la aplicación no muestra ninguna confirmación visual o auditiva de que la acción haya sido registrada correctamente. La ausencia de retroalimentación inmediata genera incertidumbre, llevando a los usuarios a repetir la acción o dudar de la respuesta del sistema. Este tipo de deficiencia afecta directamente la confianza del usuario y la percepción de fiabilidad de la aplicación.
 
 **Recomendación**:
 Incorporar una confirmación visual y textual al completar la acción. Por ejemplo, cambiar el color del botón, mostrar un ícono de verificación y desplegar un mensaje breve como “¡Asistencia confirmada!”. Asimismo, podría añadirse una animación ligera o vibración (en caso de app móvil) para reforzar la respuesta del sistema. Esta mejora garantizaría transparencia, reduciría errores de duplicación y aumentaría la satisfacción general durante la interacción.
@@ -6857,9 +6857,9 @@ Incorporar una confirmación visual y textual al completar la acción. Por ejemp
 
 - Desde una perspectiva técnica, se consolidó una arquitectura estructurada y escalable, basada en principios de descomposición modular y buenas prácticas de desarrollo, que garantizan la mantenibilidad y evolución futura del sistema. La integración entre el frontend, el backend y la base de datos se realizó de forma coherente, asegurando la comunicación fluida entre los componentes del ecosistema. A su vez, se llevó a cabo el despliegue exitoso de la landing page y de la base de datos, estableciendo un entorno funcional y accesible para las siguientes fases del proyecto. Estos logros técnicos reflejan un avance significativo en la materialización del sistema completo.
 
-- En el ámbito cultural y social, GigMap se proyecta como una plataforma capaz de impulsar la visibilidad de artistas emergentes, fortalecer la comunidad musical local y fomentar la interacción directa entre creadores y público. Al promover la difusión de eventos independientes y facilitar el acceso a experiencias musicales auténticas, la aplicación contribuye al crecimiento de la economía creativa, al mismo tiempo que refuerza la identidad cultural urbana. La posibilidad de crear y asistir a conciertos o eventos relacionados no solo mejora la experiencia del usuario, sino que también genera un espacio digital de conexión, colaboración y descubrimiento artístico.
+- En el ámbito cultural y social, GigMap se proyecta como una aplicación capaz de impulsar la visibilidad de artistas emergentes, fortalecer la comunidad musical local y fomentar la interacción directa entre creadores y público. Al promover la difusión de eventos independientes y facilitar el acceso a experiencias musicales auténticas, la aplicación contribuye al crecimiento de la economía creativa, al mismo tiempo que refuerza la identidad cultural urbana. La posibilidad de crear y asistir a conciertos o eventos relacionados no solo mejora la experiencia del usuario, sino que también genera un espacio digital de conexión, colaboración y descubrimiento artístico.
 
-- La combinación entre tecnología, diseño centrado en el usuario y propósito social convierte a GigMap en un proyecto con potencial transformador. Su arquitectura sólida, su enfoque geolocalizado y su compromiso con la cultura independiente establecen un precedente para futuras plataformas que busquen unir el arte y la tecnología. Con bases técnicas firmes y una visión centrada en la comunidad, GigMap continúa evolucionando hacia su meta: convertirse en un referente en la promoción de la música en vivo y la construcción de experiencias culturales conectadas.
+- La combinación entre tecnología, diseño centrado en el usuario y propósito social convierte a GigMap en un proyecto con potencial transformador. Su arquitectura sólida, su enfoque geolocalizado y su compromiso con la cultura independiente establecen un precedente para futuras aplicaciones que busquen unir el arte y la tecnología. Con bases técnicas firmes y una visión centrada en la comunidad, GigMap continúa evolucionando hacia su meta: convertirse en un referente en la promoción de la música en vivo y la construcción de experiencias culturales conectadas.
 
 - En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la aplicación se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
 
