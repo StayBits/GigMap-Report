@@ -216,6 +216,32 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+     
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
 
       
 - [Conclusiones](#conclusiones)
@@ -243,21 +269,27 @@ su proyecto en soluciones de ingeniería
 de software</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: Colaboró en el Needfinding, actualizando conceptos relacionados con el análisis de requerimientos y necesidades del usuario. Además, participó en el diseño de la arquitectura de software, aplicando principios de diseño estructurado y buenas prácticas en el desarrollo de sistemas. Su participación en el Event Storming y Tactical-Level DDD reforzó su comprensión sobre el modelado estratégico y táctico en proyectos de software  <br>
+        TB1: Colaboró en el Needfinding, actualizando conceptos relacionados con el análisis de requerimientos y necesidades del usuario. Además, participó en el diseño de la arquitectura de software, aplicando principios de diseño estructurado y buenas prácticas en el desarrollo de sistemas. Su participación en el Event Storming y Tactical-Level DDD reforzó su comprensión sobre el modelado estratégico y táctico en proyectos de software  <br><br>
+		TP1: Elaboró el backend del sistema y participó en su despliegue junto con la base de datos, actualizando conocimientos en arquitectura de software, diseño por capas y comunicación entre servicios. Su trabajo reforzó competencias en desarrollo de APIs RESTful, integración con bases de datos y configuración de entornos de despliegue, aplicando principios de ingeniería de software orientados a escalabilidad y mantenibilidad.<br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: Se encargó del análisis de entrevistas, lo que demandó aplicar y reforzar sus conocimientos en técnicas de análisis cualitativo y síntesis de información. También participó en el diseño de la arquitectura de software, donde profundizó en principios de diseño modular y escalable. Además, colaboró en sesiones de Event Storming y Tactical-Level DDD, actualizando y aplicando conceptos de modelado de dominio. <br>
+        TB1: Se encargó del análisis de entrevistas, lo que demandó aplicar y reforzar sus conocimientos en técnicas de análisis cualitativo y síntesis de información. También participó en el diseño de la arquitectura de software, donde profundizó en principios de diseño modular y escalable. Además, colaboró en sesiones de Event Storming y Tactical-Level DDD, actualizando y aplicando conceptos de modelado de dominio. <br><br>
+		TP1: Elaboró el backend y participó en el despliegue tanto del servidor como de la landing page, actualizando conocimientos sobre desarrollo de APIs, estructuración de servicios y manejo de entornos cloud. Su trabajo permitió afianzar conceptos clave de ingeniería de software moderna, incluyendo control de versiones, automatización de despliegue y conexión entre backend y base de datos.<br>
 	      <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-        TB1: Diseñó las entrevistas y desarrolló el proceso de Needfinding, lo que implicó actualizarse en técnicas modernas de investigación con usuarios para obtener información relevante sobre el dominio. Asimismo, trabajó junto con Renato en la elaboración del Bounded Context Canvas, ejercicio que le permitió profundizar en el modelado estratégico con Domain-Driven Design. Además, colaboró en el Event Storming y el Tactical-Level DDD, consolidando conocimientos de ingeniería de software aplicada a escenarios reales.<br>
+        TB1: Diseñó las entrevistas y desarrolló el proceso de Needfinding, lo que implicó actualizarse en técnicas modernas de investigación con usuarios para obtener información relevante sobre el dominio. Asimismo, trabajó junto con Renato en la elaboración del Bounded Context Canvas, ejercicio que le permitió profundizar en el modelado estratégico con Domain-Driven Design. Además, colaboró en el Event Storming y el Tactical-Level DDD, consolidando conocimientos de ingeniería de software aplicada a escenarios reales.<br><br>
+		TP1: Elaboró los diseños en Figma y colaboró en la aplicación de los principios del enfoque Lean UX, actualizando sus conocimientos en diseño centrado en el usuario y experiencia de interfaz. Su participación en el desarrollo del frontend le permitió reforzar conceptos de estructura visual, prototipado interactivo y adaptación de diseños a entornos web y móviles, contribuyendo a la creación de interfaces funcionales y coherentes con los objetivos del proyecto.<br>
 	      	      <br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1: Se encargó de la introducción del trabajo y de la identificación de los segmentos objetivos, aplicando conocimientos sobre análisis de usuarios y metodologías de investigación en el dominio. Además, participó en la elaboración de la arquitectura de software, lo que le permitió actualizar sus conceptos sobre diseño estructurado y buenas prácticas en la construcción de soluciones de software. También participó en actividades colaborativas como el Event Storming y el Tactical-Level Domain-Driven Design, reforzando su entendimiento de la modelación de sistemas. <br>
+        TB1: Se encargó de la introducción del trabajo y de la identificación de los segmentos objetivos, aplicando conocimientos sobre análisis de usuarios y metodologías de investigación en el dominio. Además, participó en la elaboración de la arquitectura de software, lo que le permitió actualizar sus conceptos sobre diseño estructurado y buenas prácticas en la construcción de soluciones de software. También participó en actividades colaborativas como el Event Storming y el Tactical-Level Domain-Driven Design, reforzando su entendimiento de la modelación de sistemas. <br><br>
+		TP1: Elaboro desarrollo del frontend y en el despliegue de la landing page, aplicando conocimientos actualizados sobre frameworks web y buenas prácticas de maquetación responsiva. Su participación fortaleció su comprensión sobre integración entre diseño y desarrollo, así como sobre los procesos de publicación y mantenimiento de aplicaciones web en entornos productivos.<br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br>
+        TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br><br>
+		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, reforzando sus conocimientos sobre diseño de interfaces, usabilidad y conexión con el backend. Durante el proceso, actualizó conceptos relacionados con la integración de componentes, gestión de repositorios y despliegue en plataformas web, contribuyendo activamente a la presentación funcional del proyecto.
       </td>
       <td>
-        El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.
+        TB1: El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.<br><br>
+		TP1: El grupo en su conjunto logró actualizar y aplicar conocimientos fundamentales en el desarrollo de soluciones de software, consolidando los avances técnicos y funcionales del proyecto GigMap. Las actividades realizadas como la elaboración de los diseños en Figma bajo el enfoque Lean UX, el desarrollo del frontend y backend, la implementación de la base de datos y el despliegue de la landing pag, permitieron fortalecer competencias en diseño de interfaces, arquitectura por capas, integración de servicios y despliegue en entornos productivos. Este proceso evidenció que cada integrante logró actualizar y aplicar conceptos clave de ingeniería de software, contribuyendo de manera coordinada a la construcción de una plataforma funcional y escalable.
       </td>
     </tr>
     <tr>
@@ -268,23 +300,29 @@ de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
       <td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
-        TB1: Al trabajar en el Needfinding y la arquitectura de software, reconoció la importancia de seguir aprendiendo sobre metodologías ágiles y técnicas de diseño de sistemas. Su experiencia en las actividades grupales reafirmó la necesidad de una formación continua para garantizar la calidad en los proyectos de software. <br>
+        TB1: Al trabajar en el Needfinding y la arquitectura de software, reconoció la importancia de seguir aprendiendo sobre metodologías ágiles y técnicas de diseño de sistemas. Su experiencia en las actividades grupales reafirmó la necesidad de una formación continua para garantizar la calidad en los proyectos de software. <br><br>
+		TP1: Desarrolló el backend y gestionó su despliegue junto con la base de datos, demostrando compromiso con el aprendizaje permanente al enfrentarse a la configuración de servicios, integración de componentes y conexión con entornos de producción. Su participación reforzó su comprensión sobre la importancia de actualizar conocimientos técnicos y adaptarse a las nuevas tendencias en arquitectura de software para un desarrollo profesional sostenible.<br>
 	      <br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
-        TB1: En el análisis de entrevistas y la arquitectura de software, descubrió la necesidad de perfeccionar constantemente sus habilidades de interpretación y diseño. Participar en metodologías como Event Storming le permitió entender que el aprendizaje permanente es clave para abordar proyectos complejos y mantenerse actualizado en nuevas tendencias y técnicas de modelado <br>
+        TB1: En el análisis de entrevistas y la arquitectura de software, descubrió la necesidad de perfeccionar constantemente sus habilidades de interpretación y diseño. Participar en metodologías como Event Storming le permitió entender que el aprendizaje permanente es clave para abordar proyectos complejos y mantenerse actualizado en nuevas tendencias y técnicas de modelado <br><br>
+		TP1: Desarrolló el backend y participó en el despliegue del sistema y la landing page, evidenciando la importancia del aprendizaje permanente al abordar nuevos retos técnicos en entornos de producción. Su experiencia le permitió valorar la necesidad de mantenerse actualizado en herramientas de desarrollo, seguridad y despliegue, entendiendo que el aprendizaje continuo es esencial para adaptarse a la evolución constante de las tecnologías de software.<br>
         <br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
-	       TB1: Lideró el diseño de entrevistas y el Needfinding, lo que le exigió aprender continuamente sobre técnicas de investigación de usuarios y metodologías centradas en el dominio. Su trabajo en el Bounded Context Canvas reforzó la necesidad de actualizarse en Domain-Driven Design. Ariana reconoció que en el ámbito profesional siempre se deben incorporar nuevas herramientas y enfoques para mejorar el desempeño en proyectos de software.
+	       TB1: Lideró el diseño de entrevistas y el Needfinding, lo que le exigió aprender continuamente sobre técnicas de investigación de usuarios y metodologías centradas en el dominio. Su trabajo en el Bounded Context Canvas reforzó la necesidad de actualizarse en Domain-Driven Design. Ariana reconoció que en el ámbito profesional siempre se deben incorporar nuevas herramientas y enfoques para mejorar el desempeño en proyectos de software.<br><br>
+		  TP1: Elaboró los diseños en Figma y aplicó el enfoque Lean UX, reconociendo la importancia del aprendizaje continuo para mejorar la experiencia de usuario y la interfaz visual del sistema. A través del diseño y la colaboración con el equipo de desarrollo, fortaleció su capacidad de adaptación frente a nuevas herramientas y metodologías, comprendiendo que el aprendizaje constante es esencial para evolucionar en el campo del diseño y la ingeniería de software.
 <br><br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
-        TB1: Al elaborar la introducción y la identificación de segmentos objetivos, demostró apertura al aprendizaje en áreas de investigación de mercado y análisis de usuarios, habilidades que no dominaba previamente. Su participación en la arquitectura de software le permitió reconocer la importancia de mantenerse en constante aprendizaje para adaptarse a nuevas metodologías de diseño y desarrollo. <br>
+        TB1: Al elaborar la introducción y la identificación de segmentos objetivos, demostró apertura al aprendizaje en áreas de investigación de mercado y análisis de usuarios, habilidades que no dominaba previamente. Su participación en la arquitectura de software le permitió reconocer la importancia de mantenerse en constante aprendizaje para adaptarse a nuevas metodologías de diseño y desarrollo. <br><br>
+		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, asumiendo la necesidad del aprendizaje permanente al integrar nuevas tecnologías y metodologías de desarrollo web. Su participación le permitió reconocer la importancia de mantenerse actualizada en frameworks, librerías y procesos de despliegue, comprendiendo que la mejora continua es clave para el desempeño profesional en la ingeniería de software.<br>
 	      <br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
-        TB1: Al involucrarse en el Needfinding y el Bounded Context Canvas, comprendió que el aprendizaje permanente es necesario para aplicar correctamente metodologías modernas en la ingeniería de software. Reconoció que solo a través de la formación continua es posible adaptarse a entornos cambiantes y responder a las necesidades del usuario de manera efectiva. <br>
+        TB1: Al involucrarse en el Needfinding y el Bounded Context Canvas, comprendió que el aprendizaje permanente es necesario para aplicar correctamente metodologías modernas en la ingeniería de software. Reconoció que solo a través de la formación continua es posible adaptarse a entornos cambiantes y responder a las necesidades del usuario de manera efectiva. <br><br>
+		TP1: Participó en la elaboración del frontend y en el despliegue de la landing page, reconociendo la necesidad del aprendizaje continuo para optimizar la integración entre diseño, desarrollo y despliegue. A lo largo del proceso, reforzó su comprensión sobre la importancia de explorar nuevas herramientas, mejorar sus prácticas de programación y mantenerse en constante actualización para seguir creciendo en el ámbito de la ingeniería de software.
 	      <br>
         </td>
       <td>
-        El equipo reconoció colectivamente la importancia del aprendizaje permanente en el ámbito de la ingeniería de software. A lo largo del proyecto, cada estudiante se enfrentó a nuevos retos que demandaron la adquisición de conocimientos adicionales y la aplicación de metodologías modernas. Este proceso permitió entender que el aprendizaje constante no solo es necesario para cumplir con los requerimientos de un proyecto, sino también para garantizar un crecimiento profesional sostenido y la capacidad de adaptarse a la evolución tecnológica.
+        TB1: El equipo reconoció colectivamente la importancia del aprendizaje permanente en el ámbito de la ingeniería de software. A lo largo del proyecto, cada estudiante se enfrentó a nuevos retos que demandaron la adquisición de conocimientos adicionales y la aplicación de metodologías modernas. Este proceso permitió entender que el aprendizaje constante no solo es necesario para cumplir con los requerimientos de un proyecto, sino también para garantizar un crecimiento profesional sostenido y la capacidad de adaptarse a la evolución tecnológica.<br><br>
+		TP1: El grupo en su conjunto demostró una clara comprensión de la importancia del aprendizaje permanente como pilar fundamental para el crecimiento profesional y la mejora continua de los proyectos de software. A lo largo del desarrollo de GigMap, los integrantes enfrentaron nuevos retos técnicos y conceptuales en diseño, desarrollo, backend, base de datos y despliegue, lo que les permitió fortalecer su autonomía y capacidad de adaptación ante tecnologías emergentes. Esta experiencia evidenció que el aprendizaje constante no solo impulsa el desarrollo individual, sino que también potencia el trabajo colaborativo y la calidad de las soluciones en ingeniería de software.
       </td>
     </tr>
   </tbody>
