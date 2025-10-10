@@ -187,6 +187,7 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+    
  
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
