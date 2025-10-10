@@ -6400,7 +6400,7 @@ Esto se confirmará cuando la landing page esté activa, la app móvil muestre f
 | **TS14**          | Endpoint para obtener todos los conciertos | **TSK11** | API GET de conciertos públicos                | Implementar endpoint `/api/v1/concerts/list` que devuelva todos los conciertos públicos. | 4 horas | Antuanete | Done |
 | **TS20**          | Crear concierto                          | **TSK12**   | Endpoint POST de creación                     | Crear endpoint `/api/v1/concerts` para registrar un nuevo concierto en la base de datos. | 4 horas | Diego | Done |
 | **TS21**          | Obtener concierto por ID                 | **TSK13**   | API GET por ID                                | Crear endpoint `/api/v1/concerts/{id}` para obtener los datos de un concierto específico. | 3 horas | Mateo | Done |
-| **TS22**          | Eliminar concierto por ID                | **TSK14**   | API DELETE por ID                             | Implementar endpoint `/api/v1/concerts/{id}` para eliminar un concierto existente. | 3 horas | Renato | Done |
+
 
 
 
