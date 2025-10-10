@@ -6861,7 +6861,7 @@ Incorporar una confirmación visual y textual al completar la acción. Por ejemp
 
 - La combinación entre tecnología, diseño centrado en el usuario y propósito social convierte a GigMap en un proyecto con potencial transformador. Su arquitectura sólida, su enfoque geolocalizado y su compromiso con la cultura independiente establecen un precedente para futuras plataformas que busquen unir el arte y la tecnología. Con bases técnicas firmes y una visión centrada en la comunidad, GigMap continúa evolucionando hacia su meta: convertirse en un referente en la promoción de la música en vivo y la construcción de experiencias culturales conectadas.
 
-- - En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la aplicación se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
+- En conclusión, GigMap se erige no solo como una herramienta tecnológica, sino como un proyecto cultural transformador, capaz de democratizar el acceso a la música en vivo, dinamizar economías locales y nutrir la vida comunitaria. Con una base técnica sólida, un enfoque centrado en el usuario y un compromiso con el crecimiento de la escena independiente, la aplicación se proyecta como un referente en la construcción de nuevas formas de conexión entre artistas y públicos, celebrando la diversidad y vitalidad del mundo musical contemporáneo.
 
 # Bibliografía
 
