@@ -282,15 +282,33 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Cabanillas Meza, Jose Mateo</td>
       <td>
-      - En los 12 meses posteriores a mi graduación, conseguiré un trabajo bien remunerado en una empresa del sector tecnológico, aplicando mis conocimientos en IA y bases de datos, y participando en al menos 2 proyectos de implementación en estas áreas.<br><br>
-	  - En un plazo máximo de 18 meses tras graduarme, llevaré un curso de especialización en IA o ciencia de datos en el extranjero con duración aproximada de 1 año, fortaleciendo mis competencias y ampliando mis oportunidades profesionales internacionales.
+      <strong>Específico:</strong> Obtener un puesto de trabajo bien remunerado en una empresa del sector tecnológico, donde pueda aplicar mis conocimientos en <strong>inteligencia artificial (IA)</strong> y <strong>bases de datos</strong>, participando activamente en <strong>al menos dos proyectos de implementación</strong> relacionados con estas áreas.<br>
+<strong>Medible:</strong> Conseguir una <strong>oferta laboral formal</strong> y completar la participación en <strong>dos proyectos tecnológicos</strong> en el área de IA o gestión de datos.<br>
+<strong>Alcanzable:</strong> Prepararme mediante la mejora de mi portafolio, la práctica de entrevistas técnicas, la actualización de mi CV y la postulación constante a empresas del sector tecnológico.<br>
+<strong>Relevante:</strong> Este objetivo permitirá aplicar mis competencias adquiridas en la universidad y avanzar hacia una carrera enfocada en <strong>tecnologías emergentes y desarrollo inteligente</strong>.<br>
+<strong>Tiempo definido:</strong> Alcanzar este objetivo en los <strong>12 meses posteriores a mi graduación</strong>, realizando revisiones trimestrales del progreso.<br><br> 
+
+<strong>Específico:</strong> Cursar un <strong>programa de especialización internacional</strong> en <strong>Inteligencia Artificial o Ciencia de Datos</strong>, con una duración aproximada de <strong>un año</strong>, que fortalezca mis conocimientos y habilidades técnicas en estas áreas.<br>
+<strong>Medible:</strong> Postular y ser admitido en un <strong>curso o programa extranjero acreditado</strong>, completando satisfactoriamente todas las asignaturas del plan de estudios.<br>
+<strong>Alcanzable:</strong> Planificar la inversión económica necesaria, investigar instituciones reconocidas, preparar la documentación requerida y mejorar mi dominio del idioma inglés para cumplir los requisitos de admisión.<br>
+<strong>Relevante:</strong> Este objetivo potenciará mi perfil profesional, ampliando mis oportunidades laborales en entornos <strong>internacionales e innovadores</strong>.<br>
+<strong>Tiempo definido:</strong> Lograr este objetivo en un <strong>plazo máximo de 18 meses tras la graduación</strong>, iniciando el curso dentro de ese periodo.<br>
       </td>
     </tr>
     <tr>
       <td>Collantes Carrillo, Diego Mateo</td>
       <td>
-        - Conseguir un empleo remunerado en una empresa reconocida del sector tecnológico en un plazo de 12 meses después de mi graduación, en un rol que me permita aplicar conocimientos de SQL y bases de datos. Durante el primer año en ese puesto, lideraré o participaré activamente en al menos 2 proyectos de mejora de procesos de almacenamiento y consulta de datos, demostrando impacto medible en eficiencia o precisión.<br><br>
-		- Diseñar, desarrollar y documentar al menos 3 proyectos de software que resuelvan problemas reales, en un plazo máximo de 18 meses tras mi graduación, y publicarlos en un repositorio profesional en GitHub, acompañados de publicaciones explicativas en LinkedIn para fortalecer mi presencia profesional y aumentar mis oportunidades de trabajo, especialmente en empresas internacionales.
+        <strong>Específico:</strong> Conseguir un empleo remunerado en una empresa reconocida del sector tecnológico, en un rol que permita aplicar mis conocimientos en <strong>SQL</strong> y <strong>bases de datos</strong>, contribuyendo a la gestión y optimización de la información.<br>
+<strong>Medible:</strong> Obtener un puesto de trabajo dentro de los <strong>12 meses posteriores a mi graduación</strong> y participar activamente en <strong>al menos dos proyectos</strong> de mejora de procesos de almacenamiento y consulta de datos, demostrando un impacto medible en eficiencia o precisión.<br>
+<strong>Alcanzable:</strong> Fortalecer mis habilidades técnicas mediante proyectos personales, certificaciones en SQL y práctica constante con bases de datos relacionales y no relacionales, además de mantener un perfil profesional activo en plataformas de empleo.<br>
+<strong>Relevante:</strong> Este objetivo permitirá aplicar de manera directa mis competencias en gestión de datos, impulsando mi desarrollo como <strong>ingeniero de software especializado en bases de datos</strong>.<br>
+<strong>Tiempo definido:</strong> Lograr este objetivo en un plazo máximo de <strong>12 meses tras la graduación</strong>, con revisión semestral de los avances alcanzados.<br><br>
+
+<strong>Específico:</strong> Diseñar, desarrollar y documentar <strong>al menos tres proyectos de software</strong> que resuelvan problemas reales, fortaleciendo mi portafolio técnico y mi visibilidad profesional.<br>
+<strong>Medible:</strong> Publicar los tres proyectos en un <strong>repositorio profesional de GitHub</strong>, acompañados de <strong>publicaciones explicativas en LinkedIn</strong> que detallen los objetivos, tecnologías utilizadas y resultados obtenidos.<br>
+<strong>Alcanzable:</strong> Planificar el desarrollo de cada proyecto en etapas (análisis, diseño, implementación y documentación), utilizando metodologías ágiles y dedicando tiempo constante a la mejora de mis habilidades en programación y comunicación técnica.<br>
+<strong>Relevante:</strong> Este objetivo contribuirá a <strong>fortalecer mi marca personal y mi presencia profesional online</strong>, incrementando mis oportunidades de empleo en empresas internacionales.<br>
+<strong>Tiempo definido:</strong> Cumplir este objetivo en un máximo de <strong>18 meses después de mi graduación</strong>, publicando los proyectos progresivamente con revisiones trimestrales de avance.<br>
       </td>
     </tr>
     <tr>
@@ -312,15 +330,35 @@ tecnologías de ingeniería de software.</td>
     <tr>
       <td>Ortiz Cardenas, Johanna Antuanete</td>
       <td>
-        - En los 9 meses posteriores a mi graduación, conseguiré un puesto como Frontend Developer Junior en una empresa tecnológica, para lo cual desarrollaré y publicaré al menos 4 proyectos completos utilizando Angular, TypeScript y frameworks modernos, 						integrándolos en un portafolio profesional en línea y actualizando mi CV con estos logros para demostrar mis habilidades técnicas y aumentar mis oportunidades laborales.<br><br>
-		- En un plazo máximo de 12 meses tras graduarme, obtendré una certificación reconocida en ciberseguridad (como CompTIA Security+ o Ethical Hacking) y reforzaré mi CV con estas credenciales, con el objetivo de consolidar mi perfil como especialista en 					seguridad informática y ampliar mis oportunidades de inserción en empresas del sector tecnológico.
+
+<strong>Específico:</strong> Obtener un puesto como <strong>Frontend Developer Junior</strong> en una empresa tecnológica, aplicando mis conocimientos en <strong>Angular</strong>, <strong>TypeScript</strong> y frameworks modernos para el desarrollo de interfaces interactivas y eficientes.<br>
+<strong>Medible:</strong> Desarrollar y publicar <strong>al menos cuatro proyectos completos</strong> utilizando Angular y otras tecnologías del frontend, integrándolos en un <strong>portafolio profesional en línea</strong> y actualizando mi CV con estos logros.<br>
+<strong>Alcanzable:</strong> Dedicar tiempo semanal al aprendizaje y práctica de nuevas herramientas del ecosistema frontend, seguir buenas prácticas de diseño y usabilidad, y participar en comunidades técnicas o repositorios colaborativos.<br>
+<strong>Relevante:</strong> Este objetivo permitirá fortalecer mis competencias en desarrollo web y mejorar mi posicionamiento laboral dentro del sector tecnológico.<br>
+<strong>Tiempo definido:</strong> Alcanzar este objetivo en los <strong>9 meses posteriores a mi graduación</strong>, evaluando los avances cada tres meses.<br><br>
+
+<strong>Específico:</strong> Obtener una <strong>certificación reconocida en ciberseguridad</strong> (como <em>CompTIA Security+</em> o <em>Certified Ethical Hacker</em>), reforzando mis conocimientos en protección de sistemas y redes informáticas.<br>
+<strong>Medible:</strong> Aprobar el examen oficial de una certificación internacional y actualizar mi CV con las credenciales obtenidas.<br>
+<strong>Alcanzable:</strong> Prepararme mediante cursos especializados, materiales oficiales y simulacros de examen, dedicando tiempo constante al estudio de los principales fundamentos de seguridad informática.<br>
+<strong>Relevante:</strong> Este objetivo consolidará mi perfil como <strong>especialista en ciberseguridad</strong>, ampliando mis oportunidades de inserción en empresas tecnológicas enfocadas en seguridad y protección de datos.<br>
+<strong>Tiempo definido:</strong> Cumplir este objetivo en un máximo de <strong>12 meses tras la graduación</strong>, con seguimiento bimestral del progreso.<br>
       </td>
     </tr>
     <tr>
       <td>Zegarra Lopez, Renato Sebastian Rubber</td>
       <td>
-        - En los 12 meses posteriores a mi graduación, obtendré un puesto de desarrollador full stack junior en una empresa del sector tecnológico reconocida, donde pueda aplicar mis conocimientos en C++, bases de datos SQL/MongoDB y desarrollo web, participando activamente en al menos 2 proyectos reales que integren tanto el frontend como el backend, con impacto directo en la mejora de sistemas de información.<br><br>
-		- En un plazo máximo de 18 meses tras mi graduación, diseñaré, implementaré y publicaré al menos 3 proyectos de software originales, orientados a resolver problemas del ámbito educativo, agrícola o de optimización de procesos, documentándolos en un repositorio profesional en GitHub y difundiéndolos en LinkedIn como parte de mi portafolio, con el fin de posicionar mi perfil como desarrollador innovador y aumentar mis oportunidades en el mercado internacional. 
+
+<strong>Específico:</strong> Obtener un puesto como <strong>desarrollador full stack junior</strong> en una empresa reconocida del sector tecnológico, aplicando mis conocimientos en <strong>C++</strong>, <strong>bases de datos SQL/MongoDB</strong> y <strong>desarrollo web</strong>.<br>
+<strong>Medible:</strong> Conseguir el puesto dentro de los <strong>12 meses posteriores a mi graduación</strong> y participar activamente en <strong>al menos dos proyectos reales</strong> que integren tanto el frontend como el backend, generando mejoras medibles en sistemas de información.<br>
+<strong>Alcanzable:</strong> Fortalecer mis habilidades en desarrollo full stack mediante cursos, proyectos personales y la práctica constante con herramientas modernas de integración entre frontend y backend.<br>
+<strong>Relevante:</strong> Este objetivo me permitirá aplicar mis competencias técnicas de manera integral y consolidar mi experiencia profesional en entornos de desarrollo colaborativo.<br>
+<strong>Tiempo definido:</strong> Cumplir este objetivo en un plazo máximo de <strong>12 meses tras la graduación</strong>, con evaluaciones de progreso cada trimestre.<br><br>
+
+<strong>Específico:</strong> Diseñar, implementar y publicar <strong>al menos tres proyectos de software originales</strong> orientados a resolver problemas en los ámbitos <strong>educativo</strong>, <strong>agrícola</strong> o de <strong>optimización de procesos</strong>.<br>
+<strong>Medible:</strong> Documentar cada proyecto en un <strong>repositorio profesional de GitHub</strong> y difundirlos en <strong>LinkedIn</strong> como parte de mi portafolio profesional, destacando su impacto y aplicación práctica.<br>
+<strong>Alcanzable:</strong> Planificar el desarrollo de los proyectos en fases (análisis, diseño, implementación y documentación), utilizando metodologías ágiles y tecnologías modernas que permitan demostrar mis capacidades técnicas.<br>
+<strong>Relevante:</strong> Este objetivo fortalecerá mi perfil como <strong>desarrollador innovador</strong>, ampliando mis oportunidades en el mercado laboral nacional e internacional.<br>
+<strong>Tiempo definido:</strong> Alcanzar este objetivo en un máximo de <strong>18 meses tras mi graduación</strong>, publicando los proyectos de forma progresiva y revisando los avances cada cuatro meses.<br>
       </td>
     </tr>
   </tbody>
@@ -6054,7 +6092,6 @@ Ejemplo:
 
 Recomposición:
 
-- Evitar cálculos pesados dentro de @Composable.
 
 - Extraer lógica a UseCase/ViewModel o usar remember{} / derivedStateOf{} si aplica.
 
@@ -6207,7 +6244,7 @@ Esto se confirmará cuando la landing page esté activa, la app móvil muestre f
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>15</td>
+    <td>34</td>
   </tr>
 </table>
 
@@ -6353,19 +6390,317 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+La siguiente tabla presenta los endpoints principales de la API de GigMap, organizados según su funcionalidad. Incluye el método HTTP, una breve descripción, ejemplos de llamada y respuestas representativas. Esta documentación sirve como guía rápida para desarrolladores que deseen integrar o contribuir al desarrollo de GigMap. Los endpoints abarcan operaciones esenciales relacionadas con posts, conciertos, eventos relacionados y comunidades.
+
+
+| **Endpoint** | **Método** | **Descripción** | **Parámetros** | **Ejemplo de llamada** | **Ejemplo de respuesta** |
+|---------------|-------------|-----------------|----------------|------------------------|---------------------------|
+| `/api/v1/concerts` | GET | Lista todos los conciertos disponibles | Ninguno | `GET /api/v1/concerts` | `[{"id":1,"artist":"Taylor Swift",...}]` |
+| `/api/v1/concerts/{concertId}` | GET | Obtiene los datos de un concierto por su ID | `concertId` | `GET /api/v1/concerts/1` | `{"id":1,"artist":"Taylor Swift",...}` |
+| `/api/v1/concerts/{concertId}` | PUT | Actualiza los datos de un concierto existente | `concertId` | `PUT /api/v1/concerts/1` | `{"message":"Concert updated successfully"}` |
+| `/api/v1/concerts/{concertId}` | DELETE | Elimina un concierto existente | `concertId` | `DELETE /api/v1/concerts/1` | `{"message":"Concert deleted successfully"}` |
+| `/api/v1/concerts` | POST | Crea un nuevo concierto | Ninguno | `POST /api/v1/concerts` | `{"id":5,"artist":"Arctic Monkeys",...}` |
+| `/api/v1/concerts/attendees` | POST | Añade un asistente a un concierto | Ninguno | `POST /api/v1/concerts/attendees` | `{"message":"Attendee added"}` |
+| `/api/v1/concerts/attendees` | DELETE | Elimina un asistente de un concierto | Ninguno | `DELETE /api/v1/concerts/attendees` | `{"message":"Attendee removed"}` |
+| `/api/v1/concerts/genre/{genre}` | GET | Obtiene conciertos filtrados por género | `genre` | `GET /api/v1/concerts/genre/pop` | `[{"id":3,"artist":"Harry Styles",...}]` |
+| `/api/v1/concerts/artist/{artistId}` | GET | Obtiene conciertos por artista | `artistId` | `GET /api/v1/concerts/artist/1` | `[{"id":2,"artist":"The Weeknd",...}]` |
+| `/api/v1/related-events` | POST | Crea un nuevo evento relacionado | Ninguno | `POST /api/v1/related-events` | `{"id":1,"name":"Pre-concert party"}` |
+| `/api/v1/related-events/{relatedEventId}` | GET | Obtiene un evento relacionado por su ID | `relatedEventId` | `GET /api/v1/related-events/2` | `{"id":2,"name":"Afterparty"}` |
+| `/api/v1/related-events/{relatedEventId}` | PUT | Actualiza un evento relacionado | `relatedEventId` | `PUT /api/v1/related-events/2` | `{"message":"Related event updated"}` |
+| `/api/v1/related-events/{relatedEventId}` | DELETE | Elimina un evento relacionado | `relatedEventId` | `DELETE /api/v1/related-events/2` | `{"message":"Related event deleted"}` |
+| `/api/v1/related-events/participants` | POST | Añade un participante a un evento relacionado | Ninguno | `POST /api/v1/related-events/participants` | `{"message":"Participant added"}` |
+| `/api/v1/related-events/participants` | DELETE | Elimina un participante de un evento relacionado | Ninguno | `DELETE /api/v1/related-events/participants` | `{"message":"Participant removed"}` |
+| `/api/v1/related-events/concert/{concertId}` | GET | Obtiene los eventos relacionados de un concierto | `concertId` | `GET /api/v1/related-events/concert/1` | `[{"id":1,"name":"Opening Act",...}]` |
+| `/api/v1/communities` | GET | Lista todas las comunidades | Ninguno | `GET /api/v1/communities` | `[{"id":1,"name":"Swifties"}]` |
+| `/api/v1/communities/{id}` | GET | Obtiene una comunidad específica | `id` | `GET /api/v1/communities/1` | `{"id":1,"name":"Swifties"}` |
+| `/api/v1/communities` | POST | Crea una nueva comunidad | Ninguno | `POST /api/v1/communities` | `{"id":2,"name":"Moonwalkers"}` |
+| `/api/v1/communities/{id}` | PUT | Actualiza una comunidad existente | `id` | `PUT /api/v1/communities/1` | `{"message":"Community updated"}` |
+| `/api/v1/communities/{id}` | DELETE | Elimina una comunidad | `id` | `DELETE /api/v1/communities/1` | `{"message":"Community deleted"}` |
+| `/api/v1/communities/{communityId}/join` | POST | Permite unirse a una comunidad | `communityId` | `POST /api/v1/communities/2/join` | `{"message":"Joined successfully"}` |
+| `/api/v1/communities/{communityId}/leave` | DELETE | Permite salir de una comunidad | `communityId` | `DELETE /api/v1/communities/2/leave` | `{"message":"Left community"}` |
+| `/api/v1/posts` | GET | Obtiene todos los posts | Ninguno | `GET /api/v1/posts` | `[{"id":1,"content":"Excited for the show!"}]` |
+| `/api/v1/posts` | POST | Crea un nuevo post | Ninguno | `POST /api/v1/posts` | `{"id":4,"content":"Amazing concert!"}` |
+| `/api/v1/posts/{id}` | PUT | Actualiza un post existente | `id` | `PUT /api/v1/posts/3` | `{"message":"Post updated"}` |
+| `/api/v1/posts/{id}` | GET | Obtiene un post específico | `id` | `GET /api/v1/posts/2` | `{"id":2,"content":"Loved this event!"}` |
+| `/api/v1/posts/{postId}/like` | POST | Da “like” a un post | `postId` | `POST /api/v1/posts/3/like` | `{"message":"Liked"}` |
+| `/api/v1/posts/{postId}/unlike` | DELETE | Quita el “like” de un post | `postId` | `DELETE /api/v1/posts/3/unlike` | `{"message":"Unliked"}` |
+
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page**
+
+El despliegue del proyecto se realizó en GitHub Pages, una plataforma que permite publicar sitios web directamente desde un repositorio, ofreciendo una forma práctica y eficiente de mostrar el desarrollo del proyecto. A continuación, se incluye el enlace al repositorio y a la página publicada.
+
+- `https://github.com/StayBits/LandingPage-GigMap-V1.git`
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-landingpage.png" alt="Evidence deployment" width="800">
+</p>
+
+**Backend**
+El despliegue del backend se llevó a cabo utilizando Render, una plataforma que permite implementar servicios de manera rápida y eficiente. A continuación, se muestra el enlace correspondiente al frontend:
+
+- `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-backend.png" alt="Evidence deployment" width="800">
+</p>
+
+**Base de Datos**
+La base de datos del proyecto fue implementada y desplegada a través de MongoDB Atlas, un servicio en la nube que ofrece una gestión sencilla, segura y escalable. A continuación, se presenta el enlace de acceso o referencia a la base de datos utilizada:
+
+
+- `https://sekqmrmzrnwzjbhmyipx.supabase.co/`
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-database.png" alt="Evidence deployment" width="800">
+</p>
+
+**Frontend**
+
+
+Durante el desarrollo, es posible generar una versión compilada (APK) de la aplicación para su instalación directa en dispositivos Android. Esta instalación local, mediante conexión USB con una computadora, resulta ideal para realizar pruebas y validaciones sin necesidad de publicar la app en una tienda oficial. Solo se requiere habilitar la opción “Depuración por USB” en el dispositivo y utilizar herramientas como Android Studio o ADB (Android Debug Bridge) para transferir e instalar el archivo.
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-frontend.png" alt="Evidence deployment" width="800">
+</p>
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo de desarrollo centró sus esfuerzos en construir la base funcional de GigMap, estableciendo la estructura inicial del proyecto y desarrollando los primeros componentes clave tanto del backend como del frontend.
+
+Las principales actividades realizadas fueron:
+
+- Desarrollo de los endpoints esenciales para la aplicación, abarcando módulos como comunidades, conciertos, posts y eventos relacionados, permitiendo la comunicación fluida entre el servidor y la app.
+
+- Implementación del frontend móvil, logrando una primera versión funcional de la aplicación y generando el archivo APK para su instalación y prueba en dispositivos Android.
+
+- Despliegue de la landing page, utilizada como punto de presentación del proyecto, alojada mediante Render.
+
+- Integración básica del backend con la base de datos, asegurando el almacenamiento y recuperación de la información principal.
+
+- Gestión de versiones y colaboración mediante GitHub, manteniendo ramas organizadas y commits descriptivos que reflejan el progreso del sprint.
+
+Este sprint marcó el inicio de la consolidación técnica de GigMap, sentando las bases para las siguientes iteraciones del sistema.
+
+Gráficos de colaboración:
+
+<p align="center">
+  <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/commits-backend.png" alt="Commits" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
+</p>
 
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
 
+**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los artistas, quienes representan el segmento objetivo principal.
+
+**Contexto de Validación:** Se presentó un prototipo navegable en Figma a nuestro segmento objetivo Artistas, que incluye las pantallas principales de la aplicación:
+
+- Página de conciertos
+- Comunidades
+- Perfil (editar perfil, seguir usuarios, ver conciertos asistidos y por asistir, posts con “like”)
+- Sección de notificaciones
+- Flechas de navegación para regresar de una pantalla a otra
+- Información detallada de conciertos (asistencia, eventos relacionados, asistentes)
+- Unión a comunidades
+
+**User Flows evaluados:**
+
+- Registro e Inicio de Sesión
+- Filtrado de Conciertos por Género Musical
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Seguir a un Usuario desde un Concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Concierto
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
 ### 4.3.2. Registro de Entrevistas
+
+URL del vídeo de las Entrevistas publicado en OneDrive: 
+
+**Entrevista #1**
+
+- **Nombre**: [Nombre completo del artista]
+- **Edad**: [Edad]
+- **Distrito**: [Distrito]
+- **Duración**: 18 minutos
+- **Timing de inicio**: 00:00
+
+Screenshot de video:
+<p align="center">
+  <img src="assets/images/interviews/artista-1.png" alt="Commits" width="800">
+</p>
+
+**Resumen:**
+El entrevistado valoró positivamente la interfaz visual y el uso de colores. Comentó que la distribución de secciones facilita la navegación. Destacó la utilidad de poder ver “conciertos asistidos” y “por asistir”, y consideró que la opción de marcar asistencia es intuitiva. Sugirió que el botón para “unirse a comunidades” podría ser más visible. En general, percibió la experiencia como fluida y clara.
+
+**Entrevista #2**
+
+- **Nombre**: [Nombre completo del artista]
+- **Edad**: [Edad]
+- **Distrito**: [Distrito]
+- **Duración**: 16 minutos
+- **Timing de inicio**: 00:00
+
+Screenshot de video:
+
+<p align="center">
+  <img src="assets/images/interviews/artista-2.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** El entrevistado apreció la estructura del perfil, especialmente el apartado donde puede ver los conciertos a los que ha asistido y los próximos. Le resultó útil la posibilidad de seguir a otros usuarios, ya que le permite conectar con fans y otros artistas. Sin embargo, mencionó que la sección de notificaciones podría incorporar filtros para separar “eventos” de “interacciones sociales”. Evaluó positivamente la coherencia visual y la presencia del ícono de retroceso en todas las pantallas.
+
+**Entrevista #3**
+
+- **Nombre**: [Nombre completo del artista]
+- **Edad**: [Edad]
+- **Distrito**: [Distrito]
+- **Duración**: 20 minutos
+- **Timing de inicio:** 00:00
+
+Screenshot de video:
+
+<p align="center">
+  <img src="assets/images/interviews/artista-3.png" alt="Commits" width="800">
+</p>
+
+**Resumen**:
+El artista consideró que el prototipo es fácil de usar y atractivo visualmente. Le gustó poder explorar eventos relacionados y conocer quiénes asistirán a cada concierto. Destacó que la integración entre conciertos y comunidades le parece muy funcional, ya que fomenta la interacción artística. Sugirió añadir un buscador de eventos por fecha o ubicación. En general, calificó la experiencia con 4.7/5 en satisfacción.
+
 
 ### 4.3.3. Evaluaciones según heurísticas
 
 
+### Anexo E. Formato para Evaluación de User Experience según Heurísticas
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**: Ingeniería de Software
+**CURSO**: 1ACC0238 – Aplicaciones para Dispositivos Móviles
+**SECCIÓN**: 1813
+**PROFESORES**: Eduardo Martin Reyes Rodriguez
+**AUDITOR**: StayBits
+**CLIENTE(S)**: Artistas participantes en la sesión de validación
+
+**SITE o APP A EVALUAR:** GigMap
+
+El alcance de esta evaluación incluye la revisión de la usabilidad, accesibilidad y arquitectura de información de los siguientes User Flows desarrollados en el prototipo interactivo de Figma:
+
+**TAREAS A EVALUAR:**
+
+- Registro e Inicio de Sesión
+- Filtrado de Conciertos por Género Musical
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Seguir a un Usuario desde un Concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Concierto
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+- No están incluidas en esta versión de la evaluación:
+- Chat o mensajería directa entre usuarios.
+- Publicación de contenido multimedia (audio o video).
+- Compra o venta de entradas dentro de la app.
+- Configuración avanzada de cuenta o privacidad.
+
+**No están incluidas en esta versión de la evaluación:**
+
+- Publicación de contenido multimedia (audio o video).
+- Redirección a plataformas de ventas de entradas.
+- Comentar/dar like a una publicación
+
+**ESCALA DE SEVERIDAD:**
+
+| **Nivel** | **Descripción**                                                                                                                    |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **1**     | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con poca frecuencia. No requiere corrección inmediata. |
+| **2**     | Problema menor: Puede ocurrir ocasionalmente y requerir atención en futuras versiones.                                             |
+| **3**     | Problema mayor: Afecta la experiencia de manera frecuente o significativa. Debe corregirse antes del lanzamiento.                  |
+| **4**     | Problema muy grave: Impide la continuidad del flujo de uso. Debe solucionarse de manera inmediata.                                 |
+
+**TABLA RESUMEN:**
+
+| # | **Problema**                                                                                               | **Escala de severidad** | **Heurística / Principio violado(a)**         |
+| - | ---------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------- |
+| 1 | No existe buscador o filtro avanzado por ubicación o fecha de conciertos.                                  | 2                       | Information Architecture: Is it findable?     |
+| 2 | Las notificaciones se muestran todas juntas sin categorías diferenciadas.                                  | 2                       | Usability: Consistencia y estándares          |
+| 3 | No hay una guía inicial para nuevos usuarios al ingresar por primera vez.                                  | 1                       | Usability: Reconocimiento mejor que recuerdo  |
+| 4 | El botón “Editar Perfil” está poco visible dentro del menú, lo que confunde al usuario.                    | 2                       | Information Architecture: Is it usable?       |
+| 5 | Falta retroalimentación visual al marcar asistencia a un concierto.                                        | 3                       | Usability: Visibilidad del estado del sistema |
+
+**PROBLEMA #1: Falta de buscador de conciertos por ubicación o fecha
+**
+
+**Severidad**: 2
+**Heurística violada:** Arquitectura de Información – Is it findable?
+
+**Problema**:
+Durante la evaluación, tanto artistas como usuarios coincidieron en que la búsqueda de conciertos se siente limitada, ya que solo permite filtrar por género musical. Esto restringe la capacidad de los usuarios para encontrar eventos relevantes según su ubicación geográfica o disponibilidad temporal. La ausencia de filtros por ciudad o fecha afecta la eficiencia en la exploración del contenido y puede generar frustración en usuarios que buscan experiencias específicas o cercanas a su zona.
+
+**Recomendación**:
+Se sugiere incorporar un sistema de búsqueda avanzada que permita aplicar filtros combinados por ubicación, fecha, rango de precios y tipo de evento. Además, se recomienda incluir una barra de búsqueda predictiva con autocompletado que agilice la localización de conciertos. Estas mejoras aumentarían la capacidad de descubrimiento dentro de la plataforma y optimizarían la satisfacción del usuario al reducir el tiempo de búsqueda.
+
+**PROBLEMA #2: Notificaciones sin clasificación**
+
+**Severidad**: 2
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema**:
+El sistema de notificaciones actual agrupa de manera indistinta alertas relacionadas con eventos, comunidades y nuevos seguidores. Esta falta de categorización provoca confusión y sobrecarga cognitiva, especialmente en usuarios activos que reciben múltiples tipos de avisos. La carencia de una estructura visual o jerárquica impide identificar rápidamente la prioridad o el tipo de información, afectando la percepción de orden y coherencia en la interfaz.
+
+**Recomendación**:
+Organizar las notificaciones por categorías, tales como Eventos, Comunidades, Seguidores y Sistema. Cada categoría podría representarse con un ícono o color distintivo, y ordenarse cronológicamente dentro de pestañas o secciones diferenciadas. De esta manera, se garantiza una experiencia más clara, coherente y alineada con los estándares de diseño de aplicaciones sociales y de entretenimiento.
+
+**PROBLEMA #3: Falta de guía o tutorial inicial**
+
+**Severidad**: 1
+**Heurística violada: **Usabilidad – Reconocimiento mejor que recuerdo
+
+**Problema**:
+Los nuevos usuarios, especialmente los artistas, manifestaron dificultad para comprender el funcionamiento de la aplicación en su primer uso. La ausencia de una guía o introducción visual hace que deban explorar por ensayo y error funciones clave como marcar asistencia, crear comunidades o seguir a otros usuarios. Esto puede generar una primera impresión negativa, reduciendo la retención y la curva de aprendizaje de la plataforma.
+
+**Recomendación**:
+Implementar un breve recorrido guiado (onboarding) al iniciar sesión por primera vez, que destaque las funciones principales mediante pop-ups o animaciones interactivas. También se recomienda incluir una sección de ayuda o tutorial accesible desde el menú principal para usuarios que deseen repasar la funcionalidad más adelante. Este tipo de acompañamiento mejora la orientación, refuerza la confianza del usuario y facilita la adopción de la plataforma.
+
+**PROBLEMA #4: Dificultad para encontrar la opción de“Editar Perfil”**
+
+**Severidad**: 2
+**Heurística violada:** Arquitectura de Información – Is it usable?
+
+**Problema**:
+Durante la evaluación se observó que el acceso a la opción “Editar Perfil” se encuentra dentro de un submenú poco visible, lo que provoca que los usuarios tarden en localizarlo. Esta ubicación poco intuitiva contradice la expectativa general de encontrar esta acción junto a elementos visualmente relacionados, como la foto o el nombre del usuario. La falta de visibilidad incrementa el tiempo de interacción y puede afectar la percepción de control sobre la información personal.
+
+**Recomendación**:
+Reubicar el botón “Editar Perfil” en una zona más visible, preferiblemente junto a la foto de perfil o en la parte superior de la sección de usuario. También se sugiere destacar el botón con un color o ícono identificable, manteniendo la coherencia visual con el resto del diseño. Esto simplificaría el flujo de navegación y reforzaría la sensación de accesibilidad y dominio del entorno digital por parte del usuario.
+
+**PROBLEMA #5: Falta de confirmación visual al marcar asistencia**
+
+**Severidad**: 3
+**Heurística violada: **Usabilidad – Visibilidad del estado del sistema
+
+**Problema**:
+Al marcar asistencia a un concierto, la aplicación no muestra ninguna confirmación visual o auditiva de que la acción haya sido registrada correctamente. La ausencia de retroalimentación inmediata genera incertidumbre, llevando a los usuarios a repetir la acción o dudar de la respuesta del sistema. Este tipo de deficiencia afecta directamente la confianza del usuario y la percepción de fiabilidad de la plataforma.
+
+**Recomendación**:
+Incorporar una confirmación visual y textual al completar la acción. Por ejemplo, cambiar el color del botón, mostrar un ícono de verificación y desplegar un mensaje breve como “¡Asistencia confirmada!”. Asimismo, podría añadirse una animación ligera o vibración (en caso de app móvil) para reforzar la respuesta del sistema. Esta mejora garantizaría transparencia, reduciría errores de duplicación y aumentaría la satisfacción general durante la interacción.
 
 # Conclusiones
 
