@@ -6544,8 +6544,10 @@ Gráficos de colaboración:
 **Commits Landingpage:**
 
 <p align="center">
-  <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
 </p>
+
+
 
 **Commits Backend:**
 
@@ -6557,7 +6559,7 @@ Gráficos de colaboración:
 **Commits Frontend:**
 
 <p align="center">
-  <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
 </p>
 
 ## 4.3. Validation Interviews
