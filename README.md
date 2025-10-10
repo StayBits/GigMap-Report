@@ -6196,7 +6196,9 @@ Pasos para desplegar el backend en Render
   <tr>
     <td>Sprint 1 Goal</td>
     <td>
-  Nuestro enfoque se centra en fortalecer los elementos esenciales de GigMap mediante la mejora de entregables anteriores, el diseño de la aplicación y la implementación de los primeros prototipos funcionales de la landing page, el backend y la app móvil. Esto permitirá ofrecer una base sólida en términos técnicos y de usabilidad, facilitando que los primeros usuarios comiencen a interactuar con una versión inicial del sistema. El éxito de esta etapa se reflejará cuando la landing page esté activa, la app móvil muestre sus primeros flujos de interfaz, el backend disponga de endpoints funcionales y las correcciones previas estén integradas y validadas por el equipo.
+ Nuestro enfoque está en fortalecer los elementos esenciales de GigMap mediante la mejora de los entregables previos, el diseño visual y funcional de la aplicación, y la implementación de los primeros prototipos operativos tanto del frontend (landing page y app móvil) como del backend.
+Creemos que esto ofrece una base técnica y de experiencia de usuario más sólida, permitiendo que los primeros usuarios interactúen con una versión inicial funcional del sistema y que el equipo obtenga retroalimentación temprana sobre la usabilidad y desempeño general de la plataforma.
+Esto se confirmará cuando la landing page esté activa, la app móvil muestre flujos iniciales de navegación, el backend cuente con endpoints funcionales y las correcciones de entregables anteriores se encuentren integradas, probadas y validadas por el equipo de desarrollo.
 </td>
   </tr>
   <tr>
@@ -6297,6 +6299,47 @@ Pasos para desplegar el backend en Render
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se muestran las evidencias del funcionamiento de la aplicación correspondientes al Sprint 1. A través de una recopilación visual compuesta por imágenes y un video demostrativo, se presentan los principales avances alcanzados durante esta etapa. Estos recursos permiten observar los resultados obtenidos y comprender de manera más clara la implementación y desarrollo de las funcionalidades del producto.
+
+
+<p align="center">
+  <img src="assets/images/sprint-1/LandingPage1.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/LandingPage2.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/LandingPage3.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/LandingPage4.png" alt="User Flow 12" width="800">
+</p>
+
+
+
+
+<p align="center">
+  <img src="assets/images/sprint-1/BackendCommunities.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/BackendConcerts.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/BackendPosts.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-1/BackendRelatedEvents.png" alt="User Flow 12" width="800">
+</p>
+
+
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
