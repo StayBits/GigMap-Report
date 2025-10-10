@@ -6295,6 +6295,16 @@ Esto se confirmará cuando la landing page esté activa, la app móvil muestre f
 
 
 #### 4.2.1.3. Development Evidence for Sprint Review
+Evidencia de commits landing page
+
+| **Repository**         | **Branch** | **Commit ID**                              | **Commit Message**                | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------|------------|--------------------------------------------|----------------------------------|--------------------------|--------------------------|
+| synhub-mobile-app        | master     | 84646b987e151215f972384b7875ba04c5e4e9c5  | chore: setup project.             | —                        | May 13, 2025            |
+| synhub-web-app           | main       | f1fd9d3                                    | feat(landing page)               | —                        | Oct 2, 2025             |
+| synhub-web-app           | main       | b683192                                    | Update content-section.component.vue | —                     | Oct 2, 2025             |
+| synhub-web-app           | main       | 598a73a                                    | Create deploy.yml                | —                        | Oct 4, 2025             |
+| synhub-web-app           | main       | 3f82058                                    | Update vite.config.js            | —                        | Oct 4, 2025             |
+
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
