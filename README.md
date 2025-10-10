@@ -3550,64 +3550,21 @@ Las reglas de negocio y la orquestación de acciones en el contexto de Concierto
 La Interface/Presentation Layer constituye la puerta de entrada al sistema, permitiendo la interacción de clientes externos como aplicaciones móviles, aplicaciones web y consumidores de servicios externos con el dominio de Conciertos dentro de GigMap.
 En esta capa se exponen los endpoints REST, implementados a través de controladores, que encapsulan las operaciones de consulta y modificación del agregado Concierto y sus entidades asociadas.
 
-<h2>Controllers</h3>
-<h3>ConcertsController</h3>
-<table>
-  <tr>
-    <th>Nombre</th>
-    <th>Método</th>
-    <th>Ruta</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>createConcert</td>
-    <td>POST</td>
-    <td>/api/v1/concerts</td>
-    <td>Crea un nuevo concierto a partir de los datos recibidos (nombre, fecha, ubicación, capacidad, artista).</td>
-  </tr>
-  <tr>
-    <td>getAllConcerts</td>
-    <td>GET</td>
-    <td>/api/v1/concerts</td>
-    <td>Recupera la lista completa de conciertos disponibles en la aplicación</td>
-  </tr>
-  <tr>
-    <td>getConcertById</td>
-    <td>GET</td>
-    <td>/api/v1/concerts/{id}</td>
-    <td>Obtiene los detalles de un concierto específico mediante su identificador único.</td>
-  </tr>
-  <tr>
-    <td>getConcertsByArtist</td>
-    <td>GET</td>
-    <td>/api/v1/concerts/artist/{artistId}</td>
-    <td>Devuelve todos los conciertos asociados a un artista en particular.</td>
-  </tr>
-  <tr>
-    <td>getConcertsByGenre</td>
-    <td>GET</td>
-    <td>/api/v1/concerts/genre/{genre}</td>
-    <td>Filtra y devuelve conciertos según el género musical especificado.</td>
-  </tr>
-  <tr>
-    <td>getConcertsByDate</td>
-    <td>GET</td>
-    <td>/api/v1/concerts/date/{yyyy-MM-dd}</td>
-    <td>Lista conciertos programados para una fecha determinada.</td>
-  </tr>
-  <tr>
-    <td>updateConcert</td>
-    <td>PUT</td>
-    <td>/api/v1/concerts/{id}</td>
-    <td>Actualiza los datos de un concierto en estado BORRADOR o PROGRAMADO (nombre, capacidad, artistas).</td>
-  </tr>
-  <tr>
-    <td>deleteConcert</td>
-    <td>DELETE</td>
-    <td>/api/v1/concerts/{id}</td>
-    <td>Elimina un concierto si aún no ha sido publicado ni ejecutado.</td>
-  </tr>
-</table>
+### Concerts Controller
+
+| Nombre                      | Método | Ruta                                   | Descripción                                                                 |
+|----------------------------|:------:|----------------------------------------|------------------------------------------------------------------------------|
+| getConcertById             |  GET   | `/api/v1/concerts/{concertId}`         | Obtiene los detalles de un concierto específico por su identificador único. |
+| updateConcert              |  PUT   | `/api/v1/concerts/{concertId}`         | Actualiza los datos de un concierto (nombre, fecha, ubicación, capacidad, etc.). |
+| deleteConcert              | DELETE | `/api/v1/concerts/{concertId}`         | Elimina un concierto (siempre que cumpla las reglas de tu dominio).         |
+| getAllConcerts             |  GET   | `/api/v1/concerts`                     | Recupera la lista completa de conciertos disponibles.                        |
+| createConcert              |  POST  | `/api/v1/concerts`                     | Crea un nuevo concierto con los datos enviados.                              |
+| addAttendeeToConcert       |  POST  | `/api/v1/concerts/attendees`           | Agrega un asistente (attendee) a un concierto.                               |
+| removeAttendeeFromConcert  | DELETE | `/api/v1/concerts/attendees`           | Quita/elimina un asistente de un concierto.                                  |
+| getConcertsByGenre         |  GET   | `/api/v1/concerts/genre/{genre}`       | Filtra y devuelve conciertos por el género musical especificado.             |
+| getConcertsByArtist        |  GET   | `/api/v1/concerts/artist/{artistId}`   | Devuelve los conciertos asociados a un artista en particular.                |
+
+
 
 ### 2.6.1.3. Application Layer
 
@@ -4282,18 +4239,6 @@ Por su parte, los **Query Services** se enfocan en solo lectura, como el `Relate
 
 
 
-<h4>Entity: Participante</h4>
-<table>
-  <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
-  <tr><td>usuarioId</td><td>UserId</td><td>Identificador del participante.</td></tr>
-  <tr><td>inscritoEn</td><td>DateTime</td><td>Fecha de inscripción.</td></tr>
-  <tr><td>estado</td><td>Enum</td><td>ACTIVO, RETIRADO, BLOQUEADO.</td></tr>
-</table>
-
-<p><strong>Métodos:</strong> retirarse(), bloquearPorModeracion().</p>
-
-
-
 <h3>Value Objects</h3>
 
 <table>
@@ -4304,7 +4249,7 @@ Por su parte, los **Query Services** se enfocan en solo lectura, como el `Relate
   </tr>
   <tr>
     <td>Ubicacion</td>
-    <td>Location</td>
+    <td>nombre, longitud, latitud</td>
     <td>Representa la ubicación geográfica de un evento relacionado.</td>
   </tr>
 </table>
