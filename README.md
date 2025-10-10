@@ -6618,10 +6618,10 @@ URL del vídeo de las Entrevistas publicado en OneDrive:
 **Entrevista #1**
 
 - **Nombre**: Zaleth Feijóo
-- **Edad**: 19
+- **Edad**: 20
 - **Distrito**: Pueblo Libre
-- **Duración**: 5 minutos
-- **Timing de inicio**: 10:00
+- **Duración**: 10 minutos
+- **Timing de inicio**: 00:00
 
 Screenshot de video:
 <p align="center">
