@@ -6551,11 +6551,11 @@ El entrevistado valoró positivamente la interfaz visual y el uso de colores. Co
 
 **Entrevista #2**
 
-- **Nombre**: [Nombre completo del artista]
-- **Edad**: [Edad]
-- **Distrito**: [Distrito]
-- **Duración**: 16 minutos
-- **Timing de inicio**: 00:00
+- **Nombre**: Diego Zuñiga
+- **Edad**: 20 años
+- **Distrito**: San Miguel
+- **Duración**: 5 minutos
+- **Timing de inicio**: 05:00
 
 Screenshot de video:
 
