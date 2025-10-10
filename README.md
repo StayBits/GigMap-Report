@@ -6486,13 +6486,20 @@ Este sprint marcó el inicio de la consolidación técnica de GigMap, sentando l
 
 Gráficos de colaboración:
 
+**Commits Landingpage:**
+
 <p align="center">
   <img src="assets/images/sprint-1/commits-landing.png" alt="Commits" width="800">
 </p>
 
+**Commits Backend:**
+
 <p align="center">
   <img src="assets/images/sprint-1/commits-backend.png" alt="Commits" width="800">
 </p>
+
+
+**Commits Frontend:**
 
 <p align="center">
   <img src="assets/images/sprint-1/commits-frontend.png" alt="Commits" width="800">
