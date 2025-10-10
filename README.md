@@ -6694,7 +6694,7 @@ El entrevistado valoró positivamente la interfaz visual y el uso de colores. Co
 - **Edad**: 20 años
 - **Distrito**: San Miguel
 - **Duración**: 5 minutos
-- **Timing de inicio**: 05:00
+- **Timing de inicio**: 00:00
 
 Screenshot de video:
 
@@ -6706,10 +6706,10 @@ Screenshot de video:
 
 **Entrevista #3**
 
-- **Nombre**: [Nombre completo del artista]
-- **Edad**: [Edad]
-- **Distrito**: [Distrito]
-- **Duración**: 20 minutos
+- **Nombre**: Leonardo Nuñez
+- **Edad**: 19
+- **Distrito**: San Miguel
+- **Duración**: 4 minutos
 - **Timing de inicio:** 00:00
 
 Screenshot de video:
