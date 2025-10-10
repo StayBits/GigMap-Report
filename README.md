@@ -6560,8 +6560,10 @@ La siguiente tabla presenta los endpoints principales de la API de GigMap, organ
 
 El despliegue del proyecto se realizó en GitHub Pages, una plataforma que permite publicar sitios web directamente desde un repositorio, ofreciendo una forma práctica y eficiente de mostrar el desarrollo del proyecto. A continuación, se incluye el enlace al repositorio y a la página publicada.
 
+URL repositorio de Landing page 
 - `https://github.com/StayBits/LandingPage-GigMap-V1.git`
-
+URL de Landing page desplegada en GitHub Pages
+- `https://staybits.github.io/LandingPage-GigMap-V1/#/home`
 <p align="center">
   <img src="assets/images/sprint-1/render-deployment-landingpage.png" alt="Evidence deployment" width="800">
 </p>
