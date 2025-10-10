@@ -5897,7 +5897,7 @@ En esta etapa se emplearon herramientas de diseño que hicieron posible crear in
 
 ### 4.1.2. Source Code Management
 
-El código fuente del proyecto StayMap fue gestionado mediante la plataforma GitHub, en un repositorio público que refleja los principios del desarrollo de software de código abierto.
+El código fuente del proyecto GigMap fue gestionado mediante la plataforma GitHub, en un repositorio público que refleja los principios del desarrollo de software de código abierto.
 
 Repositorio del proyecto:
 
@@ -6219,7 +6219,133 @@ Pasos para desplegar el backend en Render
 
 #### 4.2.1.1. Sprint Planning 1
 
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-10-05</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>09:00PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual, via discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Lizarbe Álvarez, Ariana Nickole</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Lizarbe Alvarez, Ariana Nickole / Ortiz Cardenas, Johanna Antuanete / Cabanillas Meza, Jose Mateo / Collantes Carrillo, Diego Mateo / Zegarra López, Renato Rubber Sebastian</td>
+  </tr>
+  <tr>
+    <td>Sprint Goal & User Stories</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>
+  Nuestro enfoque se centra en fortalecer los elementos esenciales de GigMap mediante la mejora de entregables anteriores, el diseño de la aplicación y la implementación de los primeros prototipos funcionales de la landing page, el backend y la app móvil. Esto permitirá ofrecer una base sólida en términos técnicos y de usabilidad, facilitando que los primeros usuarios comiencen a interactuar con una versión inicial del sistema. El éxito de esta etapa se reflejará cuando la landing page esté activa, la app móvil muestre sus primeros flujos de interfaz, el backend disponga de endpoints funcionales y las correcciones previas estén integradas y validadas por el equipo.
+</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>Para la planificación de este sprint se utilizará la escala de Fibonacci (1, 2, 3, 5, 8...) para estimar el esfuerzo relativo de cada historia de usuario, permitiendo una mejor comparación y afinación de la carga de trabajo.</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>15</td>
+  </tr>
+</table>
+
+ **Aspect Leaders and Collaborators**
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th colspan="7"> Aspect Leaders and Collaborators</th>
+  </tr>
+  <tr>
+    <th>Team Member</th>
+    <th>Github Username</th>
+    <th>UX UI DESIGN</th>
+    <th>LANDING PAGE</th>
+    <th>FRONTEND</th>
+    <th>BACKEND</th>
+  </tr>
+  <tr>
+    <td>Collantes Diego</td>
+    <td>D4D3v4l</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+
+  </tr>
+  <tr>
+    <td>Lizarbe Ariana</td>
+    <td>ariaalizz</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+
+  </tr>
+  <tr>
+    <td>Ortiz Johanna</td>
+    <td>Antuanet01</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+
+  </tr>
+  <tr>
+    <td>Zegarra Renato</td>
+    <td>ReiZCode</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+
+  </tr>
+  <tr>
+    <td>Mateo Cabanillas</td>
+    <td>marckszz</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+
+
 #### 4.2.1.2. Sprint Backlog 1
+
+| **User Story ID** | **Título (User Story)**                  | **Task ID** | **Título (Task)**                             | **Descripción**                                                                 | **Estimación** | **Asignado a** | **Estado** |
+|-------------------|------------------------------------------|-------------|-----------------------------------------------|----------------------------------------------------------------------------------|----------------|----------------|-------------|
+| **US02**          | Publicar nuevo concierto                 | **TSK01**   | Creación de evento musical                    | Crear vista y formulario para que el artista pueda publicar su concierto en el mapa. | 4 horas        | Ariana         |  Done     |
+| **US08**          | Buscar conciertos                        | **TSK02**   | Implementar buscador de conciertos            | Crear campo de búsqueda que permita filtrar por nombre o artista.                | 3 horas        | Diego          |  Done     |
+| **US10**          | Iniciar sesión en la app móvil            | **TSK03**   | Login de usuario móvil                        | Implementar formulario de inicio de sesión y conexión con backend.               | 4 horas        | Renato         | Done     |
+| **US11**          | Registrarse como artista                 | **TSK04**   | Registro de artista                           | Crear formulario de registro con rol “Artista” y validaciones.                  | 3 horas        | Antuanete      | Done     |
+| **US13**          | Zoom a concierto en el mapa              | **TSK05**   | Implementar zoom en mapa                      | Hacer que al seleccionar un concierto el mapa se centre y realice zoom en su ubicación. | 2 horas        | Diego          | Done     |
+| **US15**          | Ver información detallada del concierto  | **TSK06**   | Detalle de concierto                          | Crear vista de detalle que muestre artista, fecha, hora, ubicación e imagen.     | 3 horas        | Mateo          | Done     |
+| **US27**          | Permitir acceso a ubicación              | **TSK07**   | Permisos de geolocalización                   | Configurar permisos de ubicación para el acceso inicial en la app móvil.        | 2 horas        | Renato         | Done     |
+| **US28**          | Mostrar conciertos cercanos              | **TSK08**   | Visualización en mapa de conciertos cercanos  | Mostrar conciertos próximos en un mapa según la ubicación actual del usuario.   | 3 horas        | Ariana         | Done     |
+| **TS01**          | Endpoint para crear conciertos           | **TSK09**   | API POST de conciertos                        | Desarrollar endpoint que registre eventos musicales en la base de datos.        | 5 horas        | Diego          | Done     |
+| **TS05**          | Validaciones para crear eventos          | **TSK10**   | Validar campos obligatorios                   | Asegurar que los campos requeridos estén presentes antes de crear un evento (título, ubicación, fecha). | 3 horas | Renato | Done |
+| **TS14**          | Endpoint para obtener todos los conciertos | **TSK11** | API GET de conciertos públicos                | Implementar endpoint `/api/v1/concerts/list` que devuelva todos los conciertos públicos. | 4 horas | Antuanete | Done |
+| **TS20**          | Crear concierto                          | **TSK12**   | Endpoint POST de creación                     | Crear endpoint `/api/v1/concerts` para registrar un nuevo concierto en la base de datos. | 4 horas | Diego | Done |
+| **TS21**          | Obtener concierto por ID                 | **TSK13**   | API GET por ID                                | Crear endpoint `/api/v1/concerts/{id}` para obtener los datos de un concierto específico. | 3 horas | Mateo | Done |
+| **TS22**          | Eliminar concierto por ID                | **TSK14**   | API DELETE por ID                             | Implementar endpoint `/api/v1/concerts/{id}` para eliminar un concierto existente. | 3 horas | Renato | Done |
+
+
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
