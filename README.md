@@ -6721,7 +6721,7 @@ Screenshot de video:
 **Resumen**:
 El artista consideró que el prototipo es fácil de usar y atractivo visualmente. Le gustó poder explorar eventos relacionados y conocer quiénes asistirán a cada concierto. Destacó que la integración entre conciertos y comunidades le parece muy funcional, ya que fomenta la interacción artística. Sugirió añadir un buscador de eventos por fecha o ubicación. En general, calificó la experiencia con 4.7/5 en satisfacción.
 
-**URL de entrevistas**: ´entrevistas´
+**URL de entrevistas**: `entrevistas`
 
 ### 4.3.3. Evaluaciones según heurísticas
 
