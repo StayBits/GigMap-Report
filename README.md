@@ -7588,7 +7588,7 @@ Screenshot de video:
 
 **Resumen**: Augusto Cerna indicó que la aplicación le pareció intuitiva y funcional. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. Además, recomendó agregar un indicador visual en el ChatBot M1AU que muestre cuando está procesando una respuesta. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
 
-**URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/Ea80KX6YNURIp8ynmhHIaVcB_cn5IdN-MtDrpPifTr0TFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SqnEBs`
+**URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/IQAPvBtXipgmQ65puMdVheouAaxFKygBaPC9wsuQKAsxxTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4rRgr7`
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -7719,7 +7719,7 @@ Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo.
 |-----------------------------|
 | **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team.png) |
 | **Duración:** 00:06:54 |
-| **URL OneDrive:**<br>_Pegar enlace aquí_ |
+| **URL OneDrive:** `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/IQDhd8uilgxQRK4jbzHP0OSCAe7tHyZR-pLifiFxhrMdI84?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8h4M3q` |
 | **URL YouTube:** `https://youtu.be/0y7IVVn3EfE` |
 | **Descripción:** El vídeo incluye el testimonio ante cámara de cada integrante, donde describimos las actividades que llevamos a cabo, los logros obtenidos en relación con los student outcomes y las competencias que fortalecimos durante el desarrollo del proyecto. En conjunto, el video refleja de manera auténtica y organizada el esfuerzo, la colaboración y el crecimiento profesional que caracterizaron nuestro trabajo.|
 
