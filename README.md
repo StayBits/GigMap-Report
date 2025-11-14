@@ -6884,6 +6884,106 @@ Evidencia de commits Frontend versión Flutter:
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+# **Unit Tests**
+Durante el desarrollo del sprint se implementaron pruebas unitarias para validar el correcto funcionamiento de los agregados principales del backend. Estas pruebas verifican la creación de entidades, inicialización de atributos y lógica de negocio interna sin dependencias externas.
+
+**Unit Test – Creación de Concert**
+
+Se validó:
+	-	Construcción correcta del concierto.
+	-	Asignación de atributos esenciales (título, fecha, descripción, género, estado).
+	-	Verificación de la lógica interna isValidArtist().
+
+<p align="center">
+  <img src="assets/images/tests/concertTest.png" alt="concerttest" width="800">
+</p>
+
+**Unit Test – Creación de Community**
+
+Se verificó:
+	-	Creación de comunidades mediante CreateCommunityCommand.
+	-	Inicialización correcta de listas (posts, members).
+	-	Actualización de atributos básicos como nombre, descripción e imagen.
+
+<p align="center">
+  <img src="assets/images/tests/communityTest.png" alt="communitytest" width="800">
+</p>
+
+# Integration Tests
+
+Se implementaron pruebas de integración enfocadas en los endpoints de autenticación (/api/v1/auth).
+Estas pruebas validaron el flujo completo desde el controlador, servicios, repositorio, codificación de contraseñas, manejo de JWT mockeado, y la interacción con la base de datos H2 en memoria.
+
+**Integration Test – Registro**
+Se probó que:
+	-	Un usuario pueda registrarse correctamente.
+	-	Se generen respuestas con código HTTP 201.
+	-	Se detecten correos o usernames duplicados.
+	-	Se retornen errores adecuados con HTTP 400.
+
+<p align="center">
+  <img src="assets/images/tests/AuthTest.png" alt="authtest" width="800">
+</p>
+
+**Integration Test – Login**
+
+Se validó que:
+	-	Un usuario pueda iniciar sesión con credenciales válidas.
+	-	El token JWT mockeado se retorne correctamente.
+	-	Se manejen errores de credenciales incorrectas o usuario inexistente con HTTP 401.
+
+<p align="center">
+  <img src="assets/images/tests/AuthloginTest.png" alt="authlogintest" width="800">
+</p>
+
+# BDD Tests
+
+Finalmente, se desarrollaron pruebas de aceptación siguiendo BDD (Behavior Driven Development) utilizando:
+	-	Lenguaje Gherkin
+	-	Archivos .feature
+	-	Step Definitions automatizados con Cucumber
+
+Estas pruebas verifican las funcionalidades desde la perspectiva del usuario final, como indican las historias de usuario del sprint.
+
+**BDD – Crear Concierto**
+
+Escenario principal:
+	-	Un artista crea un nuevo concierto.
+	-	Se valida el comportamiento esperado del dominio.
+
+<p align="center">
+  <img src="assets/images/tests/concertTest2.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Crear Comunidad**
+
+Escenario principal:
+	-	Un usuario crea una nueva comunidad.
+	-	Se valida que los campos se procesen correctamente.
+
+<p align="center">
+  <img src="assets/images/tests/concertTest2.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Login_**
+
+Escenario principal:
+	-	Un usuario registrado inicia sesión.
+	-	Se valida la respuesta del sistema ante credenciales correctas e incorrectas.
+
+<p align="center">
+  <img src="assets/images/tests/loginfeature.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Registro de Usuario**
+
+Para validar el proceso de creación de usuarios desde la perspectiva del usuario final, se desarrollaron pruebas bajo el enfoque BDD utilizando archivos .feature escritos en lenguaje Gherkin. Estos escenarios permiten verificar que el comportamiento del sistema cumple con los criterios de aceptación definidos en las historias de usuario del sprint.
+Los escenarios cubren casos de registro exitoso, email duplicado, username duplicado y datos inválidos.
+
+<p align="center">
+  <img src="assets/images/tests/registerfeature.png" alt="authlogintest" width="800">
+</p>
+
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
 En esta sección se muestran las evidencias del funcionamiento de la aplicación correspondientes al Sprint 2. A través de una recopilación visual compuesta por imágenes y un video demostrativo, se presentan los principales avances alcanzados durante esta etapa. Estos recursos permiten observar los resultados obtenidos y comprender de manera más clara la implementación y desarrollo de las funcionalidades del producto.
