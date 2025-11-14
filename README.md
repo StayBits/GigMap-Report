@@ -7002,6 +7002,26 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
 </p>
 
 <p align="center">
+  <img src="assets/images/sprint-2/LandingPage7.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage8.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage10.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage11.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage9.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
   <img src="assets/images/sprint-2/LandingPage3.png" alt="User Flow 12" width="800">
 </p>
 
@@ -7017,25 +7037,7 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
   <img src="assets/images/sprint-2/LandingPage6.png" alt="User Flow 12" width="800">
 </p>
 
-<p align="center">
-  <img src="assets/images/sprint-2/LandingPage7.png" alt="User Flow 12" width="800">
-</p>
 
-<p align="center">
-  <img src="assets/images/sprint-2/LandingPage8.png" alt="User Flow 12" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/images/sprint-2/LandingPage9.png" alt="User Flow 12" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/images/sprint-2/LandingPage10.png" alt="User Flow 12" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/images/sprint-2/LandingPage11.png" alt="User Flow 12" width="800">
-</p>
 
 
 **Frontend Vista FANS: Jetpack Compose**
