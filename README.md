@@ -5994,12 +5994,14 @@ Además, se emplea un sistema de colores para diferenciar cada tipo de flujo, ga
 <p align="center"> 
 <img src="assets/images/product-desing/user-flows/user-flows-paths.png" alt="User Flows Paths" width="800"> </p>
 
+SEGMENTO OBJETIVO: ARTISTAS
+
 **User Flow 1: Registro e Inicio de Sesión**
 
-Este flujo muestra el proceso inicial en GigMap, donde el usuario elige entre registrarse o iniciar sesión. Si decide registrarse, selecciona su tipo de cuenta —artista o fan— y completa el formulario correspondiente. Finalmente, accede satisfactoriamente a la aplicación para comenzar a explorar sus funciones.
+Este flujo muestra el proceso inicial en GigMap, donde el usuario elige entre registrarse o iniciar sesión. Si decide registrarse, selecciona su tipo de cuenta: Artista y completa el formulario correspondiente. Finalmente, accede satisfactoriamente a la aplicación para comenzar a explorar sus funciones.
 
 <p align="center">
-  <img src="assets/images/product-desing/user-flows/userflow1.png" alt="User Flow 1" width="800">
+  <img src="assets/images/product-desing/user-flows/userflowart.png" alt="User Flow 1" width="800">
 </p>
 
 <p align="center">
@@ -6137,6 +6139,165 @@ En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación q
 <p align="center">
   <img src="assets/images/product-desing/user-flows/userflow24.png" alt="User Flow 24" width="800">
 </p>
+
+**User Flow 13: Uso de M1AU**
+
+En este flujo, el usuario inicia desde la pantalla principal y presiona el botón de M1AU para activar al asistente virtual. Al hacerlo, se abre la interfaz del chatbot, donde el usuario puede escribir o hablar. Luego, el usuario solicita que M1AU le muestre conciertos disponibles y el asistente procesa la petición, desplegando una lista de conciertos relevantes con información como artista, fecha y ubicación para continuar la navegación dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow25.png" alt="User Flow 23" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow26.png" alt="User Flow 24" width="800">
+</p>
+
+SEGMENTO OBJETIVO: ARTISTAS
+
+**User Flow 1: Registro e Inicio de Sesión**
+
+Este flujo muestra el proceso inicial en GigMap, donde el usuario elige entre registrarse o iniciar sesión. Si decide registrarse, selecciona su tipo de cuenta: Fan y completa el formulario correspondiente. Finalmente, accede satisfactoriamente a la aplicación para comenzar a explorar sus funciones.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflownuevo.png" alt="User Flow 1" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow2.png" alt="User Flow 2" width="800">
+</p>
+
+**User Flow 2: Filtrado de Conciertos por Género Musical**
+
+Este flujo representa el proceso mediante el cual el usuario accede a la sección de conciertos desde la pantalla principal. Una vez allí, utiliza la función de filtro para seleccionar su género musical preferido. Finalmente, la aplicación muestra únicamente los conciertos programados que coinciden con el género elegido, ofreciendo una experiencia personalizada.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow3.png" alt="User Flow 3" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow4.png" alt="User Flow 4" width="800">
+</p>
+
+**User Flow 3: Visualización y Marcado de Asistencia a un Concierto**
+
+En este flujo, el usuario navega por la pestaña de conciertos y selecciona uno de su interés. Al ingresar, accede a la información detallada del evento, como fecha, ubicación y descripción. Finalmente, puede marcar su asistencia y visualizar la localización del concierto directamente en el mapa interactivo.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow5.png" alt="User Flow 5" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow6.png" alt="User Flow 6" width="800">
+</p>
+
+**User Flow 4: Unión a una Comunidad**
+
+En este flujo, el usuario accede a la pestaña de comunidades y explora las opciones disponibles. Al encontrar una comunidad de su interés, selecciona para ver su información detallada. Finalmente, presiona el botón de “Unirse”, completando satisfactoriamente su incorporación a la comunidad elegida.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow7.png" alt="User Flow 7" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow8.png" alt="User Flow 8" width="800">
+</p>
+
+**User Flow 5: Creación de una Comunidad**
+
+En este flujo, el usuario navega hasta la pestaña de comunidades y selecciona la opción “Crear comunidad”. Luego, completa el formulario con los datos solicitados, como nombre, descripción e imagen representativa. Al enviar el formulario, la comunidad se crea exitosamente y queda registrada en la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow9.png" alt="User Flow 9" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow10.png" alt="User Flow 10" width="800">
+</p>
+
+**User Flow 6: Seguir a un Usuario desde un Concierto**
+
+En este flujo, el usuario revisa la lista de asistentes a un concierto y selecciona el perfil de alguien que le interesa. Tras visualizar su información, decide seguirlo presionando el botón correspondiente. La acción se completa exitosamente, estableciendo la conexión entre ambos usuarios dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow11.png" alt="User Flow 11" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow12.png" alt="User Flow 12" width="800">
+</p>
+
+**User Flow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
+En este flujo, el usuario accede a la lista de asistentes de un concierto y selecciona el perfil de otro usuario. Al ingresar, puede visualizar información detallada como los conciertos a los que ha asistido o planea asistir, el contenido al que ha dado like y las comunidades a las que pertenece, promoviendo la interacción y el sentido de comunidad dentro de GigMap.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow13.png" alt="User Flow 13" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow14.png" alt="User Flow 14" width="800">
+</p>
+
+**User Flow 8: Visualizar Información de un Concierto desde el Mapa**
+
+En este flujo, el usuario navega por el mapa interactivo y selecciona un concierto cercano. Al hacer clic, se despliega una vista detallada con toda la información relevante del evento, incluyendo ubicación, fecha, artistas participantes y opciones para marcar asistencia, brindando una experiencia intuitiva y contextual.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow15.png" alt="User Flow 15" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow16.png" alt="User Flow 16" width="800">
+</p>
+
+**User Flow 9: Crear Evento Relacionado a un Concierto**
+
+En este flujo, el usuario se encuentra dentro de la información detallada de un concierto y selecciona la opción "Crear evento relacionado". A continuación, completa un formulario con los datos del nuevo evento, como título, descripción y fecha. Tras confirmar, el sistema asocia exitosamente el evento creado con el concierto principal, ampliando la experiencia y conexión entre actividades musicales.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow19.png" alt="User Flow 19" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow20.png" alt="User Flow 20" width="800">
+</p>
+
+**User Flow 10: Editar Perfil de Usuario**
+
+En este flujo, el usuario accede a su perfil y selecciona la opción “Editar perfil”. Luego, modifica los datos personales como nombre, foto, descripción y preferencias. Al guardar los cambios, el perfil se actualiza exitosamente, reflejando la información editada dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow21.png" alt="User Flow 21" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow22.png" alt="User Flow 22" width="800">
+</p>
+
+**User Flow 11: Acceso a Notificaciones**
+
+En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow23.png" alt="User Flow 23" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow24.png" alt="User Flow 24" width="800">
+</p>
+
+**User Flow 12: Uso de M1AU**
+
+En este flujo, el usuario inicia desde la pantalla principal y presiona el botón de M1AU para activar al asistente virtual. Al hacerlo, se abre la interfaz del chatbot, donde el usuario puede escribir o hablar. Luego, el usuario solicita que M1AU le muestre conciertos disponibles y el asistente procesa la petición, desplegando una lista de conciertos relevantes con información como artista, fecha y ubicación para continuar la navegación dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow25.png" alt="User Flow 23" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow26.png" alt="User Flow 24" width="800">
+</p>
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
