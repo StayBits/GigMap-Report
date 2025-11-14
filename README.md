@@ -6879,8 +6879,11 @@ Evidencia de commits Backend:
 Evidencia de commits Frontend versión Jetpack Compose: 
 
 
-
 Evidencia de commits Frontend versión Flutter: 
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| GigMap-mobile-flutter | main | 3dc2fed | feat: first commit | - | Nov 13, 2025 |
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -7006,24 +7009,34 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
   <img src="assets/images/sprint-2/LandingPage4.png" alt="User Flow 12" width="800">
 </p>
 
-
-**Backend:**
-
 <p align="center">
-  <img src="assets/images/sprint-2/BackendCommunities.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage5.png" alt="User Flow 12" width="800">
 </p>
 
 <p align="center">
-  <img src="assets/images/sprint-2/BackendConcerts.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage6.png" alt="User Flow 12" width="800">
 </p>
 
 <p align="center">
-  <img src="assets/images/sprint-2/BackendPosts.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage7.png" alt="User Flow 12" width="800">
 </p>
 
 <p align="center">
-  <img src="assets/images/sprint-2/BackendRelatedEvents.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage8.png" alt="User Flow 12" width="800">
 </p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage9.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage10.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage11.png" alt="User Flow 12" width="800">
+</p>
+
 
 **Frontend Vista FANS: Jetpack Compose**
 
@@ -7046,7 +7059,27 @@ La siguiente tabla presenta los endpoints principales de la API de GigMap, organ
 | `/api/v1/auth/login` | POST       | Autentica al usuario mediante email/username y contraseña. | Ninguno        | `POST /api/v1/auth/login`<br>Body:<br>`{ "emailOrUsername": "string", "password": "string" }` | **200:** `{}`<br>**401:** `{}` |
 | `/api/v1/notifications` | POST   | Crea y envía una nueva notificación usando un token de dispositivo. | Query Params obligatorios:<br>• `token` (string)<br>• `title` (string)<br>• `body` (string) | `bash<br>curl -X POST "https://gigmap-api.onrender.com/api/v1/notifications?token=abc123&title=Nuevo+concierto&body=Entradas+ya+disponibles" -H "accept: application/json"<br>` | 201 Created<br>`"string"` |
 
+**Visualización del swagger de los endpoint implementados en el Sprint 1 y 2:**
 
+<p align="center">
+  <img src="assets/images/sprint-2/back1.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back2.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back3.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back4.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back5.png" alt="User Flow 12" width="800">
+</p>
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
