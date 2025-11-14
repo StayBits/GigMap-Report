@@ -7355,8 +7355,7 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
   <img src="assets/images/sprint-2/JetPack.png" alt="User Flow 12" width="800">
 </p>
 
-URL del vídeo: 
-
+URL del vídeo: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/IQD4BNtl2bNHQJQZjMhdF2hcAQ9wQVQk0heXC5pfQimRGRI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8UucQg`
 
 **Frontend Vista Artista: Flutter**
 <p align="center">
