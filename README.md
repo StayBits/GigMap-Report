@@ -5876,7 +5876,7 @@ SEGMENTO OBJETIVO: FANS
 
 **Wireflow 1: Registro e Inicio de Sesión**
 
-El usuario ingresa a la aplicación y decide si registrarse o iniciar sesión. Luego selecciona su tipo de cuenta, ya sea artista o fan, completa sus datos y finalmente accede satisfactoriamente a la aplicación.
+El usuario ingresa a la aplicación y decide si registrarse o iniciar sesión. Luego selecciona su tipo de cuenta: Fan, completa sus datos y finalmente accede satisfactoriamente a la aplicación.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow1.png" alt="Wireflow 1" width="800"> </p>
 
@@ -6152,7 +6152,7 @@ En este flujo, el usuario inicia desde la pantalla principal y presiona el botó
   <img src="assets/images/product-desing/user-flows/userflow26.png" alt="User Flow 24" width="800">
 </p>
 
-SEGMENTO OBJETIVO: ARTISTAS
+SEGMENTO OBJETIVO: FANS
 
 **User Flow 1: Registro e Inicio de Sesión**
 
