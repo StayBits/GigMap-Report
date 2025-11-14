@@ -7170,6 +7170,26 @@ Evidencia de commits Backend:
 
 Evidencia de commits Frontend versión FAN en Jetpack Compose: 
 
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+| :---: | :---: | :---: | :--- | :---: | :---: |
+| StayBits/GepMap-mobile | main | 2c4b0d0 | fix(authentication): Se corrigio Login | - | Nov 14, 2025 |
+| StayBits/GepMap-mobile | main | 86ba079 | feat(notifications): Se añadió NotificationsList | - | Nov 14, 2025 |
+| StayBits/GepMap-mobile | main | 9a2f9b7 | feat xd | - | Nov 14, 2025 |
+| StayBits/GepMap-mobile | main | 9f8149e | feat x.d | - | Nov 14, 2025 |
+| StayBits/GepMap-mobile | main | e2aea53 | feat(miau implementation final version) | - | Nov 14, 2025 |
+| StayBits/GepMap-mobile | main | 90f8532 | feat(bugs) | - | Nov 13, 2025 |
+| StayBits/GepMap-mobile | main | 0af1f48 | feat miau implementation | - | Nov 13, 2025 |
+| StayBits/GepMap-mobile | main | 1f89a2c | Merge pull request #11 from StayBits/related-events | - | Nov 13, 2025 |
+| StayBits/GepMap-mobile | main | a0fcae6 | feat: adding related events | - | Nov 13, 2025 |
+| StayBits/GepMap-mobile | main | c098ba0 | feat(baseur) | - | Nov 12, 2025 |
+| StayBits/GepMap-mobile | main | fc4b8d0 | feat: add JWT authentication interceptor to API client | - | Nov 10, 2025 |
+| StayBits/GepMap-mobile | main | 027fa1a | feat(Model): Se corrigio el home para poder crear conciertos | - | Nov 8, 2025 |
+| StayBits/GepMap-mobile | main | 4d6aef9 | feat(Model): Se corrigio el user profile, crear conciertos y crear comunidades | - | Nov 8, 2025 |
+| StayBits/GepMap-mobile | main | 1e33be4 | feat(Model): Se corrigio el profile y se pueden crear comunidades | - | Nov 8, 2025 |
+| StayBits/GepMap-mobile | main | 8ab19a8 | fix(communities): se corrigio el community list | - | Nov 3, 2025 |
+| StayBits/GepMap-mobile | main | 356d914 | feat(Model): Se corrigieron bugs y se agrego el profile | - | Oct 28, 2025 |
+| StayBits/GepMap-mobile | main | 368da39 | Update and rename REORGANIZACION\_BOUNDED\_CONTEXTS.md to GepMap.md | - | Oct 27, 2025 |
+| StayBits/GepMap-mobile | main | 403a08f | feat(update imports) | - | Oct 27, 2025 |
 
 Evidencia de commits Frontend versión ARTISTA en Flutter: 
 
