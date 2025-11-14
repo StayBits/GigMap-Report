@@ -5952,8 +5952,11 @@ En esta sección se presentan los mockups de la aplicación mobile de GigMap, lo
 
 Cada pantalla busca transmitir claridad en las acciones, accesibilidad y una estructura visual que facilite la exploración de conciertos, comunidades y perfiles dentro del ecosistema GigMap.
 
+SEGMENTO OBJETIVO: ARTISTAS
+
 <p align="center">
-  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-uno.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-unoactualizado.png" alt="1" width="800"><br>
+   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-miau.png" alt="2" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-dos.png" alt="2" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-tres.png" alt="3" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cuatro.png" alt="4" width="800"><br>
@@ -5964,6 +5967,23 @@ Cada pantalla busca transmitir claridad en las acciones, accesibilidad y una est
   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-nueve.png" alt="9" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-diez.png" alt="10" width="800">
 </p>
+
+SEGMENTO OBJETIVO: FANS
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-unofans.png" alt="1" width="800"><br>
+   <img src="assets/images/product-desing/mobile-applications/mobile-mockups-miau.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-ochodos.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-diez.png" alt="10" width="800">
+</p>
+
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
