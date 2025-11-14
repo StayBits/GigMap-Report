@@ -6722,7 +6722,7 @@ Esto se confirmará cuando la versión en Jetpack Compose de Gigmap muestre toda
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>XX</td>
+    <td>113</td>
   </tr>
 </table>
 
