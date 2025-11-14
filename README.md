@@ -7439,6 +7439,8 @@ La base de datos del proyecto fue implementada y desplegada a través de MongoDB
 
 URL del Repositorio: `https://github.com/StayBits/GigMap-mobile.git`
 
+URL del APK: `https://github.com/StayBits/GigMap-mobile/releases/download/v0.1.0-sprint2/app-debug.apk`
+
 Durante el desarrollo, es posible generar una versión compilada (APK) de la aplicación para su instalación directa en dispositivos Android. Esta instalación local, mediante conexión USB con una computadora, resulta ideal para realizar pruebas y validaciones sin necesidad de publicar la app en una tienda oficial. Solo se requiere habilitar la opción “Depuración por USB” en el dispositivo y utilizar herramientas como Android Studio o ADB (Android Debug Bridge) para transferir e instalar el archivo.
 
 <p align="center">
@@ -7449,6 +7451,8 @@ Durante el desarrollo, es posible generar una versión compilada (APK) de la apl
 
 URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
 
+URL del APK: `https://github.com/StayBits/GigMap-mobile-flutter/releases/download/v.0.1.0/app-release-flutter.apk`
+
 <p align="center">
   <img src="assets/images/sprint-1/flutter_deploy.png" alt="Evidence deployment" width="800">
 </p>
@@ -7456,10 +7460,6 @@ URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
 **M1AU**
 
 URL de M1AU en Render: `https://m1au.onrender.com`
-
-<p align="center">
-  <img src="assets/images/sprint-2/m1au.png" alt="Evidence deployment" width="800">
-</p>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -7541,51 +7541,52 @@ URL del vídeo de las Entrevistas publicado en OneDrive:
 
 **Entrevista #1**
 
-- **Nombre**: 
-- **Edad**: 
-- **Distrito**: 
-- **Duración**: 
-- **Timing de inicio**: 
+- **Nombre**: Diego Zúñiga
+- **Edad**: 20 años
+- **Distrito**: Comas
+- **Duración**: 00:09:35
+- **Timing de inicio**: 00:00:00
 
 Screenshot de video:
 <p align="center">
-  <img src="assets/images/interviews/artista-1.1.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fan1-1" alt="Commits" width="800">
 </p>
 
-**Resumen:**
+**Resumen:** En esta entrevista, Diego Zúñiga, de 20 años, comentó sentirse cómodo usando la aplicación y navegó sin dificultad por las pantallas de comunidades, explorar, editar perfil y demás secciones. Indicó que pudo confirmar asistencia a varios conciertos satisfactoriamente y que, en general, la app sí cumple con lo que promete. Sin embargo, mencionó que al ver las tarjetas de conciertos no podía identificar el tamaño real del evento, ya que no se mostraba la capacidad del venue ni una referencia visual que le ayudara a saber si era un concierto íntimo, mediano o masivo; por ello sugirió añadir un indicador de aforo, como un número o una barra gráfica, para tener más claridad al decidir. Además, comentó que en su perfil le resultaba difícil distinguir qué publicaciones ya había marcado con “like”, porque el diseño no mostraba un cambio visual claro; propuso que un icono resaltado, un color diferente o una pequeña animación ayudaría a que la interacción sea más evidente y satisfactoria
 
 
 **Entrevista #2**
 
-- **Nombre**: 
-- **Edad**: 
-- **Distrito**: 
-- **Duración**: 
-- **Timing de inicio**: 00:00
+- **Nombre**: Rodrigo Chavez
+- **Edad**: 19 años
+- **Distrito**: San Martin de Porres
+- **Duración**: 00:03:23
+- **Timing de inicio**: 00:09:36
 
-Screenshot de video:
+**Screenshot de video:**
 
 <p align="center">
-  <img src="assets/images/interviews/artista-2.1.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fan1-2.png" alt="Commits" width="800">
 </p>
 
-**Resumen:** 
+**Resumen:** En esta entrevista, Rodrigo, de 20 años, se mostró satisfecho con la aplicación mientras navegaba por las pantallas de comunidades, mapa, editar perfil y demás secciones. Logró confirmar asistencia a algunos conciertos sin dificultades y comentó que la app cumple adecuadamente su objetivo. Sin embargo, mencionó que la aplicación no ofrece una guía inicial que explique funciones esenciales como marcar asistencia, unirse a comunidades o seguir a otros usuarios, lo cual podría dificultar la experiencia de nuevos usuarios.
+
 
 **Entrevista #3**
 
-- **Nombre**: 
-- **Edad**:
-- **Distrito**: 
-- **Duración**: 
-- **Timing de inicio:** 
+- **Nombre**: Augusto Nicolas Cerna Sifuentes
+- **Edad**: 20 años
+- **Distrito**: Cercado de Lima
+- **Duración**: 00:06:51
+- **Timing de inicio**: 00:12:59
 
-Screenshot de video:
+**Screenshot de video:**
 
 <p align="center">
-  <img src="assets/images/interviews/artista-3.1.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fan1-3.png" alt="Commits" width="800">
 </p>
 
-**Resumen**:
+**Resumen**: Augusto Cerna indicó que la aplicación le pareció intuitiva y funcional. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. Además, recomendó agregar un indicador visual en el ChatBot M1AU que muestre cuando está procesando una respuesta. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
 
 **URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/Ea80KX6YNURIp8ynmhHIaVcB_cn5IdN-MtDrpPifTr0TFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SqnEBs`
 
@@ -7716,11 +7717,11 @@ Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo.
 
 | **Video About-the-Team** |
 |-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](ruta/de/la_imagen.png) |
-| **Duración:**<br>_Escribir duración aquí_ |
+| **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team.png) |
+| **Duración:** 00:06:54 |
 | **URL OneDrive:**<br>_Pegar enlace aquí_ |
-| **URL YouTube:**<br>_Pegar enlace aquí_ |
-| **Descripción:**<br>_Escribir aquí la descripción del video_ |
+| **URL YouTube:** `https://youtu.be/0y7IVVn3EfE` |
+| **Descripción:** El vídeo incluye el testimonio ante cámara de cada integrante, donde describimos las actividades que llevamos a cabo, los logros obtenidos en relación con los student outcomes y las competencias que fortalecimos durante el desarrollo del proyecto. En conjunto, el video refleja de manera auténtica y organizada el esfuerzo, la colaboración y el crecimiento profesional que caracterizaron nuestro trabajo.|
 
 # Video About the Product
 
