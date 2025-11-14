@@ -184,6 +184,17 @@ Para esta primera entrega se desarrollaron únicamente los capítulos 1 y 2 del 
 
 Para esta segunda entrega se desarrollaron los capítulos 3 y 4 del proyecto. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
 
+**TB2 (14/11/2025):**
+
+<p align="center">
+  <img src="assets/images/project-insights/pulsetb2.png" alt="contributors" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/project-insights/commitstb2.png" alt="contributors" width="700">
+</p>
+
+Para esta tercera entrega se desarrollaron los capítulos 4 del proyecto, sprint 2. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
+
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
@@ -7231,6 +7242,12 @@ Durante el desarrollo, es posible generar una versión compilada (APK) de la apl
   <img src="assets/images/sprint-1/render-deployment-frontend.png" alt="Evidence deployment" width="800">
 </p>
 
+**Frontend Flutter**
+
+<p align="center">
+  <img src="assets/images/sprint-1/flutter_deploy.png" alt="Evidence deployment" width="800">
+</p>
+
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, el equipo de desarrollo avanzó significativamente en la consolidación técnica de GigMap, completando nuevas funcionalidades clave en múltiples áreas del proyecto. Este sprint estuvo enfocado en fortalecer la arquitectura del sistema, mejorar la experiencia de usuario y ampliar las capacidades inteligentes de la plataforma.
@@ -7266,7 +7283,7 @@ Gráficos de colaboración:
 **Commits Frontend Jetpack Compose:**
 
 <p align="center">
-  <img src="assets/images/sprint-2/commints-frontend.png" alt="Commits" width="800">
+  <img src="assets/images/project-insights/commitsfronttb2.png" alt="Commits" width="800">
 </p>
 
 **Commits Frontend Flutter:**
