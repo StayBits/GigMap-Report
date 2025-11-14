@@ -7435,7 +7435,9 @@ La base de datos del proyecto fue implementada y desplegada a través de MongoDB
   <img src="assets/images/sprint-1/render-deployment-database.png" alt="Evidence deployment" width="800">
 </p>
 
-**Frontend**
+**Frontend: Jetpack Compose**
+
+URL del Repositorio: `https://github.com/StayBits/GigMap-mobile.git`
 
 Durante el desarrollo, es posible generar una versión compilada (APK) de la aplicación para su instalación directa en dispositivos Android. Esta instalación local, mediante conexión USB con una computadora, resulta ideal para realizar pruebas y validaciones sin necesidad de publicar la app en una tienda oficial. Solo se requiere habilitar la opción “Depuración por USB” en el dispositivo y utilizar herramientas como Android Studio o ADB (Android Debug Bridge) para transferir e instalar el archivo.
 
@@ -7443,10 +7445,20 @@ Durante el desarrollo, es posible generar una versión compilada (APK) de la apl
   <img src="assets/images/sprint-1/render-deployment-frontend.png" alt="Evidence deployment" width="800">
 </p>
 
-**Frontend Flutter**
+**Frontend: Flutter**
+
+URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
 
 <p align="center">
   <img src="assets/images/sprint-1/flutter_deploy.png" alt="Evidence deployment" width="800">
+</p>
+
+**M1AU**
+
+URL de M1AU en Render: `https://m1au.onrender.com`
+
+<p align="center">
+  <img src="assets/images/sprint-2/m1au.png" alt="Evidence deployment" width="800">
 </p>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
