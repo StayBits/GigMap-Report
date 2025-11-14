@@ -6876,10 +6876,10 @@ Evidencia de commits Backend:
 | GigMap-Api | master | 73f1e02 | fix(notifications): Se corrigió DeviceTokensController | - | Oct 16, 2025 |
 | GigMap-Api | master | eb0f263 | feat(notifications): Se agregó el BC Notifications | - | Oct 16, 2025 |
 
-Evidencia de commits Frontend versión Jetpack Compose: 
+Evidencia de commits Frontend versión FAN en Jetpack Compose: 
 
 
-Evidencia de commits Frontend versión Flutter: 
+Evidencia de commits Frontend versión ARTISTA en Flutter: 
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -7037,12 +7037,19 @@ En esta sección se muestran las evidencias del funcionamiento de la aplicación
   <img src="assets/images/sprint-2/LandingPage6.png" alt="User Flow 12" width="800">
 </p>
 
-
-
-
 **Frontend Vista FANS: Jetpack Compose**
 
+<p align="center">
+  <img src="assets/images/sprint-2/JetPack.png" alt="User Flow 12" width="800">
+</p>
 
+URL del vídeo: 
+
+
+**Frontend Vista Artista: Flutter**
+<p align="center">
+  <img src="assets/images/sprint-2/Flutter1.png" alt="User Flow 12" width="800">
+</p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -7104,7 +7111,7 @@ El despliegue del backend se llevó a cabo utilizando Render, una plataforma que
 - `https://gigmap-api.onrender.com/swagger-ui/index.html`
 
 <p align="center">
-  <img src="assets/images/sprint-2/render-deployment-backend.png" alt="Evidence deployment" width="800">
+  <img src="assets/images/sprint-1/render-deployment-backend.png" alt="Evidence deployment" width="800">
 </p>
 
 **Base de Datos**
@@ -7113,7 +7120,7 @@ La base de datos del proyecto fue implementada y desplegada a través de MongoDB
 - `https://sekqmrmzrnwzjbhmyipx.supabase.co/`
 
 <p align="center">
-  <img src="assets/images/sprint-2/render-deployment-database.png" alt="Evidence deployment" width="800">
+  <img src="assets/images/sprint-1/render-deployment-database.png" alt="Evidence deployment" width="800">
 </p>
 
 **Frontend**
@@ -7121,7 +7128,7 @@ La base de datos del proyecto fue implementada y desplegada a través de MongoDB
 Durante el desarrollo, es posible generar una versión compilada (APK) de la aplicación para su instalación directa en dispositivos Android. Esta instalación local, mediante conexión USB con una computadora, resulta ideal para realizar pruebas y validaciones sin necesidad de publicar la app en una tienda oficial. Solo se requiere habilitar la opción “Depuración por USB” en el dispositivo y utilizar herramientas como Android Studio o ADB (Android Debug Bridge) para transferir e instalar el archivo.
 
 <p align="center">
-  <img src="assets/images/sprint-2/render-deployment-frontend.png" alt="Evidence deployment" width="800">
+  <img src="assets/images/sprint-1/render-deployment-frontend.png" alt="Evidence deployment" width="800">
 </p>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
@@ -7149,7 +7156,6 @@ Gráficos de colaboración:
 <p align="center">
   <img src="assets/images/sprint-2/commints-landing2.png" alt="Commits" width="800">
 </p>
-
 
 **Commits Backend:**
 
