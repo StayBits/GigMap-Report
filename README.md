@@ -7198,9 +7198,9 @@ Gráficos de colaboración:
 
 ### 4.3.1. Diseño de Entrevistas
 
-**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los artistas, quienes representan el segmento objetivo principal.
+**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los fans, quienes representan el segmento objetivo principal.
 
-**Contexto de Validación:** Se presentó un prototipo navegable en Figma a nuestro segmento objetivo Artistas, que incluye las pantallas principales de la aplicación:
+**Contexto de Validación:** Se presento el aplicativo a nuestros usuarios fans y se evaluaron:
 
 - Página de conciertos
 - Comunidades
@@ -7213,14 +7213,13 @@ Gráficos de colaboración:
 **User Flows evaluados:**
 
 - Registro e Inicio de Sesión
-- Filtrado de Conciertos por Género Musical
 - Visualización y Marcado de Asistencia a un Concierto
+- ChatBot M1AU
 - Unión a una Comunidad
 - Creación de una Comunidad
 - Seguir a un Usuario desde un Concierto
 - Visualizar Perfil de Otro Usuario desde un Concierto
 - Visualizar Información de un Concierto desde el Mapa
-- Crear Concierto
 - Crear Evento Relacionado a un Concierto
 - Editar Perfil de Usuario
 - Acceso a Notificaciones
@@ -7231,57 +7230,55 @@ URL del vídeo de las Entrevistas publicado en OneDrive:
 
 **Entrevista #1**
 
-- **Nombre**: Zaleth Feijóo
-- **Edad**: 20
-- **Distrito**: Pueblo Libre
-- **Duración**: 10 minutos
-- **Timing de inicio**: 00:00
+- **Nombre**: 
+- **Edad**: 
+- **Distrito**: 
+- **Duración**: 
+- **Timing de inicio**: 
 
 Screenshot de video:
 <p align="center">
-  <img src="assets/images/interviews/artista-1.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/artista-1.1.png" alt="Commits" width="800">
 </p>
 
 **Resumen:**
-El entrevistado valoró positivamente la interfaz visual y el uso de colores. Comentó que la distribución de secciones facilita la navegación. Destacó la utilidad de poder ver “conciertos asistidos” y “por asistir”, y consideró que la opción de marcar asistencia es intuitiva. Sugirió que el botón para “unirse a comunidades” podría ser más visible. En general, percibió la experiencia como fluida y clara.
+
 
 **Entrevista #2**
 
-- **Nombre**: Diego Zuñiga
-- **Edad**: 20 años
-- **Distrito**: San Miguel
-- **Duración**: 5 minutos
+- **Nombre**: 
+- **Edad**: 
+- **Distrito**: 
+- **Duración**: 
 - **Timing de inicio**: 00:00
 
 Screenshot de video:
 
 <p align="center">
-  <img src="assets/images/interviews/artista-2.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/artista-2.1.png" alt="Commits" width="800">
 </p>
 
-**Resumen:** El entrevistado apreció la estructura del perfil, especialmente el apartado donde puede ver los conciertos a los que ha asistido y los próximos. Le resultó útil la posibilidad de seguir a otros usuarios, ya que le permite conectar con fans y otros artistas. Sin embargo, mencionó que la sección de notificaciones podría incorporar filtros para separar “eventos” de “interacciones sociales”. Evaluó positivamente la coherencia visual y la presencia del ícono de retroceso en todas las pantallas.
+**Resumen:** 
 
 **Entrevista #3**
 
-- **Nombre**: Leonardo Nuñez
-- **Edad**: 19
-- **Distrito**: San Miguel
-- **Duración**: 4 minutos
-- **Timing de inicio:** 00:00
+- **Nombre**: 
+- **Edad**:
+- **Distrito**: 
+- **Duración**: 
+- **Timing de inicio:** 
 
 Screenshot de video:
 
 <p align="center">
-  <img src="assets/images/interviews/artista-3.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/artista-3.1.png" alt="Commits" width="800">
 </p>
 
 **Resumen**:
-El artista consideró que el prototipo es fácil de usar y atractivo visualmente. Le gustó poder explorar eventos relacionados y conocer quiénes asistirán a cada concierto. Destacó que la integración entre conciertos y comunidades le parece muy funcional, ya que fomenta la interacción artística. Sugirió añadir un buscador de eventos por fecha o ubicación. En general, calificó la experiencia con 4.7/5 en satisfacción.
 
 **URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/Ea80KX6YNURIp8ynmhHIaVcB_cn5IdN-MtDrpPifTr0TFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SqnEBs`
 
 ### 4.3.3. Evaluaciones según heurísticas
-
 
 ### Anexo E. Formato para Evaluación de User Experience según Heurísticas
 **UX Heuristics & Principles Evaluation**
@@ -7301,14 +7298,13 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 **TAREAS A EVALUAR:**
 
 - Registro e Inicio de Sesión
-- Filtrado de Conciertos por Género Musical
 - Visualización y Marcado de Asistencia a un Concierto
+- ChatBot M1AU
 - Unión a una Comunidad
 - Creación de una Comunidad
 - Seguir a un Usuario desde un Concierto
 - Visualizar Perfil de Otro Usuario desde un Concierto
 - Visualizar Información de un Concierto desde el Mapa
-- Crear Concierto
 - Crear Evento Relacionado a un Concierto
 - Editar Perfil de Usuario
 - Acceso a Notificaciones
@@ -7320,9 +7316,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 
 **No están incluidas en esta versión de la evaluación:**
 
-- Publicación de contenido multimedia (audio o video).
 - Redirección a plataformas de ventas de entradas.
-- Comentar/dar like a una publicación
 
 **ESCALA DE SEVERIDAD:**
 
@@ -7337,67 +7331,75 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 
 | # | **Problema**                                                                                               | **Escala de severidad** | **Heurística / Principio violado(a)**         |
 | - | ---------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------- |
-| 1 | No existe buscador o filtro avanzado por ubicación o fecha de conciertos.                                  | 2                       | Information Architecture: Is it findable?     |
-| 2 | Las notificaciones se muestran todas juntas sin categorías diferenciadas.                                  | 2                       | Usability: Consistencia y estándares          |
+| 1 | Las tarjetas de conciertos no muestran la capacidad total del venue, dificultando evaluar la magnitud.     | 2                     | Information Architecture – Is it complete?                |
+| 3 | La pantalla de Perfil carece de indicadores visuales que diferencien claramente posts con “like”.           | 2                     | Usability – Visibilidad del estado del sistema            |
 | 3 | No hay una guía inicial para nuevos usuarios al ingresar por primera vez.                                  | 1                       | Usability: Reconocimiento mejor que recuerdo  |
-| 4 | El botón “Editar Perfil” está poco visible dentro del menú, lo que confunde al usuario.                    | 2                       | Information Architecture: Is it usable?       |
-| 5 | Falta retroalimentación visual al marcar asistencia a un concierto.                                        | 3                       | Usability: Visibilidad del estado del sistema |
+| 4 | Las tarjetas de conciertos muestran poca jerarquía visual, dificultando escanear información clave.                   | 2                       | Information Architecture: Is it usable?       |
+| 5 | El ChatBot M1AU no indica si está “cargando” mientras procesa una pregunta.                                     | 3                       | Usability: Visibilidad del estado del sistema |
 
-**PROBLEMA #1: Falta de buscador de conciertos por ubicación o fecha
-**
+**PROBLEMA #1: Las tarjetas de conciertos no muestran la capacidad total del venue**
 
-**Severidad**: 2
-**Heurística violada:** Arquitectura de Información – Is it findable?
+**Severidad**: 2  
+**Heurística violada:** Arquitectura de Información – Is it complete?
 
-**Problema**:
-Durante la evaluación, tanto artistas como usuarios coincidieron en que la búsqueda de conciertos se siente limitada, ya que solo permite filtrar por género musical. Esto restringe la capacidad de los usuarios para encontrar eventos relevantes según su ubicación geográfica o disponibilidad temporal. La ausencia de filtros por ciudad o fecha afecta la eficiencia en la exploración del contenido y puede generar frustración en usuarios que buscan experiencias específicas o cercanas a su zona.
+**Problema**:  
+Durante la validación con fans, varios usuarios mencionaron que no podían identificar la magnitud del evento porque las tarjetas de conciertos no muestran la capacidad total del venue ni una referencia visual del tamaño del concierto. Esta ausencia de información limita la percepción del tipo de experiencia que pueden esperar (intima, mediana, masiva) y afecta la toma de decisiones al seleccionar conciertos a los que podrían asistir.
 
-**Recomendación**:
-Se sugiere incorporar un sistema de búsqueda avanzada que permita aplicar filtros combinados por ubicación, fecha, rango de precios y tipo de evento. Además, se recomienda incluir una barra de búsqueda predictiva con autocompletado que agilice la localización de conciertos. Estas mejoras aumentarían la capacidad de descubrimiento dentro de la aplicación y optimizarían la satisfacción del usuario al reducir el tiempo de búsqueda.
+**Recomendación**:  
+Incorporar en las tarjetas un indicador de capacidad del venue, por ejemplo: “Capacidad: 5,000 personas” o una barra visual que represente el aforo. Esto ayudaría a los fans a evaluar mejor el tipo de evento y aportaría claridad al momento de comparar conciertos.
 
-**PROBLEMA #2: Notificaciones sin clasificación**
+---
 
-**Severidad**: 2
-**Heurística violada:** Usabilidad – Consistencia y estándares
+**PROBLEMA #2: La pantalla de Perfil no diferencia claramente los posts con “like”**
 
-**Problema**:
-El sistema de notificaciones actual agrupa de manera indistinta alertas relacionadas con eventos, comunidades y nuevos seguidores. Esta falta de categorización provoca confusión y sobrecarga cognitiva, especialmente en usuarios activos que reciben múltiples tipos de avisos. La carencia de una estructura visual o jerárquica impide identificar rápidamente la prioridad o el tipo de información, afectando la percepción de orden y coherencia en la interfaz.
-
-**Recomendación**:
-Organizar las notificaciones por categorías, tales como Eventos, Comunidades, Seguidores y Sistema. Cada categoría podría representarse con un ícono o color distintivo, y ordenarse cronológicamente dentro de pestañas o secciones diferenciadas. De esta manera, se garantiza una experiencia más clara, coherente y alineada con los estándares de diseño de aplicaciones sociales y de entretenimiento.
-
-**PROBLEMA #3: Falta de guía o tutorial inicial**
-
-**Severidad**: 1
-**Heurística violada:** Usabilidad – Reconocimiento mejor que recuerdo
-
-**Problema**:
-Los nuevos usuarios, especialmente los artistas, manifestaron dificultad para comprender el funcionamiento de la aplicación en su primer uso. La ausencia de una guía o introducción visual hace que deban explorar por ensayo y error funciones clave como marcar asistencia, crear comunidades o seguir a otros usuarios. Esto puede generar una primera impresión negativa, reduciendo la retención y la curva de aprendizaje de la aplicación.
-
-**Recomendación**:
-Implementar un breve recorrido guiado (onboarding) al iniciar sesión por primera vez, que destaque las funciones principales mediante pop-ups o animaciones interactivas. También se recomienda incluir una sección de ayuda o tutorial accesible desde el menú principal para usuarios que deseen repasar la funcionalidad más adelante. Este tipo de acompañamiento mejora la orientación, refuerza la confianza del usuario y facilita la adopción de la aplicación.
-
-**PROBLEMA #4: Dificultad para encontrar la opción de“Editar Perfil”**
-
-**Severidad**: 2
-**Heurística violada:** Arquitectura de Información – Is it usable?
-
-**Problema**:
-Durante la evaluación se observó que el acceso a la opción “Editar Perfil” se encuentra dentro de un submenú poco visible, lo que provoca que los usuarios tarden en localizarlo. Esta ubicación poco intuitiva contradice la expectativa general de encontrar esta acción junto a elementos visualmente relacionados, como la foto o el nombre del usuario. La falta de visibilidad incrementa el tiempo de interacción y puede afectar la percepción de control sobre la información personal.
-
-**Recomendación**:
-Reubicar el botón “Editar Perfil” en una zona más visible, preferiblemente junto a la foto de perfil o en la parte superior de la sección de usuario. También se sugiere destacar el botón con un color o ícono identificable, manteniendo la coherencia visual con el resto del diseño. Esto simplificaría el flujo de navegación y reforzaría la sensación de accesibilidad y dominio del entorno digital por parte del usuario.
-
-**PROBLEMA #5: Falta de confirmación visual al marcar asistencia**
-
-**Severidad**: 3
+**Severidad**: 2  
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema
 
-**Problema**:
-Al marcar asistencia a un concierto, la aplicación no muestra ninguna confirmación visual o auditiva de que la acción haya sido registrada correctamente. La ausencia de retroalimentación inmediata genera incertidumbre, llevando a los usuarios a repetir la acción o dudar de la respuesta del sistema. Este tipo de deficiencia afecta directamente la confianza del usuario y la percepción de fiabilidad de la aplicación.
+**Problema**:  
+Los usuarios indicaron que, al visualizar posts dentro del perfil, no existe un indicador claro para distinguir cuáles publicaciones ya han recibido “like”. Esto genera confusión y los usuarios intentan presionar repetidamente el mismo elemento, sin percibir si su acción tuvo efecto. La falta de contraste visual hace difícil identificar rápidamente el estado de interacción.
 
-**Recomendación**:
-Incorporar una confirmación visual y textual al completar la acción. Por ejemplo, cambiar el color del botón, mostrar un ícono de verificación y desplegar un mensaje breve como “¡Asistencia confirmada!”. Asimismo, podría añadirse una animación ligera o vibración (en caso de app móvil) para reforzar la respuesta del sistema. Esta mejora garantizaría transparencia, reduciría errores de duplicación y aumentaría la satisfacción general durante la interacción.
+**Recomendación**:  
+Añadir un ícono resaltado, cambio de color, pequeño contador o animación ligera cada vez que un post recibe un “like”. Estas mejoras proporcionarían claridad inmediata sobre la acción del usuario y reforzarían la satisfacción dentro de la experiencia social de la aplicación.
+
+---
+
+**PROBLEMA #3: Falta de guía o tutorial inicial (onboarding)**
+
+**Severidad**: 1  
+**Heurística violada:** Usabilidad – Reconocimiento mejor que recuerdo
+
+**Problema**:  
+Los nuevos usuarios, especialmente fans que no están familiarizados con apps sociales de conciertos, expresaron que la aplicación no muestra ninguna guía inicial para explicar funciones esenciales como marcar asistencia, unirse a comunidades o seguir otros usuarios. Esto genera una curva de aprendizaje innecesariamente alta, ya que deben descubrir las funcionalidades por sí mismos a través de ensayo y error.
+
+**Recomendación**:  
+Implementar un onboarding breve que muestre pop-ups o pantallas introductorias explicando las funciones principales. También se recomienda añadir una sección de ayuda en el menú para que los usuarios puedan revisarla nuevamente cuando lo necesiten. Esto facilita la adopción temprana y mejora significativamente la primera impresión.
+
+---
+
+**PROBLEMA #4: Poca jerarquía visual en las tarjetas de conciertos**
+
+**Severidad**: 2  
+**Heurística violada:** Arquitectura de Información – Is it usable?
+
+**Problema**:  
+Los fans mencionaron dificultad para escanear rápidamente información clave en las tarjetas de conciertos, ya que los elementos principales —como fecha, nombre del concierto, venue y asistentes— no están claramente jerarquizados. Toda la información aparece visualmente similar, lo que afecta la velocidad de lectura y genera sobrecarga cognitiva.
+
+**Recomendación**:  
+Aplicar jerarquía visual mediante variación de tamaños de texto, pesos tipográficos, colores secundarios y agrupación de información en bloques. Priorizar información primaria (fecha, nombre del concierto y venue) de forma más destacada mejoraría la rápida comprensión del contenido.
+
+---
+
+**PROBLEMA #5: El ChatBot M1AU no muestra indicador de carga al procesar una pregunta**
+
+**Severidad**: 3  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema**:  
+Los usuarios reportaron que, después de enviar una consulta al ChatBot M1AU, no existe ninguna señal visual que indique que la respuesta está siendo procesada. Esta falta de retroalimentación provoca incertidumbre y hace que muchos usuarios presionen repetidamente el botón de enviar, creyendo que el bot no recibió su mensaje.
+
+**Recomendación**:  
+Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo...”), un spinner o una animación del avatar del bot. Este feedback inmediato reduce la confusión, mejora la experiencia conversacional y aumenta la confianza del usuario en la funcionalidad del chatbot.
+
 
 # Video About the Team
 
