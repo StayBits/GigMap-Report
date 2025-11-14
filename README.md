@@ -15,7 +15,7 @@ Carrera de Ingeniería de Software
 
 **Profesor:** Eduardo Martin Reyes Rodriguez
 
-## Informe de TP1 
+## Informe del TB2 
 
 "GigMap"
 
