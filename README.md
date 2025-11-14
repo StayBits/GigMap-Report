@@ -7154,25 +7154,25 @@ Gráficos de colaboración:
 **Commits Landingpage:**
 
 <p align="center">
-  <img src="assets/images/sprint-2/commints-landing2.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-2/commints-landing.png" alt="Commits" width="800">
 </p>
 
 **Commits Backend:**
 
 <p align="center">
-  <img src="assets/images/sprint-2/commints-backend2.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-2/commints-backend.png" alt="Commits" width="800">
 </p>
 
 **Commits Frontend Jetpack Compose:**
 
 <p align="center">
-  <img src="assets/images/sprint-2/commints-frontend2.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-2/commints-frontend.png" alt="Commits" width="800">
 </p>
 
 **Commits Frontend Flutter:**
 
 <p align="center">
-  <img src="assets/images/sprint-2/commints-frontend2-flutter.png" alt="Commits" width="800">
+  <img src="assets/images/sprint-2/commints-frontend-flutter.png" alt="Commits" width="800">
 </p>
 
 ## 4.3. Validation Interviews
