@@ -7401,6 +7401,8 @@ La siguiente tabla presenta los endpoints principales de la API de GigMap, organ
   <img src="assets/images/sprint-2/back5.png" alt="User Flow 12" width="800">
 </p>
 
+URL del Backend: `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
 **Landing Page**
@@ -7726,11 +7728,11 @@ Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo.
 
 | **Video About-the-Product** |
 |-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](ruta/de/la_imagen.png) |
-| **Duración:**<br>_Escribir duración aquí_ |
-| **URL OneDrive:**<br>_Pegar enlace aquí_ |
-| **URL YouTube:**<br>_Pegar enlace aquí_ |
-| **Descripción:**<br>_Escribir aquí la descripción del video_ |
+| **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-about-the-product.png) |
+| **Duración:**<br>2:00 |
+| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQBADU6UXhY_TJaLwUu72mjqAQMuzG9SnMRJ3uVC9vo8Spw?e=Qoz84A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
+| **URL YouTube:**<br> `https://www.youtube.com/watch?v=T1sbBnQplY4`  |
+| **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
 
 # Conclusiones
 
