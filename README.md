@@ -1,39 +1,49 @@
 
+
 <div align="center">
-	
-  
-## Universidad Peruana de Ciencias Aplicadas
 
-![Image](assets/images/logo/upc_logo.png)
+<p align="center">
+  <img src="assets/images/logo/upc_logo.png" alt="logo" width="200"/>
+</p>
 
+<h3 align="center">
+Universidad Peruana de Ciencias Aplicadas
+</h3>
 
-**1ACC0238 - Aplicaciones para Dispositivos Móviles**
-
-Carrera de Ingeniería de Software
-
-**NRC:** 1813
-
-**Profesor:** Eduardo Martin Reyes Rodriguez
-
-## Informe del TB2 
-
-"GigMap"
-
-**Integrantes:**
-
+<h3 align="center">
+Ingeniería de Software  
+<br><br>
+Periodo: 202520 
+<br><br>
+1ACC0238 - Aplicaciones para Dispositivos Móviles
+<br><br>
+NRC: 1813  
+<br><br>
+Docente: Eduardo Martin Reyes Rodriguez  
+<br><br>
+<strong>Informe de TB2</strong>  
+<br><br>
+Startup: StayBits  
+<br><br>
+Producto: GigMap  
+<br><br>
+<br><br>
+<strong>Integrantes</strong>  
+<br><br>
 Cabanillas Meza, Jose Mateo (u202311458)
-
+<br><br>
 Collantes Carrillo, Diego Mateo (u202311823)
-
-Lizarbe Alvarez, Ariana Nickole (u202311704)
-
-Ortiz Cardenas, Johanna Antuanete (u202310358)
-
+<br><br>
+Lizarbe Alvarez, Ariana Nickole (u202311704) 
+<br><br>
+Ortiz Cardenas, Johanna Antuanete (u202310358) 
+<br><br>
 Zegarra Lopez, Renato Sebastian Rubber (u202311558)
-
-
+<br><br>
+<br>
 
 **2025**
+</h3>
 </div>
 
 
