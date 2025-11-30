@@ -7591,7 +7591,7 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>NOSE</td>
+    <td>131</td>
   </tr>
 </table>
 
