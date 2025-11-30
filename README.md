@@ -140,6 +140,23 @@ Capítulo III: Solution UI/UX Design 3.1. Product design 3.1.1. Style Guidelines
       </td>
       <td> Durante esta semana se realizó la corrección del capítulo 3, el desarrollo completo del apartado 4.2.2. Sprint 2, que incluye las secciones 4.2.2.1. Sprint Planning 2, 4.2.2.2. Sprint Backlog 2, 4.2.2.3. Development Evidence for Sprint Review, 4.2.2.4. Testing Suite Evidence for Sprint Review, 4.2.2.5. Execution Evidence for Sprint Review, 4.2.2.6. Services Documentation Evidence for Sprint Review, 4.2.2.7. Software Deployment Evidence for Sprint Review y 4.2.2.8. Team Collaboration Insights during Sprint, además de la actualización de las validation interviews correspondiente al proyecto. </td>
     </tr>
+<tr>
+      <td>TF</td>
+      <td>3/12/2025</td>
+      <td>
+-Cabanillas Meza, Jose Mateo
+
+-Collantes Carrillo, Diego Mateo
+
+-Lizarbe Alvarez, Ariana Nickole
+
+-Ortiz Cardenas, Johanna Antuanete
+
+-Zegarra Lopez, Renato Sebastian Rubber
+
+      </td>
+      <td> En el Trabajo Final se desarrollaron los contenidos correspondientes a 4.2.3. Sprint 3, incluyendo 4.2.3.1. Sprint Planning 3, 4.2.3.2. Sprint Backlog 3, 4.2.3.3. Development Evidence for Sprint Review, 4.2.3.4. Testing Suite Evidence for Sprint Review, 4.2.3.5. Execution Evidence for Sprint Review, 4.2.3.6. Services Documentation Evidence for Sprint Review, 4.2.3.7. Software Deployment Evidence for Sprint Review y 4.2.3.8. Team Collaboration Insights during Sprint, abordando y documentando cada uno de estos apartados de manera completa. Además, se incluyeron las Validation Interviews y las versiones finales del vídeo About The Team y vídeo About The Product. </td>
+    </tr>
   </tbody>
 
 </table>
@@ -342,6 +359,15 @@ Para esta tercera entrega se desarrollaron los capítulos 4 del proyecto, sprint
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+	- [4.2.3. Sprint 3](#423-sprint-3)
+	  - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+	  - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+	  - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+	  - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+	  - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+	  - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+	  - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+	  - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
 
 
   - [4.3. Validation Interviews](#43-validation-interviews)
@@ -7516,14 +7542,504 @@ Gráficos de colaboración:
   <img src="assets/images/sprint-2/commints-frontend-flutter.png" alt="Commits" width="800">
 </p>
 
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 3
+
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-11-30</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>09:00PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual, via discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Ortiz Cardenas, Johanna Antuanete</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Lizarbe Alvarez, Ariana Nickole / Ortiz Cardenas, Johanna Antuanete / Cabanillas Meza, Jose Mateo / Collantes Carrillo, Diego Mateo / Zegarra López, Renato Rubber Sebastian</td>
+  </tr>
+  <tr>
+    <td>Sprint Goal & User Stories</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Goal</td>
+    <td>
+Nuestro enfoque está en culminar todas las funcionalidades principales de Gigmap desarrolladas en Flutter con Dart, abarcando la implementación del sistema de notificaciones, la integración y correcto funcionamiento del chatbot M1AU basado en lenguaje natural, y la construcción de la primera versión operativa de la aplicación con sus pantallas iniciales y navegación esencial. Este sprint busca consolidar una versión temprana pero utilizable del producto, reuniendo en un solo entregable coherente los avances del frontend, backend y la capa de inteligencia artificial.
+
+Creemos que este avance tendrá un impacto significativo en la validación inicial del producto, ya que permitirá a los primeros usuarios y al equipo de desarrollo evaluar la experiencia general de uso, la fluidez de interacción, la respuesta del sistema y la viabilidad de las características clave. Asimismo, facilitará detectar mejoras, dependencias técnicas y prioridades para los próximos sprints, aumentando la madurez del proyecto y disminuyendo riesgos de desarrollo.
+
+Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus funcionalidades centrales operativas, el sistema de notificaciones se active correctamente en los escenarios definidos, el chatbot M1AU procese y responda de acuerdo con los criterios de aceptación establecidos, y la aplicación cargue adecuadamente sus pantallas de inicio, permita la navegación básica y pueda ser evaluada de forma unificada dentro del Incremento del sprint.
+</td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Velocity</td>
+    <td>Para la planificación de este sprint se utilizará la escala de Fibonacci (1, 2, 3, 5, 8...) para estimar el esfuerzo relativo de cada historia de usuario, permitiendo una mejor comparación y afinación de la carga de trabajo.</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>NOSE</td>
+  </tr>
+</table>
+
+ **Aspect Leaders and Collaborators**
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th colspan="7"> Aspect Leaders and Collaborators</th>
+  </tr>
+  <tr>
+    <th>Team Member</th>
+    <th>Github Username</th>
+    <th>UX UI DESIGN</th>
+    <th>M1AU </th>
+    <th>BACKEND</th>
+    <th>FRONTEND</th>
+  </tr>
+  <tr>
+    <td>Cabanillas Jose</td>
+    <td>marckszz</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Collantes Diego</td>
+    <td>D4D3v4l</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+
+  </tr>
+  <tr>
+    <td>Lizarbe Ariana</td>
+    <td>ariaalizz</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+
+  </tr>
+  <tr>
+    <td>Ortiz Johanna</td>
+    <td>Antuanet01</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+
+  </tr>
+  <tr>
+    <td>Zegarra Renato</td>
+    <td>ReiZCode</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+
+  </tr>
+</table>
+
+#### 4.2.3.2. Sprint Backlog 3
+
+| **User Story ID** | **Título (User Story)** | **Task ID** | **Título (Task)** | **Descripción** | **Estimación (SP)** | **Asignado a** | **Estado** |
+| :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: |
+| US01 | Filtrar eventos por género musical | TK-01 | Implementar filtros de búsqueda por género | Como fan, quiero filtrar eventos por género, para ver solo los que me interesan. | 3 | Mateo | DONE |
+| US02 | Publicar nuevo concierto | TK-02 | Desarrollo de formulario de creación de eventos | Como artista, quiero crear un evento para promocionar mi presentación. | 5 | Renato | DONE |
+| US03 | Medir asistencia estimada | TK-03 | Implementar contador de asistencia en eventos | Como artista, quiero ver cuántas personas marcaron asistencia para medir el interés. | 3 | Ariana | DONE |
+| US04 | Personalizar perfil de artista | TK-04 | Habilitar edición de perfil (Avatar/Bio) | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público. | 2 | Diego | DONE |
+| US05 | Crear comunidad | TK-05 | Desarrollo de funcionalidad "Crear Comunidad" | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos. | 5 | Antuanete | DONE |
+| US06 | Verificar comunidad | TK-06 | Lógica de verificación automática de comunidades | Como artista, quiero que al crear mi comunidad esta se verifique automáticamente para que mis seguidores tengan la certeza de que es una comunidad oficial. | 3 | Renato | DONE |
+| US07 | Ver mapa con geolocalización | TK-07 | Integración de API de Mapas y Geolocalización | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones. | 5 | Ariana | DONE |
+| US08 | Buscar conciertos | TK-08 | Implementar barra de búsqueda de eventos | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente. | 2 | Diego | DONE |
+| US09 | Buscar comunidades | TK-09 | Implementar búsqueda de grupos/comunidades | Como usuario, quiero buscar comunidades por nombre o temática para unirme a las que me interesen. | 2 | Antuanete | DONE |
+| US10 | Iniciar sesión en la app mobile | TK-10 | Desarrollo de Login y Autenticación | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta. | 3 | Mateo | DONE |
+| US11 | Registrarse como artista | TK-11 | Flujo de registro para rol Artista | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos. | 3 | Ariana | DONE |
+| US12 | Registrarse como fan | TK-12 | Flujo de registro para rol Fan | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos. | 3 | Diego | DONE |
+| US13 | Zoom a concierto en el mapa | TK-13 | Animación de cámara y selección de pin en mapa | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación. | 2 | Antuanete | DONE |
+| US14 | Ver estado del concierto | TK-14 | Visualización de status (Disponible/Sold out) | Como usuario, quiero saber si un concierto está disponible o agotado para decidir si puedo asistir. | 2 | Renato | DONE |
+| US15 | Ver información detallada del concierto | TK-15 | Vista de detalle del evento (Bottom Sheet/Pantalla) | Como fan, quiero ver la información completa de un concierto para decidir si asistir. | 3 | Ariana | DONE |
+| US16 | Unirse a una comunidad | TK-16 | Lógica de suscripción a comunidades | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares. | 3 | Mateo | DONE |
+| US17 | Publicar en la comunidad | TK-17 | Funcionalidad de posteo (CRUD Publicaciones) | Como fan, quiero crear publicaciones en la comunidad a la que me he unido, para compartir opiniones, fotos o recomendaciones. | 3 | Antuanete | DONE |
+| US18 | Editar perfil personal | TK-18 | Pantalla de edición de datos de usuario | Como fan, quiero poder editar mi información de perfil (foto, nombre y nombre de usuario). | 2 | Renato | DONE |
+| US19 | Confirmar o marcar asistencia a un evento | TK-19 | Botones de interacción de asistencia | Como fan, quiero poder marcar un evento como “Por asistir” o “Asistido”. | 3 | Ariana | DONE |
+| US20 | Ver comunidades accedidas | TK-20 | Listado de "Mis Grupos" | Como usuario, quiero visualizar en el apartado "Tus grupos" las comunidades a las que me he unido. | 2 | Diego | DONE |
+| US21 | Reaccionar a publicaciones en comunidades | TK-21 | Implementación de sistema de reacciones | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades. | 2 | Antuanete | DONE |
+| US22 | Calificar concierto | TK-22 | Sistema de Rating (Estrellas) | Como usuario, quiero calificar un concierto de 1 a 5 estrellas para compartir mi experiencia. | 2 | Renato | DONE |
+| US23 | Ver usuarios que asistirán a concierto | TK-23 | Listado de asistentes en detalle de evento | Como usuario, quiero ver qué otros usuarios asistirán al mismo concierto que yo. | 3 | Ariana | DONE |
+| US24 | Acceder a perfil de otros usuarios | TK-24 | Vista pública de perfil de terceros | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos. | 2 | Diego | DONE |
+| US25 | Ver publicaciones con like | TK-25 | Historial de "Me gusta" | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like". | 2 | Antuanete | DONE |
+| US26 | Ver plataformas de venta del concierto | TK-26 | Links externos a ticketeras | Como usuario, quiero ver en qué plataformas puedo comprar entradas para un concierto. | 2 | Renato | DONE |
+| US27 | Permitir acceso a ubicación | TK-27 | Gestión de permisos de GPS en Android/iOS | Como usuario, quiero que GigMap acceda a mi ubicación para recibir información personalizada. | 2 | Mateo | DONE |
+| US28 | Mostrar conciertos cercanos | TK-28 | Algoritmo de cercanía y filtrado por ubicación | Como usuario, quiero que GigMap me muestre conciertos cercanos a mi ubicación actual. | 3 | Diego | DONE |
+| US29 | Ver miembros de comunidad | TK-29 | Listado de integrantes de un grupo | Como usuario, quiero ver la lista de miembros que pertenecen a una comunidad. | 2 | Antuanete | DONE |
+| US30 | Subir imágenes en comunidades | TK-30 | Integración de carga de imágenes (Storage) | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales. | 3 | Renato | DONE |
+| US31 | Seguir usuarios | TK-31 | Sistema de Follow/Unfollow | Como usuario, quiero poder seguir a otros usuarios para poder ver sus actualizaciones, publicaciones o actividades. | 3 | Ariana | DONE |
+| US32 | Ver eventos asociados | TK-32 | Sección de "Eventos Relacionados" | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto. | 3 | Diego | DONE |
+| US33 | Confirmar o marcar asistencia a eventos asociados | TK-33 | Lógica de asistencia para sub-eventos | Como usuario, quiero poder marcar mi asistencia a un evento asociado, para llevar un seguimiento. | 2 | Antuanete | DONE |
+| US34 | Visualizar el contenido de las comunidades pertenecientes | TK-34 | Feed de noticias de comunidades seguidas | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo. | 2 | Renato | DONE |
+| US35 | Recibir recordatorio de concierto por asistir | TK-35 | Notificaciones Push programadas (Recordatorios) | Como usuario, quiero recibir la notificación de recordatorio del concierto al que confirme mi asistencia. | 5 | Ariana | DONE |
+| US36 | Recibir notificaciones de conciertos cercanos | TK-36 | Notificaciones Push por geolocalización | Como usuario registrado, quiero recibir notificaciones sobre conciertos cerca de mi ubicación. | 5 | Diego | DONE |
+| US37 | Recibir notificaciones por interacciones sociales | TK-37 | Notificaciones de actividad social (Likes/Comentarios) | Como usuario, quiero recibir notificaciones cuando alguien interactúe con mis publicaciones. | 5 | Antuanete | DONE |
+| US38 | Ver información detallada del evento asociado | TK-38 | Vista de detalle para eventos asociados | Como fan, quiero ver la información completa de un concierto para decidir si asistir. | 3 | Renato | DONE |
+| US42 | Acceso a un asistente conversacional | TK-39 | Integración inicial del Chatbot M1AU | Como usuario de GigMap, quiero contar con un asistente virtual que me ayude a navegar y encontrar información. | 3 | Mateo | DONE |
+| US43 | Filtrar conciertos por artista mediante el chatbot | TK-40 | Query de búsqueda por artista en Chatbot | Como usuario, quiero poder escribirle a M1AU el nombre de un artista para que me muestre sus conciertos. | 3 | Mateo | DONE |
+| US44 | Filtrar conciertos por fecha mediante el chatbot | TK-41 | Query de búsqueda por fecha en Chatbot | Como usuario, quiero pedirle a M1AU conciertos para una fecha específica para encontrar eventos. | 3 | Mateo | DONE |
+| US45 | Filtrar conciertos por plataforma mediante el chatbot | TK-42 | Query de búsqueda por plataforma en Chatbot | Como usuario, quiero pedir conciertos según su plataforma de venta para ver solo eventos de mi preferencia. | 2 | Mateo | DONE |
+| US46 | Comprensión de lenguaje natural | TK-43 | Configuración de intents y entities (NLP) | Como usuario, quiero que M1AU entienda frases naturales y no solo comandos específicos. | 5 | Mateo | DONE |
+| US47 | Acceso rápido desde las respuestas del chatbot | TK-44 | Renderizado de tarjetas/botones en chat | Como usuario, quiero que M1AU incluya enlaces o botones a conciertos para acceder rápidamente al detalle. | 2 | Mateo | DONE |
+| US48 | Respuestas rápidas y dinámicas | TK-45 | Optimización de latencia y backend | Como usuario, quiero que M1AU responda rápidamente para mantener una conversación fluida y eficiente. | 3 | Mateo | DONE |
+
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+Evidencia de commits Landing Page:
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+| :---: | :---: | :---: | :--- | :---: | :---: |
+
+Evidencia de commits Frontend versión ARTISTA en Flutter:
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+| :---: | :---: | :---: | :--- | :---: | :---: |
+
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+# **Unit Tests**
+Durante el desarrollo del sprint se implementaron pruebas unitarias para validar el correcto funcionamiento de los agregados principales del backend. Estas pruebas verifican la creación de entidades, inicialización de atributos y lógica de negocio interna sin dependencias externas.
+
+**Unit Test – Creación de Concert**
+
+Se validó:
+	-	Construcción correcta del concierto.
+	-	Asignación de atributos esenciales (título, fecha, descripción, género, estado).
+	-	Verificación de la lógica interna isValidArtist().
+
+<p align="center">
+  <img src="assets/images/tests/concertTest.png" alt="concerttest" width="800">
+</p>
+
+**Unit Test – Creación de Community**
+
+Se verificó:
+	-	Creación de comunidades mediante CreateCommunityCommand.
+	-	Inicialización correcta de listas (posts, members).
+	-	Actualización de atributos básicos como nombre, descripción e imagen.
+
+<p align="center">
+  <img src="assets/images/tests/communityTest.png" alt="communitytest" width="800">
+</p>
+
+# Integration Tests
+
+Se implementaron pruebas de integración enfocadas en los endpoints de autenticación (/api/v1/auth).
+Estas pruebas validaron el flujo completo desde el controlador, servicios, repositorio, codificación de contraseñas, manejo de JWT mockeado, y la interacción con la base de datos H2 en memoria.
+
+**Integration Test – Registro**
+Se probó que:
+	-	Un usuario pueda registrarse correctamente.
+	-	Se generen respuestas con código HTTP 201.
+	-	Se detecten correos o usernames duplicados.
+	-	Se retornen errores adecuados con HTTP 400.
+
+<p align="center">
+  <img src="assets/images/tests/AuthTest.png" alt="authtest" width="800">
+</p>
+
+**Integration Test – Login**
+
+Se validó que:
+	-	Un usuario pueda iniciar sesión con credenciales válidas.
+	-	El token JWT mockeado se retorne correctamente.
+	-	Se manejen errores de credenciales incorrectas o usuario inexistente con HTTP 401.
+
+<p align="center">
+  <img src="assets/images/tests/AuthloginTest.png" alt="authlogintest" width="800">
+</p>
+
+# BDD Tests
+
+Finalmente, se desarrollaron pruebas de aceptación siguiendo BDD (Behavior Driven Development) utilizando:
+	-	Lenguaje Gherkin
+	-	Archivos .feature
+	-	Step Definitions automatizados con Cucumber
+
+Estas pruebas verifican las funcionalidades desde la perspectiva del usuario final, como indican las historias de usuario del sprint.
+
+**BDD – Crear Concierto**
+
+Escenario principal:
+	-	Un artista crea un nuevo concierto.
+	-	Se valida el comportamiento esperado del dominio.
+
+<p align="center">
+  <img src="assets/images/tests/concertTest2.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Crear Comunidad**
+
+Escenario principal:
+	-	Un usuario crea una nueva comunidad.
+	-	Se valida que los campos se procesen correctamente.
+
+<p align="center">
+  <img src="assets/images/tests/concertTest2.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Login_**
+
+Escenario principal:
+	-	Un usuario registrado inicia sesión.
+	-	Se valida la respuesta del sistema ante credenciales correctas e incorrectas.
+
+<p align="center">
+  <img src="assets/images/tests/loginfeature.png" alt="authlogintest" width="800">
+</p>
+
+**BDD – Registro de Usuario**
+
+Para validar el proceso de creación de usuarios desde la perspectiva del usuario final, se desarrollaron pruebas bajo el enfoque BDD utilizando archivos .feature escritos en lenguaje Gherkin. Estos escenarios permiten verificar que el comportamiento del sistema cumple con los criterios de aceptación definidos en las historias de usuario del sprint.
+Los escenarios cubren casos de registro exitoso, email duplicado, username duplicado y datos inválidos.
+
+<p align="center">
+  <img src="assets/images/tests/registerfeature.png" alt="authlogintest" width="800">
+</p>
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias del funcionamiento de la aplicación correspondientes al Sprint 3. Mediante una recopilación visual conformada por imágenes y un video demostrativo, se muestran los avances más relevantes logrados durante esta fase. Estos recursos permiten apreciar los resultados obtenidos y entender con mayor claridad cómo se implementaron y desarrollaron las funcionalidades del producto.
+
+**Landing Page:**
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage1.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage2.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage7.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage8.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage10.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage11.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage9.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage3.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage4.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage5.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/LandingPage6.png" alt="User Flow 12" width="800">
+</p>
+
+**Frontend Vista Artista: Flutter**
+<p align="center">
+  <img src="assets/images/sprint-2/Flutter1.png" alt="User Flow 12" width="800">
+</p>
+
+URL del vídeo:
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+La siguiente tabla presenta los endpoints principales de la API de GigMap, organizados según su funcionalidad. Incluye el método HTTP, una breve descripción, ejemplos de llamada y respuestas representativas. Esta documentación sirve como guía rápida para desarrolladores que deseen integrar o contribuir al desarrollo de GigMap. Los endpoints abarcan operaciones esenciales relacionadas con posts, conciertos, eventos relacionados y comunidades.
+
+
+| **Endpoint** | **Método** | **Descripción** | **Parámetros** | **Ejemplo de llamada** | **Ejemplo de respuesta** |
+|---------------|-------------|-----------------|----------------|------------------------|---------------------------|
+| `/api/v1/concerts` | GET | Lista todos los conciertos disponibles | Ninguno | `GET /api/v1/concerts` | `[{"id":1,"artist":"Taylor Swift",...}]` |
+| `/api/v1/concerts/{concertId}` | GET | Obtiene los datos de un concierto por su ID | `concertId` | `GET /api/v1/concerts/1` | `{"id":1,"artist":"Taylor Swift",...}` |
+| `/api/v1/concerts/{concertId}` | PUT | Actualiza los datos de un concierto existente | `concertId` | `PUT /api/v1/concerts/1` | `{"message":"Concert updated successfully"}` |
+| `/api/v1/concerts/{concertId}` | DELETE | Elimina un concierto existente | `concertId` | `DELETE /api/v1/concerts/1` | `{"message":"Concert deleted successfully"}` |
+| `/api/v1/concerts` | POST | Crea un nuevo concierto | Ninguno | `POST /api/v1/concerts` | `{"id":5,"artist":"Arctic Monkeys",...}` |
+| `/api/v1/concerts/attendees` | POST | Añade un asistente a un concierto | Ninguno | `POST /api/v1/concerts/attendees` | `{"message":"Attendee added"}` |
+| `/api/v1/concerts/attendees` | DELETE | Elimina un asistente de un concierto | Ninguno | `DELETE /api/v1/concerts/attendees` | `{"message":"Attendee removed"}` |
+| `/api/v1/concerts/genre/{genre}` | GET | Obtiene conciertos filtrados por género | `genre` | `GET /api/v1/concerts/genre/pop` | `[{"id":3,"artist":"Harry Styles",...}]` |
+| `/api/v1/concerts/artist/{artistId}` | GET | Obtiene conciertos por artista | `artistId` | `GET /api/v1/concerts/artist/1` | `[{"id":2,"artist":"The Weeknd",...}]` |
+| `/api/v1/related-events` | POST | Crea un nuevo evento relacionado | Ninguno | `POST /api/v1/related-events` | `{"id":1,"name":"Pre-concert party"}` |
+| `/api/v1/related-events/{relatedEventId}` | GET | Obtiene un evento relacionado por su ID | `relatedEventId` | `GET /api/v1/related-events/2` | `{"id":2,"name":"Afterparty"}` |
+| `/api/v1/related-events/{relatedEventId}` | PUT | Actualiza un evento relacionado | `relatedEventId` | `PUT /api/v1/related-events/2` | `{"message":"Related event updated"}` |
+| `/api/v1/related-events/{relatedEventId}` | DELETE | Elimina un evento relacionado | `relatedEventId` | `DELETE /api/v1/related-events/2` | `{"message":"Related event deleted"}` |
+| `/api/v1/related-events/participants` | POST | Añade un participante a un evento relacionado | Ninguno | `POST /api/v1/related-events/participants` | `{"message":"Participant added"}` |
+| `/api/v1/related-events/participants` | DELETE | Elimina un participante de un evento relacionado | Ninguno | `DELETE /api/v1/related-events/participants` | `{"message":"Participant removed"}` |
+| `/api/v1/related-events/concert/{concertId}` | GET | Obtiene los eventos relacionados de un concierto | `concertId` | `GET /api/v1/related-events/concert/1` | `[{"id":1,"name":"Opening Act",...}]` |
+| `/api/v1/communities` | GET | Lista todas las comunidades | Ninguno | `GET /api/v1/communities` | `[{"id":1,"name":"Swifties"}]` |
+| `/api/v1/communities/{id}` | GET | Obtiene una comunidad específica | `id` | `GET /api/v1/communities/1` | `{"id":1,"name":"Swifties"}` |
+| `/api/v1/communities` | POST | Crea una nueva comunidad | Ninguno | `POST /api/v1/communities` | `{"id":2,"name":"Moonwalkers"}` |
+| `/api/v1/communities/{id}` | PUT | Actualiza una comunidad existente | `id` | `PUT /api/v1/communities/1` | `{"message":"Community updated"}` |
+| `/api/v1/communities/{id}` | DELETE | Elimina una comunidad | `id` | `DELETE /api/v1/communities/1` | `{"message":"Community deleted"}` |
+| `/api/v1/communities/{communityId}/join` | POST | Permite unirse a una comunidad | `communityId` | `POST /api/v1/communities/2/join` | `{"message":"Joined successfully"}` |
+| `/api/v1/communities/{communityId}/leave` | DELETE | Permite salir de una comunidad | `communityId` | `DELETE /api/v1/communities/2/leave` | `{"message":"Left community"}` |
+| `/api/v1/posts` | GET | Obtiene todos los posts | Ninguno | `GET /api/v1/posts` | `[{"id":1,"content":"Excited for the show!"}]` |
+| `/api/v1/posts` | POST | Crea un nuevo post | Ninguno | `POST /api/v1/posts` | `{"id":4,"content":"Amazing concert!"}` |
+| `/api/v1/posts/{id}` | PUT | Actualiza un post existente | `id` | `PUT /api/v1/posts/3` | `{"message":"Post updated"}` |
+| `/api/v1/posts/{id}` | GET | Obtiene un post específico | `id` | `GET /api/v1/posts/2` | `{"id":2,"content":"Loved this event!"}` |
+| `/api/v1/posts/{postId}/like` | POST | Da “like” a un post | `postId` | `POST /api/v1/posts/3/like` | `{"message":"Liked"}` |
+| `/api/v1/posts/{postId}/unlike` | DELETE | Quita el “like” de un post | `postId` | `DELETE /api/v1/posts/3/unlike` | `{"message":"Unliked"}` |
+| `/api/v1/communities/joined/{userId}` | GET        | Lista todas las comunidades a las que pertenece un usuario | `userId` (path) — ID del usuario | `GET /api/v1/communities/joined/1` | `[{"id":3,"name":"DERIVADAS","description":"El grupo de fans más grande de Cometa a la Deriva!","image":"https://i0.wp.com/www.vozactual.com/wp-content/uploads/2023/12/cometa.png?fit=793%2C486&ssl=1","posts":[2,7,24,25],"members":[1]}]` |
+| `/api/v1/concerts/attended/{userId}` | GET        | Lista todos los conciertos a los que ha asistido un usuario | `userId` (path) — ID del usuario | `GET /api/v1/concerts/attended/1` | `[{"id":1,"name":"Stray Kids","date":"2025-11-10T16:37:36.532","status":"PUBLICADO","description":"Por primera vez en Lima, Stray Kids se presentará en el Estadio San Marcos el próximo 09 de abril. Un show inolvidable lleno de música, baile y emoción.","image":"https://www.infobae.com/new-resizer/yWTP7VdjUokAw7wBfv9t5Y7uzWE=/arc-anglerfish-arc2-prod-infobae/public/AM2DSGR2RFCV7PXDT7GKROUT2A.jpg","genre":"POP","platform":{"platformName":"Teleticket","platformImage":"https://yt3.googleusercontent.com/E4LWQc_szds7dK-uBf1MhIS_udkQDvvy-EMbJn9ei_tmjLo67QHtbNxN9K2kKcCQoKUG0Bpon60=s900-c-k-c0x00ffffff-no-rj"},"venue":{"name":"Estadio San Marcos","address":"Av. Venezuela s/n, Lima, Perú","latitude":-12.056,"longitude":-77.085,"capacity":50000},"attendees":[5,18,11,1]}]` |
+| `/api/v1/device_tokens` | POST       | Registra o actualiza el token de dispositivo de un usuario para habilitar notificaciones push. | Ninguno en URL, el cuerpo requiere `userId` y `token`. | `POST /api/v1/device_tokens`<br>Body:<br>`{ "userId": 1, "token": "abc123xyz" }` | `{ "userId": 1, "token": "abc123xyz" }` |
+| `/api/v1/posts/{id}` | DELETE     | Elimina un Post existente según su ID. | `id` (path) — ID del post a eliminar | `DELETE /api/v1/posts/10` | **200:** `Post deleted successfully`<br>**404:** `Post not found` |
+| `/api/v1/posts/liked/{userId}` | GET        | Obtiene todos los posts que han sido marcados con “like” por un usuario. | `userId` (path): ID del usuario | `GET /api/v1/posts/liked/1` | `[{"id":0,"communityId":0,"userId":0,"content":"string","image":"string","likes":[0]}]` |
+| `/api/v1/concerts/attended/{userId}` | GET        | Obtiene todos los conciertos a los que ha asistido un usuario. | `userId` (path) — ID del usuario | `GET /api/v1/concerts/attended/1` | `[{"id":1,"name":"Stray Kids","date":"2025-11-10T16:37:36.532","status":"PUBLICADO","description":"Por primera vez en Lima, Stray Kids se presentará en el Estadio San Marcos el próximo 09 de abril. Un show inolvidable lleno de música, baile y emoción.","image":"https://www.infobae.com/new-resizer/yWTP7VdjUokAw7wBfv9t5Y7uzWE=/arc-anglerfish-arc2-prod-infobae/public/AM2DSGR2RFCV7PXDT7GKROUT2A.jpg","genre":"POP","platform":{"platformName":"Teleticket","platformImage":"https://yt3.googleusercontent.com/E4LWQc_szds7dK-uBf1MhIS_udkQDvvy-EMbJn9ei_tmjLo67QHtbNxN9K2kKcCQoKUG0Bpon60=s900-c-k-c0x00ffffff-no-rj"},"venue":{"name":"Estadio San Marcos","address":"Av. Venezuela s/n, Lima, Perú","latitude":-12.056,"longitude":-77.085,"capacity":50000},"attendees":[5,18,11,1]}]` |
+| `/api/v1/auth/register` | POST       | Crea una nueva cuenta de usuario. | Ninguno        | `POST /api/v1/auth/register`<br>Body:<br>`{ "email": "user@example.com", "username": "john_doe", "password": "password123", "role": "USER" }` | **201:** `{}`<br>**400:** `{}` |
+| `/api/v1/auth/login` | POST       | Autentica al usuario mediante email/username y contraseña. | Ninguno        | `POST /api/v1/auth/login`<br>Body:<br>`{ "emailOrUsername": "string", "password": "string" }` | **200:** `{}`<br>**401:** `{}` |
+| `/api/v1/notifications` | POST   | Crea y envía una nueva notificación usando un token de dispositivo. | Query Params obligatorios:<br>• `token` (string)<br>• `title` (string)<br>• `body` (string) | `bash<br>curl -X POST "https://gigmap-api.onrender.com/api/v1/notifications?token=abc123&title=Nuevo+concierto&body=Entradas+ya+disponibles" -H "accept: application/json"<br>` | 201 Created<br>`"string"` |
+
+**Visualización del swagger de los endpoint implementados en el Sprint 1, 2 y 3:**
+
+<p align="center">
+  <img src="assets/images/sprint-2/back1.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back2.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back3.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back4.png" alt="User Flow 12" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/sprint-2/back5.png" alt="User Flow 12" width="800">
+</p>
+
+URL del Backend: `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+**Landing Page**
+
+El despliegue del proyecto se realizó en GitHub Pages, una plataforma que permite publicar sitios web directamente desde un repositorio, ofreciendo una forma práctica y eficiente de mostrar el desarrollo del proyecto. A continuación, se incluye el enlace al repositorio y a la página publicada.
+
+URL repositorio de Landing page:
+- `https://github.com/StayBits/GigMap-LandingPage-V2`
+
+URL de Landing page desplegada en GitHub Pages:
+- `https://staybits.github.io/GigMap-LandingPage-V2/`
+<p align="center">
+  <img src="assets/images/sprint-2/render-deployment-landingpage.png" alt="Evidence deployment" width="800">
+</p>
+
+**Backend**
+El despliegue del backend se llevó a cabo utilizando Render, una plataforma que permite implementar servicios de manera rápida y eficiente. A continuación, se muestra el enlace correspondiente al frontend:
+
+- `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-backend.png" alt="Evidence deployment" width="800">
+</p>
+
+**Base de Datos**
+La base de datos del proyecto fue implementada y desplegada a través de MongoDB Atlas, un servicio en la nube que ofrece una gestión sencilla, segura y escalable. A continuación, se presenta el enlace de acceso o referencia a la base de datos utilizada:
+
+- `https://sekqmrmzrnwzjbhmyipx.supabase.co/`
+
+<p align="center">
+  <img src="assets/images/sprint-1/render-deployment-database.png" alt="Evidence deployment" width="800">
+</p>
+
+**Frontend: Flutter**
+
+URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
+
+URL del APK: `https://github.com/StayBits/GigMap-mobile-flutter/releases/download/v.0.1.0/app-release-flutter.apk`
+
+<p align="center">
+  <img src="assets/images/sprint-3/flutter_deploy.png" alt="Evidence deployment" width="800">
+</p>
+
+**M1AU**
+
+URL de M1AU en Render: `https://m1au.onrender.com`
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+A lo largo del Sprint 3, el equipo de desarrollo logró un progreso notable en la consolidación técnica de GigMap, finalizando funcionalidades importantes en diversas partes del proyecto. Este sprint se centró en robustecer la arquitectura del sistema, optimizar la experiencia del usuario y potenciar las capacidades inteligentes de la plataforma.
+
+Las principales actividades realizadas fueron:
+
+- Culminación de la aplicación móvil desarrollada en Flutter, logrando una versión estable y totalmente funcional, con sus pantallas principales operativas y preparadas para pruebas de integración. La app quedó conectada correctamente con la base de datos, el backend y el chatbot M1AU.
+
+- Solución de las observaciones del sprint anterior, optimizando la calidad del código y reorganizando la estructura del proyecto para asegurar un funcionamiento más sólido y coherente.
+
+- Se implementó de manera exitosa la base de datos y el backend, asegurando una comunicación estable y funcional con la aplicación móvil desarrollada en Flutter.
+
+- Se actualizó la landing page incorporando el nuevo enlace de descarga de la aplicación móvil, así como la renovación de los videos de las secciones About the Team y About the Product, manteniendo el contenido alineado con los avances del proyecto.
+
+Gráficos de colaboración:
+
+**Commits Landingpage:**
+
+<p align="center">
+  <img src="assets/images/sprint-3/commints-landing.png" alt="Commits" width="800">
+</p>
+
+**Commits Backend:**
+
+<p align="center">
+  <img src="assets/images/sprint-3/commints-backend.png" alt="Commits" width="800">
+</p>
+
+**Commits Frontend Flutter:**
+
+<p align="center">
+  <img src="assets/images/sprint-3/commints-frontend-flutter.png" alt="Commits" width="800">
+</p>
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
 
-**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los fans, quienes representan el segmento objetivo principal.
+**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los fans y artistas, quienes representan nuestos segmentos objetivos.
 
-**Contexto de Validación:** Se presento el aplicativo a nuestros usuarios fans y se evaluaron:
+**SEGMENTO OBJETIVO: FANS**
 
+**Contexto de Validación al segmento FANS:** Se presento el aplicativo a nuestros usuarios fans y se evaluaron:
+
+- Landing Page
 - Página de conciertos
 - Comunidades
 - Perfil (editar perfil, seguir usuarios, ver conciertos asistidos y por asistir, posts con “like”)
@@ -7532,8 +8048,9 @@ Gráficos de colaboración:
 - Información detallada de conciertos (asistencia, eventos relacionados, asistentes)
 - Unión a comunidades
 
-**User Flows evaluados:**
+**User Flows evaluados al segmento FANS:**
 
+- Landing Page
 - Registro e Inicio de Sesión
 - Visualización y Marcado de Asistencia a un Concierto
 - ChatBot M1AU
@@ -7546,9 +8063,38 @@ Gráficos de colaboración:
 - Editar Perfil de Usuario
 - Acceso a Notificaciones
 
+**SEGMENTO OBJETIVO: ARTISTAS**
+
+**Contexto de Validación al segmento ARTISTAS:** Se presento el aplicativo a nuestros usuarios artistas y se evaluaron:
+
+- Landing Page
+- Página de conciertos (creación de conciertos)
+- Comunidades
+- Perfil (editar perfil, seguir usuarios, ver conciertos asistidos y por asistir, posts con “like”)
+- Sección de notificaciones
+- Flechas de navegación para regresar de una pantalla a otra
+- Información detallada de conciertos (asistencia, eventos relacionados, asistentes)
+- Unión a comunidades
+
+**User Flows evaluados al segmento ARTISTAS:**
+
+- Landing Page
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- ChatBot M1AU
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Creación de un concierto
+- Seguir a un Usuario desde un Concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
 ### 4.3.2. Registro de Entrevistas
 
-URL del vídeo de las Entrevistas publicado en OneDrive: 
+**SEGMENTO OBJETIVO: FANS**
 
 **Entrevista #1**
 
@@ -7560,7 +8106,7 @@ URL del vídeo de las Entrevistas publicado en OneDrive:
 
 Screenshot de video:
 <p align="center">
-  <img src="assets/images/interviews/fan1-1" alt="Commits" width="800">
+  <img src="assets/images/interviews/fans-validation1.png" alt="Commits" width="800">
 </p>
 
 **Resumen:** En esta entrevista, Diego Zúñiga, de 20 años, comentó sentirse cómodo usando la aplicación y navegó sin dificultad por las pantallas de comunidades, explorar, editar perfil y demás secciones. Indicó que pudo confirmar asistencia a varios conciertos satisfactoriamente y que, en general, la app sí cumple con lo que promete. Sin embargo, mencionó que al ver las tarjetas de conciertos no podía identificar el tamaño real del evento, ya que no se mostraba la capacidad del venue ni una referencia visual que le ayudara a saber si era un concierto íntimo, mediano o masivo; por ello sugirió añadir un indicador de aforo, como un número o una barra gráfica, para tener más claridad al decidir. Además, comentó que en su perfil le resultaba difícil distinguir qué publicaciones ya había marcado con “like”, porque el diseño no mostraba un cambio visual claro; propuso que un icono resaltado, un color diferente o una pequeña animación ayudaría a que la interacción sea más evidente y satisfactoria
@@ -7577,7 +8123,7 @@ Screenshot de video:
 **Screenshot de video:**
 
 <p align="center">
-  <img src="assets/images/interviews/fan1-2.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fans-validation2.png" alt="Commits" width="800">
 </p>
 
 **Resumen:** En esta entrevista, Rodrigo, de 20 años, se mostró satisfecho con la aplicación mientras navegaba por las pantallas de comunidades, mapa, editar perfil y demás secciones. Logró confirmar asistencia a algunos conciertos sin dificultades y comentó que la app cumple adecuadamente su objetivo. Sin embargo, mencionó que la aplicación no ofrece una guía inicial que explique funciones esenciales como marcar asistencia, unirse a comunidades o seguir a otros usuarios, lo cual podría dificultar la experiencia de nuevos usuarios.
@@ -7594,12 +8140,63 @@ Screenshot de video:
 **Screenshot de video:**
 
 <p align="center">
-  <img src="assets/images/interviews/fan1-3.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fans-validation3.png" alt="Commits" width="800">
 </p>
 
 **Resumen**: Augusto Cerna indicó que la aplicación le pareció intuitiva y funcional. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. Además, recomendó agregar un indicador visual en el ChatBot M1AU que muestre cuando está procesando una respuesta. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
 
-**URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/IQAPvBtXipgmQ65puMdVheouAaxFKygBaPC9wsuQKAsxxTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4rRgr7`
+**SEGMENTO OBJETIVO: ARTISTAS**
+
+**Entrevista #4**
+
+- **Nombre**: SUNOO
+- **Edad**: 20 años
+- **Distrito**: Comas
+- **Duración**: 00:09:35
+- **Timing de inicio**: 00:00:00
+
+Screenshot de video:
+<p align="center">
+  <img src="assets/images/interviews/artista-validation-1.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** RESUMITO UWU
+
+
+**Entrevista #2**
+
+- **Nombre**: BANGCHAN
+- **Edad**: 19 años
+- **Distrito**: San Martin de Porres
+- **Duración**: 00:03:23
+- **Timing de inicio**: 00:09:36
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="assets/images/interviews/artista-validation-2.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** RESUMITO UWU
+
+
+**Entrevista #3**
+
+- **Nombre**: Augusto Nicolas Cerna Sifuentes
+- **Edad**: 20 años
+- **Distrito**: Cercado de Lima
+- **Duración**: 00:06:51
+- **Timing de inicio**: 00:12:59
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="assets/images/interviews/artista-validation-3.png" alt="Commits" width="800">
+</p>
+
+**Resumen**:RESUMITO
+
+**URL de entrevistas**: `LINKCITO`
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -7618,8 +8215,9 @@ Screenshot de video:
 
 El alcance de esta evaluación incluye la revisión de la usabilidad, accesibilidad y arquitectura de información de los siguientes User Flows desarrollados en el prototipo interactivo de Figma:
 
-**TAREAS A EVALUAR:**
+**TAREAS A EVALUAR: SEGMENTO OBJETIVO FANS**
 
+- Landing page intuitiva y funcional
 - Registro e Inicio de Sesión
 - Visualización y Marcado de Asistencia a un Concierto
 - ChatBot M1AU
@@ -7636,6 +8234,28 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 - Publicación de contenido multimedia (audio o video).
 - Compra o venta de entradas dentro de la app.
 - Configuración avanzada de cuenta o privacidad.
+
+**TAREAS A EVALUAR: SEGMENTO OBJETIVO ARTISTAS**
+
+- Landing page intuitiva y funcional
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- ChatBot M1AU
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Creación de concierto
+- Seguir a un Usuario desde un Concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+- No están incluidas en esta versión de la evaluación:
+- Chat o mensajería directa entre usuarios.
+- Publicación de contenido multimedia (audio o video).
+- Compra o venta de entradas dentro de la app.
+- Configuración avanzada de cuenta o privacidad.
+
 
 **No están incluidas en esta versión de la evaluación:**
 
@@ -7728,38 +8348,36 @@ Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo.
 
 | **Video About-the-Team** |
 |-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team.png) |
+| **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team2.png) |
 | **Duración:** 00:06:54 |
-| **URL OneDrive:** `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/IQDhd8uilgxQRK4jbzHP0OSCAe7tHyZR-pLifiFxhrMdI84?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8h4M3q` |
-| **URL YouTube:** `https://youtu.be/0y7IVVn3EfE` |
+| **URL OneDrive:** `lolines` |
 | **Descripción:** El vídeo incluye el testimonio ante cámara de cada integrante, donde describimos las actividades que llevamos a cabo, los logros obtenidos en relación con los student outcomes y las competencias que fortalecimos durante el desarrollo del proyecto. En conjunto, el video refleja de manera auténtica y organizada el esfuerzo, la colaboración y el crecimiento profesional que caracterizaron nuestro trabajo.|
 
 # Video About the Product
 
 | **Video About-the-Product** |
 |-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-about-the-product.png) |
+| **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-about-the-product2.png) |
 | **Duración:**<br>2:00 |
-| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQBADU6UXhY_TJaLwUu72mjqAQMuzG9SnMRJ3uVC9vo8Spw?e=Qoz84A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
-| **URL YouTube:**<br> `https://www.youtube.com/watch?v=T1sbBnQplY4`  |
+| **URL OneDrive:**<br>  `loolol`  |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
 
 # Conclusiones
 
 
-- Durante el TB2 se integró Firebase como el servicio encargado de gestionar las notificaciones, permitiendo enviar avisos en tiempo real a los usuarios y mejorando significativamente la comunicación dentro del ecosistema del producto. Esta integración aporta inmediatez, fiabilidad y una mejor experiencia general al mantener a los usuarios informados sobre eventos, cambios o acciones relevantes.
+- Durante el Trabajo Final se completó el desarrollo de la aplicación móvil utilizando Flutter, alcanzando una versión estable y funcional orientada a los usuarios artistas. Esta versión inicial integra correctamente la navegación, la conexión con el backend y las funcionalidades clave, marcando un hito importante en la expansión multiplataforma del producto.
 
-- Se desarrolló e incorporó M1AU, un modelo de lenguaje natural implementado en Java y desplegado como un microservicio. Este chatbot amplía la interacción dentro del sistema al ofrecer respuestas automáticas más naturales, coherentes y orientadas a resolver dudas o asistir al usuario, fortaleciendo el componente de inteligencia dentro de la plataforma.
+- Las entrevistas de validación con usuarios confirmaron que la solución cumple con los user goals definidos, evidenciando que las funcionalidades implementadas responden adecuadamente a las necesidades reales de los artistas y fortaleciendo la alineación entre el producto y su público objetivo.
 
-- Se realizaron todas las correcciones identificadas en evaluaciones previas, abordando tanto aspectos funcionales como de diseño y lógica interna. Estas mejoras permitieron aumentar la estabilidad del sistema, asegurar la coherencia entre módulos y avanzar hacia una versión más robusta y alineada con los objetivos del proyecto.
+- Se integró el chatbot M1AU dentro del flujo de la aplicación y del ecosistema general de GigMap, permitiendo ofrecer asistencia conversacional a los usuarios y mejorando la interacción mediante respuestas más naturales y contextuales, lo que aporta un componente adicional de valor al producto.
 
-- Se completó el despliegue de la segunda versión del frontend desarrollado en Kotlin, donde se incorporaron mejoras visuales, ajustes en la navegación y un refinamiento general de la experiencia del usuario. Esta versión refleja un mayor nivel de madurez del producto y ofrece una interfaz más clara, fluida y consistente.
+- Se completaron las mejoras y correcciones identificadas en etapas previas, optimizando la estabilidad, coherencia y rendimiento del sistema tanto a nivel de frontend como de backend. Esto permitió consolidar una versión más sólida y preparada para procesos de integración más amplios.
 
-- Se actualizó y desplegó una nueva versión del backend, en la que se optimizaron procesos, se mejoró el rendimiento y se agregaron capacidades necesarias para soportar los nuevos servicios integrados, como Firebase y el microservicio M1AI. Este trabajo fortaleció la arquitectura general del sistema.
+- La landing page fue actualizada e implementada con un diseño más consistente, incorporando los nuevos videos de About the Team y About the Product, lo que mejora la comunicación visual del proyecto y refleja con mayor claridad la esencia y propuesta de GigMap.
 
-- Se publicó una nueva versión del Landing Page, mejorando su diseño, estructura de contenido y funcionalidad. Esta actualización permite comunicar de forma más efectiva el valor del producto, su propuesta y sus características principales, facilitando la comprensión del modelo de negocio por parte de visitantes y usuarios.
+- Asimismo, se añadió el link de descarga de GigMap para usuarios artistas, facilitando el acceso directo a la aplicación móvil desde la propia landing page y fortaleciendo el proceso de incorporación de nuevos usuarios al ecosistema.
 
-- Se desarrolló y entregó la primera versión del frontend construido en Flutter, lo que marca un avance importante hacia la expansión multiplataforma del producto. Esta versión inicial sienta las bases para llegar a nuevos dispositivos y ofrecer una experiencia más amplia, flexible y accesible.
+- El trabajo en equipo durante este trabajo fue un factor determinante para alcanzar los resultados obtenidos. La coordinación constante, la comunicación efectiva y la clara distribución de responsabilidades permitieron que cada integrante aportara desde su área de especialización, consolidando un avance cohesionado en todas las partes del proyecto. La colaboración activa facilitó la resolución temprana de obstáculos, la integración fluida entre frontend, backend e inteligencia artificial, y la toma de decisiones informadas en cada etapa del desarrollo. En conjunto, el esfuerzo colectivo no solo fortaleció la calidad del entregable, sino que también reafirmó la capacidad del equipo para trabajar de manera organizada y enfocada hacia objetivos comunes, sentando una base sólida para los próximos sprints.
 
 # Bibliografía
 
