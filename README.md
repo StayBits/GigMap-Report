@@ -8368,10 +8368,10 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 
 | **Video About-the-Product** |
 |-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-about-the-product2.png) |
-| **Duración:**<br>2:00 |
-| **URL OneDrive:**<br>  `loolol`  |
-| **URL Youtube:**<br>  `loolol`  |
+| **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-video-about-the-product2.png) |
+| **Duración:**<br>2:32 |
+| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQAxvpLO7-vpSJ49qANyaf1qAbXJmMEOUdZM4wnkiwU-wTg?e=EcaAi8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
+| **URL Youtube:**<br>  `https://youtu.be/4ypL066T7xk`  |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
 
 # Conclusiones
