@@ -5783,7 +5783,7 @@ En esta sección se presentan los wireframes del Landing Page diseñados para su
 **Sección Para Fans:**
 
 <p align="center">
-  <img src="assets/images/product-desing/landing-page-ui-desing/landingwireframe1.png" alt="1" width="500">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landingwireframe.png" alt="1" width="500">
 </p>
 
 **Sección Para Artistas:**
