@@ -8179,10 +8179,10 @@ Screenshot de video:
 
 **Entrevista #4**
 
-- **Nombre**: SUNOO
-- **Edad**: 20 años
-- **Distrito**: Comas
-- **Duración**: 00:09:35
+- **Nombre**: Leonardo Núñez
+- **Edad**: 19 años
+- **Distrito**: San Miguel
+- **Duración**: 00:08:33
 - **Timing de inicio**: 00:00:00
 
 Screenshot de video:
@@ -8190,7 +8190,7 @@ Screenshot de video:
   <img src="assets/images/interviews/artista-validation-1.png" alt="Commits" width="800">
 </p>
 
-**Resumen:** RESUMITO UWU
+**Resumen:** Durante la entrevista, el artista destacó que GigMap presenta una estructura sólida y una interfaz intuitiva que facilita la gestión y visualización de conciertos, lo que genera una experiencia positiva tanto para artistas como para fans. Valoró especialmente que la aplicación permita acceder rápidamente a información relevante del evento y que sus funcionalidades resulten prácticas para quienes buscan promover o descubrir conciertos. Sin embargo, también señaló una oportunidad importante de mejora: actualmente, las tarjetas de los conciertos no muestran la capacidad total del recinto, un dato clave que permite a los usuarios evaluar la magnitud e importancia del evento. Al no contar con esta información, se dificulta que los asistentes potenciales puedan comparar conciertos, anticipar la demanda de entradas o incluso decidir su participación según el tipo de show que esperan vivir. Añadir este elemento enriquecería la experiencia del usuario y aportaría mayor claridad en la presentación de los eventos dentro de la plataforma.
 
 
 **Entrevista #2**
