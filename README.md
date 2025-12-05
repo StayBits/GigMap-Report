@@ -8350,6 +8350,7 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 | **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team2.png) |
 | **Duración:** 00:05:58 |
 | **URL OneDrive:** `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAd9DKnaoypT6Dw052V3YqXAbjRkiRkf1j6AjfFqS3rTO4` |
+| **URL Youtube:** `https://youtu.be/JPx3C18us8Y` |
 | **Descripción:** El vídeo incluye el testimonio ante cámara de cada integrante, donde describimos las actividades que llevamos a cabo, los logros obtenidos en relación con los student outcomes y las competencias que fortalecimos durante el desarrollo del proyecto. En conjunto, el video refleja de manera auténtica y organizada el esfuerzo, la colaboración y el crecimiento profesional que caracterizaron nuestro trabajo.|
 
 # Video About the Product
@@ -8359,6 +8360,7 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 | **Screenshot:**<br>![Screenshot del video](assets/images/screenshots/ss-about-the-product2.png) |
 | **Duración:**<br>2:00 |
 | **URL OneDrive:**<br>  `loolol`  |
+| **URL Youtube:**<br>  `loolol`  |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
 
 # Conclusiones
