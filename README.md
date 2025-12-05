@@ -7601,7 +7601,7 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>114</td>
+    <td>104</td>
   </tr>
 </table>
 
@@ -7696,8 +7696,6 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
 | US30 | Subir imágenes en comunidades | TK-30 | Integración de carga de imágenes (Storage) | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales. | 3 | Renato | DONE |
 | US31 | Seguir usuarios | TK-31 | Sistema de Follow/Unfollow | Como usuario, quiero poder seguir a otros usuarios para poder ver sus actualizaciones, publicaciones o actividades. | 3 | Ariana | DONE |
 | US34 | Visualizar el contenido de las comunidades pertenecientes | TK-34 | Feed de noticias de comunidades seguidas | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo. | 2 | Renato | DONE |
-| US35 | Enviar recordatorio de concierto por asistir | TK-35 | Notificaciones Push programadas (Recordatorios) | Como usuario, quiero enviar la notificación de recordatorio de mi concierto al que confirme su asistencia. | 5 | Ariana | DONE |
-| US37 | Recibir notificaciones por interacciones sociales | TK-37 | Notificaciones de actividad social (Likes/Comentarios) | Como usuario, quiero recibir notificaciones cuando alguien interactúe con mis publicaciones. | 5 | Antuanete | DONE |
 | US38 | Ver información detallada del evento asociado | TK-38 | Vista de detalle para eventos asociados | Como fan, quiero ver la información completa de un concierto para decidir si asistir. | 3 | Renato | DONE |
 | US42 | Acceso a un asistente conversacional | TK-39 | Integración inicial del Chatbot M1AU | Como usuario de GigMap, quiero contar con un asistente virtual que me ayude a navegar y encontrar información. | 3 | Mateo | DONE |
 | US43 | Filtrar conciertos por artista mediante el chatbot | TK-40 | Query de búsqueda por artista en Chatbot | Como usuario, quiero poder escribirle a M1AU el nombre de un artista para que me muestre sus conciertos. | 3 | Mateo | DONE |
@@ -7714,11 +7712,39 @@ Evidencia de commits Landing Page:
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
 | :---: | :---: | :---: | :--- | :---: | :---: |
+| GigMap-LandingPage-V2 | main | 736e786 | Update DownloadSection.astro | - | Dec 5, 2025 |
+| GigMap-LandingPage-V2 | main | 770f096 | Update Hero.astro | - | Dec 5, 2025 |
+| GigMap-LandingPage-V2 | main | 4150b86 | Update DownloadSection.astro | - | Dec 5, 2025 |
 
 Evidencia de commits Frontend versión ARTISTA en Flutter:
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
 | :---: | :---: | :---: | :--- | :---: | :---: |
+| GigMap-mobile-flutter | main | b49f976 | feat: Add posts by user in profile view | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | d710358 | feat: Add liked posts in profile view | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | 38ae536 | Fiix(Community):Update Community details | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | 829de89 | feat: Add edit profile view | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | 6c5f882 | feat(HomeView):update | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | 1c2bf00 | feat: Add likes in profile view | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | fba1750 | m1au implemntation | - | Dec 5, 2025 |
+| GigMap-mobile-flutter | main | 58718fa | Merge branch 'main' of https://github.com/StayBits/GigMap-mobile-flutter | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | dcef7ac | Reapply "Feat(Communities):Add Communities" | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | d28fbe0 | Revert "Feat(Communities):Add Communities" | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | f0b615f | Feat(Communities):Add Communities | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 965181b | Merge remote-tracking branch 'origin/main' | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 870c487 | m1au implemntation | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 86e4e04 | feat: Add profile view | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 89eaff1 | m1au implemntation | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 9191e2c | map css and bugs | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 789561c | bottombar | - | Dec 4, 2025 |
+| GigMap-mobile-flutter | main | 82dd765 | Reapply "feat(map)" | - | Dec 3, 2025 |
+| GigMap-mobile-flutter | main | f64ce72 | Update pubspec.lock | - | Dec 3, 2025 |
+| GigMap-mobile-flutter | main | e2480bd | Revert "feat(map)" | - | Dec 3, 2025 |
+| GigMap-mobile-flutter | main | f826c8d | feat(map) | - | Dec 3, 2025 |
+| GigMap-mobile-flutter | main | b2ff311 | Merge pull request #1 from StayBits/develop | - | Nov 30, 2025 |
+| GigMap-mobile-flutter | main | 1bace6d | feat(Concerts): Adding All Concerts section | - | Nov 30, 2025 |
+| GigMap-mobile-flutter | main | 6d32cde | auth implementation | - | Nov 29, 2025 |
+| GigMap-mobile-flutter | main | 3dc2fed | feat: first commit | - | Nov 13, 2025 |
 
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
@@ -7846,11 +7872,11 @@ En esta sección se presentan las evidencias del funcionamiento de la aplicació
 </p>
 
 <p align="center">
-  <img src="assets/images/sprint-2/LandingPage10.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage13.png" alt="User Flow 12" width="800">
 </p>
 
 <p align="center">
-  <img src="assets/images/sprint-2/LandingPage11.png" alt="User Flow 12" width="800">
+  <img src="assets/images/sprint-2/LandingPage14.png" alt="User Flow 12" width="800">
 </p>
 
 <p align="center">
@@ -7979,9 +8005,11 @@ La base de datos del proyecto fue implementada y desplegada a través de MongoDB
 
 **Frontend: Flutter**
 
+Para el deploy de nuestra aplicación móvil desarrollada en Flutter, utilizamos el comando `flutter build apk --release`, el cual genera la versión optimizada y lista para distribución de la app.
+
 URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
 
-URL del APK: `https://github.com/StayBits/GigMap-mobile-flutter/releases/download/v.0.1.0/app-release-flutter.apk`
+URL del APK: `https://github.com/StayBits/GigMap-mobile-flutter/releases/download/v0.2.1/gigmap-mobile-flutter.apk`
 
 <p align="center">
   <img src="assets/images/sprint-3/flutter_deploy.png" alt="Evidence deployment" width="800">
@@ -8006,6 +8034,12 @@ Las principales actividades realizadas fueron:
 - Se actualizó la landing page incorporando el nuevo enlace de descarga de la aplicación móvil, así como la renovación de los videos de las secciones About the Team y About the Product, manteniendo el contenido alineado con los avances del proyecto.
 
 Gráficos de colaboración:
+
+**Commits Report:**
+
+<p align="center">
+  <img src="assets/images/project-insights/commitstf.png" alt="contributors" width="700">
+</p>
 
 **Commits Landingpage:**
 
@@ -8097,7 +8131,7 @@ Gráficos de colaboración:
 - **Nombre**: Diego Zúñiga
 - **Edad**: 20 años
 - **Distrito**: Comas
-- **Duración**: 00:09:35
+- **Duración**: 00:07:16
 - **Timing de inicio**: 00:00:00
 
 Screenshot de video:
@@ -8113,8 +8147,8 @@ Screenshot de video:
 - **Nombre**: Rodrigo Chavez
 - **Edad**: 19 años
 - **Distrito**: San Martin de Porres
-- **Duración**: 00:03:23
-- **Timing de inicio**: 00:09:36
+- **Duración**: 00:03:26
+- **Timing de inicio**: 00:07:16
 
 **Screenshot de video:**
 
@@ -8131,7 +8165,7 @@ Screenshot de video:
 - **Edad**: 19 años
 - **Distrito**: Callao
 - **Duración**: 00:06:51
-- **Timing de inicio**: 00:12:59
+- **Timing de inicio**: 00:10:42
 
 **Screenshot de video:**
 
