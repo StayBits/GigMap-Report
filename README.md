@@ -7878,7 +7878,7 @@ En esta sección se presentan las evidencias del funcionamiento de la aplicació
   <img src="assets/images/sprint-2/Flutter1.png" alt="User Flow 12" width="800">
 </p>
 
-URL del vídeo:
+URL del vídeo: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQCtVcdKFjmTTY9moONzNgqjAbOLM7OozksIHEdLSKKtWT4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M63Pb3`
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
