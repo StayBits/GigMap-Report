@@ -378,6 +378,8 @@ Para esta tercera entrega se desarrollaron los capítulos 4 del proyecto, sprint
 - [Video About the Team](#video-about-the-team)
 - [Video About the Product](#video-about-the-product)
 - [Conclusiones](#conclusiones)
+- [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
+- [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -7683,8 +7685,7 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
 | US30 | Subir imágenes en comunidades | TK-30 | Integración de carga de imágenes (Storage) | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales. | 3 | Renato | DONE |
 | US31 | Seguir usuarios | TK-31 | Sistema de Follow/Unfollow | Como usuario, quiero poder seguir a otros usuarios para poder ver sus actualizaciones, publicaciones o actividades. | 3 | Ariana | DONE |
 | US34 | Visualizar el contenido de las comunidades pertenecientes | TK-34 | Feed de noticias de comunidades seguidas | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo. | 2 | Renato | DONE |
-| US35 | Recibir recordatorio de concierto por asistir | TK-35 | Notificaciones Push programadas (Recordatorios) | Como usuario, quiero recibir la notificación de recordatorio del concierto al que confirme mi asistencia. | 5 | Ariana | DONE |
-| US36 | Recibir notificaciones de conciertos cercanos | TK-36 | Notificaciones Push por geolocalización | Como usuario registrado, quiero recibir notificaciones sobre conciertos cerca de mi ubicación. | 5 | Diego | DONE |
+| US35 | Enviar recordatorio de concierto por asistir | TK-35 | Notificaciones Push programadas (Recordatorios) | Como usuario, quiero enviar la notificación de recordatorio de mi concierto al que confirme su asistencia. | 5 | Ariana | DONE |
 | US37 | Recibir notificaciones por interacciones sociales | TK-37 | Notificaciones de actividad social (Likes/Comentarios) | Como usuario, quiero recibir notificaciones cuando alguien interactúe con mis publicaciones. | 5 | Antuanete | DONE |
 | US38 | Ver información detallada del evento asociado | TK-38 | Vista de detalle para eventos asociados | Como fan, quiero ver la información completa de un concierto para decidir si asistir. | 3 | Renato | DONE |
 | US42 | Acceso a un asistente conversacional | TK-39 | Integración inicial del Chatbot M1AU | Como usuario de GigMap, quiero contar con un asistente virtual que me ayude a navegar y encontrar información. | 3 | Mateo | DONE |
@@ -8347,8 +8348,8 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 | **Video About-the-Team** |
 |-----------------------------|
 | **Screenshot:**<br>![Screenshot del video](assets/images/team/video-about-the-team2.png) |
-| **Duración:** 00:06:54 |
-| **URL OneDrive:** `lolines` |
+| **Duración:** 00:05:58 |
+| **URL OneDrive:** `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAd9DKnaoypT6Dw052V3YqXAbjRkiRkf1j6AjfFqS3rTO4` |
 | **Descripción:** El vídeo incluye el testimonio ante cámara de cada integrante, donde describimos las actividades que llevamos a cabo, los logros obtenidos en relación con los student outcomes y las competencias que fortalecimos durante el desarrollo del proyecto. En conjunto, el video refleja de manera auténtica y organizada el esfuerzo, la colaboración y el crecimiento profesional que caracterizaron nuestro trabajo.|
 
 # Video About the Product
@@ -8376,6 +8377,84 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 - Asimismo, se añadió el link de descarga de GigMap para usuarios artistas, facilitando el acceso directo a la aplicación móvil desde la propia landing page y fortaleciendo el proceso de incorporación de nuevos usuarios al ecosistema.
 
 - El trabajo en equipo durante este trabajo fue un factor determinante para alcanzar los resultados obtenidos. La coordinación constante, la comunicación efectiva y la clara distribución de responsabilidades permitieron que cada integrante aportara desde su área de especialización, consolidando un avance cohesionado en todas las partes del proyecto. La colaboración activa facilitó la resolución temprana de obstáculos, la integración fluida entre frontend, backend e inteligencia artificial, y la toma de decisiones informadas en cada etapa del desarrollo. En conjunto, el esfuerzo colectivo no solo fortaleció la calidad del entregable, sino que también reafirmó la capacidad del equipo para trabajar de manera organizada y enfocada hacia objetivos comunes, sentando una base sólida para los próximos sprints.
+
+# Conclusiones y Recomendaciones
+
+- Profundizar en pruebas con usuarios reales: Continuar realizando sesiones de validación, especialmente con artistas que utilicen diferentes tipos de presentaciones musicales, permitirá ajustar aún más las funcionalidades y mejorar el nivel de precisión de los flujos.
+
+- Optimizar la escalabilidad del backend: Preparar el backend para un mayor volumen de usuarios, ajustando endpoints, caching y manejo de datos, garantizará una experiencia estable a medida que GigMap crezca.
+
+- Extender las capacidades del chatbot M1AU: Incorporar más escenarios conversacionales, aprendizaje continuo y mejor gestión de contexto aumentará su valor como asistente dentro de la plataforma.
+
+- Ampliar las funcionalidades de la aplicación de artistas: Incluir características como métricas de performance, historial de gigs, recomendaciones personalizadas o sincronización con redes sociales podría fortalecer el engagement.
+
+- Fortalecer la documentación técnica: Mantener actualizados los manuales de arquitectura, endpoints y flujos UI/UX facilitará futuras integraciones y el trabajo de equipos nuevos.
+
+- Continuar con la dinámica de trabajo colaborativo: Conservar la coordinación interequipos y la comunicación constante será clave para mantener el ritmo de desarrollo y garantizar entregables de alta calidad en próximos sprints.
+
+# Glosario
+
+##### Arquitectura de Software
+
+- Arquitectura de Software: Estructura fundamental de un sistema que define sus componentes, la forma en que interactúan y los principios que guían su diseño y evolución.
+
+- API (Application Programming Interface): Conjunto de reglas que permite que dos aplicaciones se comuniquen entre sí.
+
+- Backend: Parte del sistema encargada de la lógica de negocio, acceso a datos y operaciones internas.
+
+- Frontend: Parte visual e interactiva de una aplicación con la que el usuario final interactúa.
+
+- DDD (Domain-Driven Design): Enfoque de diseño basado en el dominio del negocio, que organiza la lógica alrededor de conceptos clave del mismo.
+
+- Microservicio: Arquitectura en la que el sistema se divide en servicios pequeños, independientes y desplegables de forma individual.
+
+##### Bases de Datos y Persistencia
+
+- Base de Datos Relacional: Sistema que organiza los datos en tablas con relaciones entre ellas.
+
+- PostgreSQL: Sistema de gestión de bases de datos relacional robusto y de código abierto.
+
+- Repositorio: Patrón de diseño que encapsula la lógica de acceso a datos, facilitando la separación del dominio y la persistencia.
+
+##### UI/UX
+
+- UI (User Interface): Diseño de los elementos visuales que conforman la interacción del usuario con una aplicación.
+
+- UX (User Experience): Experiencia completa que siente el usuario al utilizar un sistema, incluyendo satisfacción, facilidad de uso y eficiencia.
+
+- Wireframe: Boceto visual que muestra la estructura básica de una interfaz sin detalles gráficos.
+
+- Prototipo: Representación interactiva de una interfaz que permite simular flujos reales antes de programar.
+
+- Heurísticas de Usabilidad: Principios que permiten evaluar la calidad de uso de una interfaz (como los 10 principios de Nielsen).
+
+##### Metodologías y Desarrollo
+
+- Scrum: Marco ágil de trabajo basado en iteraciones cortas llamadas "sprints".
+
+- Sprint: Periodo de tiempo fijo donde se desarrolla y entrega un incremento del producto.
+
+- Backlog: Lista priorizada de tareas o funcionalidades pendientes.
+
+- User Story (Historia de Usuario): Descripción breve de una funcionalidad desde la perspectiva del usuario.
+
+##### Diagramas y Modelado
+
+- Diagrama de Arquitectura: Representación gráfica de los componentes y conexiones de un sistema.
+
+- UML (Unified Modeling Language): Lenguaje estándar para visualizar y documentar sistemas de software.
+
+- Diagrama de Clases: Representación UML que muestra clases, atributos y relaciones.
+
+- Componentes: Elementos independientes del software que encapsulan una funcionalidad.
+
+##### Conceptos Técnicos
+
+- REST (Representational State Transfer): Estilo de arquitectura que define reglas para crear APIs simples y escalables.
+
+- HTTP: Protocolo de comunicación usado por la web para transmitir información.
+
+- JWT (JSON Web Token): Método de autenticación basado en tokens encriptados.
 
 # Bibliografía
 
@@ -8407,9 +8486,18 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 
 # Anexos
 
+#### Videos de exposición: 
 
 **Video exposición TP1:**
 - `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/Ecb00tD6z2BHnJYpCRAC2cwBhbdipvMKAmWStjq8UivGpA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VcvHbi`
+
+**Video exposición TF:**
+
+- `SSSSS`
+
+------------
+
+
 
 **Registro de Entrevistas:**
 - `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
@@ -8431,4 +8519,3 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 
 **Figma**
 - `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
-
