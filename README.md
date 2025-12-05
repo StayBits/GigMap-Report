@@ -8012,7 +8012,7 @@ URL del Repositorio: `https://github.com/StayBits/GigMap-mobile-flutter.git`
 URL del APK: `https://github.com/StayBits/GigMap-mobile-flutter/releases/download/v0.2.1/gigmap-mobile-flutter.apk`
 
 <p align="center">
-  <img src="assets/images/sprint-3/flutter_deploy.png" alt="Evidence deployment" width="800">
+  <img src="assets/images/sprint-3/flutter_deploy.jpg" alt="Evidence deployment" width="800">
 </p>
 
 **M1AU**
