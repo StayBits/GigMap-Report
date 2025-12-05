@@ -8127,19 +8127,19 @@ Screenshot de video:
 
 **Entrevista #3**
 
-- **Nombre**: Augusto Nicolas Cerna Sifuentes
-- **Edad**: 20 años
-- **Distrito**: Cercado de Lima
+- **Nombre**: Danny Peña Luna
+- **Edad**: 19 años
+- **Distrito**: Callao
 - **Duración**: 00:06:51
 - **Timing de inicio**: 00:12:59
 
 **Screenshot de video:**
 
 <p align="center">
-  <img src="assets/images/interviews/fans-validation3.png" alt="Commits" width="800">
+  <img src="assets/images/interviews/fans-validation4.png" alt="Commits" width="800">
 </p>
 
-**Resumen**: Augusto Cerna indicó que la aplicación le pareció intuitiva y funcional. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. Además, recomendó agregar un indicador visual en el ChatBot M1AU que muestre cuando está procesando una respuesta. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
+**Resumen**: Danny indicó que la aplicación le pareció intuitiva y funcional, y le gustó el enfoque de la aplicación. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. Además, recomendó agregar un indicador visual en el ChatBot M1AU que muestre cuando está procesando una respuesta, ya qaue puede parecer de que hubo algun problema al momento de enviar el mensaje. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
 
 **SEGMENTO OBJETIVO: ARTISTAS**
 
