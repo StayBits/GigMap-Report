@@ -405,29 +405,40 @@ de software</td>
         <strong>Cabanillas Meza, Jose Mateo</strong><br>
         TB1: Colaboró en el Needfinding, actualizando conceptos relacionados con el análisis de requerimientos y necesidades del usuario. Además, participó en el diseño de la arquitectura de software, aplicando principios de diseño estructurado y buenas prácticas en el desarrollo de sistemas. Su participación en el Event Storming y Tactical-Level DDD reforzó su comprensión sobre el modelado estratégico y táctico en proyectos de software  <br><br>
 		TP1: Elaboró el backend del sistema y participó en su despliegue junto con la base de datos, actualizando conocimientos en arquitectura de software, diseño por capas y comunicación entre servicios. Su trabajo reforzó competencias en desarrollo de APIs RESTful, integración con bases de datos y configuración de entornos de despliegue, aplicando principios de ingeniería de software orientados a escalabilidad y mantenibilidad.<br><br>
-		TB2: Fortaleció sus conocimientos en inteligencia artificial y procesamiento de lenguaje natural al desarrollar M1AU, un módulo de IA basado en lenguaje natural. Durante su implementación, actualizó conceptos sobre modelos de NLP, gestión de datos y lógica para interpretación de lenguaje humano. Además, integró buenas prácticas de modularidad y diseño de componentes inteligentes dentro de la solución de software.
+		TB2: Fortaleció sus conocimientos en inteligencia artificial y procesamiento de lenguaje natural al desarrollar M1AU, un módulo de IA basado en lenguaje natural. Durante su implementación, actualizó conceptos sobre modelos de NLP, gestión de datos y lógica para interpretación de lenguaje humano. Además, integró buenas prácticas de modularidad y diseño de componentes inteligentes dentro de la solución de software.<br><br>
+		TF: Durante el proyecto, Mateo actualizó de manera significativa sus conocimientos en desarrollo backend y en la integración de componentes basados en inteligencia artificial. Su implementación del módulo M1AU en Flutter le permitió profundizar en modelos de procesamiento de lenguaje natural, comunicación cliente-servidor y estructuración de datos para interpretar lenguaje humano. Además, reforzó conceptos de arquitectura en Flutter, patrones de diseño y consumo de APIs. Su experiencia en la integración de módulos inteligentes dentro de la aplicación fortaleció sus competencias en ingeniería de software aplicada y en el diseño de soluciones escalables.
 		<br><br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
         TB1: Se encargó del análisis de entrevistas, lo que demandó aplicar y reforzar sus conocimientos en técnicas de análisis cualitativo y síntesis de información. También participó en el diseño de la arquitectura de software, donde profundizó en principios de diseño modular y escalable. Además, colaboró en sesiones de Event Storming y Tactical-Level DDD, actualizando y aplicando conceptos de modelado de dominio. <br><br>
 		TP1: Elaboró el backend y participó en el despliegue tanto del servidor como de la landing page, actualizando conocimientos sobre desarrollo de APIs, estructuración de servicios y manejo de entornos cloud. Su trabajo permitió afianzar conceptos clave de ingeniería de software moderna, incluyendo control de versiones, automatización de despliegue y conexión entre backend y base de datos.<br><br>
 		TB2: Actualizó sus conocimientos en arquitectura backend y servicios distribuidos al corregir elementos estructurales de la API e implementar el sistema de notificaciones. Su trabajo implicó revisar patrones de integración, manejo de eventos y comunicación entre módulos, reforzando su comprensión sobre la optimización del rendimiento y la coherencia en la lógica del servidor. <br><br>
+		TF: Actualizó conocimientos clave en arquitectura backend y servicios en la nube al implementar el sistema de notificaciones mediante Firebase. Esto incluyó comprender flujos de mensajería push, configuración de Firebase Cloud Messaging, manejo de tokens y disparadores, así como buenas prácticas de integración con Flutter. Su aporte en el backend reforzó su dominio de patrones de integración, modularidad y comunicación entre servicios. Gracias a estas actividades, consolidó conocimientos técnicos modernos necesarios para el desarrollo de aplicaciones distribuidas y conectadas en tiempo real.
+		<br><br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
         TB1: Diseñó las entrevistas y desarrolló el proceso de Needfinding, lo que implicó actualizarse en técnicas modernas de investigación con usuarios para obtener información relevante sobre el dominio. Asimismo, trabajó junto con Renato en la elaboración del Bounded Context Canvas, ejercicio que le permitió profundizar en el modelado estratégico con Domain-Driven Design. Además, colaboró en el Event Storming y el Tactical-Level DDD, consolidando conocimientos de ingeniería de software aplicada a escenarios reales.<br><br>
 		TP1: Elaboró los diseños en Figma y colaboró en la aplicación de los principios del enfoque Lean UX, actualizando sus conocimientos en diseño centrado en el usuario y experiencia de interfaz. Su participación en el desarrollo del frontend le permitió reforzar conceptos de estructura visual, prototipado interactivo y adaptación de diseños a entornos web y móviles, contribuyendo a la creación de interfaces funcionales y coherentes con los objetivos del proyecto.<br><br>
 		TB2: Reforzó sus conocimientos en UX/UI al diseñar la pantalla de conciertos y al corregir mockups y wireframes previamente elaborados. Durante el sprint 2, integró principios actualizados de navegación intuitiva, consistencia visual y accesibilidad. Su trabajo también implicó revisar tendencias de diseño móvil y adaptar elementos según las necesidades identificadas en el proyecto, fortaleciendo su perfil profesional en diseño orientado al usuario.<br><br>
+		TF: Fortaleció y actualizó sus conocimientos en diseño UX/UI y desarrollo frontend en Flutter. Al crear pantallas como la vista de conciertos y corregir mockups anteriores, integró principios de diseño moderno, usabilidad móvil, jerarquía visual y coherencia gráfica. También aplicó mejores prácticas en la adaptación de diseños Figma a código Flutter, reforzando conceptos de widgets, organización de componentes, navegación y estructura visual del proyecto. Todo ello consolidó su dominio en la creación de interfaces centradas en el usuario dentro de un entorno móvil real.
+		<br><br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
         TB1: Se encargó de la introducción del trabajo y de la identificación de los segmentos objetivos, aplicando conocimientos sobre análisis de usuarios y metodologías de investigación en el dominio. Además, participó en la elaboración de la arquitectura de software, lo que le permitió actualizar sus conceptos sobre diseño estructurado y buenas prácticas en la construcción de soluciones de software. También participó en actividades colaborativas como el Event Storming y el Tactical-Level Domain-Driven Design, reforzando su entendimiento de la modelación de sistemas. <br><br>
 		TP1: Elaboro desarrollo del frontend y en el despliegue de la landing page, aplicando conocimientos actualizados sobre frameworks web y buenas prácticas de maquetación responsiva. Su participación fortaleció su comprensión sobre integración entre diseño y desarrollo, así como sobre los procesos de publicación y mantenimiento de aplicaciones web en entornos productivos.<br><br>
 		TB2: Actualizó conceptos sobre diseño de experiencias móviles al crear las pantallas de eventos relacionados y del perfil del usuario. Durante su desarrollo, aplicó principios modernos de estructura visual, jerarquía de información y coherencia gráfica. Además, reforzó conocimientos sobre flujos de interacción, asegurando que las pantallas diseñadas se alineen correctamente con el resto del sistema y con los requerimientos del proyecto.<br><br>
+		TF: Actualizó sus conocimientos en diseño de interfaces móviles al desarrollar pantallas relacionadas con eventos y perfiles dentro de Flutter. Aplicó principios de navegación intuitiva, orden visual, diseño responsivo y consistencia gráfica. También reforzó sus conocimientos en el uso de widgets, estructuración de layouts y flujos de interacción en Flutter, lo que fortaleció su comprensión técnica en la construcción de interfaces modernas. Su trabajo contribuyó directamente a la coherencia visual y funcionalidad del sistema.
+		<br><br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
         TB1: Contribuyó en el Needfinding aplicando metodologías de análisis de necesidades y en la creación del Bounded Context Canvas con Ariana, fortaleciendo sus conocimientos en modelado de contextos delimitados. Asimismo, participó activamente en el Event Storming y en el Tactical-Level DDD, donde pudo actualizarse en técnicas de representación visual de procesos y capacidades dentro de un sistema complejo. <br><br>
 		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, reforzando sus conocimientos sobre diseño de interfaces, usabilidad y conexión con el backend. Durante el proceso, actualizó conceptos relacionados con la integración de componentes, gestión de repositorios y despliegue de aplicación mobile, contribuyendo activamente a la presentación funcional del proyecto.<br><br>
-		TB2: Actualizó conceptos relacionados con el diseño de interfaces móviles al desarrollar nuevas pantallas de la aplicación, específicamente las secciones de comunidades, post y perfil. Su trabajo le permitió reforzar conocimientos sobre usabilidad, continuidad visual y organización de contenido en aplicaciones sociales. También aplicó criterios actuales de diseño centrado en el usuario para mejorar la estructura y coherencia visual de cada pantalla.
+		TB2: Actualizó conceptos relacionados con el diseño de interfaces móviles al desarrollar nuevas pantallas de la aplicación, específicamente las secciones de comunidades, post y perfil. Su trabajo le permitió reforzar conocimientos sobre usabilidad, continuidad visual y organización de contenido en aplicaciones sociales. También aplicó criterios actuales de diseño centrado en el usuario para mejorar la estructura y coherencia visual de cada pantalla.<br><br>
+		TF: Actualizó sus conocimientos en diseño de interfaces y arquitectura de información al desarrollar pantallas clave como comunidades, posts y perfil en Flutter. Profundizó en el manejo de widgets, organización visual, navegación y comunicación entre pantallas. Su trabajo demandó revisar tendencias actuales de diseño mobile y adaptarlas al contexto del proyecto, consolidando su capacidad para modelar soluciones visuales centradas en el usuario dentro del ecosistema de Flutter.
+		<br><br>
       </td>
       <td>
         TB1: El grupo en su conjunto logró actualizar y aplicar conocimientos clave en diferentes etapas del proyecto. Las actividades de entrevistas, análisis de necesidades, Event Storming, Bounded Context Canvas, diseño de arquitectura y Tactical-Level DDD contribuyeron a fortalecer sus competencias en la identificación de requerimientos, modelado de sistemas y diseño de soluciones. Este proceso demostró que cada integrante pudo actualizar conceptos y aplicarlos de manera práctica, asegurando un aprendizaje integral orientado al desarrollo de soluciones de software.<br><br>
 		TP1: El grupo en su conjunto logró actualizar y aplicar conocimientos fundamentales en el desarrollo de soluciones de software, consolidando los avances técnicos y funcionales del proyecto GigMap. Las actividades realizadas como la elaboración de los diseños en Figma bajo el enfoque Lean UX, el desarrollo del frontend y backend, la implementación de la base de datos y el despliegue de la landing pag, permitieron fortalecer competencias en diseño de interfaces, arquitectura por capas, integración de servicios y despliegue en entornos productivos. Este proceso evidenció que cada integrante logró actualizar y aplicar conceptos clave de ingeniería de software, contribuyendo de manera coordinada a la construcción de una aplicación funcional y escalable. <br><br>
-		TB2: En conjunto, el equipo demostró una actualización constante de conocimientos, desde diseño de interfaces y UX hasta inteligencia artificial y arquitectura backend. Cada integrante fortaleció habilidades clave para su desarrollo profesional mientras aportó soluciones concretas al proyecto, integrando buenas prácticas y criterios técnicos actualizados en cada una de sus tareas.
+		TB2: En conjunto, el equipo demostró una actualización constante de conocimientos, desde diseño de interfaces y UX hasta inteligencia artificial y arquitectura backend. Cada integrante fortaleció habilidades clave para su desarrollo profesional mientras aportó soluciones concretas al proyecto, integrando buenas prácticas y criterios técnicos actualizados en cada una de sus tareas.<br><br>
+		TF: Durante el desarrollo del proyecto final, que incluyó la creación de dos aplicaciones móviles, una en Kotlin para el segmento de fans y otra en Flutter para artistas, se aplicaron y actualizaron diversos conocimientos fundamentales de la Ingeniería de Software. El equipo integró conceptos recientes sobre arquitectura móvil, experiencia de usuario, heurísticas de usabilidad, patrones de diseño y buenas prácticas de desarrollo multiplataforma. Este proceso permitió reforzar y modernizar las competencias técnicas necesarias para el ejercicio profesional, asegurando que las soluciones propuestas respondan a estándares actuales del mercado tecnológico.
+		<br><br>
       </td>
     </tr>
     <tr>
@@ -441,28 +452,33 @@ tecnologías de ingeniería de software.</td>
         TB1: Al trabajar en el Needfinding y la arquitectura de software, reconoció la importancia de seguir aprendiendo sobre metodologías ágiles y técnicas de diseño de sistemas. Su experiencia en las actividades grupales reafirmó la necesidad de una formación continua para garantizar la calidad en los proyectos de software. <br><br>
 		TP1: Desarrolló el backend y gestionó su despliegue junto con la base de datos, demostrando compromiso con el aprendizaje permanente al enfrentarse a la configuración de servicios, integración de componentes y conexión con entornos de producción. Su participación reforzó su comprensión sobre la importancia de actualizar conocimientos técnicos y adaptarse a las nuevas tendencias en arquitectura de software para un desarrollo profesional sostenible.<br><br>
 		TB2: Evidenció la importancia del aprendizaje continuo al trabajar con tecnologías avanzadas de lenguaje natural. La construcción de M1AU lo llevó a explorar nuevos enfoques, técnicas y librerías de IA, demostrando que el aprendizaje constante es indispensable para desarrollar componentes inteligentes que respondan a las necesidades del proyecto.<br><br>
+		TF: Reconoció la importancia del aprendizaje continuo al enfrentarse al desarrollo e integración del módulo M1AU. La complejidad del procesamiento de lenguaje natural, sumado a su conexión con Flutter, evidenció que la ingeniería de software exige mantenerse al día en tecnologías emergentes y herramientas de IA. La experiencia reforzó su comprensión de que el aprendizaje permanente es clave para desarrollar soluciones modernas y efectivas.<br><br>
         <strong>Collantes Carrillo, Diego Mateo</strong><br>
         TB1: En el análisis de entrevistas y la arquitectura de software, descubrió la necesidad de perfeccionar constantemente sus habilidades de interpretación y diseño. Participar en metodologías como Event Storming le permitió entender que el aprendizaje permanente es clave para abordar proyectos complejos y mantenerse actualizado en nuevas tendencias y técnicas de modelado <br><br>
 		TP1: Desarrolló el backend y participó en el despliegue del sistema y la landing page, evidenciando la importancia del aprendizaje permanente al abordar nuevos retos técnicos en entornos de producción. Su experiencia le permitió valorar la necesidad de mantenerse actualizado en herramientas de desarrollo, seguridad y despliegue, entendiendo que el aprendizaje continuo es esencial para adaptarse a la evolución constante de las tecnologías de software.<br><br>
 		TB2: Demostró reconocimiento de aprendizaje permanente al asumir la tarea de corregir el backend y desarrollar el sistema de notificaciones, procesos que requieren actualización constante debido a la evolución de frameworks, patrones de diseño y buenas prácticas de programación. Su trabajo mostró una actitud de mejora continua para integrar soluciones sólidas y escalables.<br><br>
+		TF: Al implementar el sistema de notificaciones con Firebase, Diego comprendió la necesidad de estar en constante actualización debido a los cambios frecuentes en la infraestructura cloud, los SDK y las prácticas de seguridad. Su trabajo reforzó la idea de que el aprendizaje permanente es indispensable para ofrecer soluciones robustas, eficientes y alineadas con la evolución del ecosistema tecnológico.<br><br>
         <strong>Lizarbe Alvarez, Ariana Nickole</strong><br>
 	       TB1: Lideró el diseño de entrevistas y el Needfinding, lo que le exigió aprender continuamente sobre técnicas de investigación de usuarios y metodologías centradas en el dominio. Su trabajo en el Bounded Context Canvas reforzó la necesidad de actualizarse en Domain-Driven Design. Ariana reconoció que en el ámbito profesional siempre se deben incorporar nuevas herramientas y enfoques para mejorar el desempeño en proyectos de software.<br><br>
 		  TP1: Elaboró los diseños en Figma y aplicó el enfoque Lean UX, reconociendo la importancia del aprendizaje continuo para mejorar la experiencia de usuario y la interfaz visual del sistema. A través del diseño y la colaboración con el equipo de desarrollo, fortaleció su capacidad de adaptación frente a nuevas herramientas y metodologías, comprendiendo que el aprendizaje constante es esencial para evolucionar en el campo del diseño y la ingeniería de software.<br><br>
-		TB2: Mostró un fuerte compromiso con el aprendizaje permanente al corregir mockups y wireframes, y al participar en el sprint 2, identificando oportunidades de mejora en la experiencia del usuario. El diseño de la pantalla de conciertos reforzó su necesidad de mantenerse actualizada en tendencias de UX/UI, comunicación visual y diseño funcional.
-<br><br>
+		TB2: Mostró un fuerte compromiso con el aprendizaje permanente al corregir mockups y wireframes, y al participar en el sprint 2, identificando oportunidades de mejora en la experiencia del usuario. El diseño de la pantalla de conciertos reforzó su necesidad de mantenerse actualizada en tendencias de UX/UI, comunicación visual y diseño funcional.<br><br>
+		TF: Evidenció una clara conciencia del aprendizaje permanente durante el diseño y construcción de pantallas en Flutter. Cada iteración requirió investigar nuevas técnicas de diseño, actualizarse en tendencias UX/UI y aprender mejores prácticas para transformar prototipos en interfaces funcionales. Su experiencia reflejó la importancia de adaptarse continuamente para mejorar la calidad del diseño y del producto final.<br><br>
         <strong>Ortiz Cardenas, Johanna Antuanete</strong><br>
         TB1: Al elaborar la introducción y la identificación de segmentos objetivos, demostró apertura al aprendizaje en áreas de investigación de mercado y análisis de usuarios, habilidades que no dominaba previamente. Su participación en la arquitectura de software le permitió reconocer la importancia de mantenerse en constante aprendizaje para adaptarse a nuevas metodologías de diseño y desarrollo. <br><br>
 		TP1: Colaboró en el desarrollo del frontend y en el despliegue de la landing page, asumiendo la necesidad del aprendizaje permanente al integrar nuevas tecnologías y metodologías de desarrollo web. Su participación le permitió reconocer la importancia de mantenerse actualizada en frameworks, librerías y procesos de despliegue, comprendiendo que la mejora continua es clave para el desempeño profesional en la ingeniería de software.<br><br>
 		TB2: Asumió la importancia del aprendizaje constante al trabajar en pantallas complejas como las de eventos relacionados y perfil. Su proceso de diseño implicó revisar conceptos modernos de interfaces móviles, ajustándose a estándares visuales actuales y reconociendo que la mejora continua es esencial para la calidad del producto.<br><br>
+		TF: Reconoció la necesidad del aprendizaje continuo al trabajar en pantallas complejas que exigían investigar estándares visuales actuales y patrones modernos de interacción. Comprendió que la mejora constante en diseño y desarrollo es fundamental para producir interfaces competitivas y alineadas con las expectativas de los usuarios modernos.<br><br>
         <strong>Zegarra Lopez, Renato Sebastian Rubber</strong><br>
         TB1: Al involucrarse en el Needfinding y el Bounded Context Canvas, comprendió que el aprendizaje permanente es necesario para aplicar correctamente metodologías modernas en la ingeniería de software. Reconoció que solo a través de la formación continua es posible adaptarse a entornos cambiantes y responder a las necesidades del usuario de manera efectiva. <br><br>
 		TP1: Participó en la elaboración del frontend y en el despliegue de la landing page, reconociendo la necesidad del aprendizaje continuo para optimizar la integración entre diseño, desarrollo y despliegue. A lo largo del proceso, reforzó su comprensión sobre la importancia de explorar nuevas herramientas, mejorar sus prácticas de programación y mantenerse en constante actualización para seguir creciendo en el ámbito de la ingeniería de software.<br><br>
-		TB2: Reconoció la necesidad del aprendizaje permanente al enfrentarse a nuevas exigencias de diseño que requerían investigar soluciones visuales modernas para aplicaciones sociales. Su trabajo en las pantallas de comunidades, post y perfil le permitió comprender que la mejora continua en diseño es esencial para mantenerse actualizado y competitivo en el desarrollo de software.<br>
+		TB2: Reconoció la necesidad del aprendizaje permanente al enfrentarse a nuevas exigencias de diseño que requerían investigar soluciones visuales modernas para aplicaciones sociales. Su trabajo en las pantallas de comunidades, post y perfil le permitió comprender que la mejora continua en diseño es esencial para mantenerse actualizado y competitivo en el desarrollo de software.<br><br>
+		TF: Renato demostró comprensión del aprendizaje permanente al investigar nuevas soluciones visuales y patrones de diseño para las pantallas que desarrolló. La necesidad de adaptarse a tendencias actuales y explorar enfoques más eficientes reforzó su entendimiento de que mantenerse actualizado es fundamental para crecer profesionalmente y aportar valor a proyectos de software.<br><br>
         </td>
       <td>
         TB1: El equipo reconoció colectivamente la importancia del aprendizaje permanente en el ámbito de la ingeniería de software. A lo largo del proyecto, cada estudiante se enfrentó a nuevos retos que demandaron la adquisición de conocimientos adicionales y la aplicación de metodologías modernas. Este proceso permitió entender que el aprendizaje constante no solo es necesario para cumplir con los requerimientos de un proyecto, sino también para garantizar un crecimiento profesional sostenido y la capacidad de adaptarse a la evolución tecnológica.<br><br>
 		TP1: El grupo en su conjunto demostró una clara comprensión de la importancia del aprendizaje permanente como pilar fundamental para el crecimiento profesional y la mejora continua de los proyectos de software. A lo largo del desarrollo de GigMap, los integrantes enfrentaron nuevos retos técnicos y conceptuales en diseño, desarrollo, backend, base de datos y despliegue, lo que les permitió fortalecer su autonomía y capacidad de adaptación ante tecnologías emergentes. Esta experiencia evidenció que el aprendizaje constante no solo impulsa el desarrollo individual, sino que también potencia el trabajo colaborativo y la calidad de las soluciones en ingeniería de software.<br><br>
-		TB2: El equipo en su totalidad demostró una clara comprensión de la importancia del aprendizaje permanente al enfrentarse a retos nuevos y variados dentro del proyecto. Cada miembro buscó mejorar sus capacidades y adaptarse a tecnologías, metodologías y criterios actuales, reflejando una actitud profesional orientada a la mejora continua y al crecimiento técnico colectivo.
+		TB2: El equipo en su totalidad demostró una clara comprensión de la importancia del aprendizaje permanente al enfrentarse a retos nuevos y variados dentro del proyecto. Cada miembro buscó mejorar sus capacidades y adaptarse a tecnologías, metodologías y criterios actuales, reflejando una actitud profesional orientada a la mejora continua y al crecimiento técnico colectivo.<br><br>
+		TF: El proyecto evidenció la importancia del aprendizaje continuo, especialmente al trabajar simultáneamente con dos tecnologías distintas (Kotlin y Flutter). El equipo debió investigar nuevas librerías, frameworks, patrones de arquitectura y metodologías UI/UX para optimizar ambas aplicaciones. Esta disposición a aprender y adaptarse permitió resolver problemas con eficacia, mejorar la calidad del producto final y fortalecer la capacidad de mantenerse actualizado frente a los constantes cambios en el desarrollo móvil. El trabajo demuestra un compromiso activo con la mejora permanente de las competencias profesionales.
       </td>
     </tr>
   </tbody>
@@ -5803,7 +5819,6 @@ SEGMENTO OBJETIVO: ARTISTAS
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cuatro.png" alt="4" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cinco.png" alt="5" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-seis.png" alt="6" width="800"><br>
-  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-siete.png" alt="7" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-ocho.png" alt="8" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-nueve.png" alt="9" width="800"><br>
   <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-diez.png" alt="10" width="800">
@@ -5883,12 +5898,6 @@ El usuario abre el mapa interactivo y selecciona un concierto. Accede a la infor
 El usuario entra a la sección de conciertos y elige “Crear concierto”. Completa el formulario con todos los datos del evento y envía la información, registrando el concierto satisfactoriamente.
 
 <p align="center"> <img src="assets/images/product-desing/wireflows/wireflow9.png" alt="Wireflow 9" width="800"> </p>
-
-**Wireflow 10: Crear Evento Relacionado a un Concierto**
-
-El usuario visualiza un concierto existente y selecciona la opción “Crear evento relacionado”. Llena el formulario con los datos del nuevo evento y lo asocia al concierto principal.
-
-<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow10.png" alt="Wireflow 10" width="800"> </p>
 
 **Wireflow 11: Editar Perfil de Usuario**
 
@@ -6138,18 +6147,6 @@ En este flujo, el usuario accede a la sección de conciertos y selecciona la opc
 
 <p align="center">
   <img src="assets/images/product-desing/user-flows/userflow18.png" alt="User Flow 18" width="800">
-</p>
-
-**User Flow 10: Crear Evento Relacionado a un Concierto**
-
-En este flujo, el usuario se encuentra dentro de la información detallada de un concierto y selecciona la opción "Crear evento relacionado". A continuación, completa un formulario con los datos del nuevo evento, como título, descripción y fecha. Tras confirmar, el sistema asocia exitosamente el evento creado con el concierto principal, ampliando la experiencia y conexión entre actividades musicales.
-
-<p align="center">
-  <img src="assets/images/product-desing/user-flows/userflow19.png" alt="User Flow 19" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/images/product-desing/user-flows/userflow20.png" alt="User Flow 20" width="800">
 </p>
 
 **User Flow 11: Editar Perfil de Usuario**
@@ -7591,7 +7588,7 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>131</td>
+    <td>114</td>
   </tr>
 </table>
 
@@ -7661,16 +7658,12 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
 | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: |
 | US01 | Filtrar eventos por género musical | TK-01 | Implementar filtros de búsqueda por género | Como fan, quiero filtrar eventos por género, para ver solo los que me interesan. | 3 | Mateo | DONE |
 | US02 | Publicar nuevo concierto | TK-02 | Desarrollo de formulario de creación de eventos | Como artista, quiero crear un evento para promocionar mi presentación. | 5 | Renato | DONE |
-| US03 | Medir asistencia estimada | TK-03 | Implementar contador de asistencia en eventos | Como artista, quiero ver cuántas personas marcaron asistencia para medir el interés. | 3 | Ariana | DONE |
 | US04 | Personalizar perfil de artista | TK-04 | Habilitar edición de perfil (Avatar/Bio) | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público. | 2 | Diego | DONE |
 | US05 | Crear comunidad | TK-05 | Desarrollo de funcionalidad "Crear Comunidad" | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos. | 5 | Antuanete | DONE |
 | US06 | Verificar comunidad | TK-06 | Lógica de verificación automática de comunidades | Como artista, quiero que al crear mi comunidad esta se verifique automáticamente para que mis seguidores tengan la certeza de que es una comunidad oficial. | 3 | Renato | DONE |
 | US07 | Ver mapa con geolocalización | TK-07 | Integración de API de Mapas y Geolocalización | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones. | 5 | Ariana | DONE |
-| US08 | Buscar conciertos | TK-08 | Implementar barra de búsqueda de eventos | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente. | 2 | Diego | DONE |
-| US09 | Buscar comunidades | TK-09 | Implementar búsqueda de grupos/comunidades | Como usuario, quiero buscar comunidades por nombre o temática para unirme a las que me interesen. | 2 | Antuanete | DONE |
 | US10 | Iniciar sesión en la app mobile | TK-10 | Desarrollo de Login y Autenticación | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta. | 3 | Mateo | DONE |
 | US11 | Registrarse como artista | TK-11 | Flujo de registro para rol Artista | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos. | 3 | Ariana | DONE |
-| US12 | Registrarse como fan | TK-12 | Flujo de registro para rol Fan | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos. | 3 | Diego | DONE |
 | US13 | Zoom a concierto en el mapa | TK-13 | Animación de cámara y selección de pin en mapa | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación. | 2 | Antuanete | DONE |
 | US14 | Ver estado del concierto | TK-14 | Visualización de status (Disponible/Sold out) | Como usuario, quiero saber si un concierto está disponible o agotado para decidir si puedo asistir. | 2 | Renato | DONE |
 | US15 | Ver información detallada del concierto | TK-15 | Vista de detalle del evento (Bottom Sheet/Pantalla) | Como fan, quiero ver la información completa de un concierto para decidir si asistir. | 3 | Ariana | DONE |
@@ -7680,7 +7673,6 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
 | US19 | Confirmar o marcar asistencia a un evento | TK-19 | Botones de interacción de asistencia | Como fan, quiero poder marcar un evento como “Por asistir” o “Asistido”. | 3 | Ariana | DONE |
 | US20 | Ver comunidades accedidas | TK-20 | Listado de "Mis Grupos" | Como usuario, quiero visualizar en el apartado "Tus grupos" las comunidades a las que me he unido. | 2 | Diego | DONE |
 | US21 | Reaccionar a publicaciones en comunidades | TK-21 | Implementación de sistema de reacciones | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades. | 2 | Antuanete | DONE |
-| US22 | Calificar concierto | TK-22 | Sistema de Rating (Estrellas) | Como usuario, quiero calificar un concierto de 1 a 5 estrellas para compartir mi experiencia. | 2 | Renato | DONE |
 | US23 | Ver usuarios que asistirán a concierto | TK-23 | Listado de asistentes en detalle de evento | Como usuario, quiero ver qué otros usuarios asistirán al mismo concierto que yo. | 3 | Ariana | DONE |
 | US24 | Acceder a perfil de otros usuarios | TK-24 | Vista pública de perfil de terceros | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos. | 2 | Diego | DONE |
 | US25 | Ver publicaciones con like | TK-25 | Historial de "Me gusta" | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like". | 2 | Antuanete | DONE |
@@ -7690,8 +7682,6 @@ Esto se confirmará cuando la versión de Gigmap en Flutter muestre todas sus fu
 | US29 | Ver miembros de comunidad | TK-29 | Listado de integrantes de un grupo | Como usuario, quiero ver la lista de miembros que pertenecen a una comunidad. | 2 | Antuanete | DONE |
 | US30 | Subir imágenes en comunidades | TK-30 | Integración de carga de imágenes (Storage) | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales. | 3 | Renato | DONE |
 | US31 | Seguir usuarios | TK-31 | Sistema de Follow/Unfollow | Como usuario, quiero poder seguir a otros usuarios para poder ver sus actualizaciones, publicaciones o actividades. | 3 | Ariana | DONE |
-| US32 | Ver eventos asociados | TK-32 | Sección de "Eventos Relacionados" | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto. | 3 | Diego | DONE |
-| US33 | Confirmar o marcar asistencia a eventos asociados | TK-33 | Lógica de asistencia para sub-eventos | Como usuario, quiero poder marcar mi asistencia a un evento asociado, para llevar un seguimiento. | 2 | Antuanete | DONE |
 | US34 | Visualizar el contenido de las comunidades pertenecientes | TK-34 | Feed de noticias de comunidades seguidas | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo. | 2 | Renato | DONE |
 | US35 | Recibir recordatorio de concierto por asistir | TK-35 | Notificaciones Push programadas (Recordatorios) | Como usuario, quiero recibir la notificación de recordatorio del concierto al que confirme mi asistencia. | 5 | Ariana | DONE |
 | US36 | Recibir notificaciones de conciertos cercanos | TK-36 | Notificaciones Push por geolocalización | Como usuario registrado, quiero recibir notificaciones sobre conciertos cerca de mi ubicación. | 5 | Diego | DONE |
@@ -7895,12 +7885,6 @@ La siguiente tabla presenta los endpoints principales de la API de GigMap, organ
 | `/api/v1/concerts/genre/{genre}` | GET | Obtiene conciertos filtrados por género | `genre` | `GET /api/v1/concerts/genre/pop` | `[{"id":3,"artist":"Harry Styles",...}]` |
 | `/api/v1/concerts/artist/{artistId}` | GET | Obtiene conciertos por artista | `artistId` | `GET /api/v1/concerts/artist/1` | `[{"id":2,"artist":"The Weeknd",...}]` |
 | `/api/v1/related-events` | POST | Crea un nuevo evento relacionado | Ninguno | `POST /api/v1/related-events` | `{"id":1,"name":"Pre-concert party"}` |
-| `/api/v1/related-events/{relatedEventId}` | GET | Obtiene un evento relacionado por su ID | `relatedEventId` | `GET /api/v1/related-events/2` | `{"id":2,"name":"Afterparty"}` |
-| `/api/v1/related-events/{relatedEventId}` | PUT | Actualiza un evento relacionado | `relatedEventId` | `PUT /api/v1/related-events/2` | `{"message":"Related event updated"}` |
-| `/api/v1/related-events/{relatedEventId}` | DELETE | Elimina un evento relacionado | `relatedEventId` | `DELETE /api/v1/related-events/2` | `{"message":"Related event deleted"}` |
-| `/api/v1/related-events/participants` | POST | Añade un participante a un evento relacionado | Ninguno | `POST /api/v1/related-events/participants` | `{"message":"Participant added"}` |
-| `/api/v1/related-events/participants` | DELETE | Elimina un participante de un evento relacionado | Ninguno | `DELETE /api/v1/related-events/participants` | `{"message":"Participant removed"}` |
-| `/api/v1/related-events/concert/{concertId}` | GET | Obtiene los eventos relacionados de un concierto | `concertId` | `GET /api/v1/related-events/concert/1` | `[{"id":1,"name":"Opening Act",...}]` |
 | `/api/v1/communities` | GET | Lista todas las comunidades | Ninguno | `GET /api/v1/communities` | `[{"id":1,"name":"Swifties"}]` |
 | `/api/v1/communities/{id}` | GET | Obtiene una comunidad específica | `id` | `GET /api/v1/communities/1` | `{"id":1,"name":"Swifties"}` |
 | `/api/v1/communities` | POST | Crea una nueva comunidad | Ninguno | `POST /api/v1/communities` | `{"id":2,"name":"Moonwalkers"}` |
@@ -8247,7 +8231,6 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 - Seguir a un Usuario desde un Concierto
 - Visualizar Perfil de Otro Usuario desde un Concierto
 - Visualizar Información de un Concierto desde el Mapa
-- Crear Evento Relacionado a un Concierto
 - Editar Perfil de Usuario
 - Acceso a Notificaciones
 - No están incluidas en esta versión de la evaluación:
@@ -8279,6 +8262,8 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 | 3 | No hay una guía inicial para nuevos usuarios al ingresar por primera vez.                                  | 1                       | Usability: Reconocimiento mejor que recuerdo  |
 | 4 | Las tarjetas de conciertos muestran poca jerarquía visual, dificultando escanear información clave.                   | 2                       | Information Architecture: Is it usable?       |
 | 5 | El ChatBot M1AU no indica si está “cargando” mientras procesa una pregunta.                                     | 3                       | Usability: Visibilidad del estado del sistema |
+| 6 | No existe una sección que explique las políticas de privacidad o manejo de datos dentro de la app. | 1                    | Usability: Ayuda y documentación        |
+
 
 **PROBLEMA #1: Las tarjetas de conciertos no muestran la capacidad total del venue**
 
@@ -8342,6 +8327,19 @@ Los usuarios reportaron que, después de enviar una consulta al ChatBot M1AU, no
 
 **Recomendación**:  
 Agregar un indicador de carga, como puntos animados (“M1AU está respondiendo...”), un spinner o una animación del avatar del bot. Este feedback inmediato reduce la confusión, mejora la experiencia conversacional y aumenta la confianza del usuario en la funcionalidad del chatbot.
+
+---
+
+**PROBLEMA #6: Ausencia de una sección de políticas de privacidad y manejo de datos**
+
+**Severidad:** 1
+**Heurística violada:** Usabilidad – Ayuda y documentación
+
+**Problema:**
+La aplicación no cuenta con una sección visible o accesible que explique cómo se manejan los datos personales de los usuarios, incluyendo información sensible como ubicación, preferencias musicales o interacciones dentro de la plataforma. Esta falta de transparencia puede generar desconfianza, especialmente en usuarios nuevos que desean comprender cómo se usa su información dentro de la app.
+
+**Recomendación:**
+Agregar una sección dedicada a las políticas de privacidad dentro del menú principal o en la configuración del perfil. Esta sección debe explicar de manera clara y sencilla qué datos se recopilan, para qué se utilizan y cómo se protegen. Incluir enlaces a documentos legales completos y resúmenes en lenguaje simple ayuda a mejorar la confianza del usuario y garantiza mayor cumplimiento con estándares de buenas prácticas.
 
 
 # Video About the Team
