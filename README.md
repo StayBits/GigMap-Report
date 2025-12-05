@@ -222,6 +222,17 @@ Para esta segunda entrega se desarrollaron los capítulos 3 y 4 del proyecto. En
 
 Para esta tercera entrega se desarrollaron los capítulos 4 del proyecto, sprint 2. En la captura adjunta se evidencia el trabajo colaborativo realizado a través de GitHub, donde todos los integrantes del equipo participaron activamente en el desarrollo y aportaron de manera conjunta al progreso del proyecto.
 
+**TF (04/12/2025):**
+
+<p align="center">
+  <img src="assets/images/project-insights/pulsetf.jpg" alt="contributors" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/project-insights/commitstf.png" alt="contributors" width="700">
+</p>
+
+Para esta cuarta y última entrega se llevó a cabo el desarrollo del capítulo 4 del proyecto correspondiente al Sprint 3. En la captura adjunta se muestra el trabajo colaborativo realizado mediante GitHub, donde todos los integrantes del equipo participaron de manera activa y contribuyeron conjuntamente al avance del proyecto.
+
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
