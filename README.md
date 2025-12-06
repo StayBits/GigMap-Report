@@ -8195,10 +8195,10 @@ Screenshot de video:
 
 **Entrevista #2**
 
-- **Nombre**: Rodrigo Chavez
+- **Nombre**: Esteban Mercado
 - **Edad**: 21 años
-- **Distrito**: San Martin de Porres
-- **Duración**: 00:03:23
+- **Distrito**: Trujillo
+- **Duración**: 00:12:23
 - **Timing de inicio**: 00:09:36
 
 **Screenshot de video:**
@@ -8230,7 +8230,7 @@ En general, consideró que la app tiene buen potencial y una experiencia positiv
 
 **Resumen**: En esta entrevista, Zaleth Feijóo, conocida artísticamente como Ithli, comentó que la aplicación le resulta funcional para revisar sus próximos eventos y gestionar su perfil como artista. Sin embargo, señaló que las tarjetas de conciertos presentan poca jerarquía visual, lo que le dificulta identificar de inmediato información clave como fecha, venue o tipo de presentación. Mencionó que esto la obliga a detenerse más de lo necesario para confirmar detalles importantes, especialmente cuando revisa varios eventos en secuencia. Aunque pudo navegar por la plataforma sin problemas, consideró que una estructura visual más clara ayudaría tanto a artistas como a usuarios a comprender mejor cada concierto de un solo vistazo.
 
-**URL de entrevistas**: `LINKCITO`
+**URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311458_upc_edu_pe/IQCw7E73PGfzR5j45XygeEyZAeGKQaPUfMExkopdS5Ysvo0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k3maFQ`
 
 ### 4.3.3. Evaluaciones según heurísticas
 
