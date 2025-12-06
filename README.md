@@ -8550,7 +8550,7 @@ Agregar una sección dedicada a las políticas de privacidad dentro del menú pr
 
 **Video App Validation:**
 
-- `SSSSS`
+- `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311823_upc_edu_pe/IQDkk0Jto-i2RZbNQYqrY2sVAZQToLBuwIQHfx1N_qmSU0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jdom3I`
 
 **Registro de Entrevistas:**
 - `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
