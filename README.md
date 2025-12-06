@@ -8195,8 +8195,8 @@ Screenshot de video:
 
 **Entrevista #2**
 
-- **Nombre**: BANGCHAN
-- **Edad**: 19 años
+- **Nombre**: Rodrigo Chavez
+- **Edad**: 21 años
 - **Distrito**: San Martin de Porres
 - **Duración**: 00:03:23
 - **Timing de inicio**: 00:09:36
@@ -8207,14 +8207,18 @@ Screenshot de video:
   <img src="assets/images/interviews/artista-validation-2.png" alt="Commits" width="800">
 </p>
 
-**Resumen:** RESUMITO UWU
+**Resumen:** En la entrevista, Esteban destacó que GigMap es fácil de usar, rápida y práctica para consultar y promocionar conciertos. Valoró su interfaz clara y la manera en que presenta la información principal de los eventos.
+
+Como oportunidad de mejora, señaló que la aplicación debería incluir una política de privacidad visible, para generar más confianza al momento de registrarse o compartir datos.
+
+En general, consideró que la app tiene buen potencial y una experiencia positiva, especialmente para artistas y fans.
 
 
 **Entrevista #3**
 
-- **Nombre**: Augusto Nicolas Cerna Sifuentes
-- **Edad**: 20 años
-- **Distrito**: Cercado de Lima
+- **Nombre**: Zaleth Feijóo
+- **Edad**: 19 años
+- **Distrito**: Pueblo Libre
 - **Duración**: 00:06:51
 - **Timing de inicio**: 00:12:59
 
@@ -8224,7 +8228,7 @@ Screenshot de video:
   <img src="assets/images/interviews/artista-validation-3.png" alt="Commits" width="800">
 </p>
 
-**Resumen**:RESUMITO
+**Resumen**: En esta entrevista, Zaleth Feijóo, conocida artísticamente como Ithli, comentó que la aplicación le resulta funcional para revisar sus próximos eventos y gestionar su perfil como artista. Sin embargo, señaló que las tarjetas de conciertos presentan poca jerarquía visual, lo que le dificulta identificar de inmediato información clave como fecha, venue o tipo de presentación. Mencionó que esto la obliga a detenerse más de lo necesario para confirmar detalles importantes, especialmente cuando revisa varios eventos en secuencia. Aunque pudo navegar por la plataforma sin problemas, consideró que una estructura visual más clara ayudaría tanto a artistas como a usuarios a comprender mejor cada concierto de un solo vistazo.
 
 **URL de entrevistas**: `LINKCITO`
 
